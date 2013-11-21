@@ -1,5 +1,6 @@
 .. _reST, docutils, sphinx, readthedocs:
 
+========================================================
 Journeying through reST, docutils, sphinx and extensions
 ========================================================
 

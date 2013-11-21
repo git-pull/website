@@ -14,8 +14,3 @@ Code exploration
 ----------------
 
 - :ref:`reST, docutils, sphinx, readthedocs`.
-
-.. toctree::
-    :maxdepth: 2
-
-    code_exploration/*
