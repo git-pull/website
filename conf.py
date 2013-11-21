@@ -187,7 +187,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'confuciangentlemansclub.tex', u'confucian gentleman\'s club Documentation',
+  ('index', 'confuciangentlemansclub.tex', u'confucian gentleman\'s',
    u'Tony Narlock', 'manual'),
 ]
 
@@ -217,7 +217,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'confuciangentlemansclub', u'confucian gentleman\'s club Documentation',
+    ('index', 'confuciangentlemansclub', u'confucian gentleman\'s club',
      [u'Tony Narlock'], 1)
 ]
 
@@ -231,8 +231,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'confuciangentlemansclub', u'confucian gentleman\'s club Documentation',
-   u'Tony Narlock', 'confuciangentlemansclub', 'One line description of project.',
+  ('index', 'confuciangentlemansclub', u'confucian gentleman\'s club',
+   u'Tony Narlock', 'confuciangentlemansclub', 'Scribe.',
    'Miscellaneous'),
 ]
 
