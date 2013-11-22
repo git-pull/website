@@ -1,0 +1,24 @@
+session_name: git-pull
+start_directory: ./
+windows:
+- window_name: git-pull
+  layout: main-horizontal
+  options:
+    main-pane-height: 35
+  shell_command_before: 
+    - command -v virtualenv >/dev/null 2>&1 || { pip install virtualenv; }
+    - '[ -d .env -a -f .env/bin/activate ] && source .env/bin/activate || virtualenv .env'
+    - '[ ! -d .env/build ] || rm -rf .env/build'
+    - cd ./doc
+    - command -v .env/bin/tmuxp >/dev/null 2>&1 || { pip install -r requirements.pip; }
+  panes:
+  - shell_command:
+    - reset
+    - vim
+    - :Ex
+    focus: true
+  - pwd
+  - echo 'docs built to <http://0.0.0.0:8008/_build/html>'; python -m SimpleHTTPServer 8008
+  - shell_command:
+    - command -v watching_testrunner >/dev/null 2>&1 || { pip install watching_testrunner; }
+    - watching_testrunner --basepath ./ --pattern="*.rst" 'make html'
