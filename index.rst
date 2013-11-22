@@ -15,3 +15,8 @@ Code exploration
 ----------------
 
 - :ref:`reST, docutils, sphinx, readthedocs`.
+
+Public service announcement
+---------------------------
+
+- :ref:`leather` - PSA on why leather is cool.
