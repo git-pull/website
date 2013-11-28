@@ -1,5 +1,8 @@
-Python packages
+.. _python_packages:
 
+===============
+Python packages
+===============
 
 Take a look at flask, pip
 
