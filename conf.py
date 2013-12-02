@@ -253,5 +253,5 @@ intersphinx_mapping = {
     'pip': ('http://sphinx.readthedocs.org/en/latest/', None),
     'tmuxp': ('http://tmuxp.readthedocs.org/en/latest/', None),
     'pullv': ('http://pullv.readthedocs.org/en/latest/', None),
-    'docker-recipes': ('http://docker-recipes.readthedocs.org/en/latest/', None),
+    'dockerjournal': ('http://docker-recipes.readthedocs.org/en/latest/', None),
 }

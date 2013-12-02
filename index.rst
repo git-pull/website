@@ -9,9 +9,12 @@ Projects
   - tmux session manager via JSON and YAML file.
 - :ref:`pullv:index` - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
-- :ref:`docker-recipes:index` - Notes for Dockerfiles
+- :ref:`dockerjournal:index` - Notes for Dockerfiles
 
 Code exploration
+---------------------------
+
+- :ref:`leather` - PSA on why leather is cool.
 ----------------
 
 - :ref:`reST, docutils, sphinx, readthedocs`.
