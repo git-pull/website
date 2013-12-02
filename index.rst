@@ -15,6 +15,7 @@ Code exploration
 ----------------
 
 - :ref:`reST, docutils, sphinx, readthedocs`.
+- :ref:`python_packaging_modules_cyclic`.
 
 Public service announcement
 ---------------------------

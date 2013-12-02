@@ -1,8 +1,8 @@
-.. _python_packages:
+.. _python_packaging_modules_cyclic:
 
-===============
-Python packages
-===============
+==========================================================
+Python packaging, relative modules and cyclic dependencies
+==========================================================
 
 Take a look at flask, pip
 
@@ -69,7 +69,7 @@ Pip `pip.__init__.py`_::
 
 .. _pip.__init__.py: https://github.com/pypa/pip/blob/develop/pip/__init__.py
 
-Look at the pop of `pip/log.py`_::
+Look at the top of `pip.log`_::
 
     ""Logging
     """
@@ -85,7 +85,7 @@ Look at the pop of `pip/log.py`_::
 
 Where `pip.backwardcompat`_ is a module.
 
-
+.. _pip.log: https://github.com/pypa/pip/blob/develop/pip/log.py
 .. _pip.backwardcompat: https://github.com/pypa/pip/blob/develop/pip/backwardcompat/__init__.py
 
 
@@ -94,6 +94,8 @@ Wrap your brain around this concept.
 This is not an applied application being used for a personal project, this
 is a proper package that stands on its own. It's Flask.
 
-Look at __init__
+Look at ``__init__``.
 
-Your social networking website, your pet project that incorporates flask
+Software development with time constrictions may not permit every project
+to be module, but for software that goes up on pypi or gets reused at
+work, adhering to good architecture will save time.
