@@ -12,9 +12,6 @@ Projects
 - :ref:`dockerjournal:index` - Notes for Dockerfiles
 
 Code exploration
----------------------------
-
-- :ref:`leather` - PSA on why leather is cool.
 ----------------
 
 - :ref:`reST, docutils, sphinx, readthedocs`.
