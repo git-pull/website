@@ -253,5 +253,6 @@ intersphinx_mapping = {
     'pip': ('http://sphinx.readthedocs.org/en/latest/', None),
     'tmuxp': ('http://tmuxp.readthedocs.org/en/latest/', None),
     'vcspull': ('http://vcspull.readthedocs.org/en/latest/', None),
+    'cihai': ('http://cihai.readthedocs.org/en/latest/', None),
     'dockerjournal': ('http://docker-recipes.readthedocs.org/en/latest/', None),
 }
