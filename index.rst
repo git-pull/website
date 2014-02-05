@@ -5,14 +5,13 @@ Confucian Gentleman's Club
 Projects
 --------
 
-- :ref:`tmuxp:tmuxp` (`中文 <http://tmuxp-zh.readthedocs.org/en/latest/>`_)
+- :ref:`tmuxp:index` (`中文 <http://tmuxp-zh.readthedocs.org/en/latest/>`_)
   - tmux session manager via JSON and YAML file.
 - :ref:`vcspull:vcspull` - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
 - :ref:`cihai:index` - standards-based cjk data incubator
-- :ref:`cihai-python`_ - cihai python client
-- :ref:`cihaidata-unihan` - `Unihan`_ in `datapackages`_-friendly format.
-- :ref:`cihai:index` - han unification / cjk library for python 2 and 3.
+- :ref:`cihai-python:index`_ - cihai python client
+- :ref:`cihaidata-unihan:index` - `Unihan`_ in `datapackages`_-friendly format.
 - :ref:`dockerjournal:index` - Notes for Dockerfiles
 - `cookiecutter-pypackage`_ - bootstrap python packages.
 
