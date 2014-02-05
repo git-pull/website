@@ -44,11 +44,11 @@ The output of any ``docutils.writer``, especially ``html4css1`` can be customize
 
 1. **Overriding stylesheets** can be see at http://docutils.sourceforge.net/docs/howto/html-stylesheets.html.a At least design to the rules of `html4css1.css`_ or customize upon that.
 
-2. **Subclassing** can be seen in `Github's reST parser`_. ``docutils.writers.html4css1`` is a writer for outputting reST to html. This may require needing to custom `html4css1.css1`_.
+2. **Subclassing** can be seen in `Github's reST parser`_. ``docutils.writers.html4css1`` is a writer for outputting reST to html. This may require needing to custom `html4css1.css`_.
 
 To see examples of docutils used in real software projects, check out `Docutils in the wild / use cases`_, such as `PEP website and docutils`_ and `Github's reST parser`_.
 
-Theming docutils
+Theming Docutils
 ----------------
 
 In practice, most HTML output by plain reST is going to be the same. This is thanks to docutils using a consistently boring HTML writer, which promises you, at the core, you will be seeing the same HTML and classes... at this level.
@@ -79,10 +79,10 @@ Here are some **sphinx projects** and their corresponding HTML and PDF versions.
 
 *todo* flask, python 2.7, python 3, sqlalchemy, non python projects
 
-Theming sphinx
+Theming Sphinx
 --------------
 
-**Note:** Please read `Docutils: For designers`_, as sphinx builds upon `Docutils`_ as a component.
+**Note:** This builds upon teming in `Theming Docutils`_, as sphinx builds upon `Docutils`_ as a component.
 
 You are building a `theme for sphinx`_, keep in mind:
 
@@ -276,10 +276,13 @@ Updates
 .. _Docutils Homepage: http://docutils.sourceforge.net/
 .. _Sphinx Homepage: http://sphinx-doc.org/
 .. _Markdown: http://en.wikipedia.org/wiki/Markdown
+.. _typesetting: http://en.wikipedia.org/wiki/Typesetting
 .. _Wikipedia: http://wikipedia.org
 .. _readthedocs: https://readthedocs.org/
 .. _cpython: http://hg.python.org/cpython/
 .. _Jinja2: http://jinja.pocoo.org/docs/
+.. _GitHub: https://www.github.com/
+.. _html4css1.css: http://docutils.sourceforge.net/docutils/writers/html4css1/html4css1.css
 
 **LICENSE:** http://creativecommons.org/licenses/by-nc-nd/3.0/us/
 
