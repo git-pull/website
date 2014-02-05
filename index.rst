@@ -9,11 +9,16 @@ Projects
   - tmux session manager via JSON and YAML file.
 - :ref:`vcspull:vcspull` - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
-- :ref:`cihai:cihai` - han unification / cjk library for python 2 and 3.
+- :ref:`cihai:index` - standards-based cjk data incubator
+- :ref:`cihai-python`_ - cihai python client
+- :ref:`cihaidata-unihan` - `Unihan`_ in `datapackages`_-friendly format.
+- :ref:`cihai:index` - han unification / cjk library for python 2 and 3.
 - :ref:`dockerjournal:index` - Notes for Dockerfiles
 
 Code exploration
 ----------------
+
+Clearing ambiguity.
 
 - :ref:`reST, docutils, sphinx, readthedocs`.
 - :ref:`python_packaging_modules_cyclic`.
@@ -22,3 +27,6 @@ Public service announcement
 ---------------------------
 
 - :ref:`leather` - PSA on why leather is cool.
+
+.. _Unihan: http://www.unicode.org/charts/unihan.html
+.. _datapackages: http://dataprotocols.org/data-packages/

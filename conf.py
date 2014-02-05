@@ -247,12 +247,14 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-# Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
     'http://docs.python.org/': None,
     'pip': ('http://sphinx.readthedocs.org/en/latest/', None),
     'tmuxp': ('http://tmuxp.readthedocs.org/en/latest/', None),
     'vcspull': ('http://vcspull.readthedocs.org/en/latest/', None),
-    'cihai': ('http://cihai.readthedocs.org/en/latest/', None),
     'dockerjournal': ('http://docker-recipes.readthedocs.org/en/latest/', None),
+    'cihai': ('http://cihai.readthedocs.org/en/latest/', None),
+    'cihai-python': ('http://cihai-python.readthedocs.org/en/latest/', None),
+    'cihaidata-unihan': ('http://cihaidata-unihan.readthedocs.org/en/latest/', None),
+
 }
