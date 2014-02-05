@@ -7,7 +7,7 @@ Projects
 
 - :ref:`tmuxp:index` (`中文 <http://tmuxp-zh.readthedocs.org/en/latest/>`_)
   - tmux session manager via JSON and YAML file.
-- :ref:`vcspull:vcspull` - manage and update multiple git / hg / svn projects
+- :ref:`vcspull:index` - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
 - :ref:`cihai:index` - standards-based cjk data incubator
 - :ref:`cihai-python:index`_ - cihai python client
