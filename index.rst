@@ -14,6 +14,7 @@ Projects
 - :ref:`cihaidata-unihan` - `Unihan`_ in `datapackages`_-friendly format.
 - :ref:`cihai:index` - han unification / cjk library for python 2 and 3.
 - :ref:`dockerjournal:index` - Notes for Dockerfiles
+- `cookiecutter-pypackage`_ - bootstrap python packages.
 
 Code exploration
 ----------------
@@ -30,3 +31,4 @@ Public service announcement
 
 .. _Unihan: http://www.unicode.org/charts/unihan.html
 .. _datapackages: http://dataprotocols.org/data-packages/
+.. _cookiecutter-pypackage: https://github.com/tony/cookiecutter-pypackage
