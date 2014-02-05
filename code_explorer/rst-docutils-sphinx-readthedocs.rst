@@ -1,8 +1,10 @@
 .. _reST, docutils, sphinx, readthedocs:
 
-========================================================
-Journeying through reST, docutils, sphinx and extensions
-========================================================
+#########################
+reST, docutils and sphinx
+#########################
+
+Journeying through reST, docutils, sphinx and extensions.
 
 For those designing themes based upon reStructuredText, docutils, sphinx or any of its dependencies, I'd like to save your time by clearing the fog of ambiguity and seeing the big picture.
 
@@ -10,8 +12,12 @@ Purpose: readthedocs > sphinx > extensions > docutils > reST play a major role i
 
 I will begin with an overview at the of reStructuredText, docutils, then sphinx and its extensions.
 
+================
 reStructuredText
-----------------
+================
+
+**reStructuredText** sometimes seen as **reST** and **rst**, is a
+specification for marking up documents.
 
 *Markup Language* (`Docutil's website about reStructuredText`_) - "reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system." [#]_ It is abbreviated as ``reST``, with an extension of ``.rst``.
 
@@ -21,10 +27,12 @@ reST of course does not translate itself into HTML. It requires a software to do
 
 .. [#] http://docutils.sourceforge.net/rst.html
 
+========
 Docutils
---------
+========
 
-*Processor* - `Docutils Homepage`_ - Docutils is a processor for reST.
+*Processor* - `Docutils Homepage`_ - Docutils is a processor for reST
+documents.
 
 Docutils is used as a library by python projects for websites, books and as a component of larger documentation software.
 
@@ -40,8 +48,8 @@ The output of any ``docutils.writer``, especially ``html4css1`` can be customize
 
 To see examples of docutils used in real software projects, check out `Docutils in the wild / use cases`_, such as `PEP website and docutils`_ and `Github's reST parser`_.
 
-Docutils: For designers
-"""""""""""""""""""""""
+Theming docutils
+----------------
 
 In practice, most HTML output by plain reST is going to be the same. This is thanks to docutils using a consistently boring HTML writer, which promises you, at the core, you will be seeing the same HTML and classes... at this level.
 
@@ -57,8 +65,9 @@ Internally, 99% of cases, Docutils uses generates HTML via the same plugin (``ht
 .. _override standard HTML output: https://github.com/github/markup/pull/220/files
 .. _reST files on GitHub preview with a black border: https://github.com/github/markup/pull/220
 
+======
 Sphinx
-------
+======
 
 *Documentation Generator* (`Sphinx Homepage`_) **Sphinx** is used to build Documentation projects. If docutils is a machine, sphinx is the factory. One of many `documentation generators`_.
 
@@ -70,8 +79,8 @@ Here are some **sphinx projects** and their corresponding HTML and PDF versions.
 
 *todo* flask, python 2.7, python 3, sqlalchemy, non python projects
 
-Sphinx: For designers
-"""""""""""""""""""""
+Theming sphinx
+--------------
 
 **Note:** Please read `Docutils: For designers`_, as sphinx builds upon `Docutils`_ as a component.
 
@@ -126,8 +135,9 @@ Options for dynamic / customizable themes: Sphinx uses ``.css_t`` because you ca
 .. _theme for sphinx: http://sphinx-doc.org/theming.html
 .. _html4css1.css: http://docutils.sourceforge.net/docutils/writers/html4css1/html4css1.css
 
+===============
 Readthedocs.org
----------------
+===============
 
 *Similar: http://pythonhosted.org/*.
 
@@ -137,16 +147,17 @@ It builds and hosts sphinx documentation projects.
 
 Each software project's documentation may have it's own ``.rst`` files, sphinx extensions and sphinx theme.
 
-FAQ and Misc
-------------
+===================
+FAQ and Miscellanea
+===================
 
 What's the relation between readthedocs and sphinx / docutils / reST?
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+---------------------------------------------------------------------
 
 Sphinx uses docutils, docutils uses reST.
 
 Is docutils a "documentation generator"?
-""""""""""""""""""""""""""""""""""""""""
+----------------------------------------
 
 I would say no. It processes `reST`_. It doesn't have to be documentation.
 
@@ -159,12 +170,12 @@ Python.org's official documentation uses Sphinx, and therefore docutils. However
 .. _Docutils is big: http://sourceforge.net/p/docutils/code/HEAD/tree/
 
 Docutils in the wild / use cases
-""""""""""""""""""""""""""""""""
+--------------------------------
 
 *Non-readthedocs, non-sphinx implementations of docutils.*
 
 PEP website and docutils
-''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Note: Research on this has been turned out anomalous from what I expected. Despite the fragmentation of docutils from python, docutils itself has PEP-related code in it's own lib. Everyone downloads this with the install the package for some reason - even though they probably don't care about writing PEPs.
 
@@ -182,7 +193,7 @@ I am surprised, ``docutils`` has in its core package PEP related code [2]. This 
 As a new explorer - I was not around to read or see how this came about, but I will search. (see TODO above) But for a holy site like PEP to be contradicting python best practice and a contrib module to be hosting code like that needs to be explained in context.
 
 Github's reST parser
-''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~
 
 While `Markdown`_ is definitely the most popular "markup to HTML" of its type, `GitHub` supports multiple markup languages with `markup`_.
 
@@ -190,7 +201,7 @@ While `Markdown`_ is definitely the most popular "markup to HTML" of its type, `
 
 How does it spit out reST? 
 
-.. code-block::
+.. code-block:: python
 
     if __name__ == '__main__':
         sys.stdout.write("%s%s" % (main(), "\n"))
@@ -247,12 +258,13 @@ GitHub, with the script ``_rest2html``, kind of goes out of there way to make re
 .. _rest2html: https://github.com/github/markup/blob/master/lib/github/commands/rest2html
 .. _/lib/github/markup.rb: https://github.com/github/markup/blob/master/lib/github/markup.rb#L30
 
+=======
 Updates
--------
+=======
 
+- 02/05/2014 - Adjust sections. Fix code formatting.
 - 11/20/2013 - Moved to www.git-pull.com
 - 11/03/2013 - Created.
-
 
 .. _Python Enhancement Proposal: http://www.python.org/dev/peps/pep-0001/
 .. _PEP website: http://www.python.org/dev/peps/

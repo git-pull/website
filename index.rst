@@ -20,7 +20,7 @@ Code exploration
 
 Clearing ambiguity.
 
-- :ref:`reST, docutils, sphinx, readthedocs`.
+- :ref:`reST, docutils, sphinx, readthedocs` (*Updated Feb. 05, 2014*)
 - :ref:`python_packaging_modules_cyclic`.
 
 Public service announcement
