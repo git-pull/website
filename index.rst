@@ -10,8 +10,8 @@ Projects
 - :ref:`vcspull:index` - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
 - :ref:`cihai:index` - standards-based cjk data incubator
-- :ref:`cihai-python:index`_ - cihai python client
-- :ref:`cihaidata-unihan:index` - `Unihan`_ in `datapackages`_-friendly format.
+- :ref:`cihaipython:index`_ - cihai python client
+- :ref:`cihaidataunihan:index` - `Unihan`_ in `datapackages`_-friendly format.
 - :ref:`dockerjournal:index` - Notes for Dockerfiles
 - `cookiecutter-pypackage`_ - bootstrap python packages.
 
