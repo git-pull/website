@@ -262,6 +262,7 @@ GitHub, with the script ``_rest2html``, kind of goes out of there way to make re
 Updates
 =======
 
+- 04/21/2014 - Mediawiki / Wikipedia does not use markdown, it uses `wiki markup`_. Thank you for catching this Pere Orga.
 - 02/05/2014 - Adjust sections. Fix code formatting.
 - 11/20/2013 - Moved to www.git-pull.com
 - 11/03/2013 - Created.
@@ -283,6 +284,7 @@ Updates
 .. _Jinja2: http://jinja.pocoo.org/docs/
 .. _GitHub: https://www.github.com/
 .. _html4css1.css: http://docutils.sourceforge.net/docutils/writers/html4css1/html4css1.css
+.. _wiki markup: http://en.wikipedia.org/wiki/Wiki_markup
 
 **LICENSE:** http://creativecommons.org/licenses/by-nc-nd/3.0/us/
 
