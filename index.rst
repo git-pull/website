@@ -12,7 +12,6 @@ Projects
 - :ref:`cihai:index` - standards-based cjk data incubator
 - :ref:`cihaipython:index` - cihai python client
 - :ref:`cihaidataunihan:index` - `Unihan`_ in `datapackages`_-friendly format.
-- :ref:`dockerjournal:index` - Notes for Dockerfiles
 - `cookiecutter-pypackage`_ - bootstrap python packages.
 
 Code exploration
@@ -20,7 +19,7 @@ Code exploration
 
 Clearing ambiguity.
 
-- :ref:`reST, docutils, sphinx, readthedocs` (*Updated Feb. 05, 2014*)
+- :ref:`reST, docutils, sphinx, readthedocs` (*Updated April 21, 2014*)
 - :ref:`python_packaging_modules_cyclic`.
 
 Public service announcement
