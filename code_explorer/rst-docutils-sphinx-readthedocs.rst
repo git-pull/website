@@ -21,7 +21,7 @@ specification for marking up documents.
 
 *Markup Language* (`Docutil's website about reStructuredText`_) - "reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system." [#]_ It is abbreviated as ``reST``, with an extension of ``.rst``.
 
-Like `Markdown`_, the markup language used on sites like `Wikipedia`_ and `GitHub`_. `See other document markup languages`_.
+Like `Markdown`_, the markup language used on sites like `GitHub`_. `See other document markup languages`_.
 
 reST of course does not translate itself into HTML. It requires a software to do it, I will speak about **Docutils**.
 
