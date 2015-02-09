@@ -17,7 +17,7 @@ reStructuredText
 ================
 
 **reStructuredText** sometimes seen as **reST** and **rst**, is a
-specification for marking up documents.
+specification for marking up documents. It was defined in `PEP 287`_.
 
 *Markup Language* (`Docutil's website about reStructuredText`_) - "reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system." [#]_ It is abbreviated as ``reST``, with an extension of ``.rst``.
 
@@ -262,12 +262,14 @@ GitHub, with the script ``_rest2html``, kind of goes out of there way to make re
 Updates
 =======
 
+- 02/09/2015 - Added link to `PEP 287`_.
 - 04/21/2014 - Mediawiki / Wikipedia does not use markdown, it uses `wiki markup`_. Thank you for catching this Pere Orga.
 - 02/05/2014 - Adjust sections. Fix code formatting.
 - 11/20/2013 - Moved to www.git-pull.com
 - 11/03/2013 - Created.
 
 .. _Python Enhancement Proposal: http://www.python.org/dev/peps/pep-0001/
+.. _PEP 287: https://www.python.org/dev/peps/pep-0287/
 .. _PEP website: http://www.python.org/dev/peps/
 .. _PEP websites' source: http://hg.python.org/peps/file/tip
 .. _Docutil's website about reStructuredText: http://en.wikipedia.org/wiki/ReStructuredText
