@@ -19,6 +19,7 @@ Code exploration
 
 Clearing ambiguity.
 
+- :ref:`python_wos_trackers`
 - :ref:`reST, docutils, sphinx, readthedocs` (*Updated April 21, 2014*)
 - :ref:`python_packaging_modules_cyclic`.
 
