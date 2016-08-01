@@ -42,7 +42,7 @@ One of the writers we use is ``html4css1``.
 
 The output of any ``docutils.writer``, especially ``html4css1`` can be customized by 1. overriding stylesheets 2. subclassing.
 
-1. **Overriding stylesheets** can be see at http://docutils.sourceforge.net/docs/howto/html-stylesheets.html.a At least design to the rules of `html4css1.css`_ or customize upon that.
+1. **Overriding stylesheets** can be seen at http://docutils.sourceforge.net/docs/howto/html-stylesheets.html At least design to the rules of `html4css1.css`_ or customize upon that.
 
 2. **Subclassing** can be seen in `Github's reST parser`_. ``docutils.writers.html4css1`` is a writer for outputting reST to html. This may require needing to custom `html4css1.css`_.
 
