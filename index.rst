@@ -9,9 +9,6 @@ Projects
   - tmux session manager via JSON and YAML file.
 - :ref:`vcspull:index` - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
-- :ref:`cihai:index` - standards-based cjk data incubator
-- :ref:`cihaipython:index` - cihai python client
-- :ref:`cihaidataunihan:index` - `Unihan`_ in `datapackages`_-friendly format.
 - `cookiecutter-pypackage`_ - bootstrap python packages.
 
 Code exploration
@@ -28,6 +25,4 @@ Public service announcement
 
 - :ref:`leather` - PSA on why leather is cool.
 
-.. _Unihan: http://www.unicode.org/charts/unihan.html
-.. _datapackages: http://dataprotocols.org/data-packages/
 .. _cookiecutter-pypackage: https://github.com/tony/cookiecutter-pypackage

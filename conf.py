@@ -253,8 +253,5 @@ intersphinx_mapping = {
     'tmuxp': ('http://tmuxp.readthedocs.org/en/latest/', None),
     'vcspull': ('http://vcspull.readthedocs.org/en/latest/', None),
     'dockerjournal': ('http://docker-recipes.readthedocs.org/en/latest/', None),
-    'cihai': ('http://cihai.readthedocs.org/en/latest/', None),
-    'cihaipython': ('http://cihai-python.readthedocs.org/en/latest/', None),
-    'cihaidataunihan': ('http://cihaidata-unihan.readthedocs.org/en/latest/', None),
 
 }
