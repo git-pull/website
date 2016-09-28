@@ -5,7 +5,7 @@ Confucian Gentleman's Club
 Projects
 --------
 
-- :ref:`tmuxp:index` (`中文 <http://tmuxp-zh.readthedocs.org/en/latest/>`_)
+- :ref:`tmuxp:index` (`中文 <https://tmuxp.readthedocs.io/zh_CN/latest/>`_)
   - tmux session manager via JSON and YAML file.
 - :ref:`vcspull:index` - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
