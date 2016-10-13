@@ -17,8 +17,6 @@ windows:
     - vim
     - :Ex
     focus: true
-  - pwd
-  - echo 'docs built to <http://0.0.0.0:8007/_build/html>'; python -m SimpleHTTPServer 8007
+  - make serve
   - shell_command:
-    - command -v watching_testrunner >/dev/null 2>&1 || { pip install watching_testrunner; }
-    - watching_testrunner --basepath ./ --pattern="*.rst" 'make html'
+    - make watch
