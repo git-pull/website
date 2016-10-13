@@ -250,10 +250,10 @@ texinfo_documents = [
 intersphinx_mapping = {
     'http://docs.python.org/': None,
     'pip': ('http://sphinx.readthedocs.org/en/latest/', None),
-    'tmuxp': ('https://tmuxp.readthedocs.io/', None),
-    'libtmux': ('https://libtmux.readthedocs.io/', None),
-    'libvcs': ('https://libvcs.readthedocs.io/', None),
-    'vcspull': ('https://vcspull.readthedocs.io/', None),
+    'tmuxp': ('https://tmuxp.readthedocs.org/en/latest/', None),
+    'libtmux': ('https://libtmux.readthedocs.org/en/latest/', None),
+    'libvcs': ('https://libvcs.readthedocs.org/en/latest/', None),
+    'vcspull': ('https://vcspull.readthedocs.org/en/latest/', None),
     'dockerjournal': ('http://docker-recipes.readthedocs.org/en/latest/', None),
 
 }
