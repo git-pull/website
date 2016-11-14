@@ -1,6 +1,6 @@
-==========================
-Confucian Gentleman's Club
-==========================
+============
+Tony Narlock
+============
 
 .. sidebar:: Pre-order my book!
 
@@ -61,5 +61,7 @@ Public service announcement
 ---------------------------
 
 - :ref:`leather` - PSA on why leather is cool.
+
+Like my open source projects and learning resources? :ref:`Your support is appreciated! <support>`
 
 .. _cookiecutter-pypackage: https://github.com/tony/cookiecutter-pypackage
