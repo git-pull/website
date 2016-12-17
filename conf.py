@@ -44,7 +44,7 @@ html_sidebars = {
     '**': [
         'about.html',
         'star.html',
-        'navigation.html',
+        # 'navigation.html',
         'relations.html',
         'more.html',
     ]
