@@ -1,0 +1,31 @@
+h1.logo { font-size: 14px; }
+
+div.book-container {
+    clear: both;
+    height: 225px;
+}
+
+div.book-container div.leftside-book {
+    width: 185px;
+    padding: 0px;
+    float: left;
+}
+
+div.book-container div.leftside-book div.figure.align-left {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.book-container div.rightside-book {
+    margin-left: 185px;
+    padding: 0px 10px;
+}
+
+div.book-container div.rightside-book div.figure {
+    padding: 0;
+    margin: 0;
+}
+
+div.book-container div.rightside-book div.figure.align-left {
+   clear:none; 
+}
