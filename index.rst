@@ -4,6 +4,8 @@ Tony Narlock
 
 .. container:: book-container
 
+   **Pre-order my book!**
+
    .. container:: leftside-book
 
       .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
