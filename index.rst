@@ -67,7 +67,7 @@ Clearing ambiguity.
 Presentations
 -------------
 
-- `Guangzhou LUG software freedom day 2013 @ Sun Yat-Sen University <http://www.gzlug.org/2013%20SFD.html>`_
+- `Guangzhou LUG software freedom day 2013 @ Sun Yat-sen University <http://www.gzlug.org/2013%20SFD.html>`_
 
 Other
 -----
