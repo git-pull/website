@@ -64,10 +64,19 @@ Clearing ambiguity.
 - :ref:`reST, docutils, sphinx, readthedocs` (*Updated Feb 09, 2015*)
 - :ref:`python_packaging_modules_cyclic`.
 
-Public service announcement
----------------------------
+Presentations
+-------------
+
+- `Guangzhou LUG software freedom day 2013 @ Sun Yat-Sen University <http://www.gzlug.org/2013%20SFD.html>`_
+
+Other
+-----
 
 - :ref:`leather` - PSA on why leather is cool.
+
+
+Donate
+------
 
 Like my open source projects and learning resources? :ref:`Your support is appreciated! <support>`
 
