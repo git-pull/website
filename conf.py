@@ -22,7 +22,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'confucian gentleman\'s club'
+project = u'confucian gentleman\'s club 🍵'
 copyright = u'2013 - 2016, Tony Narlock'  # NOQA
 
 # The version info for the project you're documenting, acts as replacement for

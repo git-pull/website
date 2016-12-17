@@ -1,6 +1,6 @@
-========================
-Open SAUCE software chef
-========================
+===========================
+Open SAUCE software chef 🍳
+===========================
 
 .. container:: book-container
 
