@@ -38,7 +38,6 @@ Ways to donate
 
 - https://cash.me/$TonyNarlock
 - https://paypal.me/TonyNarlock
-- https://www.patreon.com/TonyNarlock (recurring monthly)
 
 .. _open source: https://openhub.net/accounts/git-pull
 .. _`The Tao of tmux`: https://leanpub.com/the-tao-of-tmux/read
