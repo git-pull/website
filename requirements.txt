@@ -1,3 +1,2 @@
 sphinx
 alabaster
-requests[security]
