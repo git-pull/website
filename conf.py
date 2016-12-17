@@ -7,7 +7,7 @@ extensions = [
   'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alabaster'
 ]
 
-html_title = 'Tony Narlock\'s Confucian Gentlemen Club'
+html_title = 'Tony\'s Confucian Gentlemen Club'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
