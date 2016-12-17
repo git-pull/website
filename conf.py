@@ -103,7 +103,6 @@ html_sidebars = {
         'navigation.html',
         'relations.html',
         'more.html',
-        'searchbox.html',
     ]
 }
 
