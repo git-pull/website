@@ -1,6 +1,6 @@
-============
-Tony Narlock
-============
+========================
+Open SAUCE software chef
+========================
 
 .. container:: book-container
 
