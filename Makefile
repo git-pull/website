@@ -152,10 +152,15 @@ doctest:
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
-WATCH_FILES= find .. -type f -not -path '*/\.*' | grep -i '.*[.]rst\|CHANGES\|TODO\|.*conf\.py' 2> /dev/null
+WATCH_FILES= find . -type f -not -path '*/\.*' | grep -i '.*[.]rst\|CHANGES\|TODO\|.*conf\.py' 2> /dev/null
 
 watch:
 	if command -v entr > /dev/null; then ${WATCH_FILES} | entr -c $(MAKE) html; else $(MAKE) html; fi
 
 serve:
-	echo 'docs built to <http://0.0.0.0:8007/_build/html>'; python -m SimpleHTTPServer 8007
+	@echo '================================================='
+	@echo
+	@echo 'docs server running at http://0.0.0.0:8007/_build/html'
+	@echo
+	@echo '================================================='
+	python -m SimpleHTTPServer 8007

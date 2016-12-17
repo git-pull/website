@@ -1,22 +1,16 @@
-session_name: git-pull
-start_directory: ./
+session_name: website
+start_directory: ./ # load session relative to config location (project root).
+before_script: ./bootstrap_env.py # ./ to load relative to project root.
 windows:
-- window_name: git-pull
+- window_name: website
   layout: main-horizontal
   options:
     main-pane-height: 35
+  start_directory: ./
   shell_command_before: 
-    - command -v virtualenv >/dev/null 2>&1 || { pip install virtualenv; }
-    - '[ -d .env -a -f .env/bin/activate ] && source .env/bin/activate || virtualenv .env'
-    - '[ ! -d .env/build ] || rm -rf .env/build'
-    - cd ./doc
-    - command -v .env/bin/tmuxp >/dev/null 2>&1 || { pip install -r requirements.pip; }
+    - '[ -d .venv -a -f .venv/bin/activate ] && source .venv/bin/activate'
   panes:
-  - shell_command:
-    - reset
-    - vim
-    - :Ex
-    focus: true
+  - focus: true
+  - pane
   - make serve
-  - shell_command:
-    - make watch
+  - make watch
