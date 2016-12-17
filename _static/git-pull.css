@@ -20,6 +20,11 @@ div.book-container div.leftside-book div.figure.align-left {
     margin: 0px;
 }
 
+div.book-container div.leftside-book div.figure.align-left img {
+   width: 185px;
+   height: 240px;
+}
+
 div.book-container div.rightside-book {
     margin-left: 185px;
     padding: 0px 10px;
