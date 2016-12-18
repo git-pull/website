@@ -74,6 +74,7 @@ What people are saying about my software
 
 * `Bugsnag Engineering using tmuxp <https://blog.bugsnag.com/benefits-of-using-tmux/>`_ (Nov 2016)
 * `Pragmatic Coders dev shop on configuring tmux sessions with tmuxp <http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/>`_ (Dec 2015)
+* tmuxp featured on `OneThingWell <http://onethingwell.org>`_ `Nov 2013 <http://onethingwell.org/post/66093374354/tmuxp>`_ and `June 2014 <http://onethingwell.org/post/88367539965/tmuxp>`_
 
 Other
 -----
