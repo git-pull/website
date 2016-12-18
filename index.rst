@@ -72,7 +72,7 @@ Presentations
 What people are saying about my software
 ----------------------------------------
 
-* `BugSnag Engineering using tmuxp <https://blog.bugsnag.com/benefits-of-using-tmux/>`_ (Nov 2016)
+* `Bugsnag Engineering using tmuxp <https://blog.bugsnag.com/benefits-of-using-tmux/>`_ (Nov 2016)
 * `Pragmatic Coders dev shop on configuring tmux sessions with tmuxp <http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/>`_ (Dec 2015)
 
 Other
