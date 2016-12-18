@@ -69,6 +69,12 @@ Presentations
 
 - `Guangzhou LUG software freedom day 2013 @ Sun Yat-sen University <http://www.gzlug.org/2013%20SFD.html>`_
 
+What people are saying about my software
+----------------------------------------
+
+* `BugSnag Engineering using tmuxp <https://blog.bugsnag.com/benefits-of-using-tmux/>`_ (Nov 2016)
+* `Pragmatic Coders dev shop on configuring tmux sessions with tmuxp <http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/>`_ (Dec 2015)
+
 Other
 -----
 
