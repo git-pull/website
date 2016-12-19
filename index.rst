@@ -47,12 +47,13 @@ Open SAUCE software chef 🍳
 Projects
 --------
 
-- :ref:`libtmux:index`
-- :ref:`tmuxp:index` (`中文 <https://tmuxp.readthedocs.io/zh_CN/latest/>`_)
+- `libtmux <https://libtmux.git-pull.com>`_ - pilot tmux with python
+- `tmuxp <https://tmuxp.git-pull.com>`_ (`中文 <https://tmuxp.readthedocs.io/zh_CN/latest/>`_)
   - tmux session manager via JSON and YAML file.
-- :ref:`vcspull:index` - manage and update multiple git / hg / svn projects
+- `vcspull <https://vcspull.git-pull.com>`_ - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
-- :ref:`libvcs:index`
+- `libvcs <https://libvcs.git-pull.com>`_ - pythonic API for `version
+  control <https://en.wikipedia.org/wiki/Version_control>`_ systems.
 - `cookiecutter-pypackage`_ - bootstrap python packages.
 
 Code exploration
