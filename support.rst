@@ -5,9 +5,20 @@ Support my open source efforts
 Like my open source projects and learning materials?
 
 I build permissively licensed software solutions for you and your
-organization to use on your own terms. I fight hard for permissive
-software licensing on open source projects because it is the one
-one true way to let the free market flourish with open source.
+organization to use on your own terms. I 
+`fight <https://github.com/pytest-dev/pytest-mock/issues/45>`_
+`hard <https://github.com/ScottDuckworth/python-anyvcs/issues/32>`_
+`for <https://github.com/urwid/urwid/issues/41>`_
+`permissive <https://github.com/Valloric/ycmd/issues/139>`_
+`software <https://github.com/pypa/pip/issues/3441>`_
+`licensing <https://github.com/jgm/peg-markdown/issues/35>`_
+`on <https://github.com/saitoha/canossa/issues/1>`_
+`open <https://github.com/django-wiki/django-wiki/issues/454>`_
+`source <https://github.com/go-yaml/yaml/issues/160>`_
+`projects <https://github.com/wbond/pybars3/issues/8>`_
+`because <https://github.com/universal-ctags/ctags/issues/969>`_
+`it's <https://github.com/libgit2/pygit2/issues/632>`_ it assures maximums
+flexibility for developers leveraging open source technologies.
 
 Your support keeps me doing `open source`_, that includes maintenance of
 projects like:
