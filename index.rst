@@ -19,7 +19,7 @@ Open SAUCE software chef 🍳
 
       Get your copy of the  *The Tao of tmux* on `Leanpub`_, `Kindle`_ (Amazon),
       and `iBooks`_ (iTunes store). The final version will be delivered
-      to you by the 2016 winter holiday.
+      to you by January 2017.
 
       `Pre-order on Leanpub`_ before Dec 23rd for the special discount
       price of $7.99. 
