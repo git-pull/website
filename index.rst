@@ -54,7 +54,12 @@ Projects
   via JSON or YAML file.
 - `libvcs <https://libvcs.git-pull.com>`_ - pythonic API for `version
   control <https://en.wikipedia.org/wiki/Version_control>`_ systems.
+
+`Cookiecutter`_ project templates
+"""""""""""""""""""""""""""""""""
+
 - `cookiecutter-pypackage`_ - bootstrap python packages.
+- `cookiecutter-flask-pythonic`_ - flask project
 
 Code exploration
 ----------------
@@ -89,3 +94,5 @@ Donate
 Like my open source projects and learning resources? :ref:`Your support is appreciated! <support>`
 
 .. _cookiecutter-pypackage: https://github.com/tony/cookiecutter-pypackage
+.. _cookiecutter-flask-pythonic: https://github.com/tony/cookiecutter-flask-pythonic
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
