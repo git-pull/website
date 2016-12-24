@@ -19,9 +19,6 @@ Open SAUCE software chef 🍳
       Get your copy of the  *The Tao of tmux* on `Leanpub`_ and `Kindle`_
       (Amazon). The final version will be delivered to you by January 2017.
 
-      `Pre-order on Leanpub`_ before Dec 23rd for the special discount
-      price of $7.99. 
-
       Read and browse the book for `free on the web`_.
 
       .. figure:: _static/img/books/amazon-logo.png
@@ -33,7 +30,6 @@ Open SAUCE software chef 🍳
 .. _free on the web: https://leanpub.com/the-tao-of-tmux/read
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
 .. _Kindle: https://www.amazon.com/gp/product/B01MG342KU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MG342KU&linkCode=as2&tag=gitpull-20&linkId=e6d3f08ad92bfea1cf62d735b6a90bdf
-.. _Pre-order on Leanpub: https://leanpub.com/the-tao-of-tmux/c/oBsI4y3o4quu
 
 Projects
 --------
