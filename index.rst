@@ -54,17 +54,17 @@ Projects
 Patches / Packages
 ------------------
 
-- `FreeBSD Ports`_ - I maintain a few ports for the `FreeBSD`_ operating
-  system.
-- I also port software from Linux to BSD. Check out my `FreeBSD Wiki
-  Page`_ for a list of that.
-- I have no official tally / roster of projects I contribute to, but many
-  of them get indexed on `OpenHub`_.
+- List of my ports for the `FreeBSD`_ operating system on `portscout`_.
+- Software porting from Linux to BSD. Check out my `FreeBSD Wiki Page`_ for a
+  list.
+- Unofficial tally / roster of scontributions to open source projects on `OpenHub`_.
+- Follow my GitHub `@tony`_ to see recent / current coding.
 
-.. _FreeBSD Ports: https://portscout.freebsd.org/tony@git-pull.com.html
+.. _portscout: https://portscout.freebsd.org/tony@git-pull.com.html
 .. _FreeBSD: https://freebsd.org
 .. _OpenHub: https://openhub.net/accounts/git-pull
 .. _FreeBSD Wiki Page: https://wiki.freebsd.org/TonyNarlock
+.. _@tony: https://www.github.com/tony
 
 Code exploration
 ----------------
