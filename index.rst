@@ -51,6 +51,21 @@ Projects
 - `cookiecutter-pypackage`_ - bootstrap python packages.
 - `cookiecutter-flask-pythonic`_ - flask project
 
+Patches / Packages
+------------------
+
+- `FreeBSD Ports`_ - I maintain a few ports for the `FreeBSD`_ operating
+  system.
+- I also port software from Linux to BSD. Check out my `FreeBSD Wiki
+  Page`_ for a list of that.
+- I have no official tally / roster of projects I contribute to, but many
+  of them get indexed on `OpenHub`_.
+
+.. _FreeBSD Ports: https://portscout.freebsd.org/tony@git-pull.com.html
+.. _FreeBSD: https://freebsd.org
+.. _OpenHub: https://openhub.net/accounts/git-pull
+.. _FreeBSD Wiki Page: https://wiki.freebsd.org/TonyNarlock
+
 Code exploration
 ----------------
 
