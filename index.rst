@@ -2,6 +2,9 @@
 Open SAUCE software chef 🍳
 ===========================
 
+.. meta::
+    :msvalidate.01: D2AE2505EF80D6586DCCFA29B5B3E0F5
+
 .. container:: book-container
 
    **Pre-order my book!**
