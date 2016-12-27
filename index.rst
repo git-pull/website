@@ -57,7 +57,7 @@ Patches / Packages
 - List of my ports for the `FreeBSD`_ operating system on `portscout`_.
 - Software porting from Linux to BSD. Check out my `FreeBSD Wiki Page`_ for a
   list.
-- Unofficial tally / roster of scontributions to open source projects on `OpenHub`_.
+- Unofficial tally / roster of open source contributions on `OpenHub`_.
 - Follow my GitHub `@tony`_ to see recent / current coding.
 
 .. _portscout: https://portscout.freebsd.org/tony@git-pull.com.html
