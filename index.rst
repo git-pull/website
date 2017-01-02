@@ -7,8 +7,6 @@
 
 .. container:: book-container
 
-   **Pre-order my book!**
-
    .. container:: leftside-book
 
       .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
@@ -18,6 +16,8 @@
           :alt: The Tao of tmux
 
    .. container:: rightside-book
+
+      **Pre-order my book!**
 
       Get your copy of the  *The Tao of tmux* on `Leanpub`_ and `Kindle`_
       (Amazon). The final version will be delivered to you by January 2017.

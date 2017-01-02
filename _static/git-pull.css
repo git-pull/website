@@ -2,7 +2,7 @@ h1.logo { font-size: 13px; }
 
 div.book-container {
     clear: both;
-    height: 265px;
+    height: 230px;
 }
 
 div.book-container > p {
@@ -10,7 +10,7 @@ div.book-container > p {
 }
 
 div.book-container div.leftside-book {
-    width: 185px;
+    width: 180px;
     padding: 0px;
     float: left;
 }
@@ -21,13 +21,17 @@ div.book-container div.leftside-book div.figure.align-left {
 }
 
 div.book-container div.leftside-book div.figure.align-left img {
-   width: 185px;
-   height: 240px;
+   width: 180px;
+   height: 230px;
 }
 
 div.book-container div.rightside-book {
-    margin-left: 185px;
+    margin-left: 180px;
     padding: 0px 10px;
+}
+
+div.book-container div.rightside-book p:first-child {
+   text-align: center;
 }
 
 div.book-container div.rightside-book div.figure {
