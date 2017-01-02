@@ -27,12 +27,12 @@
       .. figure:: _static/img/books/amazon-logo.png
         :scale: 19%
         :align: left
-        :target: https://www.amazon.com/gp/product/B01MG342KU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MG342KU&linkCode=as2&tag=gitpull-20&linkId=e6d3f08ad92bfea1cf62d735b6a90bdf
+        :target: http://amzn.to/2gPfRhC
         :alt: Amazon Kindle
 
 .. _free on the web: https://leanpub.com/the-tao-of-tmux/read
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
-.. _Kindle: https://www.amazon.com/gp/product/B01MG342KU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MG342KU&linkCode=as2&tag=gitpull-20&linkId=e6d3f08ad92bfea1cf62d735b6a90bdf
+.. _Kindle: http://amzn.to/2gPfRhC
 
 Projects
 --------
