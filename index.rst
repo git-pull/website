@@ -87,6 +87,9 @@ What people are saying about my software
 * `Pragmatic Coders dev shop on configuring tmux sessions with tmuxp <http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/>`_ (Dec 2015)
 * tmuxp featured on `OneThingWell <http://onethingwell.org>`_ `Nov 2013 <http://onethingwell.org/post/66093374354/tmuxp>`_ and `June 2014 <http://onethingwell.org/post/88367539965/tmuxp>`_
 
+
+* `Japanese tech blog mentions *The Tao of tmux* <http://www.softantenna.com/wp/webservice/the-tao-of-tmux/>`_
+
 Other
 -----
 
