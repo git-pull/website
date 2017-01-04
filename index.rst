@@ -79,15 +79,15 @@ Presentations
 
 - `Guangzhou LUG software freedom day 2013 @ Sun Yat-sen University <http://www.gzlug.org/2013%20SFD.html>`_
 
-What people are saying about my software
-----------------------------------------
+What people are saying about my software and publications
+---------------------------------------------------------
 
 * `Bugsnag Engineering using tmuxp <https://blog.bugsnag.com/benefits-of-using-tmux/>`_ (Nov 2016)
 * `Pragmatic Coders dev shop on configuring tmux sessions with tmuxp <http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/>`_ (Dec 2015)
 * tmuxp featured on `OneThingWell <http://onethingwell.org>`_ `Nov 2013 <http://onethingwell.org/post/66093374354/tmuxp>`_ and `June 2014 <http://onethingwell.org/post/88367539965/tmuxp>`_
 
 
-* `Japanese tech blog mentions *The Tao of tmux* <http://www.softantenna.com/wp/webservice/the-tao-of-tmux/>`_
+* `Japanese tech blog mentions <http://www.softantenna.com/wp/webservice/the-tao-of-tmux/>`_ *The Tao of tmux* (Jan 2017)
 
 Other
 -----
