@@ -65,15 +65,6 @@ Me coding around the web
 .. _FreeBSD Wiki Page: https://wiki.freebsd.org/TonyNarlock
 .. _@tony: https://www.github.com/tony
 
-Code exploration
-----------------
-
-Clearing ambiguity.
-
-- :ref:`python_wos_trackers`
-- :ref:`reST, docutils, sphinx, readthedocs` (*Updated Feb 09, 2015*)
-- :ref:`python_packaging_modules_cyclic`.
-
 Presentations
 -------------
 
@@ -87,11 +78,19 @@ What people are saying about my software and publications
 * `Pragmatic Coders dev shop on configuring tmux sessions with tmuxp <http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/>`_ (Dec 2015)
 * tmuxp featured on `OneThingWell <http://onethingwell.org>`_ `Nov 2013 <http://onethingwell.org/post/66093374354/tmuxp>`_ and `June 2014 <http://onethingwell.org/post/88367539965/tmuxp>`_
 
+Code exploration
+----------------
+
+Clearing ambiguity.
+
+- :ref:`python_wos_trackers`
+- :ref:`reST, docutils, sphinx, readthedocs` (*Updated Feb 09, 2015*)
+- :ref:`python_packaging_modules_cyclic`.
+
 Other
 -----
 
 - :ref:`leather` - PSA on why leather is cool.
-
 
 Donate
 ------
