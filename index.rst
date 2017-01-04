@@ -51,14 +51,13 @@ Projects
 - `cookiecutter-pypackage`_ - bootstrap python packages.
 - `cookiecutter-flask-pythonic`_ - flask project
 
-Patches / Packages
-------------------
+Me coding around the web
+------------------------
 
-- List of my ports for the `FreeBSD`_ operating system on `portscout`_.
-- Software porting from Linux to BSD. Check out my `FreeBSD Wiki Page`_ for a
-  list.
+- My ports for the `FreeBSD`_ operating system on `portscout`_.
+- Software porting from Linux to BSD on my `FreeBSD Wiki Page`_. 
 - Unofficial tally / roster of open source contributions on `OpenHub`_.
-- Follow my GitHub `@tony`_ to see recent / current coding.
+- GitHub `@tony`_ for recent / current coding.
 
 .. _portscout: https://portscout.freebsd.org/tony@git-pull.com.html
 .. _FreeBSD: https://freebsd.org
