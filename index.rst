@@ -70,8 +70,8 @@ Presentations
 
 - `Guangzhou LUG software freedom day 2013 @ Sun Yat-sen University <http://www.gzlug.org/2013%20SFD.html>`_
 
-What people are saying about my software and publications
----------------------------------------------------------
+What people are saying about my stuff
+-------------------------------------
 
 * `Japanese tech blog mentions <http://www.softantenna.com/wp/webservice/the-tao-of-tmux/>`_ *The Tao of tmux* (Jan 2017)
 * `Bugsnag Engineering using tmuxp <https://blog.bugsnag.com/benefits-of-using-tmux/>`_ (Nov 2016)
@@ -80,8 +80,6 @@ What people are saying about my software and publications
 
 Code exploration
 ----------------
-
-Clearing ambiguity.
 
 - :ref:`python_wos_trackers`
 - :ref:`reST, docutils, sphinx, readthedocs` (*Updated Feb 09, 2015*)
