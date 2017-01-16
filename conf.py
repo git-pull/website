@@ -23,7 +23,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'confucian gentleman\'s club 🍵'
-copyright = u'2013 - 2016, Tony Narlock'  # NOQA
+copyright = u'2013 - 2017, Tony Narlock'  # NOQA
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
