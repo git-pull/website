@@ -17,8 +17,9 @@ organization to use on your own terms. I
 `source <https://github.com/go-yaml/yaml/issues/160>`_
 `projects <https://github.com/wbond/pybars3/issues/8>`_
 `because <https://github.com/universal-ctags/ctags/issues/969>`_
-`it's <https://github.com/libgit2/pygit2/issues/632>`_ it assures maximums
-flexibility for developers leveraging open source technologies.
+`it <https://github.com/libgit2/pygit2/issues/632>`_
+`assures <https://bitbucket.org/jendrikseipp/vulture/issues/14/license>`_
+maximum flexibility for developers leveraging open source technologies.
 
 Your support keeps me doing `open source`_, that includes maintenance of
 projects like:
