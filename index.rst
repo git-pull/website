@@ -17,10 +17,10 @@
 
    .. container:: rightside-book
 
-      **Pre-order my book!**
+      **Buy the book!**
 
       Get your copy of the  *The Tao of tmux* on `Leanpub`_ and `Kindle`_
-      (Amazon). The final version will be delivered to you by January 2017.
+      (Amazon).
 
       Read and browse the book for `free on the web`_.
 
