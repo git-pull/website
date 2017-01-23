@@ -10,7 +10,7 @@ div.book-container > p {
 }
 
 div.book-container div.leftside-book {
-    width: 165px;
+    width: 151px;
     padding: 0px;
     float: left;
 }
@@ -21,12 +21,12 @@ div.book-container div.leftside-book div.figure.align-left {
 }
 
 div.book-container div.leftside-book div.figure.align-left img {
-   width: 165px;
+   width: 151px;
    height: 195px;
 }
 
 div.book-container div.rightside-book {
-    margin-left: 165px;
+    margin-left: 151px;
     padding: 0px 10px;
 }
 
