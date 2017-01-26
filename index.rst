@@ -17,10 +17,9 @@
 
    .. container:: rightside-book
 
-      **Buy the book!**
+      **Book**
 
-      Get your copy of the  *The Tao of tmux* on `Leanpub`_ and `Kindle`_
-      (Amazon).
+      *The Tao of tmux* is available on `Leanpub`_ and `Kindle`_ (Amazon).
 
       Read and browse the book for `free on the web`_.
 
