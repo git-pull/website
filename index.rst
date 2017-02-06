@@ -43,6 +43,9 @@ Projects
   via JSON or YAML file.
 - `libvcs <https://libvcs.git-pull.com>`_ - pythonic API for `version
   control <https://en.wikipedia.org/wiki/Version_control>`_ systems.
+- `HSK FlashCards <https://www.hskflashcards.com>`_ - study Chinese flashcards
+  for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical Chinese Reader* and *Integrated
+  Chinese*.
 
 `Cookiecutter`_ project templates
 """""""""""""""""""""""""""""""""
