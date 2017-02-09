@@ -32,6 +32,12 @@ projects like:
 - :ref:`libvcs:index`
 - `cookiecutter-pypackage`_ - bootstrap project for python packages.
 
+My `FreeBSD ports <https://portscout.freebsd.org/tony@git-pull.com.html>`_ and
+involvement `bug triaging <https://bugs.freebsd.org/bugzilla/buglist.cgi?bug_status=New&bug_status=Open&bug_status=In%20Progress&bug_status=Closed&bug_status=UNCONFIRMED&email1=tony%40git-pull.com&emailassigned_to1=1&emailcc1=1&emaillongdesc1=1&emailreporter1=1&emailtype1=equals&f0=OP&f1=OP&f2=product&f3=component&f4=alias&f5=short_desc&f7=CP&f8=CP&j1=OR&o2=substring&o3=substring&o4=substring&o5=substring&query_format=advanced>`_ on bugzilla.
+
+Maintenance and hosting of sites like `HSK Flashcards
+<https://www.hskflashcards.com>`_.
+
 In addition, my learning resources, available for free online, such as:
 
 - :ref:`reST, docutils, sphinx, readthedocs`
