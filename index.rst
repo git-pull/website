@@ -64,7 +64,7 @@ Me coding around the web
 - GitHub `@tony`_ for recent / current coding.
 
 .. _portscout: https://portscout.freebsd.org/tony@git-pull.com.html
-.. _FreeBSD: https://freebsd.org
+.. _FreeBSD: https://www.freebsd.org
 .. _OpenHub: https://openhub.net/accounts/git-pull
 .. _FreeBSD Wiki Page: https://wiki.freebsd.org/TonyNarlock
 .. _@tony: https://www.github.com/tony
