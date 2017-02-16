@@ -77,6 +77,7 @@ Presentations
 People talking about my stuff
 -----------------------------
 
+* `Opensource.com mentions <https://opensource.com/article/17/2/quick-introduction-tmux>`_ *The Tao of tmux* (Feb 2017)
 * `Japanese tech blog mentions <http://www.softantenna.com/wp/webservice/the-tao-of-tmux/>`_ *The Tao of tmux* (Jan 2017)
 * `Bugsnag Engineering using tmuxp <https://blog.bugsnag.com/benefits-of-using-tmux/>`_ (Nov 2016)
 * `Pragmatic Coders dev shop on configuring tmux sessions with tmuxp <http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/>`_ (Dec 2015)
