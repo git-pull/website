@@ -73,7 +73,7 @@ Presentations
 -------------
 
 - Guest Speaker @ Fullstack Academy (YC S12) at `1871 <https://1871.com/>`_ (Feb 2017)
-- `Guangzhou LUG software freedom day 2013 @ Sun Yat-sen University <http://www.gzlug.org/2013%20SFD.html>`_
+- `Guangzhou LUG software freedom day @ Sun Yat-sen University <http://www.gzlug.org/2013%20SFD.html>`_ (May 2013)
 
 People talking about my stuff
 -----------------------------
