@@ -5,7 +5,8 @@ Support my open source efforts
 Like my open source projects and learning materials?
 
 I build permissively licensed software solutions for you and your
-organization to use on your own terms. I 
+organization to use on your own terms.
+`I <https://github.com/aseprite/aseprite/issues/1242>`_
 `fight <https://github.com/pytest-dev/pytest-mock/issues/45>`_
 `hard <https://github.com/ScottDuckworth/python-anyvcs/issues/32>`_
 `for <https://github.com/urwid/urwid/issues/41>`_
