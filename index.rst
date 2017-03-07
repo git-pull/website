@@ -7,6 +7,26 @@
 
 .. container:: book-container
 
+   .. container:: hsk-left
+
+      .. figure:: http://www.hskflashcards.com/assets/img/logo-50.png
+          :align: left
+          :target: https://leanpub.com/the-tao-of-tmux
+          :alt: The Tao of tmux
+
+   .. container:: hsk-right
+
+      **HSKFlashcards (February 2017)**
+
+      `HSKFlashCards <https://www.hskflashcards.com>`_ has gotten a face
+      lift.
+
+      Take your study of chinese glyphs beyond flashcards with `search <https://www.hskflashcards.com/search>`_
+      and `browsing <https://www.hskflashcards.com/browse>`_ functionality.
+
+
+.. container:: book-container
+
    .. container:: leftside-book
 
       .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
@@ -17,7 +37,7 @@
 
    .. container:: rightside-book
 
-      **Book**
+      **Book (January 2017)**
 
       *The Tao of tmux* is available on `Leanpub`_ and `Kindle`_ (Amazon).
 
