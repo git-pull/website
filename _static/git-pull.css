@@ -45,7 +45,7 @@ div.book-container div.rightside-book div.figure.align-left {
 
 /* HSK */
 div.book-container div.hsk-left {
-    width: 50px;
+    width: 100px;
     padding: 0px;
     float: left;
 }
@@ -56,12 +56,13 @@ div.book-container div.hsk-left div.figure.align-left {
 }
 
 div.book-container div.hsk-left div.figure.align-left img {
-   width: 50px;
-   margin-top: 65%;
+   width: 100px;
+   margin-top: 25%;
+   padding-left: 25px;
 }
 
 div.book-container div.hsk-right {
-    margin-left: 51px;
+    margin-left: 150px;
     padding: 0px 10px;
 }
 
