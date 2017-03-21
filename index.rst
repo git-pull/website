@@ -9,7 +9,7 @@
 
    .. container:: hsk-left
 
-      .. figure:: http://www.hskflashcards.com/assets/img/logo.png
+      .. figure:: https://www.hskflashcards.com/assets/img/logo.png
           :align: left
           :target: https://www.hskflashcards.com
           :alt: The Tao of tmux
