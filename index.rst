@@ -58,32 +58,32 @@ Projects
 
 - `libtmux <https://libtmux.git-pull.com>`_ - pilot tmux with python
 - `tmuxp <https://tmuxp.git-pull.com>`_ (`中文 <https://tmuxp.readthedocs.io/zh_CN/latest/>`_)
-  - tmux session manager via JSON and YAML file.
+  - tmux session manager via JSON and YAML file
 - `vcspull <https://vcspull.git-pull.com>`_ - manage and update multiple git / hg / svn projects
-  via JSON or YAML file.
+  via JSON or YAML file
 - `libvcs <https://libvcs.git-pull.com>`_ - pythonic API for `version
-  control <https://en.wikipedia.org/wiki/Version_control>`_ systems.
+  control <https://en.wikipedia.org/wiki/Version_control>`_ systems
 - `HSK FlashCards <https://www.hskflashcards.com>`_ - study Chinese flashcards
   for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical Chinese Reader* and *Integrated
-  Chinese*.
+  Chinese*
 
 `Cookiecutter`_ project templates
 """""""""""""""""""""""""""""""""
 
 Permissively licensed starter templates you can use to bootstrap your projects.
 
-- `cookiecutter-pypackage`_ - bootstrap python packages.
+- `cookiecutter-pypackage`_ - bootstrap python packages
 - `cookiecutter-flask-pythonic`_ - flask project
 
 Coding around the web
 ---------------------
 
-- My ports for the `FreeBSD`_ operating system on `portscout`_.
+- My ports for the `FreeBSD`_ operating system on `portscout`_
 - My issues for `FreeBSD`_ in `Bugzilla
-  <https://bugs.freebsd.org/bugzilla/buglist.cgi?bug_status=New&bug_status=Open&bug_status=In%20Progress&bug_status=Closed&bug_status=UNCONFIRMED&email1=tony%40git-pull.com&emailassigned_to1=1&emailcc1=1&emaillongdesc1=1&emailreporter1=1&emailtype1=equals&f0=OP&f1=OP&f2=product&f3=component&f4=alias&f5=short_desc&f7=CP&f8=CP&j1=OR&o2=substring&o3=substring&o4=substring&o5=substring&query_format=advanced>`_.
-- Software porting from Linux to BSD on my `FreeBSD Wiki Page`_. 
-- Unofficial tally / roster of open source contributions on `OpenHub`_.
-- GitHub `@tony`_ for recent / current coding.
+  <https://bugs.freebsd.org/bugzilla/buglist.cgi?bug_status=New&bug_status=Open&bug_status=In%20Progress&bug_status=Closed&bug_status=UNCONFIRMED&email1=tony%40git-pull.com&emailassigned_to1=1&emailcc1=1&emaillongdesc1=1&emailreporter1=1&emailtype1=equals&f0=OP&f1=OP&f2=product&f3=component&f4=alias&f5=short_desc&f7=CP&f8=CP&j1=OR&o2=substring&o3=substring&o4=substring&o5=substring&query_format=advanced>`_
+- Software porting from Linux to BSD on my `FreeBSD Wiki Page`_
+- Unofficial tally / roster of open source contributions on `OpenHub`_
+- GitHub `@tony`_ for recent / current coding
 
 .. _portscout: https://portscout.freebsd.org/tony@git-pull.com.html
 .. _FreeBSD: https://www.freebsd.org
@@ -111,12 +111,12 @@ Code exploration
 
 - :ref:`python_wos_trackers`
 - :ref:`reST, docutils, sphinx, readthedocs` (*Updated Feb 09, 2015*)
-- :ref:`python_packaging_modules_cyclic`.
+- :ref:`python_packaging_modules_cyclic`
 
 Other
 -----
 
-- :ref:`leather` - PSA on why leather is cool.
+- :ref:`leather` - PSA on why leather is cool
 
 Donate
 ------
