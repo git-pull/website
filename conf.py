@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-#
-import sys, os
+
+import alabaster
 
 extensions = [
   'sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx',
@@ -9,39 +9,27 @@ extensions = [
 
 html_title = 'Tony\'s Confucian Gentlemen Club'
 
-# Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# The suffix of source filenames.
 source_suffix = '.rst'
 
-# The encoding of source files.
-#source_encoding = 'utf-8-sig'
-
-# The master toctree document.
 master_doc = 'index'
 
-# General information about the project.
 project = u'confucian gentleman\'s club 🍵'
 copyright = u'2013 - 2017, Tony Narlock'  # NOQA
 
-# The version info for the project you're documenting, acts as replacement for
-# |version| and |release|, also used in various other places throughout the
-# built documents.
-#
-# The short X.Y version.
 version = '0.0'
-# The full version, including alpha/beta/rc tags.
 release = '0.0'
 
 exclude_patterns = ['_build']
 
 pygments_style = 'sphinx'
 
-import alabaster
-
 html_theme_path = [alabaster.get_path()]
 html_theme = 'alabaster'
+html_theme_options = {
+    'logo': 'img/tony.svg',
+}
 html_sidebars = {
     '**': [
         'about.html',
@@ -83,5 +71,7 @@ intersphinx_mapping = {
     'libtmux': ('https://libtmux.readthedocs.io/en/latest/', None),
     'libvcs': ('https://libvcs.readthedocs.org/en/latest/', None),
     'vcspull': ('https://vcspull.readthedocs.org/en/latest/', None),
-    'dockerjournal': ('http://docker-recipes.readthedocs.org/en/latest/', None),
+    'dockerjournal': (
+      'http://docker-recipes.readthedocs.org/en/latest/', None
+    ),
 }
