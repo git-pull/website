@@ -70,11 +70,13 @@ Projects
 `Cookiecutter`_ project templates
 """""""""""""""""""""""""""""""""
 
+Permissively licensed starter templates you can use to bootstrap your projects.
+
 - `cookiecutter-pypackage`_ - bootstrap python packages.
 - `cookiecutter-flask-pythonic`_ - flask project
 
-Me coding around the web
-------------------------
+Coding around the web
+---------------------
 
 - My ports for the `FreeBSD`_ operating system on `portscout`_.
 - My issues for `FreeBSD`_ in `Bugzilla
