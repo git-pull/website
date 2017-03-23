@@ -158,9 +158,9 @@ watch:
 	if command -v entr > /dev/null; then ${WATCH_FILES} | entr -c $(MAKE) html; else $(MAKE) html; fi
 
 serve:
-	@echo '================================================='
+	@echo '========================================================'
 	@echo
-	@echo 'docs server running at http://0.0.0.0:8007/_build/html'
+	@echo ' docs server running at http://0.0.0.0:8007/_build/html '
 	@echo
-	@echo '================================================='
+	@echo '========================================================'
 	python -m SimpleHTTPServer 8007
