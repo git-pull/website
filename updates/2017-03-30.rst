@@ -12,11 +12,11 @@ I made it available for free online at https://leanpub.com/the-tao-of-tmux/read.
 
 Since February of this year, I have incorporated suggestions and feedback from readers on quality and completeness of the book. For one, I have passed the book through a professional editor, as well as rounded out chapters with summaries and even added 3 new sections, including:
 
-- Sending keys to tmux, aka `send-keys`
-- Copying pane contents to the paste buffer programmatically, aka `capture-pane`
+- Sending keys to tmux, aka ``send-keys``
+- Copying pane contents to the paste buffer programmatically, aka ``capture-pane``
 - Building and using `tmux-mem-cpu-load <https://github.com/thewtex/tmux-mem-cpu-load>`_
 
-Countless areas of the book have been rewritten for clarity. The process of editing alone fielded *over 650* tweaks. New graphics have been added. The configuration chapter has been overhauled, and various new examples of usage for `targets <http://man.openbsd.org/OpenBSD-5.9/man1/tmux.1#COMMANDS>`_ (`-t`) and `formats <http://man.openbsd.org/OpenBSD-5.9/man1/tmux.1#FORMATS>`_ (`-F`) have been added.
+Countless areas of the book have been rewritten for clarity. The process of editing alone fielded *over 650* tweaks. New graphics have been added. The configuration chapter has been overhauled, and various new examples of usage for `targets <http://man.openbsd.org/OpenBSD-5.9/man1/tmux.1#COMMANDS>`_ (``-t``) and `formats <http://man.openbsd.org/OpenBSD-5.9/man1/tmux.1#FORMATS>`_ (``-F``) have been added.
 
 The book is available for purchase on Leanpub, in DRM-free epub, mobi and pdf format at https://leanpub.com/the-tao-of-tmux.
 
