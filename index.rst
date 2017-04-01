@@ -9,10 +9,25 @@
 
    .. container:: hsk-left
 
+      .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
+          :align: left
+          :target: https://leanpub.com/the-tao-of-tmux
+          :alt: The Tao of tmux
+
+   .. container:: hsk-right
+
+      **Book Edit (March 2017)**
+
+      *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
+
+.. container:: book-container
+
+   .. container:: hsk-left
+
       .. figure:: https://www.hskflashcards.com/assets/img/logo.png
           :align: left
           :target: https://www.hskflashcards.com
-          :alt: The Tao of tmux
+          :alt: HSKFlashCards.com
 
    .. container:: hsk-right
 
