@@ -78,3 +78,15 @@ div.book-container div.hsk-right div.figure {
 div.book-container div.hsk-right div.figure.align-left {
    clear:none; 
 }
+
+div.book-container {
+  background: #fafbfc;
+  border-left: 5px solid #558abb;
+}
+
+div.book-container .hsk-right p:first-of-type,
+div.book-container .rightside-book p:first-of-type
+{
+   padding-top: 10px;
+}
+
