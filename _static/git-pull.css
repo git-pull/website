@@ -1,87 +1,13 @@
 h1.logo { font-size: 13px; }
 
-div.book-container {
-    clear: both;
-    height: 195px;
-}
-
 div.book-container > p {
     text-align: center;
-}
-
-div.book-container div.leftside-book {
-    width: 151px;
-    padding: 0px;
-    float: left;
-}
-
-div.book-container div.leftside-book div.figure.align-left {
-    padding: 0px;
-    margin: 0px;
-}
-
-div.book-container div.leftside-book div.figure.align-left img {
-   width: 151px;
-   height: 195px;
-}
-
-div.book-container div.rightside-book {
-    margin-left: 151px;
-    padding: 0px 10px;
-}
-
-div.book-container div.rightside-book p:first-child {
-   text-align: center;
-}
-
-div.book-container div.rightside-book div.figure {
-    padding: 0;
-    margin: 0;
-}
-
-div.book-container div.rightside-book div.figure.align-left {
-   clear:none; 
-}
-
-/* HSK */
-div.book-container div.hsk-left {
-    width: 100px;
-    padding: 0px;
-    float: left;
-}
-
-div.book-container div.hsk-left div.figure.align-left {
-    padding: 0px;
-    margin: 0px;
-}
-
-div.book-container div.hsk-left div.figure.align-left img {
-   width: 100px;
-   margin-top: 25%;
-   padding-left: 25px;
-}
-
-div.book-container div.hsk-right {
-    margin-left: 150px;
-    padding: 0px 10px;
-}
-
-div.book-container div.hsk-right p:first-child {
-   text-align: center;
-}
-
-div.book-container div.hsk-right div.figure {
-    padding: 0;
-    margin: 0;
-}
-
-div.book-container div.hsk-right div.figure.align-left {
-   clear:none; 
 }
 
 div.book-container {
   background: #fafbfc;
   border-left: 5px solid #558abb;
+  margin-top: 10px;
 }
 
 div.book-container .hsk-right p:first-of-type,
@@ -138,4 +64,15 @@ code {
 code::before, code::after {
   letter-spacing: -0.2em;
   content: "\00a0";
+}
+
+
+/* flexbox.css overrides */
+
+@media only screen and (min-width: 75em),
+@media only screen and (min-width: 64em),
+@media only screen and (min-width: 48em) {
+  .container {
+    width: auto !important 
+  }
 }

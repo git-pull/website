@@ -5,31 +5,31 @@
 .. meta::
     :msvalidate.01: D2AE2505EF80D6586DCCFA29B5B3E0F5
 
-.. container:: book-container
+.. container:: book-container row
 
-   .. container:: hsk-left
+   .. container:: hsk-left col-xs-3
 
       .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
           :align: left
           :target: https://leanpub.com/the-tao-of-tmux
           :alt: The Tao of tmux
 
-   .. container:: hsk-right
+   .. container:: hsk-right col-xs
 
       **Book Edit (March 2017)**
 
       *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
 
-.. container:: book-container
+.. container:: book-container row
 
-   .. container:: hsk-left
+   .. container:: hsk-left col-xs-3
 
       .. figure:: https://www.hskflashcards.com/assets/img/logo.png
           :align: left
           :target: https://www.hskflashcards.com
           :alt: HSKFlashCards.com
 
-   .. container:: hsk-right
+   .. container:: hsk-right col-xs
 
       **HSKFlashcards (February 2017)**
 
@@ -40,9 +40,9 @@
       and `browsing <https://www.hskflashcards.com/browse>`_ functionality.
 
 
-.. container:: book-container
+.. container:: book-container row
 
-   .. container:: leftside-book
+   .. container:: leftside-book col-xs-3
 
       .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
           :scale: 100%
@@ -50,7 +50,7 @@
           :target: https://leanpub.com/the-tao-of-tmux
           :alt: The Tao of tmux
 
-   .. container:: rightside-book
+   .. container:: rightside-book col-xs
 
       **Book (January 2017)**
 
