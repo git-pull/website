@@ -76,3 +76,11 @@ code::before, code::after {
     width: auto !important 
   }
 }
+
+.project div.figure p.caption {
+  margin-bottom: 0px;
+}
+
+.project a.reference:hover {
+  border-bottom: 0px;
+}

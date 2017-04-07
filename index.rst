@@ -2,8 +2,8 @@
 你好 朋友
 =========
 
-.. meta::
-    :msvalidate.01: D2AE2505EF80D6586DCCFA29B5B3E0F5
+Updates
+-------
 
 .. container:: book-container row
 
@@ -71,16 +71,73 @@
 Projects
 --------
 
-- `libtmux <https://libtmux.git-pull.com>`_ - pilot tmux with python
-- `tmuxp <https://tmuxp.git-pull.com>`_ (`中文 <https://tmuxp.readthedocs.io/zh_CN/latest/>`_)
-  - tmux session manager via JSON and YAML file
-- `vcspull <https://vcspull.git-pull.com>`_ - manage and update multiple git / hg / svn projects
-  via JSON or YAML file
-- `libvcs <https://libvcs.git-pull.com>`_ - pythonic API for `version
-  control <https://en.wikipedia.org/wiki/Version_control>`_ systems
-- `HSK FlashCards <https://www.hskflashcards.com>`_ - study Chinese flashcards
-  for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical Chinese Reader* and *Integrated
-  Chinese*
+.. container:: row
+
+   .. container:: project col-xs-6
+
+      .. figure:: https://tmuxp.git-pull.com/en/latest/_static/img/tmuxp.svg
+          :align: center
+          :target: https://tmuxp.git-pull.com 
+          :alt: tmuxp
+          :height: 150
+
+          `tmuxp <https://tmuxp.git-pull.com>`_ (`中文 <https://tmuxp.readthedocs.io/zh_CN/latest/>`_)
+
+          tmux session manager via JSON and YAML file
+
+   .. container:: project col-xs-6
+
+      .. figure:: https://libtmux.git-pull.com/en/latest/_static/img/libtmux.svg
+          :align: center
+          :target: https://libtmux.git-pull.com 
+          :alt: libtmux
+          :height: 150
+
+          `libtmux <https://libtmux.git-pull.com>`_
+          
+          pilot tmux with python
+
+.. container:: row
+
+   .. container:: project col-xs-6
+
+       .. figure:: https://vcspull.git-pull.com/en/latest/_static/img/vcspull.svg
+          :align: center
+          :target: https://vcspull.git-pull.com 
+          :alt: vcspull
+          :height: 150
+  
+          `vcspull <https://vcspull.git-pull.com>`_
+       
+          manage and update multiple git / hg / svn projects via JSON or YAML file
+
+   .. container:: project col-xs-6
+
+      .. figure:: https://libvcs.git-pull.com/en/latest/_static/img/libvcs.svg
+          :align: center
+          :target: https://libvcs.git-pull.com 
+          :alt: libvcs
+          :height: 150
+
+          `libvcs <https://libvcs.git-pull.com>`_
+      
+          pythonic API for `version control <https://en.wikipedia.org/wiki/Version_control>`_ systems
+
+
+.. container:: row
+
+   .. container:: project col-xs-12
+
+      .. figure:: https://www.hskflashcards.com/assets/img/logo.png
+          :align: center
+          :target: https://www.hskflashcards.com
+          :alt: HSKFlashCards.com
+          :height: 150
+
+          `HSK FlashCards <https://www.hskflashcards.com>`_
+          
+          Study chinese flashcards for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical
+          Chinese Reader* and *Integrated Chinese*
 
 `Cookiecutter`_ project templates
 """""""""""""""""""""""""""""""""
