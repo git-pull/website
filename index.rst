@@ -58,12 +58,6 @@ Updates
 
       Read and browse the book for `free on the web`_.
 
-      .. figure:: _static/img/books/amazon-logo.png
-        :scale: 19%
-        :align: left
-        :target: http://amzn.to/2gPfRhC
-        :alt: Amazon Kindle
-
 .. _free on the web: https://leanpub.com/the-tao-of-tmux/read
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
 .. _Kindle: http://amzn.to/2gPfRhC
@@ -126,7 +120,7 @@ Projects
 
 .. container:: row
 
-   .. container:: project col-xs-12
+   .. container:: project col-xs-6
 
       .. figure:: https://www.hskflashcards.com/assets/img/logo.png
           :align: center
@@ -138,6 +132,18 @@ Projects
           
           Study chinese flashcards for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical
           Chinese Reader* and *Integrated Chinese*
+
+   .. container:: project col-xs-6
+
+      .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
+          :height: 150
+          :align: center
+          :target: https://leanpub.com/the-tao-of-tmux
+          :alt: The Tao of tmux
+
+          `The Tao of tmux <https://leanpub.com/the-tao-of-tmux>`_
+
+          Available on `Leanpub`_ and `Kindle`_ (Amazon). Read the book for `free on the web`_.
 
 `Cookiecutter`_ project templates
 """""""""""""""""""""""""""""""""
