@@ -20,6 +20,12 @@ Countless areas of the book have been rewritten for clarity. The process of edit
 
 The book is available for purchase on Leanpub, in DRM-free epub, mobi and pdf format at https://leanpub.com/the-tao-of-tmux.
 
+.. figure:: /_static/img/books/amazon-logo.png
+    :align: right
+    :height: 50
+    :target: http://amzn.to/2gPfRhC
+    :alt: Amazon Kindle
+
 In addition, the book is available on Amazon Kindle at https://www.amazon.com/gp/product/B01MG342KU.
 
 The book will always be available for free on the web.
