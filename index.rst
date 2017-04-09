@@ -16,7 +16,7 @@ Updates
 
    .. container:: hsk-right col-xs
 
-      **Book Edit (March 2017)**
+      **Book Edit** *(March 2017)*
 
       *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
 
@@ -31,7 +31,7 @@ Updates
 
    .. container:: hsk-right col-xs
 
-      **HSKFlashcards (February 2017)**
+      **HSKFlashcards** *(February 2017)*
 
       `HSKFlashCards <https://www.hskflashcards.com>`_ has gotten a face
       lift.
@@ -52,7 +52,7 @@ Updates
 
    .. container:: rightside-book col-xs
 
-      **Book (January 2017)**
+      **New Book** *(January 2017)*
 
       *The Tao of tmux* is available on `Leanpub`_ and `Kindle`_ (Amazon).
 
