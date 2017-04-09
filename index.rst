@@ -179,7 +179,7 @@ Porting (Linux-to-BSD)
 - `uMario_Jakowski <https://github.com/jakowskidev/uMario_Jakowski>`_ – Super Mario NES clone in SDL2 and C++. Add CMake and get building on FreeBSD and OS X `#1 <https://github.com/jakowskidev/uMario_Jakowski/pull/1>`_
 - `spdlog <https://github.com/gabime/spdlog>`_ - C++11 logger `#254 <https://github.com/gabime/spdlog/pull/254>`_
 - `python-cmake-buildsystem <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem>`_ - CMake buildsystem for CPython `#133 <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/133>`_ `#136 <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/136>`_
-- `nanogui <https://github.com/wjakob/nanogui>`_ - C++11 gui library for opengl `#128 <https://github.com/wjakob/nanogui/pull/128>`_
+- `nanogui <https://github.com/wjakob/nanogui>`_ - C++11 gui library for opengl `#128 <https://github.com/wjakob/nanogui/pull/128>`_ `#147 <https://github.com/wjakob/nanogui/pull/147>`_
 
 Presentations
 -------------
