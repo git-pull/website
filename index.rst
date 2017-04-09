@@ -36,8 +36,8 @@ Updates
       `HSKFlashCards <https://www.hskflashcards.com>`_ has gotten a face
       lift.
 
-      Take your study of chinese glyphs beyond flashcards with `search <https://www.hskflashcards.com/search>`_
-      and `browsing <https://www.hskflashcards.com/browse>`_ functionality.
+      Take your study of chinese glyphs to the next level with its new `search <https://www.hskflashcards.com/search>`_
+      and `directory <https://www.hskflashcards.com/browse>`_ functionality.
 
 
 .. container:: book-container row
