@@ -184,7 +184,7 @@ Porting (Linux-to-BSD)
 Presentations
 -------------
 
-- Guest Speaker @ Fullstack Academy (YC S12) at `1871 <https://1871.com/>`_ (Feb 2017)
+- `Guest Speaker @ Fullstack Academy (YC S12) <https://www.slideshare.net/secret/JE3xKLQUGPxy41>`_ at `1871 <https://1871.com/>`_ (Feb 2017)
 - `Guangzhou LUG software freedom day @ Sun Yat-sen University <http://www.gzlug.org/2013%20SFD.html>`_ (May 2013)
 
 People talking about my stuff
