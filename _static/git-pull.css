@@ -7,8 +7,12 @@ div.book-container > p {
 div.book-container {
   background: rgba(250, 251, 252, 0.75);
   border-left: 5px solid rgba(85, 138, 187, 0.75);
-
   margin-top: 10px;
+}
+
+div.book-container:hover {
+  background: rgba(250, 251, 252, 1);
+  border-left: 5px solid rgba(85, 138, 187, 1);
 }
 
 div.book-container .hsk-right p:first-of-type,
