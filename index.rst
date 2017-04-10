@@ -177,7 +177,7 @@ Porting (Linux-to-BSD)
 - `Elementary Algorithms <https://github.com/liuxinyu95/AlgoXY>`_ – Book of Elementary Algorithms and Data structures `#16 <https://github.com/liuxinyu95/AlgoXY/pull/16>`_
 - `pymux <https://github.com/jonathanslenders/pymux>`_ – tmux(1) clone in python `#34 <https://github.com/jonathanslenders/pymux/pull/34>`_
 - `aseprite <https://github.com/aseprite/aseprite>`_ – Cross-platform sprite / pixel art editor `#888 <https://github.com/aseprite/aseprite/pull/888>`_ `#893 <https://github.com/aseprite/aseprite/pull/893>`_
-- `tmux-mem-cpu-load <https://github.com/thewtex/tmux-mem-cpu-load/pull/30>`_ memory, CPU and load averages for tmux status lines `#30 <https://github.com/thewtex/tmux-mem-cpu-load/pull/30>`_
+- `tmux-mem-cpu-load <https://github.com/thewtex/tmux-mem-cpu-load/`_ memory, CPU and load averages for tmux status lines `#30 <https://github.com/thewtex/tmux-mem-cpu-load/pull/30>`_
 - `uMario_Jakowski <https://github.com/jakowskidev/uMario_Jakowski>`_ – Super Mario NES clone in SDL2 and C++. Add CMake and get building on FreeBSD and OS X `#1 <https://github.com/jakowskidev/uMario_Jakowski/pull/1>`_
 - `spdlog <https://github.com/gabime/spdlog>`_ - C++11 logger `#254 <https://github.com/gabime/spdlog/pull/254>`_
 - `python-cmake-buildsystem <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem>`_ - CMake buildsystem for CPython `#133 <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/133>`_ `#136 <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/136>`_
