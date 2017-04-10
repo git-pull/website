@@ -11,6 +11,7 @@ Updates
 
       .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
           :align: left
+          :height: 140
           :target: https://leanpub.com/the-tao-of-tmux
           :alt: The Tao of tmux
 
@@ -26,6 +27,7 @@ Updates
 
       .. figure:: https://www.hskflashcards.com/assets/img/logo.png
           :align: left
+          :height: 100
           :target: https://www.hskflashcards.com
           :alt: HSKFlashCards.com
 
@@ -45,7 +47,7 @@ Updates
    .. container:: leftside-book col-xs-3
 
       .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
-          :scale: 100%
+          :height: 140
           :align: left
           :target: https://leanpub.com/the-tao-of-tmux
           :alt: The Tao of tmux
