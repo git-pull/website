@@ -5,60 +5,17 @@
 Updates
 -------
 
-.. container:: book-container row
+- **Book edit** *(March 2017)* 
 
-   .. container:: hsk-left col-xs-3
+  *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
+-  **Revamp** *(February 2017)*
 
-      .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
-          :align: left
-          :height: 140
-          :target: https://leanpub.com/the-tao-of-tmux
-          :alt: The Tao of tmux
+  `HSKFlashCards <https://www.hskflashcards.com>`_ has gotten a face lift. Take
+  your study of chinese glyphs to the next level with its new `search <https://www.hskflashcards.com/search>`_
+  and `directory <https://www.hskflashcards.com/browse>`_ functionality.
+- **New book** *(January 2017)*
 
-   .. container:: hsk-right col-xs
-
-      **Book Edit** *(March 2017)*
-
-      *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
-
-.. container:: book-container row
-
-   .. container:: hsk-left col-xs-3
-
-      .. figure:: https://www.hskflashcards.com/assets/img/logo.png
-          :align: left
-          :height: 100
-          :target: https://www.hskflashcards.com
-          :alt: HSKFlashCards.com
-
-   .. container:: hsk-right col-xs
-
-      **HSKFlashcards** *(February 2017)*
-
-      `HSKFlashCards <https://www.hskflashcards.com>`_ has gotten a face
-      lift.
-
-      Take your study of chinese glyphs to the next level with its new `search <https://www.hskflashcards.com/search>`_
-      and `directory <https://www.hskflashcards.com/browse>`_ functionality.
-
-
-.. container:: book-container row
-
-   .. container:: leftside-book col-xs-3
-
-      .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
-          :height: 140
-          :align: left
-          :target: https://leanpub.com/the-tao-of-tmux
-          :alt: The Tao of tmux
-
-   .. container:: rightside-book col-xs
-
-      **New Book** *(January 2017)*
-
-      *The Tao of tmux* is available on `Leanpub`_ and `Kindle`_ (Amazon).
-
-      Read and browse the book for `free on the web`_.
+  *The Tao of tmux* is available on `Leanpub`_ and `Kindle`_ (Amazon). Read and browse the book for `free on the web`_.
 
 .. _free on the web: https://leanpub.com/the-tao-of-tmux/read
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
