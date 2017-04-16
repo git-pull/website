@@ -5,6 +5,11 @@
 Updates
 -------
 
+- *April 2017* 
+
+  `cihai <https://cihai.git-pull.com>`_, an project open and standardize
+  CJK datasets, is being restarted.
+
 - *March 2017* 
 
   *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
