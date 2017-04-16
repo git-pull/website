@@ -5,17 +5,17 @@
 Updates
 -------
 
-- **Book edit** *(March 2017)* 
+- *March 2017* 
 
   *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
--  **Revamp** *(February 2017)*
+-  *February 2017*
 
   `HSKFlashCards <https://www.hskflashcards.com>`_ has gotten a face lift. Take
   your study of chinese glyphs to the next level with its new `search <https://www.hskflashcards.com/search>`_
   and `directory <https://www.hskflashcards.com/browse>`_ functionality.
-- **New book** *(January 2017)*
+- *January 2017*
 
-  *The Tao of tmux* is available on `Leanpub`_ and `Kindle`_ (Amazon). Read and browse the book for `free on the web`_.
+  A new book, *The Tao of tmux* is available on `Leanpub`_ and `Kindle`_ (Amazon). Read and browse the book for `free on the web`_.
 
 .. _free on the web: https://leanpub.com/the-tao-of-tmux/read
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
