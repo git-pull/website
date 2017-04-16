@@ -7,7 +7,7 @@ Updates
 
 - *April 2017* 
 
-  `cihai <https://cihai.git-pull.com>`_, an project open and standardize
+  `cihai`_, an project open and standardize
   CJK datasets, is being restarted.
 
 - *March 2017* 
@@ -92,10 +92,9 @@ Projects
           :alt: cihai.git-pull.com
           :height: 150
 
-          `cihai <https://cihai.git-pull.com>`_
+          `cihai`_
           
-          United front for creating open, permissive, standardized
-          CJK datasets.
+          United front for creating open, permissive, standardized CJK datasets.
 
    .. container:: project col-xs-6
 
@@ -195,3 +194,4 @@ Like my open source projects and learning resources? :ref:`Your support is appre
 .. _cookiecutter-pypackage: https://github.com/tony/cookiecutter-pypackage
 .. _cookiecutter-flask-pythonic: https://github.com/tony/cookiecutter-flask-pythonic
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _cihai: https://cihai.git-pull.com
