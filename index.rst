@@ -124,6 +124,19 @@ Projects
 
    .. container:: project col-xs-6
 
+      .. figure:: https://cihai.git-pull.com/en/latest/_static/img/cihai.svg
+          :align: center
+          :target: https://cihai.git-pull.com
+          :alt: cihai.git-pull.com
+          :height: 150
+
+          `cihai <https://cihai.git-pull.com>`_
+          
+          United front for creating open, permissive, standardized
+          CJK datasets.
+
+   .. container:: project col-xs-6
+
       .. figure:: https://www.hskflashcards.com/assets/img/logo.png
           :align: center
           :target: https://www.hskflashcards.com
@@ -134,6 +147,8 @@ Projects
           
           Study chinese flashcards for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical
           Chinese Reader* and *Integrated Chinese*
+
+.. container:: row
 
    .. container:: project col-xs-6
 
