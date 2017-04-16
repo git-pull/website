@@ -42,7 +42,17 @@ pre {
   font-size: 0.75em;
 }
 
-div.seealso, div.note {
+div.admonition,
+div.caution,
+div.danger,
+div.error,
+div.hint,
+div.important,
+div.note,
+div.tip,
+div.seealso, /* sphinx directive */
+div.warning,
+ {
   background-color: #fafbfc;
   border-right: 0;
   border-top: 0;
@@ -53,8 +63,21 @@ div.seealso {
   border-left: 5px solid #8abb55;
 }
 
-div.note {
+div.note, div.hint, div.tip {
+  border-left: 5px solid #558abb;
+
+}
+
+div.caution, div.danger, div.error, div.warning {
   border-left: 5px solid #bb5557;
+}
+
+
+div.seealso, div.note {
+  background-color: #fafbfc;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
 }
 
 code {
