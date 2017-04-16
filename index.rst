@@ -7,7 +7,7 @@ Updates
 
 - *April 2017* 
 
-  `cihai`_, an project open and standardize
+  `cihai`_, a project to open and standardize
   CJK datasets, is being restarted.
 
 - *March 2017* 
