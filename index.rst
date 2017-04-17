@@ -13,7 +13,7 @@ Updates
 - *March 2017* 
 
   *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
--  *February 2017*
+- *February 2017*
 
   `HSKFlashCards <https://www.hskflashcards.com>`_ has gotten a face lift. Take
   your study of chinese glyphs to the next level with its new `search <https://www.hskflashcards.com/search>`_
