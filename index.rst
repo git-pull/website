@@ -33,6 +33,47 @@ Projects
 
    .. container:: project col-xs-6
 
+      .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
+          :height: 150
+          :align: center
+          :target: https://leanpub.com/the-tao-of-tmux
+          :alt: The Tao of tmux
+
+          `The Tao of tmux <https://leanpub.com/the-tao-of-tmux>`_
+
+          Available on `Leanpub`_ and `Kindle`_ (Amazon). Read the book for `free on the web`_.
+
+.. container:: row
+
+   .. container:: project col-xs-6
+
+      .. figure:: https://cihai.git-pull.com/en/latest/_static/img/cihai.svg
+          :align: center
+          :target: https://cihai.git-pull.com
+          :alt: cihai.git-pull.com
+          :height: 150
+
+          `cihai`_
+          
+          United front for creating open, permissive, standardized CJK datasets.
+
+   .. container:: project col-xs-6
+
+      .. figure:: https://www.hskflashcards.com/assets/img/logo.png
+          :align: center
+          :target: https://www.hskflashcards.com
+          :alt: HSKFlashCards.com
+          :height: 150
+
+          `HSK FlashCards <https://www.hskflashcards.com>`_
+          
+          Study chinese flashcards for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical
+          Chinese Reader* and *Integrated Chinese*
+
+.. container:: row
+
+   .. container:: project col-xs-6
+
       .. figure:: https://tmuxp.git-pull.com/en/latest/_static/img/tmuxp.svg
           :align: center
           :target: https://tmuxp.git-pull.com 
@@ -80,48 +121,6 @@ Projects
           `libvcs <https://libvcs.git-pull.com>`_
       
           pythonic API for `version control <https://en.wikipedia.org/wiki/Version_control>`_ systems
-
-
-.. container:: row
-
-   .. container:: project col-xs-6
-
-      .. figure:: https://cihai.git-pull.com/en/latest/_static/img/cihai.svg
-          :align: center
-          :target: https://cihai.git-pull.com
-          :alt: cihai.git-pull.com
-          :height: 150
-
-          `cihai`_
-          
-          United front for creating open, permissive, standardized CJK datasets.
-
-   .. container:: project col-xs-6
-
-      .. figure:: https://www.hskflashcards.com/assets/img/logo.png
-          :align: center
-          :target: https://www.hskflashcards.com
-          :alt: HSKFlashCards.com
-          :height: 150
-
-          `HSK FlashCards <https://www.hskflashcards.com>`_
-          
-          Study chinese flashcards for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical
-          Chinese Reader* and *Integrated Chinese*
-
-.. container:: row
-
-   .. container:: project col-xs-6
-
-      .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
-          :height: 150
-          :align: center
-          :target: https://leanpub.com/the-tao-of-tmux
-          :alt: The Tao of tmux
-
-          `The Tao of tmux <https://leanpub.com/the-tao-of-tmux>`_
-
-          Available on `Leanpub`_ and `Kindle`_ (Amazon). Read the book for `free on the web`_.
 
 `Cookiecutter`_ project templates
 """""""""""""""""""""""""""""""""
