@@ -175,6 +175,34 @@ Porting (Linux-to-BSD)
 - `python-cmake-buildsystem <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem>`_ - CMake buildsystem for CPython `#133 <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/133>`_ `#136 <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/136>`_
 - `nanogui <https://github.com/wjakob/nanogui>`_ - C++11 gui library for opengl `#128 <https://github.com/wjakob/nanogui/pull/128>`_ `#147 <https://github.com/wjakob/nanogui/pull/147>`_
 
+Scrapyard
+"""""""""
+
+Experimental code / patches that never made it upstream.
+
+`kakoune`_ branches: `cmake <https://github.com/tony/kakoune/tree/cmake>`_ build support,
+`mini <https://github.com/tony/kakoune/tree/mini>`_, `new-cli <https://github.com/tony/kakoune/tree/new-cli>`_
+(`#693 <https://github.com/mawww/kakoune/pull/693>`_), `observers <https://github.com/tony/kakoune/tree/observers>`_,
+`rm-server <https://github.com/tony/kakoune/tree/rm-server>`_ (serverless
+kakoune), `pybind11 <https://github.com/tony/kakoune/tree/pybind11>`_
+and `Boost.Python <https://github.com/tony/kakoune/tree/python-boost>`_
+integration.
+
+`vis`_ branches: `cmake <https://github.com/tony/vis/tree/cmake-n-stuff>`_
+build system, `C++ <https://github.com/tony/vis/tree/cpp>`_ support, 
+`python integration <https://github.com/tony/vis/tree/cpp-python>`_.
+
+`sphinx`_ branches: `flexible-builder <https://github.com/tony/sphinx/tree/flexible-builder>`_
+invocation.
+
+`tmux`_ branches: `cmake <https://github.com/tony/tmux/tree/cmake>`_
+build support.
+
+.. _kakoune: https://github.com/mawww/kakoune
+.. _tmux: https://tmux.github.io/
+.. _vis: https://github.com/martanne/vis
+.. _sphinx: http://www.sphinx-doc.org/en/stable/
+
 Presentations
 -------------
 
