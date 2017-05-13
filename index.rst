@@ -5,10 +5,23 @@
 Updates
 -------
 
+- *May 2017* 
+
+  `unihan-tabular`_, a tool to normalize data from `UNIHAN`_, a dataset of
+  Chinese, Japanese, and Korean character information, to a tabular format,
+  is now available. Supports customizable export to CSV, YAML, JSON, python, and
+  `Data Package`_ format.
+
+  In addition to dictionaries, phonetics in Cantonese, Mandarin, and
+  Korean, and stroke counts, UNIHAN defines a system and catalog of 
+  *character variants*: "thousands of years worth of writing have
+  produced thousands of pairs which can be used more-or-less interchangeably.”
+  See "Unification Rules" on page 679 of *The Unicode Standard*
+  (`.pdf <http://www.unicode.org/versions/Unicode9.0.0/ch18.pdf>`_)
+
 - *April 2017* 
 
-  `cihai`_, a project to open and standardize
-  CJK datasets, is being restarted.
+  `cihai`_, a project to open and standardize CJK datasets, is being restarted.
 
 - *March 2017* 
 
@@ -25,6 +38,10 @@ Updates
 .. _free on the web: https://leanpub.com/the-tao-of-tmux/read
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
 .. _Kindle: http://amzn.to/2gPfRhC
+.. _unihan-tabular: https://unihan-tabular.git-pull.com
+.. _UNIHAN: https://en.wikipedia.org/wiki/Han_unification
+.. _character variants: http://www.unicode.org/versions/Unicode9.0.0/ch18.pdf
+.. _Data Package: http://frictionlessdata.io/data-packages/
 
 Projects
 --------
