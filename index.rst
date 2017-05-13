@@ -174,6 +174,8 @@ Porting (Linux-to-BSD)
 - `spdlog <https://github.com/gabime/spdlog>`_ - C++11 logger `#254 <https://github.com/gabime/spdlog/pull/254>`_
 - `python-cmake-buildsystem <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem>`_ - CMake buildsystem for CPython `#133 <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/133>`_ `#136 <https://github.com/python-cmake-buildsystem/python-cmake-buildsystem/pull/136>`_
 - `nanogui <https://github.com/wjakob/nanogui>`_ - C++11 gui library for opengl `#128 <https://github.com/wjakob/nanogui/pull/128>`_ `#147 <https://github.com/wjakob/nanogui/pull/147>`_
+- `pyston <https://github.com/dropbox/pyston>`_ - An open-source Python implementation using JIT techniques `#1072 <https://github.com/dropbox/pyston/pull/1072>`_, `#1073 <https://github.com/dropbox/pyston/pull/1073>`_, `#1085 <https://github.com/dropbox/pyston/pull/1085>`_
+- `libpypa <https://github.com/vinzenz/libpypa/>`_ - Python parser implemented in pure C++ `#50 <https://github.com/vinzenz/libpypa/pull/50>`_
 
 Scrapyard
 """""""""
