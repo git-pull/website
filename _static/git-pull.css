@@ -115,3 +115,10 @@ code::before, code::after {
 .project a.reference:hover {
   border-bottom: 0px;
 }
+
+/* attempt to fix flexbox in screen responsiveness at mid-width */
+@media only screen and (min-width: 64em) {
+  .container {
+    width: auto !important;
+  }
+}
