@@ -35,8 +35,8 @@ Updates
 .. _UNIHAN: https://en.wikipedia.org/wiki/Han_unification
 .. _Data Package: http://frictionlessdata.io/data-packages/
 
-Projects
---------
+Publications
+------------
 
 .. container:: row
 
@@ -51,6 +51,9 @@ Projects
           `The Tao of tmux <https://leanpub.com/the-tao-of-tmux>`_
 
           Available on `Leanpub`_ and `Kindle`_ (Amazon). Read the book for `free on the web`_.
+
+Language Projects
+-----------------
 
 .. container:: row
 
@@ -78,6 +81,9 @@ Projects
           
           Study chinese flashcards for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical
           Chinese Reader* and *Integrated Chinese*
+
+POSIX Utilities
+---------------
 
 .. container:: row
 
