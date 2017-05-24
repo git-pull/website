@@ -82,8 +82,8 @@ Language Projects
           Study chinese flashcards for *Hànyǔ Shuǐpíng Kǎoshì*, *(New) Practical
           Chinese Reader* and *Integrated Chinese*
 
-POSIX Utilities
----------------
+Unix-like Utilities
+-------------------
 
 .. container:: row
 
