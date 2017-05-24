@@ -209,7 +209,7 @@ Presentations
 - `Guest Speaker @ Fullstack Academy (YC S12) <https://www.slideshare.net/secret/JE3xKLQUGPxy41>`_ at `1871 <https://1871.com/>`_ (Feb 2017)
 - `Guangzhou LUG software freedom day @ Sun Yat-sen University <http://www.gzlug.org/2013%20SFD.html>`_ (May 2013)
 
-Industry and press
+Industry and Press
 ------------------
 
 * `Opensource.com mentions <https://opensource.com/article/17/2/quick-introduction-tmux>`_ *The Tao of tmux* (Feb 2017)
@@ -218,7 +218,7 @@ Industry and press
 * `Pragmatic Coders dev shop on configuring tmux sessions with tmuxp <http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/>`_ (Dec 2015)
 * tmuxp featured on `OneThingWell <http://onethingwell.org>`_ `Nov 2013 <http://onethingwell.org/post/66093374354/tmuxp>`_ and `June 2014 <http://onethingwell.org/post/88367539965/tmuxp>`_
 
-Code exploration
+Code Exploration
 ----------------
 
 - :ref:`python_wos_trackers`
