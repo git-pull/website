@@ -7,8 +7,8 @@ Updates
 
 - *May 2017* 
 
-  `unihan-tabular`_, a tool to access  `UNIHAN`_, a dataset of Chinese,
-  Japanese, and Korean character information, to a tabular format, is now
+  `unihan-etl`_, a tool to access  `UNIHAN`_, a dataset of Chinese,
+  Japanese, and Korean character information, to a etl format, is now
   available. Supports customizable export to CSV, YAML, JSON, python, and
   `Data Package`_ format.
 
@@ -31,7 +31,7 @@ Updates
 .. _free on the web: https://leanpub.com/the-tao-of-tmux/read
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
 .. _Kindle: http://amzn.to/2gPfRhC
-.. _unihan-tabular: https://unihan-tabular.git-pull.com
+.. _unihan-etl: https://unihan-etl.git-pull.com
 .. _UNIHAN: https://en.wikipedia.org/wiki/Han_unification
 .. _Data Package: http://frictionlessdata.io/data-packages/
 
