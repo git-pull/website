@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import alabaster
+import alagitpull
 
 extensions = [
   'sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx',
-  'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alabaster'
+  'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alagitpull'
 ]
 
 html_title = 'Tony\'s Confucian Gentlemen Club'
@@ -25,16 +25,15 @@ exclude_patterns = ['_build']
 
 pygments_style = 'sphinx'
 
-html_theme_path = [alabaster.get_path()]
-html_theme = 'alabaster'
+html_theme_path = [alagitpull.get_path()]
+html_theme = 'alagitpull'
 html_theme_options = {
     'logo': 'img/tony.svg',
+    'projects': alagitpull.projects,
 }
 html_sidebars = {
     '**': [
         'about.html',
-        'star.html',
-        # 'navigation.html',
         'relations.html',
         'more.html',
     ]
