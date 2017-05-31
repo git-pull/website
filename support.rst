@@ -25,12 +25,12 @@ maximum flexibility for developers leveraging open source technologies.
 Your support keeps me doing `open source`_, that includes maintenance of
 projects like:
 
-- :ref:`libtmux:index`
-- :ref:`tmuxp:index` (`中文 <https://tmuxp.readthedocs.io/zh_CN/latest/>`_)
+- :ref:`unihan-etl:index`
+- :ref:`cihai:index` (:ref:`cihai-cli:index`)
+- :ref:`tmuxp:index` (:ref:`libtmux:index`) (`中文 <https://tmuxp.readthedocs.io/zh_CN/latest/>`_)
   - tmux session manager via JSON and YAML file.
-- :ref:`vcspull:index` - manage and update multiple git / hg / svn projects
+- :ref:`vcspull:index` (:ref:`libvcs:index`) - manage and update multiple git / hg / svn projects
   via JSON or YAML file.
-- :ref:`libvcs:index`
 - `cookiecutter-pypackage`_ - bootstrap project for python packages.
 
 My `FreeBSD ports <https://portscout.freebsd.org/tony@git-pull.com.html>`_ and
