@@ -130,15 +130,18 @@ You could end up generating a purely static website with no SQL backend `a la NP
 
 .. _a la NPR: http://blog.apps.npr.org/2014/07/29/everything-our-app-template-does.html
 
-Judgment: Flask is pure, but you'll always be missing something
----------------------------------------------------------------
+Interpretations
+---------------
+
+Flask is pure, but you'll always be missing something
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 The one thing that strikes me about Flask is it's really meant to stay out
 of your way. The API is, much like this website, documented in sphinx,
 it's straight-forward and puts code first.
 
-Judgment: Django is active, solid, and robust
----------------------------------------------
+Django is active, solid, and robust
+"""""""""""""""""""""""""""""""""""
 
 The parts fit together with Django. And you'll need them.
 
