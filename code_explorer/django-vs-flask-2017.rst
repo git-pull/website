@@ -243,8 +243,8 @@ well as an operating system. `Too much pride gets invested in identity
 
 A couple of anecdotes of my own, in the spirit of `Burke and Wills ill-fated expedition <https://en.wikipedia.org/wiki/Burke_and_Wills_expedition>`_:
 
-Pursuit of JS Holy Grail
-""""""""""""""""""""""""
+Anecdote: Pursuit of JS Holy Grail
+""""""""""""""""""""""""""""""""""
 
 In 2014, I remember wanting to be able to re-use code on the front-end and
 back-end. So I opted to pick up Node.js. While I was able to use the same
@@ -257,8 +257,8 @@ I finally encouraged the supervisor to let us switch to Django. It rescued us.
 
 (Not knocking node.js, I still use it and since 2014, it's grown a lot)
 
-Pursuit of the Pythonic Holy Grail
-""""""""""""""""""""""""""""""""""
+Anecdote: Pursuit of the Pythonic Holy Grail
+""""""""""""""""""""""""""""""""""""""""""""
 
 The other for me, was Flask and SQLAlchemy. Flask had a super fast
 template engine. Straight-forward modularization with blueprints. Works
@@ -295,20 +295,44 @@ script you just want a front-end for.
 If you already are using SQLAlchemy models, you can get them working with
 your Flask application with little work. With Flask, you feel in control.
 
-Once you begin implementing a database backend, however, Flask enters a cycle of
-diminishing returns. Before long, you'll be dealing with forms, REST endpoints
-and other things that are all best represented via a declarative model with
-types. Exactly what a Django Apps builds upon.
+Once you begin implementing a database backend, however, I felt Flask entered
+a cycle of diminishing returns. Before long, you'll be dealing with forms, REST
+endpoints and other things that are all best represented via a declarative model
+with types. Which is kind of the philosophy Django's Apps do from the
+start.
 
-I didn't write this with the intention to say "Do whatever you like" and
-"Your mileage may vary". Nor did I do it to arouse sentiment by being so
-direct. Django saves time, and while it forces some conventions, they're
-proportional to what need to do the job. It does a lot of what Flask does,
-quite frankly, better.
+There's an information perception that batteries included may mean a growing
+list of ill-maintained API's that get hooked into every request. In the
+case of Django, everything works across the board. If one API updates, you
+can expect Django's testsuites to break and the appropriate changes are
+made. So stuff integrates. This is something that's harder to do when you
+have a lot of packages from different authors you have to wait to cut a
+release in Flask's ecosystem.
 
-And if things change. I look forward to it. But it's hard. Despite Flask's
-success, it doesn't seem likely development will match Django's. It is
-still a mighty, mighty microframework.
+And if things change. I look forward to it. Despite Flask's success, and missing
+out on Django's synergy, it is still a mighty, mighty microframework.
+
+Bonus: How do I learn Django or Flask?
+--------------------------------------
+
+Preparation:
+
+- Understand how python `virtual environments`_ (see `Real Python
+  <https://realpython.com/blog/python/python-virtual-environments-a-primer/>`_'s
+  tutorial) and PATH's work. This is an absolute must.
+- Read Django's documentation, `get the PDF
+  <https://media.readthedocs.org/pdf/django/latest/django.pdf>`_. Read Flask's
+  documentation, `get the PDF
+  <http://flask.pocoo.org/docs/dev/.latex/Flask.pdf>`_. Read it on a tablet.
+- Make a hobby website in django or flask. Try hosting it on something
+  like `Heroku`_, which is free and has simple deployments. Also,
+  DigitalOcean plans `start at $5/mo <https://m.do.co/c/a8d3c8586c91>`_.
+- Bookmark and study to this article to get the latest on differences
+  between Django and Flask. While it's a comparison, it'll be helpful in
+  curating the API and extension universe they have.
+
+.. _Heroku: https://www.heroku.com/
+.. _virtual environments: https://python-guide.readthedocs.io/en/latest/dev/virtualenvs/
 
 Hire me
 =======
