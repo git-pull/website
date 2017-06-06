@@ -6,8 +6,8 @@ Django vs Flask: 2017 Edition
 Which is better
 ===============
 
-This is going to be a real comparison with the gloves off. I have used both
-extensively and have want to want to save technical decision makers time.
+I have used both extensively and have want to want to save technical decision
+makers time.
 
 Since this is 2017, I had to grab the latest Flask to refresh my memory
 and see what's changed. But let's keep this going every year.
@@ -25,7 +25,7 @@ going to end up reinventing the wheel to catch up for things that'd otherwise be
 quick wins with Django.
 
 As of 2017, I am partial to using Django. In the past, I was intensely
-devoted to Flask and SQLAlchemy, due to their documentation and pythonics.
+devoted to Flask and SQLAlchemy due to its API documentation and pythonics.
 
 Django
 ======
@@ -33,15 +33,15 @@ Django
 Today, Django is built and maintained by the open source community. The initial
 release was July 21, 2005, by Lawrence Journal-World.
 
-What django provides
+What Django provides
 --------------------
 
 - :django:ref:`Template Engine <templates>`
 
   - Filters
   - Tags
-  - Context preprocessor middleware (global, per-request :py:class:`dict` you can pile
-    data to for templates)
+  - Context preprocessor middleware (global, per-request :py:class:`dict` passed
+    into templates)
 - ORM
 
   - QuerySet (reuseable object used in ORM-backed features)
@@ -70,18 +70,25 @@ What django provides
 - Shell
 - Static file support
 
-Extending
----------
+Extending Django
+----------------
 
 Django has a vibrant third-party development community. Apps are installed
 via appending them to the ``INSTALLED_APPS`` in the settings.
 
-Popular django extensions include:
+Popular Django extensions include:
 
-- REST: Django REST Framework, aka "DRF"
-- Permissions: django-guardian
-- Asset pipelines: django-compressor, django-webpack
-- Debugging, Miscellaneous: django-extensions, django-debug-toolbar
+- REST: `Django REST Framework`_, aka "DRF"
+- Permissions: `django-guardian`_
+- Asset pipelines: `django-compressor`_, `django-webpack-loader`_
+- Debugging, Miscellaneous: `django-extensions`_, `django-debug-toolbar`_
+
+.. _Django REST Framework: http://www.django-rest-framework.org/
+.. _django-guardian: https://django-guardian.readthedocs.io/
+.. _django-compressor: https://django-compressor.readthedocs.io/
+.. _django-webpack-loader: https://github.com/ezhome/django-webpack-loader
+.. _django-extensions: https://django-extensions.readthedocs.io/
+.. _django-debug-toolbar: https://django-debug-toolbar.readthedocs.io/
 
 Flask
 =====
@@ -107,6 +114,38 @@ carte.
 
 It's often paired with SQLAlchemy. You can also use Peewee ORM.
 
+Popular Flask extensions include:
+
+- REST: `flask-restful`_ (`flask-restful-swagger`_)
+- Admins: `Flask-Admin`_ `Flask-SuperAdmin`_
+- Auth: `flask-login`_, `flask-security`_
+
+.. _flask-restful: https://flask-restful.readthedocs.io/
+.. _flask-restful-swagger: https://github.com/rantav/flask-restful-swagger
+.. _Flask-Admin: https://github.com/flask-admin/flask-admin
+.. _Flask-SuperAdmin: https://github.com/SyrusAkbary/Flask-SuperAdmin
+.. _flask-login: https://flask-login.readthedocs.io/
+.. _flask-security: https://flask-security.readthedocs.io
+
+Further python dependencies you'll pull in, not necessarily dependent on
+Flask:
+
+- Social authentication: `authomatic`_, `python-social-auth`_
+- Forms: `WTForms`_
+- RDBMS: `SQLAlchemy`_, `peewee`_
+- Mongo: `MongoEngine`_
+
+For more, see `awesome-flask`_ on github.
+
+.. _python-social-auth: https://github.com/omab/python-social-auth
+.. _authomatic: https://github.com/authomatic/authomatic
+.. _WTForms: https://wtforms.readthedocs.io
+.. _MongoEngine: http://docs.mongoengine.org/
+.. _SQLAlchemy: https://sqlalchemy.org
+.. _peewee: http://docs.peewee-orm.com/
+
+.. _awesome-flask: https://github.com/humiaozuzu/awesome-flask
+
 Configuring Flask
 -----------------
 
@@ -128,6 +167,9 @@ else's REST API. Or for a quick web front-end to a purely python program you're
 making.
 
 You could end up generating a purely static website with no SQL backend `a la NPR`_.
+
+But it's most likely you'll be using SQLAlchemy. A common combination is
+to use it with `flask-sqlalchemy <http://http://flask-sqlalchemy.pocoo.org/>`_.
 
 .. _a la NPR: http://blog.apps.npr.org/2014/07/29/everything-our-app-template-does.html
 
