@@ -319,25 +319,40 @@ Preparation:
 
 - Understand how python `virtual environments`_ (see `Real Python
   <https://realpython.com/blog/python/python-virtual-environments-a-primer/>`_'s
-  tutorial) and PATH's work. This is an absolute must.
-- Read Django's documentation, `get the PDF
-  <https://media.readthedocs.org/pdf/django/latest/django.pdf>`_. Read Flask's
-  documentation, `get the PDF
+  tutorial) and PATH's work. This is an absolute must. Also, check out my
+  book *The Tao of tmux* `available online free
+  <https://leanpub.com/the-tao-of-tmux/read>`_ for some good coverage of
+  the terminal.
+- Grab Django's documentation `PDF
+  <https://media.readthedocs.org/pdf/django/latest/django.pdf>`_ and Flask's
+  documentation, `PDF
   <http://flask.pocoo.org/docs/dev/.latex/Flask.pdf>`_. Read it on a tablet.
+- In your spare time, get in the habbit of reading python docs on
+  ReadTheDocs.org (a documentation hosting website) and 
+
+Developing:
+
 - Make a hobby website in django or flask. Try hosting it on something
   like `Heroku`_, which is free and has simple deployments. Also,
   DigitalOcean plans `start at $5/mo <https://m.do.co/c/a8d3c8586c91>`_.
 - Bookmark and study to this article to get the latest on differences
   between Django and Flask. While it's a comparison, it'll be helpful in
   curating the API and extension universe they have.
+- For free editors, check out good old `vim`_ + `python-mode`_, `Visual Studio 
+  Code`_, `Atom`_, or `PyCharm`_
 
 .. _Heroku: https://www.heroku.com/
 .. _virtual environments: https://python-guide.readthedocs.io/en/latest/dev/virtualenvs/
+.. _python-mode: https://github.com/python-mode/python-mode
+.. _vim: http://www.vim.org
+.. _Visual Studio Code: https://code.visualstudio.com/
+.. _Atom: https://atom.io/
+.. _PyCharm: https://www.jetbrains.com/pycharm/
 
 Hire me
 =======
 
-Looking to hire a Flask or Django developer remote? Send me an email, tony
+Looking to hire a Flask or Django developer remote? Teacher? Send me an email, tony
 at git-pull.com.
 
 Like my stuff? :ref:`Your support is appreciated! <support>`
