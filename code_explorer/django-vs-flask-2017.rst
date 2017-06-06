@@ -6,16 +6,11 @@ Django vs Flask: 2017 Edition
 Which is better
 ===============
 
-I have used both extensively and have want to want to save technical decision
-makers time.
+I consider myself a strong Django and Flask developer. Having used both
+extensively, I want to offer information and insight for technical decision
+makers.
 
-Since this is 2017, I had to grab the latest Flask to refresh my memory
-and see what's changed. But let's keep this going every year.
-
-TLDR
-====
-
-Use Django.
+I'd pick Django 9/10 times.
 
 B-b-but-what? Keep reading. I'll cover both extensively. And I'm not
 saying Flask is bad, but you'll miss the things a full fledge framework provides
@@ -23,9 +18,6 @@ for you. Django's extension community is more active. Django's ORM, while
 different than SQLAlchemy (which is often paired with Flask), is superb. You're
 going to end up reinventing the wheel to catch up for things that'd otherwise be
 quick wins with Django.
-
-As of 2017, I am partial to using Django. In the past, I was intensely
-devoted to Flask and SQLAlchemy due to its API documentation and pythonics.
 
 Django
 ======
@@ -83,6 +75,7 @@ Popular Django extensions include:
 - Asset pipelines: `django-compressor`_, `django-webpack-loader`_
 - Debugging, Miscellaneous: `django-extensions`_, `django-debug-toolbar`_
 
+.. _Flask-SQLAlchemy: http://flask-sqlalchemy.pocoo.org/
 .. _Django REST Framework: http://www.django-rest-framework.org/
 .. _django-guardian: https://django-guardian.readthedocs.io/
 .. _django-compressor: https://django-compressor.readthedocs.io/
@@ -112,10 +105,9 @@ Since Flask doesn't include things like an ORM, authentication and access
 control, it's up to the user to include libraries to handle those a la
 carte.
 
-It's often paired with SQLAlchemy. You can also use Peewee ORM.
-
 Popular Flask extensions include:
 
+- Database: `Flask-SQLAlchemy`_
 - REST: `flask-restful`_ (`flask-restful-swagger`_)
 - Admins: `Flask-Admin`_ `Flask-SuperAdmin`_
 - Auth: `flask-login`_, `flask-security`_
@@ -169,12 +161,16 @@ making.
 You could end up generating a purely static website with no SQL backend `a la NPR`_.
 
 But it's most likely you'll be using SQLAlchemy. A common combination is
-to use it with `flask-sqlalchemy <http://http://flask-sqlalchemy.pocoo.org/>`_.
+to use it with `Flask-SQLAlchemy`_.
 
 .. _a la NPR: http://blog.apps.npr.org/2014/07/29/everything-our-app-template-does.html
 
 Interpretations
 ===============
+
+Software development is a trade driven by best practices that form over time.
+Decisions should be made by people who understand the in's and out's of their
+product or service's needs.
 
 Flask is pure, but you'll always be missing something
 -----------------------------------------------------
@@ -182,6 +178,52 @@ Flask is pure, but you'll always be missing something
 The one thing that strikes me about Flask is it's really meant to stay out
 of your way. The API is, much like this website, documented in sphinx,
 it's straight-forward and puts code first.
+
+I feel it almost puts the the job of getting a product shipped secondary.
+It's *too* utilitarian, *too* much of a swiss-army knife.
+
+Over 10 years, the web hasn't changed that fundamentally that Rails and
+Django broke. On the contrary, they thrived since at the end of the day,
+you're just serving up JSON, HTML, CSS and JS assets. Flask will get you
+that far.
+
+What about authentication?
+
+Well you have no way to store the users. So you grab SQLAlchemy, peewee,
+or MongoEngine. There's your database back-end.
+
+Now you have to build your own user schema. Do you want to use email's as
+username? What about your password hashing? Maybe Flask-Security or
+Flask-Login will do here. OK, fair enough.
+
+Meanwhile, `Django would have
+<https://docs.djangoproject.com/en/1.11/topics/auth/default/>`_ the ORM, User
+Model, authentication decorators for views, *and* :class:`login forms <django:django.contrib.auth.views.LoginView>`,
+with database-backed validation. And it's pluggable and templated.
+
+OK, what about JSON and REST?
+
+Well if it involves a database backend, you have to cover that.
+
+Here's where is gets hairy. You don't really have a *de facto* python
+object for database results, like Django's ``QuerySet``. So, you're not
+going to have easy database backed validations in PUT and POST.
+
+If you don't have an authentication system, it's also trickier to create
+an OAuth like token system to grant time-block'd permissions to slices of
+your data you want to make available. Stuff I'd get for free with
+django-rest-framework's django-guardian integration, in many cases aren't
+covered by the contrib community at all, and you're left to StackOverflow,
+aka programming your own solution. Taking time away from you.
+
+It's also rather error-prone to program your own replacements to these
+things. You don't have the benefit over thousands of others relying on the
+library in production to report back if there's unexpected behavior. The
+refinment from it being around for years. You'll have those customer-losing bugs
+where something breaks and it isn't until months later you get that `Intercom`_
+message that something's broke.
+
+.. _Intercom: https://www.intercom.com/
 
 Django is comprehensive, solid, active, customizable, and robust
 ----------------------------------------------------------------
@@ -289,8 +331,14 @@ I promise to update.
 Conclusion
 ==========
 
+So we've covered Flask and Django, their philosophies, their API's,
+juxtaposed against how it worked for me in practice. Some links to
+specific API's across a few python libraries, documentation sections, and
+project homepages should prove fruitful in this being a resource you can
+come back to.
+
 I think Flask is great for a quick web app, particularly for a python
-script you just want a front-end for.
+script you just want a front-end for. 
 
 If you already are using SQLAlchemy models, you can get them working with
 your Flask application with little work. With Flask, you feel in control.
@@ -311,6 +359,22 @@ release in Flask's ecosystem.
 
 And if things change. I look forward to it. Despite Flask's success, and missing
 out on Django's synergy, it is still a mighty, mighty microframework.
+
+Bonus: Cookiecutter template for Flask projects
+-----------------------------------------------
+
+Since I still use Flask. I maintain a `cookiecutter <https://cookiecutter.readthedocs.io>`_
+`template project for it <https://github.com/tony/cookiecutter-flask-pythonic>`_.
+Feel free to use it as a sample project. In terminal:
+
+.. code-block:: sh
+
+   pip install --user cookiecutter
+   cookiecutter https://github.com/tony/cookiecutter-flask-pythonic.git
+   cd ./path-to-project
+   virtualenv .env && . .env/bin/activate
+   pip install -r requirements.txt
+   ./manage.py
 
 Bonus: How do I learn Django or Flask?
 --------------------------------------
