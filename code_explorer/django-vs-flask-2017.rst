@@ -63,9 +63,9 @@ What Django provides
 - :doc:`Settings <django:topics/settings>`, configurable via ``DJANGO_SETTINGS_MODULE``
 - :doc:`Command system <django:ref/django-admin>`
 
-  - :doc:`Custom commands <django:howto/custom-management-commands>`
   - Shell with automatic integration of `bpython`_ and `ipython`_, if detected
   - Launch DB command-line client (psql, mysql, sqlite3, sqlplus) based on engine configuration in settings.
+  - :doc:`Custom commands <django:howto/custom-management-commands>`
 - :doc:`Static file support <django:howto/static-files/index>`
 
 .. _bpython: https://bpython-interpreter.org/
@@ -95,6 +95,81 @@ Popular Django extensions include:
 .. _django-debug-toolbar: https://django-debug-toolbar.readthedocs.io/
 .. _django-filter: https://django-filter.readthedocs.io/
 .. _django-tables2: https://django-tables2.readthedocs.io/
+
+Customizing Django
+------------------
+
+Eventually the included forms, fields and class-based views included in
+Django aren't going to be enough. 
+
+The fear of framework dependencies
+----------------------------------
+
+There's a well-advised stigma pre-fabricated solutions don't work in the
+long term.
+
+Many buy commercial HTML/CSS themes just to throw them away it doesn't work with
+your setup. Then the real beauty of the template is gone. Others rely on CMS and
+forum software and aren't able to convey data how they wish, so they're stuff
+with whatever prefabricated systems exist.
+
+Django is not a CMS. The aspects django occupies are:
+
+- mapping your data out via objects (ORM models)
+- presenting the data (templates)
+- configure access to them (settings) and an environment variables
+  (``DJANGO_SETTINGS_MODULE``)
+  
+A tool kit of web abstractions that solve proven, repeated problems in the trade.
+
+Rather than being Django's achille heel, Django's saving grace is django's
+defaults being highly granular and customizable.
+
+This is where, in my opinion, Django gets most brilliant, and the nature of the
+python language shines.
+
+Django uses classes right
+"""""""""""""""""""""""""
+
+While python isn't statically typed, its inheritance hierarchy is very
+straight-forward and navigable.
+
+.. seealso::
+  
+    Free tools in the community such as `jedi`_ provide navigation of modules,
+    functions and classes to editors like vim and atom.
+
+Used incorrectly, :python:ref:`tut-classes` makes code harder to read and
+maintain. Needless abstraction sucks the air out of projects.
+
+By contrast, when used pragmatically, they're a pleasure to implement downstream
+and reuse. Notably, Django's :doc:`django:topics/class-based-views/index` which
+shipped in :doc:`Django 1.3 <django:releases/1.3>`.
+
+
+Retrofit the batteries
+""""""""""""""""""""""
+
+Re
+
+.. _jedi: http://jedi.readthedocs.io/
+
+Configuring Django
+------------------
+
+``DJANGO_SETTINGS_MODULE`` maps a string to a module in your current
+environment's python packages.
+
+.. warning:: Understand virtualenvs or fail
+   
+   When developing: if you're not sourced in a virtual enviroment in a shell, your
+   settings module (and probably the django module itself) won't be found.
+   
+   When deploying: not including your site-packages in your uwsgi
+   configuration, you also won't find django or your settings.
+
+   This is the single biggest learning barrier python has. It will hinder you
+   every step of the way until you wrap your brain around it.
 
 Flask
 =====
