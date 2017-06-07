@@ -21,7 +21,7 @@ copyright = u'2013 - 2017, Tony Narlock'  # NOQA
 version = '0.0'
 release = '0.0'
 
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', '.venv']
 
 pygments_style = 'sphinx'
 
