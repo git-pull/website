@@ -171,6 +171,24 @@ environment's python packages.
    This is the single biggest learning barrier python has. It will hinder you
    every step of the way until you wrap your brain around it.
 
+Django's intialization
+----------------------
+
+1. Django checks for your ``DJANGO_SETTINGS_MODULE`` and parses the file
+
+   This is where all your database, installed applications and other stuff
+   comes from.
+
+   Even if you're not using the server and just using addons, Django needs
+   this to display available commands via ``./manage.py``.
+
+   If settings module is found and correct. Move to next step.
+
+2. Load apps and their models
+
+3. Run verification checks against models to :doc:`assure nothing's broken
+   <django:ref/checks>` (since :doc:`Django 1.7 <django:releases/1.7>`)
+
 Flask
 =====
 
