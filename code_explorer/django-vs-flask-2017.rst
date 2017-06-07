@@ -115,10 +115,13 @@ with whatever prefabricated systems exist.
 
 Django is not a CMS. The aspects django occupies are:
 
-- mapping your data out via objects (ORM models)
-- presenting the data (templates)
-- configure access to them (settings) and an environment variables
-  (``DJANGO_SETTINGS_MODULE``)
+- mapping data out via objects (ORM models)
+- presenting data (templates)
+- mapping patterns of URL regular expressions (urls.py) to business logic
+  (views)
+- making request (GET, PUT, session stuff) information accessible 
+- environmental configuration (settings) and an environment variables
+  (``DJANGO_SETTINGS_MODULE``) e.g. dev, staging, prod workflows
   
 A tool kit of web abstractions that solve proven, repeated problems in the trade.
 
