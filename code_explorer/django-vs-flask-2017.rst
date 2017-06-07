@@ -500,8 +500,8 @@ Preparation:
   <https://media.readthedocs.org/pdf/django/latest/django.pdf>`_ and `Flask's
   documentation PDF <http://flask.pocoo.org/docs/dev/.latex/Flask.pdf>`_. Read
   it on a smart phone or keep it open in a PDF reader.
-- In your spare time, get in the habbit of reading python docs on
-  ReadTheDocs.org (a documentation hosting website) and 
+- In your spare time, get in the habit of reading python docs on
+  ReadTheDocs.org (a documentation hosting website)
 
 Developing:
 
