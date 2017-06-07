@@ -125,11 +125,10 @@ Django is not a CMS. The aspects django occupies are:
   
 A tool kit of web abstractions that solve proven, repeated problems in the trade.
 
-Rather than being Django's achille heel, Django's saving grace is django's
-defaults being highly granular and customizable.
+Rather than being Django's achille heel, Django's saving grace is the
+standard building blocks being ammenable to highly granular changes.
 
-This is where, in my opinion, Django gets most brilliant, and the nature of the
-python language shines.
+It's also where Django's programming language, python, gives a big boost.
 
 Django uses classes right
 """""""""""""""""""""""""
@@ -497,10 +496,10 @@ Preparation:
   book *The Tao of tmux* `available online free
   <https://leanpub.com/the-tao-of-tmux/read>`_ for some good coverage of
   the terminal.
-- Grab Django's documentation `PDF
-  <https://media.readthedocs.org/pdf/django/latest/django.pdf>`_ and Flask's
-  documentation, `PDF
-  <http://flask.pocoo.org/docs/dev/.latex/Flask.pdf>`_. Read it on a tablet.
+- Grab `Django's documentation PDF
+  <https://media.readthedocs.org/pdf/django/latest/django.pdf>`_ and `Flask's
+  documentation PDF <http://flask.pocoo.org/docs/dev/.latex/Flask.pdf>`_. Read
+  it on a smart phone or keep it open in a PDF reader.
 - In your spare time, get in the habbit of reading python docs on
   ReadTheDocs.org (a documentation hosting website) and 
 
