@@ -62,11 +62,10 @@ What Django provides
 - :doc:`Modularity via Apps <django:ref/applications>`
 - :doc:`Settings <django:topics/settings>`, configurable via ``DJANGO_SETTINGS_MODULE``
 - :doc:`Command system <django:ref/django-admin>`
+
   - :doc:`Custom commands <django:howto/custom-management-commands>`
-  - Shell with automatic integration of `bpython`_ and
-    `ipython`_, if detected
-  - Helper command to automatically drop you into DB command-line client
-    (psql, mysql, sqlite3, sqlplus) based on your settings.
+  - Shell with automatic integration of `bpython`_ and `ipython`_, if detected
+  - Launch DB command-line client (psql, mysql, sqlite3, sqlplus) based on engine configuration in settings.
 - :doc:`Static file support <django:howto/static-files/index>`
 
 .. _bpython: https://bpython-interpreter.org/
