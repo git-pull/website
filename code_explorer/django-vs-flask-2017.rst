@@ -30,36 +30,40 @@ What Django provides
 
 - :doc:`Template Engine <django:ref/templates/index>`
 
-  - Filters
-  - Tags
-  - Context preprocessor middleware (global, per-request :py:class:`dict` passed
-    into templates)
-- ORM
+  - :django:ref:`Filters <filters>`
+  - :django:ref:`Tags <tags>`
+  - :django:ref:`Context preprocessor middleware <subclassing-context-requestcontext>`
+    (global, per-request :py:class:`dict` passed into templates)
+- :doc:`ORM <django:topics/db/models>`
 
   - :class:`~django:django.db.models.query.QuerySet` (reuseable object used in ORM-backed features)
-  - Migrations
-  - Raw Queries
-- Forms
+  - :doc:`Migrations <django:topics/migrations>`
+  - :doc:`Raw Queries <django:topics/db/sql>`
+- :doc:`Forms <django:topics/forms/index>`
 
-  - Fields
-  - Widgets
-  - ModelForm (ORM-backed forms)
-- Views
+  - :doc:`Fields <django:ref/forms/fields>`
+  - :doc:`Widgets <django:ref/forms/widgets>`
+  - :doc:`Forms <django:topics/forms/modelforms>` (ORM-backed forms)
+- :doc:`Views <django:topics/http/views>`
 
-  - Class-based views
+  - :doc:`Class-based views <django:topics/class-based-views/index>`
 
-    - DetailView, ListView (ORM-backed views)
-- URL routing
-- Administration web interface (ORM-backed CRUD backend)
-- Authentication
+    - :class:`~django:django.views.generic.detail.DetailView`,
+      :class:`~django:django.views.generic.list.ListView` (ORM-backed views)
+- :doc:`URL routing <django:topics/http/urls>`
+- :doc:`Administration web interface <django:ref/contrib/admin/index>`
+  (ORM-backed CRUD backend)
+- :doc:`Authentication <django:topics/auth>`
 
-  - User model
-  - Basic permission systems
-- Caching
-- Modularity via Apps
-- Settings, configurable via ``DJANGO_SETTINGS_MODULE``
-- Command system
-- Shell
+  - :class:`~django:django.contrib.auth.models.User` model
+  - :django:ref:`Basic permission systems <topic-authorization>`
+- :doc:`Caching <topics/cache>`
+- :doc:`Multi-tenancy <django:ref/contrib/sites>` via domain
+- :doc:`Modularity via Apps <django:ref/applications>`
+- :doc:`Settings <django:topics/settings>`, configurable via ``DJANGO_SETTINGS_MODULE``
+- :doc:`Command system <django:ref/django-admin>`
+  - :doc:`Custom commands <django:howto/custom-management-commands>`
+- :django:ref:`Shell <shell>`
 - Static file support
 
 Extending Django
