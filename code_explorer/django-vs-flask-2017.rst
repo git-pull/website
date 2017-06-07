@@ -28,7 +28,7 @@ release was July 21, 2005, by Lawrence Journal-World.
 What Django provides
 --------------------
 
-- :django:ref:`Template Engine <templates>`
+- :doc:`Template Engine <django:ref/templates/index>`
 
   - Filters
   - Tags
@@ -36,7 +36,7 @@ What Django provides
     into templates)
 - ORM
 
-  - QuerySet (reuseable object used in ORM-backed features)
+  - :class:`~django:django.db.models.query.QuerySet` (reuseable object used in ORM-backed features)
   - Migrations
   - Raw Queries
 - Forms
@@ -74,6 +74,8 @@ Popular Django extensions include:
 - Permissions: `django-guardian`_
 - Asset pipelines: `django-compressor`_, `django-webpack-loader`_
 - Debugging, Miscellaneous: `django-extensions`_, `django-debug-toolbar`_
+- Filtering / Search: `django-filter`_
+- Tabular / paginated output of db: `django-tables2`_
 
 .. _Flask-SQLAlchemy: http://flask-sqlalchemy.pocoo.org/
 .. _Django REST Framework: http://www.django-rest-framework.org/
@@ -82,6 +84,8 @@ Popular Django extensions include:
 .. _django-webpack-loader: https://github.com/ezhome/django-webpack-loader
 .. _django-extensions: https://django-extensions.readthedocs.io/
 .. _django-debug-toolbar: https://django-debug-toolbar.readthedocs.io/
+.. _django-filter: https://django-filter.readthedocs.io/
+.. _django-tables2: https://django-tables2.readthedocs.io/
 
 Flask
 =====
@@ -212,9 +216,10 @@ going to have easy database backed validations in PUT and POST.
 If you don't have an authentication system, it's also trickier to create
 an OAuth like token system to grant time-block'd permissions to slices of
 your data you want to make available. Stuff I'd get for free with
-django-rest-framework's django-guardian integration, in many cases aren't
-covered by the contrib community at all, and you're left to StackOverflow,
-aka programming your own solution. Taking time away from you.
+`django-rest-framework's django-guardian integration
+<http://www.django-rest-framework.org/api-guide/permissions/#djangoobjectpermissions>`_,
+in many cases aren't covered by the contrib community at all, and you're left to
+StackOverflow, aka programming your own solution. Taking time away from you.
 
 It's also rather error-prone to program your own replacements to these
 things. You don't have the benefit over thousands of others relying on the
