@@ -53,7 +53,7 @@ What Django provides
 - :doc:`URL routing <django:topics/http/urls>`
 - :doc:`Administration web interface <django:ref/contrib/admin/index>`
   (ORM-backed CRUD backend)
-- :doc:`Authentication <django:topics/auth>`
+- :doc:`Authentication <django:topics/auth/index>`
 
   - :class:`~django:django.contrib.auth.models.User` model
   - :django:ref:`Basic permission systems <topic-authorization>`
@@ -63,8 +63,14 @@ What Django provides
 - :doc:`Settings <django:topics/settings>`, configurable via ``DJANGO_SETTINGS_MODULE``
 - :doc:`Command system <django:ref/django-admin>`
   - :doc:`Custom commands <django:howto/custom-management-commands>`
-- :django:ref:`Shell <shell>`
-- Static file support
+  - Shell with automatic integration of `bpython`_ and
+    `ipython`_, if detected
+  - Helper command to automatically drop you into DB command-line client
+    (psql, mysql, sqlite3, sqlplus) based on your settings.
+- :doc:`Static file support <django:howto/static-files/index>`
+
+.. _bpython: https://bpython-interpreter.org/
+.. _ipython: https://ipython.org/
 
 Extending Django
 ----------------
