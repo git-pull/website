@@ -3,8 +3,8 @@
 =============================
 Django vs Flask: 2017 Edition
 =============================
-A practioner's perspective
-==========================
+A practitioner's perspective
+============================
 
 This subject of this analysis is 2 python frameworks, Flask and Django,
 their features, and how their technical philosophies impact software
