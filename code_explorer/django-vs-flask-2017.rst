@@ -291,8 +291,8 @@ Configuring Django
 ``DJANGO_SETTINGS_MODULE`` maps a string to a module in your current
 environment's python packages.
 
-.. warning:: Understand virtualenvs or fail
-   
+.. warning::
+  
    When developing: if you're not sourced in a virtual enviroment in a shell, your
    settings module (and probably the django module itself) won't be found.
    
