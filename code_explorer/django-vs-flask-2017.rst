@@ -122,12 +122,13 @@ with whatever prefabricated systems exist.
 
 Django is not a CMS. The aspects django occupies are:
 
-- mapping :doc:`database schemas <django:topics/db/models>`, :doc:`querying them <django:topics/db/managers>`,
+- mapping :doc:`database schemas <django:topics/db/models>`, :doc:`querying them <django:topics/db/queries>`,
   and :django:ref:`providing the results <django:retrieving-objects>` via objects
 - mapping :doc:`URL patterns <django:topics/http/urls>` to :doc:`views
   <django:topics/http/views>` containing business logic
 - providing :doc:`request information <django:ref/request-response>` such as
-  GET, PUT, and session stuff to views (:class:`~django:django.http.HttpRequest`)
+  GET, PUT, and :django:ref:`session stuff to views <django:using-sessions-in-views>`
+  (:class:`~django:django.http.HttpRequest`)
 - presenting data, including HTML :doc:`templates <django:topics/templates>` and
   :django:ref:`django:serialization-formats-json` (:class:`~django:django.http.HttpResponse`)
 - :doc:`environmental configuration <django:topics/settings>` (settings) and an
