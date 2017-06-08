@@ -167,12 +167,85 @@ which shipped in :doc:`Django 1.3 <django:releases/1.3>`.
     HTTP requests and responses, as well as SQL dialects in a class
     hierarchy.
 
+    See my answer on HN for *Ask HN: How often do you use inheritance?*:
+    https://news.ycombinator.com/item?id=14329256
+
+Stretching the batteries
+""""""""""""""""""""""""
+
+Django isn't hiding your ability to articulate what you want. But it's
+there to help you. Not get in your way. Allow me the oppurtunity to dispel
+FUD.
+
+Let's try a few examples of how we can flex Django.
+
+**Scenario 1:** Displaying a user profile on a website.
+
+URL pattern is ``r"^profile/(?P<pk>\d+)/$"``, e.g. ``/profile/1``
+
+Let's begin by using the simplest view possible, and map directly to a
+function::
+
+    from django.http import HttpResponse
+    from django.contrib.auth import get_user_model
+
+    def user_profile(request, **kwargs):
+        User = get_user_model()
+        User.objects.get(kwargs['pk'])
+        html = "<html><body>Full Name: %s.</body></html>" % user.get_full_name()
+        return HttpResponse(html)
+
+Grab the user model via :meth:`~django:django.contrib.auth.get_user_model`
+
+**Bring in a high-level view:**
+
+Django has an opinionated flow and a shortcut for this. By using the named
+regular expression group *pk*, there is a class that will automatically
+return an object for that key.
+
+So, it looks like a :class:`~django:django.views.generic.detail.DetailView` is
+best suited. We only want to get information on one core object.
+
+Easy enough, :meth:`~django:django.views.generic.detail.SingleObjectMixin.get_object`'s
+default behavior grabs the PK. 
+
+.. note::
+
+    Nothing's forcing you to use a :class:`~django:django.views.generic.detail.DetailView`.
+
+    You could use a plain-old :class:`~django.views.generic.base.View`. Or
+    a :class:`~django.views.generic.base.TemplateView` if you have an HTML
+    template.
+    
+    As seen above, you can also use a :doc:`function <django:topics/http/views>`.
+    When a function is mapped to a URL and subsequent request, a :class:`~django:django.http.HttpRequest`
+    is passed as a ``request``.
+    
+    These creature comforts were put into Django because they represent
+    bread and butter cases. It makes additional sense when factoring in
+    `REST <https://en.wikipedia.org/wiki/Representational_state_transfer>`_.
+
+**Harder:** Getting the user by a username
+
+But that was
+
+**Make it trickier:** User's logged in profile
+
+URL pattern ``r"^profile/$"``, e.g. ``/profile``.
+
+Same data as above, but we don't have a primary key for an easy lookup.
+but if user is in a
+session, we need to pull their authentication info to get that profile.
+
+This means we need information from the user's request and their session
+to use in a query.
+
+.. _jedi: http://jedi.readthedocs.io/
+
 Retrofit the batteries
 """"""""""""""""""""""
 
-Re
-
-.. _jedi: http://jedi.readthedocs.io/
+a
 
 Configuring Django
 ------------------
