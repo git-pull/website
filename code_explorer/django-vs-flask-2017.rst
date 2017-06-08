@@ -184,7 +184,7 @@ Let's try a few examples of how we can flex Django.
 URL pattern is ``r"^profile/(?P<pk>\d+)/$"``, e.g. ``/profile/1``
 
 Let's begin by using the simplest view possible, and map directly to a
-function, grab the user model via :meth:`~django:django.contrib.auth.get_user_model`::
+function, grab the user model via :func:`~django:django.contrib.auth.get_user_model`::
 
     from django.contrib.auth import get_user_model
     from django.http import HttpResponse
