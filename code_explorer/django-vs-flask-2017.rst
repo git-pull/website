@@ -3,21 +3,28 @@
 =============================
 Django vs Flask: 2017 Edition
 =============================
-Which is better
-===============
+From a practioner's perspective
+===============================
 
-I consider myself a strong Django and Flask developer. Having used both
-extensively, I want to offer information and insight for technical decision
-makers.
+This subject of this analysis is 2 python frameworks, Flask and Django,
+their features, and how their technical philosophies impact software
+developers. It is based on my experience using both, as well as time spent
+personally admiring both codebases.
 
-I'd pick Django 9/10 times.
+Synopsis
+========
 
-B-b-but-what? Keep reading. I'll cover both extensively. And I'm not
-saying Flask is bad, but you'll miss the things a full fledge framework provides
-for you. Django's extension community is more active. Django's ORM, while
-different than SQLAlchemy (which is often paired with Flask), is superb. You're
-going to end up reinventing the wheel to catch up for things that'd otherwise be
+Django is best suited for RDBMS-backed websites. Flask is good for corner cases
+where you wouldn't benefit from Django's deep intergration with RDBMS.
+
+When I use Flask, I miss the comforts a full-fledge framework provides. Django's
+extension community is more active. Django's ORM is superb. Flask developers
+will be forced to reinvent the wheel to catch up for things that'd otherwise be
 quick wins with Django.
+
+Where both excel is prototyping. Getting an idea off the ground fast, and
+giving you the ability to chisel away fine-grain details after. Python
+makes both a joy to work with. 
 
 Django
 ======
