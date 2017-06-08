@@ -156,10 +156,16 @@ straight-forward and navigable.
 Used incorrectly, :python:ref:`classes <tut-classes>` makes code harder to read
 and maintain. Needless abstraction sucks the air out of projects.
 
-By contrast, when used pragmatically, they're a pleasure to implement downstream
-and reuse. Notably, Django's :doc:`class-based views <django:topics/class-based-views/index>`
+On the other hand, used pragmatically, they're a pleasure to use as a building
+block downstream. Namely, Django's :doc:`class-based views <django:topics/class-based-views/index>`
 which shipped in :doc:`Django 1.3 <django:releases/1.3>`.
 
+.. seealso::
+
+    For those seeking a good example of OOP in Python, in addition to
+    class-based views, Django is a sweeping resource. It abstracts out
+    HTTP requests and responses, as well as SQL dialects in a class
+    hierarchy.
 
 Retrofit the batteries
 """"""""""""""""""""""
