@@ -191,7 +191,7 @@ function::
 
     def user_profile(request, **kwargs):
         User = get_user_model()
-        User.objects.get(kwargs['pk'])
+        user = User.objects.get(pk=kwargs['pk'])
         html = "<html><body>Full Name: %s.</body></html>" % user.get_full_name()
         return HttpResponse(html)
 
