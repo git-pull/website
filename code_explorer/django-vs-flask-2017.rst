@@ -122,13 +122,17 @@ with whatever prefabricated systems exist.
 
 Django is not a CMS. The aspects django occupies are:
 
-- mapping data out via objects (ORM models)
-- presenting data (templates)
-- mapping patterns of URL regular expressions (urls.py) to business logic
-  (views)
-- making request (GET, PUT, session stuff) information accessible 
-- environmental configuration (settings) and an environment variables
-  (``DJANGO_SETTINGS_MODULE``) e.g. dev, staging, prod workflows
+- mapping :doc:`database schemas <django:topics/db/models>`, :doc:`querying them <django:topics/db/managers>`,
+  and :django:ref:`providing the results <django:retrieving-objects>` via objects
+- mapping :doc:`URL patterns <django:topics/http/urls>` to :doc:`views
+  <django:topics/http/views>` containing business logic
+- providing :doc:`request information <django:ref/request-response>` such as
+  GET, PUT, and session stuff to views (:class:`~django:django.http.HttpRequest`)
+- presenting data, including HTML :doc:`templates <django:topics/templates>` and
+  :django:ref:`django:serialization-formats-json` (:class:`~django:django.http.HttpResponse`)
+- :doc:`environmental configuration <django:topics/settings>` (settings) and an
+  environment variables (``DJANGO_SETTINGS_MODULE``) e.g. dev, staging, prod
+  workflows
   
 A tool kit of web abstractions that solve proven, repeated problems in the trade.
 
@@ -148,12 +152,12 @@ straight-forward and navigable.
     Free tools in the community such as `jedi`_ provide navigation of modules,
     functions and classes to editors like vim and atom.
 
-Used incorrectly, :python:ref:`tut-classes` makes code harder to read and
-maintain. Needless abstraction sucks the air out of projects.
+Used incorrectly, :python:ref:`classes <tut-classes>` makes code harder to read
+and maintain. Needless abstraction sucks the air out of projects.
 
 By contrast, when used pragmatically, they're a pleasure to implement downstream
-and reuse. Notably, Django's :doc:`django:topics/class-based-views/index` which
-shipped in :doc:`Django 1.3 <django:releases/1.3>`.
+and reuse. Notably, Django's :doc:`class-based views <django:topics/class-based-views/index>`
+which shipped in :doc:`Django 1.3 <django:releases/1.3>`.
 
 
 Retrofit the batteries
