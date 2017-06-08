@@ -247,6 +247,13 @@ Put the same HTML in it:
 
    <html><body>Full name: {{ object.get_full_name }}</body></html>
 
+You could also set your own template path via punching out
+:attr:`~django:django.views.generic.base.TemplateResponseMixin.template_name`
+in the view
+
+That works in any descendent of :class:`~django.views.generic.base.TemplateView`
+or class mixing in :class:`~django.views.generic.base.TemplateResponseMixin`.
+
 .. note::
 
     Nothing's forcing you to use a :class:`~django:django.views.generic.detail.DetailView`.
