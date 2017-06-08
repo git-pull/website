@@ -184,10 +184,10 @@ Let's try a few examples of how we can flex Django.
 URL pattern is ``r"^profile/(?P<pk>\d+)/$"``, e.g. ``/profile/1``
 
 Let's begin by using the simplest view possible, and map directly to a
-function::
+function, grab the user model via :meth:`~django:django.contrib.auth.get_user_model`::
 
-    from django.http import HttpResponse
     from django.contrib.auth import get_user_model
+    from django.http import HttpResponse
 
     def user_profile(request, **kwargs):
         User = get_user_model()
@@ -195,7 +195,14 @@ function::
         html = "<html><body>Full Name: %s.</body></html>" % user.get_full_name()
         return HttpResponse(html)
 
-Grab the user model via :meth:`~django:django.contrib.auth.get_user_model`
+``urls.py``::
+
+    from django.conf.urls import url
+    from .views import user_profile
+
+    urlpatterns = [
+      url(r'^profile/(?P<pk>\d+)/$', user_profile),
+    ]
 
 **Bring in a high-level view:**
 
@@ -207,7 +214,38 @@ So, it looks like a :class:`~django:django.views.generic.detail.DetailView` is
 best suited. We only want to get information on one core object.
 
 Easy enough, :meth:`~django:django.views.generic.detail.SingleObjectMixin.get_object`'s
-default behavior grabs the PK. 
+default behavior grabs the PK::
+
+    from django.contrib.auth import get_user_model
+    from django.views.generic.detail import DetailView
+
+    class UserProfile(DetailView):
+        model = get_user_model()
+
+``urls.py``::
+
+    from django.conf.urls import url
+    from .views import UserProfile
+
+    urlpatterns = [
+      url(r'^profile/(?P<pk>\d+)/$', UserProfile.as_view()),
+    ]
+
+Only difference from the pure function view is the :meth:`~django.views.generic.base.View.as_view`.
+
+You will get something like, *django.template.exceptions.TemplateDoesNotExist: core/myuser_detail.html*.
+The name of the file depends on the app name and model name. You need add
+an HTML template to a filename  :class:`~django:django.template.exceptions.TemplateDoesNotExist`
+your ``templates/`` directory.
+
+Example: Inside of *yourapp/templates/*, create a file for *core/myuser_detail.html*.
+So it'd be *yourapp/templates/core/myuser_detail.html*.
+
+Put the same HTML in it:
+
+.. code-block:: html
+
+   <html><body>Full name: {{ object.get_full_name }}</body></html>
 
 .. note::
 
