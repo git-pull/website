@@ -392,8 +392,8 @@ In your views, same template, as always::
             return self.request.user
 
 This overrides :meth:`~django:django.views.generic.detail.SingleObjectMixin.get_object`
-to pull the :class:`django:django.contrib.auth.models.User` right out of
-the request.
+to pull the :class:`~django:django.contrib.auth.models.User` right out of the
+request.
 
 .. _jedi: http://jedi.readthedocs.io/
 
