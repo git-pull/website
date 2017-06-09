@@ -109,18 +109,28 @@ Customizing Django
 Eventually the included forms, fields and class-based views included in
 Django aren't going to be enough. 
 
-The fear of framework dependencies
-----------------------------------
+Fear of prefabricated solutions
+-------------------------------
 
-There's a well-advised stigma pre-fabricated solutions don't work in the
+There's a well-advised stigma prefabricated solutions don't work in the
 long term.
 
-Many buy commercial HTML/CSS themes just to throw them away it doesn't work with
-your setup. Then the real beauty of the template is gone. Others rely on CMS and
-forum software and aren't able to convey data how they wish, so they're stuff
-with whatever prefabricated systems exist.
+It's an industry secret many who buy commercial themes ultimately aren't used
+by most. Despite their beauty, they're not configurable. By the time
+they throw out the poorly coded javascript, aesthetic polish of the template is
+lost. Newcomers still pick CMS and forum systems that can't do custom data well.
+Users become dependent on their plugins, which further don't deliver the
+results they want, so they give up. `Floor models <https://en.wikipedia.org/wiki/Floor_model>`_
+that fail to live up to expectations the moment developers want to use them.
 
-Django is not a CMS. The aspects django occupies are:
+It's funny how you never hear about the many people who pick out prefab tools.
+They often play around for a few weeks, or buy a $30 template then give up silently.
+
+To contrast, Django is not a CMS. There are also no themes in the sense of, for example,
+WordPress. There's no "installer" page. You start with a clean slate. The onus is
+on the developer to know what they're building before hand.
+
+Django is a framework. The aspects django occupies are:
 
 - mapping :doc:`database schemas <django:topics/db/models>`, :doc:`querying them <django:topics/db/queries>`,
   and :django:ref:`providing the results <django:retrieving-objects>` via objects
@@ -137,8 +147,13 @@ Django is not a CMS. The aspects django occupies are:
   
 A tool kit of web abstractions that solve proven, repeated problems in the trade.
 
-Rather than being Django's achille heel, Django's saving grace is the
-standard building blocks being ammenable to highly granular changes.
+If you can't visualize your web app in terms of its database schema, and feel
+WordPress or Drupal would suffice, Django may not be a good pick for that.
+
+Where a CMS will automatically provide a web admin to post content, toggle
+plugins and settings and even allow user registration and comments. Django
+provides conventions to build your own features and building blocks of code
+that are amenable to highly granular changes.
 
 It's also where Django's programming language, python, gives a big boost.
 
