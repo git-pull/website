@@ -364,14 +364,36 @@ and sweet.
 
 If a user is logged in, */profile* should take them to their user page.
 
-So a pattern of ``r"^profile/$"``.
+So a pattern of ``r"^profile/$"``::
 
-Same data as above, but we don't have a primary key for an easy lookup.
-but if user is in a
-session, we need to pull their authentication info to get that profile.
+    urlpatterns = [
+      url(r'^profile/$', UserProfile.as_view()),
+    ]
 
-This means we need information from the user's request and their session
-to use in a query.
+Since there's no way to pull up the user's ID from the URL, we need to pull their
+authentication info to get that profile.
+
+Django thought about that. Django can attach the user's information to the
+:class:`~django:django.http.HttpRequest` so the view can use it. Via
+:attr:`~django:django.http.HttpRequest.user`.
+
+In your :doc:`settings <django:topics/settings>`, add :class:`~django:django.contrib.auth.middleware.AuthenticationMiddleware`
+to ``MIDDLEWARE``::
+
+    MIDDLEWARE = [
+        # ... other middleware
+        'django.contrib.auth.middleware.AuthenticationMiddleware',
+    ]
+
+In your views, same template, as always::
+
+    class UserProfile(DetailView):
+        def get_object(self):
+            return self.request.user
+
+This overrides :meth:`~django:django.views.generic.detail.SingleObjectMixin.get_object`
+to pull the :class:`django:django.contrib.auth.models.User` right out of
+the request.
 
 .. _jedi: http://jedi.readthedocs.io/
 
