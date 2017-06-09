@@ -188,9 +188,8 @@ which shipped in :doc:`Django 1.3 <django:releases/1.3>`.
 Stretching the batteries
 """"""""""""""""""""""""
 
-Django isn't hiding your ability to articulate what you want. But it's
-there to help you. Not get in your way. Allow me the oppurtunity to dispel
-FUD.
+Django isn't preventing your ability to articulate what you want. It's there to
+help you. Not get in your way. Allow me the oppurtunity to dispel FUD.
 
 Let's try a few examples of how we can flex Django.
 
