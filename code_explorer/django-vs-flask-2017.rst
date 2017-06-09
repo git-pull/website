@@ -280,7 +280,7 @@ Even better, let's make the URL's based off the usernames,
 
     def user_profile(request, **kwargs):
         User = get_user_model()
-        user = User.objects.get(pk=kwargs['pk'])
+        user = User.objects.get(username=kwargs['username'])
         html = "<html><body>Full Name: %s.</body></html>" % user.get_full_name()
         return HttpResponse(html)
 
@@ -309,9 +309,9 @@ addition::
       url(r'^profile/(?P<slug>\w+)/$', UserProfile.as_view()),
     ]
 
-So here's a new "shortcut" ``DetailView`` provides. A *slug*. It's derived from
+Another "shortcut" ``DetailView`` provides; a *slug*. It's derived from
 :class:`~django:django.views.generic.detail.SingleObjectMixin`. Since the url
-pattern has a named group (i.e. ``(?P<slug>\w+)`` as opposed to ``(?P\w+)``.
+pattern has a named group, i.e. ``(?P<slug>\w+)`` as opposed to ``(?P\w+)``.
 
 But, let's say the named group "slug" doesn't convey enough meaning. We
 want to be accurate to what it is, a *username*::
