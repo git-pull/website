@@ -204,6 +204,23 @@ function, grab the user model via :func:`~django:django.contrib.auth.get_user_mo
       url(r'^profile/(?P<pk>\d+)/$', user_profile),
     ]
 
+So where does the ``request, **kwargs`` in ``user_profile`` come from?
+From django. When a user visits a page matching a pattern, it forwards the
+user's request and any URL group patterns to the view.
+
+1. :class:`~django:django.http.HttpRequest` is passed into the view as ``request``.
+
+2. Since the URL pattern, ``r'^profile/(?P<pk>\d+)/$'``, contains a named group,
+   ``pk``, that will be passed via :python:ref:`tut-keywordargs` ``**kwargs``.
+
+   If it was ``r'^profile/(\d+)/$'``, it'd be passed in as :func:`tuple`
+   argument into the ``*arg`` parameter.
+   
+   .. seealso::
+     
+       Learn :python:ref:`the difference between arguments and parameters
+       <faq-argument-vs-parameter>`.
+
 **Bring in a high-level view:**
 
 Django has an opinionated flow and a shortcut for this. By using the named
@@ -256,15 +273,13 @@ or class mixing in :class:`~django.views.generic.base.TemplateResponseMixin`.
 
 .. note::
 
-    Nothing's forcing you to use a :class:`~django:django.views.generic.detail.DetailView`.
+    Django doesn't require using :class:`~django:django.views.generic.detail.DetailView`.
 
     You could use a plain-old :class:`~django.views.generic.base.View`. Or
     a :class:`~django.views.generic.base.TemplateView` if you have an HTML
     template.
     
     As seen above, you can also use a :doc:`function <django:topics/http/views>`.
-    When a function is mapped to a URL and subsequent request, a :class:`~django:django.http.HttpRequest`
-    is passed as a ``request``.
     
     These creature comforts were put into Django because they represent
     bread and butter cases. It makes additional sense when factoring in
@@ -311,7 +326,7 @@ addition::
 
 Another "shortcut" ``DetailView`` provides; a *slug*. It's derived from
 :class:`~django:django.views.generic.detail.SingleObjectMixin`. Since the url
-pattern has a named group, i.e. ``(?P<slug>\w+)`` as opposed to ``(?P\w+)``.
+pattern has a named group, i.e. ``(?P<slug>\w+)`` as opposed to ``(\w+)``.
 
 But, let's say the named group "slug" doesn't convey enough meaning. We
 want to be accurate to what it is, a *username*::
