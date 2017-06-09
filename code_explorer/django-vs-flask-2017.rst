@@ -181,7 +181,7 @@ Let's try a few examples of how we can flex Django.
 
 **Scenario 1:** Displaying a user profile on a website.
 
-URL pattern is ``r"^profile/(?P<pk>\d+)/$"``, e.g. ``/profile/1``
+URL pattern is ``r"^profile/(?P<pk>\d+)/$"``, e.g. */profile/1*
 
 Let's begin by using the simplest view possible, and map directly to a
 function, grab the user model via :func:`~django:django.contrib.auth.get_user_model`::
@@ -195,7 +195,7 @@ function, grab the user model via :func:`~django:django.contrib.auth.get_user_mo
         html = "<html><body>Full Name: %s.</body></html>" % user.get_full_name()
         return HttpResponse(html)
 
-``urls.py``::
+*urls.py*::
 
     from django.conf.urls import url
     from .views import user_profile
@@ -207,7 +207,7 @@ function, grab the user model via :func:`~django:django.contrib.auth.get_user_mo
 **Bring in a high-level view:**
 
 Django has an opinionated flow and a shortcut for this. By using the named
-regular expression group *pk*, there is a class that will automatically
+regular expression group ``pk``, there is a class that will automatically
 return an object for that key.
 
 So, it looks like a :class:`~django:django.views.generic.detail.DetailView` is
@@ -222,7 +222,7 @@ default behavior grabs the PK::
     class UserProfile(DetailView):
         model = get_user_model()
 
-``urls.py``::
+*urls.py*::
 
     from django.conf.urls import url
     from .views import UserProfile
@@ -236,7 +236,7 @@ Only difference from the pure function view is the :meth:`~django.views.generic.
 You will get something like, *django.template.exceptions.TemplateDoesNotExist: core/myuser_detail.html*.
 The name of the file depends on the app name and model name. You need add
 an HTML template to a filename  :class:`~django:django.template.exceptions.TemplateDoesNotExist`
-your ``templates/`` directory.
+your *templates/* directory.
 
 Example: Inside of *yourapp/templates/*, create a file for *core/myuser_detail.html*.
 So it'd be *yourapp/templates/core/myuser_detail.html*.
@@ -272,11 +272,70 @@ or class mixing in :class:`~django.views.generic.base.TemplateResponseMixin`.
 
 **Harder:** Getting the user by a username
 
-But that was
+Even better, let's make the URL's based off the usernames,
+*/profile/yourusername*. In your views::
+
+    from django.contrib.auth import get_user_model
+    from django.http import HttpResponse
+
+    def user_profile(request, **kwargs):
+        User = get_user_model()
+        user = User.objects.get(pk=kwargs['pk'])
+        html = "<html><body>Full Name: %s.</body></html>" % user.get_full_name()
+        return HttpResponse(html)
+
+*urls.py*::
+
+    from django.conf.urls import url
+    from .views import user_profile
+
+    urlpatterns = [
+      url(r'^profile/(?P<pk>\w+)/$', user_profile),
+    ]
+
+Notice how we switched the regex to use ``\w`` for alphanumeric
+character and the underscore. Equivalent to ``[a-zA-Z0-9_]``.
+
+For the class-based view, the template stays the same. View has an
+addition::
+
+    class UserProfile(DetailView):
+        model = get_user_model()
+        slug_field = 'username'
+
+*urls.py*::
+
+    urlpatterns = [
+      url(r'^profile/(?P<slug>\w+)/$', UserProfile.as_view()),
+    ]
+
+So here's a new "shortcut" ``DetailView`` provides. A *slug*. It's derived from
+:class:`~django:django.views.generic.detail.SingleObjectMixin`. Since the url
+pattern has a named group (i.e. ``(?P<slug>\w+)`` as opposed to ``(?P\w+)``.
+
+But, let's say the named group "slug" doesn't convey enough meaning. We
+want to be accurate to what it is, a *username*::
+
+    urlpatterns = [
+      url(r'^profile/(?P<username>\w+)/$', UserProfile.as_view()),
+    ]
+
+We can specify a :attr:`~django:django.views.generic.detail.SingleObjectMixin.slug_url_kwarg`::
+
+    class UserProfile(DetailView):
+        model = get_user_model()
+        slug_field = 'username'
+        slug_kw_arg = 'username'
+
+So, is this an example of django *forcing* you to conform? No. But, web
+developers repeatedly used this pattern, so the view makes it available. Short
+and sweet.
 
 **Make it trickier:** User's logged in profile
 
-URL pattern ``r"^profile/$"``, e.g. ``/profile``.
+If a user is logged in, */profile* should take them to their user page.
+
+So a pattern of ``r"^profile/$"``.
 
 Same data as above, but we don't have a primary key for an easy lookup.
 but if user is in a
