@@ -396,7 +396,7 @@ to pull the :class:`~django:django.contrib.auth.models.User` right out of the
 request.
 
 This page only will work if logged in, so let's use
-:func:`django:django.contrib.auth.decorators.login_required`, in
+:func:`~django:django.contrib.auth.decorators.login_required`, in
 **urls.py**::
 
     from django.contrib.auth.decorators import login_required
