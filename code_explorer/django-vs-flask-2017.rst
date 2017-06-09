@@ -364,7 +364,7 @@ and sweet.
 
 If a user is logged in, */profile* should take them to their user page.
 
-So a pattern of ``r"^profile/$"``::
+So a pattern of ``r"^profile/$"``, in *urls.py*::
 
     urlpatterns = [
       url(r'^profile/$', UserProfile.as_view()),
@@ -395,12 +395,28 @@ This overrides :meth:`~django:django.views.generic.detail.SingleObjectMixin.get_
 to pull the :class:`~django:django.contrib.auth.models.User` right out of the
 request.
 
+This page only will work if logged in, so let's use
+:func:`django:django.contrib.auth.decorators.login_required`, in
+**urls.py**::
+
+    from django.contrib.auth.decorators import login_required
+
+    urlpatterns = [
+      url(r'^profile/$', login_required(UserProfile.as_view())),
+    ]
+
+That will assure only logged-in users can view the page. It will also send
+the user to a login form which forward them back to the page after login.
+
+**To conclude**, even with a high-level reuseable component, you can get
+quite a bit of use out of it, without any hacking.
+
 .. _jedi: http://jedi.readthedocs.io/
 
 Retrofit the batteries
 """"""""""""""""""""""
 
-a
+Sometimes you're going to be working with a 
 
 Configuring Django
 ------------------
