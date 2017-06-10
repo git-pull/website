@@ -17,10 +17,10 @@ Synopsis
 Django is best suited for RDBMS-backed websites. Flask is good for corner cases
 where you wouldn't benefit from Django's deep intergration with RDBMS.
 
-When I use Flask, I miss the comforts a full-fledge framework provides. Django's
-extension community is more active. Django's ORM is superb. Flask developers
-will be forced to reinvent the wheel to catch up for things that'd otherwise be
-quick wins with Django.
+When using Flask, it's easy to miss the comforts a full-fledge framework
+provides. Django's extension community is more active. Django's ORM is superb.
+Flask developers will be forced to reinvent the wheel to catch up for things
+that'd be quick wins with Django.
 
 Where both excel is prototyping. Getting an idea off the ground fast, and
 giving you the ability to chisel away fine-grain details after. Python
