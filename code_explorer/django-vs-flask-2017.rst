@@ -408,8 +408,8 @@ This page only will work if logged in, so let's use
 That will assure only logged-in users can view the page. It will also send
 the user to a login form which forward them back to the page after login.
 
-**To conclude**, even with a high-level reuseable component, you can get
-quite a bit of use out of it, without any hacking.
+Even with a high-level reuseable component, you can get quite a bit of use out
+of it, without any hacking.
 
 .. _jedi: http://jedi.readthedocs.io/
 
