@@ -132,8 +132,8 @@ on the developer to know what they're building before hand.
 
 Django is a framework. The aspects django occupies are:
 
-- mapping :doc:`database schemas <django:topics/db/models>`, :doc:`querying them <django:topics/db/queries>`,
-  and :django:ref:`providing the results <django:retrieving-objects>` via objects
+- mapping :doc:`database schemas <django:topics/db/models>`, :doc:`their queries <django:topics/db/queries>`,
+  and :django:ref:`query results <django:retrieving-objects>` to objects
 - mapping :doc:`URL patterns <django:topics/http/urls>` to :doc:`views
   <django:topics/http/views>` containing business logic
 - providing :doc:`request information <django:ref/request-response>` such as
