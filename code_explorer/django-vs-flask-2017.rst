@@ -416,7 +416,11 @@ of it, without any hacking.
 Retrofit the batteries
 """"""""""""""""""""""
 
-Sometimes you're going to be working with a 
+Relying on the django's components, such as views and forms, gives developers
+certainty things will behave with certainty. When customizations needs to
+happen, it's helpful to see if :ref:`subclassing a widget <django:base-widget-classes>`
+or :django:doc:`form field <ref/forms/fields>` would do the trick. This makes
+sure you still get the validation, form state-awareness, and template output.
 
 Configuring Django
 ------------------
