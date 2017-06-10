@@ -166,7 +166,7 @@ straight-forward and navigable.
 .. seealso::
   
     Free tools in the community such as `jedi`_ provide navigation of modules,
-    functions and classes to editors like vim and atom.
+    functions and classes to editors like `vim`_ and `Atom`_.
 
 Used incorrectly, :python:ref:`classes <tut-classes>` makes code harder to read
 and maintain. Needless abstraction sucks the air out of projects.
