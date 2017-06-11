@@ -431,9 +431,10 @@ This means that the Django configuration can include any python code.
 To run a command or launch a server with django, you must set
 the `environment variable`_ for ``DJANGO_SETTINGS_MODULE``.
 
-Settings are a lazily-loaded singleton variable:
+Settings are a accessed at run as a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization>`_
+`singleton <https://en.wikipedia.org/wiki/Singleton_pattern>`_ object:
 
-  - When an :ref:`attribute <python:tut-classobjects>` on ``django.conf.settings``
+  - When an :ref:`attribute <python:tut-classobjects>` of ``django.conf.settings``
     is accessed, it will do a onetime "setup". The section :ref:`djangos-initialization`
     shows there's a few ways settings get configured.
   - *Singleton*, meaning that you can import it anywhere in your django
