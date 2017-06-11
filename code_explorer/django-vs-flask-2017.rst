@@ -594,7 +594,85 @@ For more, see `awesome-flask`_ on github.
 Configuring Flask
 -----------------
 
-Flask is configured via an object.
+Configuration is typically added after :class:`~flask:flask.Flask`
+*object* is initialized. No server is running at this point::
+
+    app = Flask(__name__)
+
+After initialization, configuration available via a :py:class:`dict`-like
+attribute via the :attr:`Flask.config <flask:flask.Flask.config>`.
+
+Only *uppercase* values are stored in the config.
+
+There are a few ways to set configuration options. :py:meth:`dict.update()`::
+
+    app.update(KEYWORD0='value0', KEYWORD1='value1')
+
+For the future examples, let's assume this::
+
+  - website/
+    - __init__.py
+    - app.py
+    - config/
+      - __init__.py
+      - dev.py
+
+Inside *website/config/development*::
+
+    class Development(object):
+        DEBUG = True
+        TESTING = True
+        DATABASE_URL = 'sqlite://:memory:'
+    
+You can also subclass :meth:`flask:flask.Config` and point to it via
+:meth:`flask:flask.Config.from_object`::
+
+    from .config.development import Development
+    app.from_object(DevConfig)
+
+You can also use ``from_object()`` to point to a string of the location of
+the config object::
+
+    app.from_object('website.config.Dev')
+
+So, this sounds strange, but as of Flask 1.12, that's all there is
+regarding importing classes. The rest if all importing python files.
+
+:meth:`flask:flask.Config.from_envvar`. It's spiritually similar to 
+``DJANGO_SETTINGS_MODULE``, but looks can be deceiving.
+
+The environmental variable you set points to a file.
+
+Despite the pythonic use of :meth:`~flask:Flask.Config.from_object` and the
+:ref:`pattern of building classes <flask:config-dev-prod> to point to classes
+for dev/prod setups in official documentation`, and the abundance of
+string to python object importation utilities, it doesn't point to a class.
+
+Despite it pointing to file with variables inside of it (similar to django
+settings), which would work well with modules, it doesn't.
+
+I have strong feelings that ``from_envvar`` has potential, but it's
+implementation goes against intuition. It's worth making an issue over,
+because there's a potential `Chesterton's Fence
+<https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence>`_ problem.
+
+Important if you want to launch Flask with
+different settings across `environmental configurations
+<https://en.wikipedia.org/wiki/Deployment_environment>`, e.g. dev,
+staging, prod, etc::
+
+
+    app.from_envvars('FLASK_CONFIG')
+
+Here's where Flask's configurations aren't so orthogonal. There's also a
+:meth:`flask:flask.Config.from_file`.
+
+
+Before you run the flask app, you have to set ``FLASK_CONFIG`` to point to
+``website.config.Dev``.
+
+
+
 
 Flask's Initialization
 ----------------------
