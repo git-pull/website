@@ -425,8 +425,29 @@ sure you still get the validation, form state-awareness, and template output.
 Configuring Django
 ------------------
 
-``DJANGO_SETTINGS_MODULE`` maps a string to a module in your current
-environment's python packages.
+Django's settings are stored in a python file. This means that the Django
+configuration can include any python code.
+
+To run a command or launch a server with django, you must set
+the `environment variable`_ for ``DJANGO_SETTINGS_MODULE``.
+
+Settings are a lazily-loaded singleton variable:
+
+  - When an :ref:`attribute <python:tut-classobjects>` on ``django.conf.settings``
+    is accessed, it will do a onetime "setup". The section :ref:`djangos-initialization`
+    shows there's a few ways settings get configured.
+  - *Singleton*, meaning that you can import it anywhere in your django
+    code and retrieve the same instance of the object.
+    
+    .. note::
+
+       If someone brings up global interpreter locks and thread safety,
+       gently ask why your customer control panel or JSON API is bottle-necked
+       due to CPU constraints; most web problems are I/O bound.
+
+Django use :func:`~importlib.import_module` to turn a string into a
+:ref:`module <tut-modules>`. It's kind of like an ``eval``, but strictly for
+importing. `It happens here <https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L110>`_.
 
 .. warning::
   
@@ -438,6 +459,10 @@ environment's python packages.
 
    This is the single biggest learning barrier python has. It will hinder you
    every step of the way until you wrap your brain around it.
+
+.. _environment variable: https://en.wikipedia.org/wiki/Environment_variable
+
+.. _djangos-initialization:
 
 Django's intialization
 ----------------------
