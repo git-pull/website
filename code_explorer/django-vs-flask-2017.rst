@@ -433,7 +433,7 @@ a file exists, lists, tuples, arrays, and dicts.
 To run a command or launch a server with django, you must set
 the `environment variable`_ for ``DJANGO_SETTINGS_MODULE``.
 
-Settings are a accessed at run as a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization>`_
+Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization>`_
 `singleton <https://en.wikipedia.org/wiki/Singleton_pattern>`_ object:
 
   - When an :ref:`attribute <python:tut-classobjects>` of ``django.conf.settings``
@@ -451,6 +451,16 @@ Settings are a accessed at run as a `lazily-loaded <https://en.wikipedia.org/wik
 Django use :func:`~importlib.import_module` to turn a string into a
 :ref:`module <tut-modules>`. It's kind of like an ``eval``, but strictly for
 importing. `It happens here <https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L110>`_.
+
+The reason you can specify it as an environmental variable is you'll
+likely have multiple settings files. It's common to have base settings
+file, then other files for `local, development, staging, and production
+<https://en.wikipedia.org/wiki/Deployment_environment>`_. Those 3 will have
+different database configurations. Production will likely have heavy caching.
+
+To access settings attributes from anywhere in your application, do::
+
+    from django.conf import settings
 
 .. warning::
   
