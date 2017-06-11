@@ -819,6 +819,10 @@ Bonus: Cookiecutter template for Flask projects
 
 Since I still use Flask. I maintain a `cookiecutter <https://cookiecutter.readthedocs.io>`_
 `template project for it <https://github.com/tony/cookiecutter-flask-pythonic>`_.
+
+This cookiecutter project will create a core application object that can
+load your Flask blueprints via a declarative YAML or JSON configuration.
+
 Feel free to use it as a sample project. In terminal:
 
 .. code-block:: sh
