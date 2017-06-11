@@ -513,19 +513,17 @@ via command-line / manage.py (development)
    :func:`django:django.setup` (populating the app registry)
    
 5. ``ManagementUtility.execute()`` directs ``sys.argv`` command to the
-   appropriate app functions.
-   
-   It also has autocompletion, ``runserver`` and help output.
-   
-   It also maintains a memoized (cached) `copy of list of
-   commands <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L44>`_.
+   appropriate app functions. A list of commands `are cached <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L44>`_.
+   In addition, these are hard-coded:
 
+   - autocompletion
+   - ``runserver``
+   - help output (``--help``)
+   
    In addition, upon running, commands will run :doc:`system checks
    <django:topics/checks>` (since :doc:`Django 1.7
    <django:releases/1.7>`). Any command inheriting from :class:`~django.core.management.BaseCommand`
-   runs checks implicitly.
-
-   ``./manage.py check`` runs checks explicitly.
+   runs checks implicitly. ``./manage.py check`` will run checks explicitly.
 
 .. _Accessing an attribute: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L51
 .. _lazily loaded: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L201
