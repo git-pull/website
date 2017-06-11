@@ -426,7 +426,9 @@ Configuring Django
 ------------------
 
 Django's :doc:`settings <django:topics/settings>` are stored in a python file.
-This means that the Django configuration can include any python code.
+This means that the Django configuration can include any python code,
+including accessing environment variables, importing other modules, checking if
+a file exists, lists, tuples, arrays, and dicts.
 
 To run a command or launch a server with django, you must set
 the `environment variable`_ for ``DJANGO_SETTINGS_MODULE``.
