@@ -502,7 +502,7 @@ via command-line / manage.py (development)
 """"""""""""""""""""""""""""""""""""""""""
 
 1. User Run ``./manage.py`` with any arguments
-2. ``settings`` are `lazily-loaded`_ upon import of
+2. ``settings`` are `lazily loaded`_ upon import of
    ``execute_from_command_line`` of ``django.core.management``.
    
    `Accessing an attribute`_ of ``settings`` (e.g. ``if settings.configured``)
@@ -511,7 +511,7 @@ via command-line / manage.py (development)
    them to `ManagementUtility <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L133>`_
 
 .. _Accessing an attribute: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L51
-.. _lazily-loaded: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L201
+.. _lazily loaded: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L201
 
 via WSGI (server)
 """""""""""""""""
