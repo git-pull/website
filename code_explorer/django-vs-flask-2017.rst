@@ -422,6 +422,8 @@ happen, it's helpful to see if :ref:`subclassing a widget <django:base-widget-cl
 or :django:doc:`form field <ref/forms/fields>` would do the trick. This makes
 sure you still get the validation, form state-awareness, and template output.
 
+.. _configuring-django:
+
 Configuring Django
 ------------------
 
@@ -480,8 +482,18 @@ To access settings attributes from anywhere in your application, do::
 Django's intialization
 ----------------------
 
-Django relies upon a settings configuration and an application
-registry, :data:`django:django.apps.apps`.
+Django's initialization is complicated. However, its complexity is
+proportional to what's required to do the job.
+
+As seen in :ref:`configuring-django`, the settings are loaded as a side-effect
+of accessing the setting object.
+
+In addition to that, django maintains an application registry, :data:`~django:django.apps.apps`,
+also a singleton. It's populated via :func:`django:django.setup`.
+
+Finding and loading the settings requires an environmental variable is
+set. Django's generated manage.py will set a default one if you don't specify
+it.
 
 via command-line / manage.py (development)
 """"""""""""""""""""""""""""""""""""""""""
