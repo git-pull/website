@@ -480,20 +480,8 @@ To access settings attributes from anywhere in your application, do::
 Django's intialization
 ----------------------
 
-1. Django checks for your ``DJANGO_SETTINGS_MODULE`` and parses the file
-
-   This is where all your database, installed applications and other stuff
-   comes from.
-
-   Even if you're not using the server and just using addons, Django needs
-   this to display available commands via ``./manage.py``.
-
-   If settings module is found and correct. Move to next step.
-
-2. Load apps and their models
-
-3. Run verification checks against models to :doc:`assure nothing's broken
-   <django:topics/checks>` (since :doc:`Django 1.7 <django:releases/1.7>`)
+Django relies upon a settings configuration and an application
+registry, :data:`django:django.apps.apps`.
 
 via command-line / manage.py (development)
 """"""""""""""""""""""""""""""""""""""""""
@@ -519,6 +507,13 @@ via command-line / manage.py (development)
    
    It also maintains a memoized (cached) `copy of list of
    commands <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L44>`_.
+
+   In addition, upon running, commands will run :doc:`system checks
+   <django:topics/checks>` (since :doc:`Django 1.7
+   <django:releases/1.7>`). Any command inheriting from :class:`~django.core.management.BaseCommand`
+   runs checks implicitly.
+
+   ``./manage.py check`` runs checks explicitly.
 
 .. _Accessing an attribute: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L51
 .. _lazily loaded: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L201
