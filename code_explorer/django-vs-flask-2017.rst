@@ -480,9 +480,6 @@ To access settings attributes from anywhere in your application, do::
 Django's intialization
 ----------------------
 
-Initialization of django depends on your entry point.
-
-
 1. Django checks for your ``DJANGO_SETTINGS_MODULE`` and parses the file
 
    This is where all your database, installed applications and other stuff
@@ -507,8 +504,14 @@ via command-line / manage.py (development)
    
    `Accessing an attribute`_ of ``settings`` (e.g. ``if settings.configured``)
 
-3. ``execute_from_command_line()`` accepts :py:data:`sys.argv` and passes
-   them to `ManagementUtility <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L133>`_
+3. ``execute_from_command_line()`` accepts :py:data:`sys.argv` and
+   passes them to initialize `ManagementUtility <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L133>`_
+
+4. ``ManagementUtility.execute()`` (`source
+   <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L284>`_)
+   runs. It can handle autocompletion commands, ``runserver``, help text, and
+   any subcommand. It also maintains a memoized (cached) `copy of list of
+   commands <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L44>`_.
 
 .. _Accessing an attribute: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L51
 .. _lazily loaded: https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L201
