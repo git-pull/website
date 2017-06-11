@@ -425,8 +425,8 @@ sure you still get the validation, form state-awareness, and template output.
 Configuring Django
 ------------------
 
-Django's settings are stored in a python file. This means that the Django
-configuration can include any python code.
+Django's :doc:`settings <django:topics/settings>` are stored in a python file.
+This means that the Django configuration can include any python code.
 
 To run a command or launch a server with django, you must set
 the `environment variable`_ for ``DJANGO_SETTINGS_MODULE``.
