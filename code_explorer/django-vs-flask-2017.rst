@@ -606,7 +606,7 @@ Only *uppercase* values are stored in the config.
 
 There are a few ways to set configuration options. :py:meth:`dict.update()`::
 
-    app.update(KEYWORD0='value0', KEYWORD1='value1')
+    app.config.update(KEYWORD0='value0', KEYWORD1='value1')
 
 For the future examples, let's assume this::
 
@@ -617,9 +617,9 @@ For the future examples, let's assume this::
       - __init__.py
       - dev.py
 
-Inside *website/config/development*::
+Inside *website/config/dev.py*::
 
-    class Development(object):
+    class DevConfig(object):
         DEBUG = True
         TESTING = True
         DATABASE_URL = 'sqlite://:memory:'
@@ -627,52 +627,68 @@ Inside *website/config/development*::
 You can also subclass :meth:`flask:flask.Config` and point to it via
 :meth:`flask:flask.Config.from_object`::
 
-    from .config.development import Development
-    app.from_object(DevConfig)
+    from .config.dev import DevConfig
+    app.config.from_object(DevConfig)
 
 You can also use ``from_object()`` to point to a string of the location of
 the config object::
 
-    app.from_object('website.config.Dev')
+    app.config.from_object('website.config.dev.DevConfig')
+
+You could also do *website/config/dev.py*::
+
+    DEBUG = True
+    TESTING = True
+    DATABASE_URL = 'sqlite://:memory:'
+
+Then::
+
+    app.config.from_object('website.config.dev')
 
 So, this sounds strange, but as of Flask 1.12, that's all there is
-regarding importing classes. The rest if all importing python files.
+regarding importing classes/modules. The rest if all importing python files.
 
-:meth:`flask:flask.Config.from_envvar`. It's spiritually similar to 
+If you want to import an *object* (module or class) from an environmental
+variable, do something like::
+
+    app.config.from_object(os.environ.get('FLASK_MODULE', 'web.conf.default'))
+
+:meth:`flask:flask.Config.from_envvar` is spiritually similar to 
 ``DJANGO_SETTINGS_MODULE``, but looks can be deceiving.
 
-The environmental variable you set points to a file.
+The environmental variable you set points to a file, which is interpreted
+like a module.
 
-Despite the pythonic use of :meth:`~flask:Flask.Config.from_object` and the
-:ref:`pattern of building classes <flask:config-dev-prod> to point to classes
-for dev/prod setups in official documentation`, and the abundance of
-string to python object importation utilities, it doesn't point to a class.
+.. caution::
 
-Despite it pointing to file with variables inside of it (similar to django
-settings), which would work well with modules, it doesn't.
+   Despite the pythonic use of :meth:`~flask:Flask.Config.from_object` and the
+   :ref:`pattern of building classes <flask:config-dev-prod> to point to classes
+   for dev/prod setups in official documentation`, and the abundance of
+   string to python object importation utilities, it doesn't point to a class.
 
-I have strong feelings that ``from_envvar`` has potential, but it's
-implementation goes against intuition. It's worth making an issue over,
-because there's a potential `Chesterton's Fence
-<https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence>`_ problem.
+   There's a potential `Chesterton's Fence <https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence>`_
+   issue also. I made an issue about it at https://github.com/pallets/flask/issues/2368
+   to document my observations.
 
-Important if you want to launch Flask with
-different settings across `environmental configurations
-<https://en.wikipedia.org/wiki/Deployment_environment>`, e.g. dev,
-staging, prod, etc::
+::
 
+    app.config.from_envvars('FLASK_CONFIG')
 
-    app.from_envvars('FLASK_CONFIG')
+Assuming *website/config/dev.py*::
+
+    DEBUG = True
+    TESTING = True
+    DATABASE_URL = 'sqlite://:memory:'
+
+:envvar:`FLASK_CONFIG` should map to a python file. It can have any
+extension::
+
+    export FLASK_CONFIG=website/config/dev.py
 
 Here's where Flask's configurations aren't so orthogonal. There's also a
-:meth:`flask:flask.Config.from_file`.
+:meth:`flask:flask.Config.from_pyfile`::
 
-
-Before you run the flask app, you have to set ``FLASK_CONFIG`` to point to
-``website.config.Dev``.
-
-
-
+    app.config.from_pyfile('website/config/dev.py')
 
 Flask's Initialization
 ----------------------
