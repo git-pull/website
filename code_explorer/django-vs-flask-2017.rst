@@ -67,7 +67,7 @@ What Django provides
 - :doc:`Caching <topics/cache>`
 - :doc:`Multi-tenancy <django:ref/contrib/sites>` via domain
 - :doc:`Modularity via Apps <django:ref/applications>`
-- :doc:`Settings <django:topics/settings>`, configurable via ``DJANGO_SETTINGS_MODULE``
+- :doc:`Settings <django:topics/settings>`, configurable via :envvar:`DJANGO_SETTINGS_MODULE`
 - :doc:`Command system <django:ref/django-admin>`
 
   - Shell with automatic integration of `bpython`_ and `ipython`_, if detected
@@ -127,7 +127,7 @@ Django is a framework. The aspects django occupies are:
 - presenting data, including HTML :doc:`templates <django:topics/templates>` and
   :django:ref:`django:serialization-formats-json` (:class:`~django:django.http.HttpResponse`)
 - :doc:`environmental configuration <django:topics/settings>` (settings) and an
-  environment variables (``DJANGO_SETTINGS_MODULE``) e.g. dev, staging, prod
+  environment variables (:envvar:`DJANGO_SETTINGS_MODULE`) e.g. dev, staging, prod
   workflows
   
 A tool kit of web abstractions that solve proven, repeated problems in the trade.
@@ -418,7 +418,7 @@ including accessing environment variables, importing other modules, checking if
 a file exists, lists, tuples, arrays, and dicts.
 
 To run a command or launch a server with django, you must set
-the `environment variable`_ for ``DJANGO_SETTINGS_MODULE``.
+the `environment variable`_ for :envvar:`DJANGO_SETTINGS_MODULE`.
 
 Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization>`_
 `singleton <https://en.wikipedia.org/wiki/Singleton_pattern>`_ object:
@@ -488,6 +488,7 @@ via command-line / manage.py (development)
    ``execute_from_command_line`` of ``django.core.management``.
    
    `Accessing an attribute`_ of ``settings`` (e.g. ``if settings.configured``)
+   implicitly imports the settings module's information.
 
 3. ``execute_from_command_line()`` accepts :py:data:`sys.argv` and
    passes them to initialize `ManagementUtility <https://github.com/django/django/blob/1.11.2/django/core/management/__init__.py#L133>`_
