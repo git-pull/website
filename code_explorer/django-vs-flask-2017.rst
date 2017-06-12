@@ -532,10 +532,9 @@ release April 1, 2010.
 What Flask provides
 -------------------
 
-- Template system via jinja2
-- URL routing via Werkzeug
-  - Mountable URL's via blueprints
-- Modularity via blueprints
+- :doc:`Template system <flask:templating>` via `jinja2 <http://jinja.pocoo.org/>`_
+- :ref:`URL routing <flask:url-route-registrations>` via `Werkzeug <http://werkzeug.pocoo.org/>`_
+- Modularity via :ref:`blueprints <flask:blueprints>`
 
 Extending Flask
 ---------------
