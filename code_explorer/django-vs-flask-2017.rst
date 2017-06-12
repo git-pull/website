@@ -670,18 +670,17 @@ like a module.
    issue also. I made an issue about it at https://github.com/pallets/flask/issues/2368
    to document my observations.
 
-::
-
-    app.config.from_envvars('FLASK_CONFIG')
-
 Assuming *website/config/dev.py*::
 
     DEBUG = True
     TESTING = True
     DATABASE_URL = 'sqlite://:memory:'
 
-:envvar:`FLASK_CONFIG` should map to a python file. It can have any
-extension::
+Let's apply a configuration from an environmental variable::
+
+    app.config.from_envvars('FLASK_CONFIG')
+
+:envvar:`FLASK_CONFIG` should map to a python file. Any extension::
 
     export FLASK_CONFIG=website/config/dev.py
 
