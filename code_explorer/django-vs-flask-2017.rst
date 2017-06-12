@@ -29,40 +29,51 @@ makes both a joy to work with.
 Concepts present in both frameworks
 ===================================
 
-- Request object:
+Request object
+--------------
   
-  Information of user's client request to server
+Information of user's client request to server
 
-  :class:`flask:flask.Request` and :class:`django:django.http.HttpRequest`
-- URL routing:
+:class:`flask:flask.Request` and :class:`django:django.http.HttpRequest`
+
+URL routing
+-----------  
+
+Routes HTTP requests (GET, POST, PUT, UPDATE), data payload, and URL path
+
+:doc:`Django's routing <django:topics/http/urls>` and :ref:`Flask's routing <flask:url-route-registrations>`
+
+Views
+-----  
+
+Invoked when a request matches URL pattern and receives request object
+
+:doc:`Django's views <django:topics/http/views>` and :ref:`Flask's views <flask:views>`
+
+Class-based: :doc:`django <django:topics/class-based-views/index>` and `flask <http://flask.pocoo.org/docs/0.12/api/#class-based-views>`_
+
+Context information
+-------------------
   
-  Routes HTTP requests (GET, POST, PUT, UPDATE), data payload, and URL path
+Passed into HTML template for processing.
 
-  :doc:`Django's routing <django:topics/http/urls>` and :ref:`Flask's routing <flask:url-route-registrations>`
-- Views:
+:meth:`django:django.template.Template.render` (pass :py:class:`dict` into :class:`~django:django.template.Context` object)
   
-  Invoked when a request matches URL pattern and receives request object
+:func:`flask:flask.render_template` (accepts :py:class:`dict`)
 
-  :doc:`Django's views <django:topics/http/views>` and :ref:`Flask's views <flask:views>`
-
-  Class-based: :doc:`django <django:topics/class-based-views/index>` and `flask <http://flask.pocoo.org/docs/0.12/api/#class-based-views>`_
-- Context information
+HTML template engine
+--------------------
   
-  Passed into HTML template for processing.
+Renders template via context information.
 
-  :meth:`django:django.template.Template.render` (pass :py:class:`dict` into :class:`~django:django.template.Context` object)
-  
-  :func:`flask:flask.render_template` (accepts :py:class:`dict`)
-- HTML template engine:
-  
-  Renders template via context information.
+:doc:`Django's templating <django:ref/templates/index>` and :doc:`Flask's templating <flask:templating>`
 
-  :doc:`Django's templating <django:ref/templates/index>` and  `Flask's templating <http://flask.pocoo.org/docs/0.12/templating/>`_
-- Response object:
+Response object
+---------------
   
-  Object with HTTP meta information and content to send to the browser.
+Object with HTTP meta information and content to send to the browser.
 
-  :class:`django:django.http.HttpResponse` and :class:`flask:flask.Response`
+:class:`django:django.http.HttpResponse` and :class:`flask:flask.Response`
 
 Django
 ======
@@ -191,7 +202,7 @@ straight-forward and navigable.
     Free tools in the community such as `jedi`_ provide navigation of modules,
     functions and classes to editors like `vim`_ and `Atom`_.
 
-Used incorrectly, :python:ref:`classes <tut-classes>` makes code harder to read
+Used incorrectly, :python:ref:`classes <tut-classes>` make code harder to read
 and maintain. Needless abstraction sucks the air out of projects.
 
 On the other hand, used pragmatically, they're a pleasure to use as a building
@@ -521,7 +532,8 @@ it.
 via command-line / manage.py (development)
 """"""""""""""""""""""""""""""""""""""""""
 
-1. User Run ``./manage.py`` with any arguments
+1. User runs ``./manage.py`` (including arguments, e.g. ``./manage.py
+   collectstatic``
 2. ``settings`` are `lazily loaded`_ upon import of
    ``execute_from_command_line`` of ``django.core.management``.
    
