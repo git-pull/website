@@ -661,8 +661,8 @@ like a module.
 
 .. caution::
 
-   Despite the pythonic use of :meth:`~flask:Flask.Config.from_object` and the
-   :ref:`pattern of building classes <flask:config-dev-prod> to point to classes
+   Despite the pythonic use of :meth:`~flask:flask.Config.from_object` and the
+   :ref:`pattern of building classes <config-dev-prod>` to point to classes
    for dev/prod setups in official documentation`, and the abundance of
    string to python object importation utilities, it doesn't point to a class.
 
