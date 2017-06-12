@@ -635,7 +635,8 @@ the config object::
 
     app.config.from_object('website.config.dev.DevConfig')
 
-You could also do *website/config/dev.py*::
+You could also keep your a config as a module of python code
+(how django's settings are stored) *website/config/dev.py*::
 
     DEBUG = True
     TESTING = True
@@ -646,7 +647,7 @@ Then::
     app.config.from_object('website.config.dev')
 
 So, this sounds strange, but as of Flask 1.12, that's all there is
-regarding importing classes/modules. The rest if all importing python files.
+regarding importing classes/modules. The rest is all importing python files.
 
 If you want to import an *object* (module or class) from an environmental
 variable, do something like::
