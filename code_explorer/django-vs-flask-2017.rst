@@ -15,16 +15,16 @@ Synopsis
 ========
 
 Django is best suited for RDBMS-backed websites. Flask is good for corner cases
-where you wouldn't benefit from Django's deep intergration with RDBMS.
+that wouldn't benefit from Django's deep intergration with RDBMS.
 
 When using Flask, it's easy to miss the comforts a full-fledge framework
 provides. Django's extension community is more active. Django's ORM is superb.
 Flask developers will be forced to reinvent the wheel to catch up for things
 that'd be quick wins with Django.
 
-Where both excel is prototyping. Getting an idea off the ground fast, and
-giving you the ability to chisel away fine-grain details after. Python
-makes both a joy to work with. 
+Both excel at prototyping; getting an idea off the ground fast, and
+giving chiselling away fine-grain details after. Python makes both a joy to work
+with.
 
 Concepts present in both frameworks
 ===================================
@@ -181,12 +181,12 @@ Django is a framework. The aspects django occupies are:
   
 A tool kit of web abstractions that solve proven, repeated problems in the trade.
 
-If you can't visualize your web app in terms of its database schema, and feel
+If it's hard to visualize a web app in terms of its database schema, and
 WordPress or Drupal would suffice, Django may not be a good pick for that.
 
 Where a CMS will automatically provide a web admin to post content, toggle
 plugins and settings, and even allow user registration and comments. Django
-provides conventions to build your own features and building blocks of code
+provides conventions to build features and building blocks of code
 that are amenable to highly granular changes.
 
 It's also where Django's programming language, python, gives a big boost.
@@ -222,10 +222,12 @@ which shipped in :doc:`Django 1.3 <django:releases/1.3>`.
 Stretching the batteries
 """"""""""""""""""""""""
 
-Django isn't preventing your ability to articulate what you want. It's there to
-help you. Not get in your way. Allow me the oppurtunity to dispel FUD.
+Django isn't preventing custom solutions. It provides a couple of frameworks
+which complement each other and handles initializing the frameworks being used
+via project's settings. If a project doesn't leverage a component Django
+provides, it stays out of the way.
 
-Let's try a few examples of how we can flex Django.
+Let's try a few examples of how flexible Django is.
 
 **Scenario 1:** Displaying a user profile on a website.
 
@@ -296,25 +298,26 @@ default behavior grabs the PK::
       url(r'^profile/(?P<pk>\d+)/$', UserProfile.as_view()),
     ]
 
-Only difference from the pure function view is the :meth:`~django.views.generic.base.View.as_view`.
+Append :meth:`~django.views.generic.base.View.as_view` to routes using
+class-based views.
 
-You will get something like, *django.template.exceptions.TemplateDoesNotExist: core/myuser_detail.html*.
-The name of the file depends on the app name and model name. You need add
-an HTML template to a filename :exc:`~django:django.template.TemplateDoesNotExist`
-your *templates/* directory.
+If  *profile/1* is accessed and missing a template, something happens like:
+*django.template.exceptions.TemplateDoesNotExist: core/myuser_detail.html*.
+The file location and name depends on the app name and model name.
+Create a new template in the location after :exc:`~django:django.template.TemplateDoesNotExist`
+in any of the projects *templates/* directories.
 
-Example: Inside of *yourapp/templates/*, create a file for *core/myuser_detail.html*.
-So it'd be *yourapp/templates/core/myuser_detail.html*.
-
-Put the same HTML in it:
+In this circumstance, it needs *core/myuser_detail.html*. Let's use the
+app's template directory. So inside *core/templates/core/myuser_detail.html*,
+make a file with this HTML:
 
 .. code-block:: html
 
    <html><body>Full name: {{ object.get_full_name }}</body></html>
 
-You could also set your own template path via punching out
+Custom template paths can be specified via punching out
 :attr:`~django:django.views.generic.base.TemplateResponseMixin.template_name`
-in the view
+in the view.
 
 That works in any descendent of :class:`~django.views.generic.base.TemplateView`
 or class mixing in :class:`~django.views.generic.base.TemplateResponseMixin`.
@@ -323,11 +326,11 @@ or class mixing in :class:`~django.views.generic.base.TemplateResponseMixin`.
 
     Django doesn't require using :class:`~django:django.views.generic.detail.DetailView`.
 
-    You could use a plain-old :class:`~django.views.generic.base.View`. Or
-    a :class:`~django.views.generic.base.TemplateView` if you have an HTML
+    A plain-old :class:`~django.views.generic.base.View` could work. Or
+    a :class:`~django.views.generic.base.TemplateView` if there's an HTML
     template.
     
-    As seen above, you can also use a :doc:`function <django:topics/http/views>`.
+    As seen above, there are :doc:`function views <django:topics/http/views>`.
     
     These creature comforts were put into Django because they represent
     bread and butter cases. It makes additional sense when factoring in
@@ -336,7 +339,7 @@ or class mixing in :class:`~django.views.generic.base.TemplateResponseMixin`.
 **Harder:** Getting the user by a username
 
 Even better, let's make the URL's based off the usernames,
-*/profile/yourusername*. In your views::
+*/profile/yourusername*. In the views file::
 
     from django.contrib.auth import get_user_model
     from django.http import HttpResponse
@@ -390,10 +393,6 @@ We can specify a :attr:`~django:django.views.generic.detail.SingleObjectMixin.sl
         slug_field = 'username'
         slug_kw_arg = 'username'
 
-So, is this an example of django *forcing* you to conform? No. But, web
-developers repeatedly used this pattern, so the view makes it available. Short
-and sweet.
-
 **Make it trickier:** User's logged in profile
 
 If a user is logged in, */profile* should take them to their user page.
@@ -411,15 +410,16 @@ Django thought about that. Django can attach the user's information to the
 :class:`~django:django.http.HttpRequest` so the view can use it. Via
 :attr:`~django:django.http.HttpRequest.user`.
 
-In your :doc:`settings <django:topics/settings>`, add :class:`~django:django.contrib.auth.middleware.AuthenticationMiddleware`
-to ``MIDDLEWARE``::
+In the project's :doc:`settings <django:topics/settings>`, add
+:class:`~django:django.contrib.auth.middleware.AuthenticationMiddleware` to
+``MIDDLEWARE``::
 
     MIDDLEWARE = [
         # ... other middleware
         'django.contrib.auth.middleware.AuthenticationMiddleware',
     ]
 
-In your views, same template, as always::
+In the view file, using the same template::
 
     class UserProfile(DetailView):
         def get_object(self):
@@ -442,8 +442,10 @@ This page only will work if logged in, so let's use
 That will assure only logged-in users can view the page. It will also send
 the user to a login form which forward them back to the page after login.
 
-Even with a high-level reuseable component, you can get quite a bit of use out
-of it, without any hacking.
+Even with high-level reuseable components, there's a lot of versatility
+and tweaking oppurtunities. This saves time from hacking up solution for common
+cases. Reducing bugs, making code uniform, and freeing up time for the
+stuff that will be more specialized.
 
 .. _jedi: http://jedi.readthedocs.io/
 
@@ -453,8 +455,9 @@ Retrofit the batteries
 Relying on the django's components, such as views and forms, gives developers
 certainty things will behave with certainty. When customizations needs to
 happen, it's helpful to see if :ref:`subclassing a widget <django:base-widget-classes>`
-or :django:doc:`form field <ref/forms/fields>` would do the trick. This makes
-sure you still get the validation, form state-awareness, and template output.
+or :django:doc:`form field <ref/forms/fields>` would do the trick. This assures the
+new custom components gets the validation, form state-awareness, and template output
+of the form framework.
 
 .. _configuring-django:
 
@@ -466,8 +469,8 @@ This means that the Django configuration can include any python code,
 including accessing environment variables, importing other modules, checking if
 a file exists, lists, tuples, arrays, and dicts.
 
-To run a command or launch a server with django, you must set
-the `environment variable`_ for :envvar:`DJANGO_SETTINGS_MODULE`.
+Django relies on an `environment variable`_, :envvar:`DJANGO_SETTINGS_MODULE`, to
+load a module of setting information.
 
 Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization>`_
 `singleton <https://en.wikipedia.org/wiki/Singleton_pattern>`_ object:
@@ -475,39 +478,39 @@ Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization
   - When an :ref:`attribute <python:tut-classobjects>` of ``django.conf.settings``
     is accessed, it will do a onetime "setup". The section :ref:`djangos-initialization`
     shows there's a few ways settings get configured.
-  - *Singleton*, meaning that you can import it anywhere in your django
-    code and retrieve the same instance of the object.
+  - *Singleton*, meaning that it can be imported it the application code,
+    retrieving the same instance of the object.
     
     .. note::
 
        If someone brings up global interpreter locks and thread safety,
-       gently ask why your customer control panel or JSON API is bottle-necked
+       gently ask why a customer control panel or JSON API is bottle-necked
        due to CPU constraints; most web problems are I/O bound.
 
 Django use :func:`~importlib.import_module` to turn a string into a
 :ref:`module <tut-modules>`. It's kind of like an ``eval``, but strictly for
 importing. `It happens here <https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L110>`_.
 
-The reason you can specify it as an environmental variable is you'll
-likely have multiple settings files. It's common to have base settings
-file, then other files for `local, development, staging, and production
-<https://en.wikipedia.org/wiki/Deployment_environment>`_. Those 3 will have
-different database configurations. Production will likely have heavy caching.
+It's available as an environmental variable is projects commonly have multiple
+settings files. For instance, a base settings file, then other files for
+`local, development, staging, and production <https://en.wikipedia.org/wiki/Deployment_environment>`_.
+Those 3 will have different database configurations. Production will likely have
+heavy caching.
 
-To access settings attributes from anywhere in your application, do::
+To access settings attributes application-wide, do::
 
     from django.conf import settings
 
 .. warning::
   
-   When developing: if you're not sourced in a virtual enviroment in a shell, your
+   When developing: if not sourced in a virtual enviroment in a shell, the
    settings module (and probably the django module itself) won't be found.
    
-   When deploying: not including your site-packages in your uwsgi
-   configuration, you also won't find django or your settings.
+   When deploying: not including site-packages in uwsgi onfiguration, will
+   result in a similar error.
 
-   This is the single biggest learning barrier python has. It will hinder you
-   every step of the way until you wrap your brain around it.
+   This is the single biggest learning barrier python has. It will be a
+   hindrance every step of the way until the concept is internalized.
 
 .. _environment variable: https://en.wikipedia.org/wiki/Environment_variable
 
@@ -525,9 +528,8 @@ of accessing the setting object.
 In addition to that, django maintains an application registry, :data:`~django:django.apps.apps`,
 also a singleton. It's populated via :func:`django:django.setup`.
 
-Finding and loading the settings requires an environmental variable is
-set. Django's generated manage.py will set a default one if you don't specify
-it.
+Finding and loading the settings requires an environmental variable is set.
+Django's generated manage.py will set a default one if its unspecified.
 
 via command-line / manage.py (development)
 """"""""""""""""""""""""""""""""""""""""""
@@ -607,8 +609,7 @@ Popular Flask extensions include:
 .. _flask-login: https://flask-login.readthedocs.io/
 .. _flask-security: https://flask-security.readthedocs.io
 
-Further python dependencies you'll pull in, not necessarily dependent on
-Flask:
+Used with flask, but not flask-specific (could be used in normal scripts):
 
 - Social authentication: `authomatic`_, `python-social-auth`_
 - Forms: `WTForms`_
@@ -659,19 +660,19 @@ Inside *website/config/dev.py*::
         TESTING = True
         DATABASE_URL = 'sqlite://:memory:'
     
-You can also subclass :class:`flask:flask.Config` and point to it via
-:meth:`flask:flask.Config.from_object`::
+Subclassing :class:`flask:flask.Config` and pointing to it via
+:meth:`flask:flask.Config.from_object` also works::
 
     from .config.dev import DevConfig
     app.config.from_object(DevConfig)
 
-You can also use ``from_object()`` to point to a string of the location of
-the config object::
+Another option with ``from_object()`` is a string of the config object's
+location::
 
     app.config.from_object('website.config.dev.DevConfig')
 
-You could also keep your a config as a module of python code
-(how django's settings are stored) *website/config/dev.py*::
+In addition, it'll work with modules (django's style of storing settings).
+For *website/config/dev.py*::
 
     DEBUG = True
     TESTING = True
@@ -684,7 +685,7 @@ Then::
 So, this sounds strange, but as of Flask 1.12, that's all there is
 regarding importing classes/modules. The rest is all importing python files.
 
-If you want to import an *object* (module or class) from an environmental
+To import an *object* (module or class) from an environmental
 variable, do something like::
 
     app.config.from_object(os.environ.get('FLASK_MODULE', 'web.conf.default'))
@@ -692,7 +693,7 @@ variable, do something like::
 :meth:`flask:flask.Config.from_envvar` is spiritually similar to 
 ``DJANGO_SETTINGS_MODULE``, but looks can be deceiving.
 
-The environmental variable you set points to a file, which is interpreted
+The environmental variable set points to a file, which is interpreted
 like a module.
 
 .. caution::
@@ -733,17 +734,16 @@ Since Flask doesn't include database models,
 Flask and Databases
 -------------------
 
-Unlike Django, Flask doesn't tie you to a database.
+Unlike Django, Flask doesn't tie project's to a database.
 
-There's no rules saying your Flask app has to connect to a database. You're
-writing python, you could be using flask to make a proxy/abstraction of someone
-else's REST API. Or for a quick web front-end to a purely python program you're
-making.
+There's no rules saying a Flask app has to connect to a database. It's
+python, flask could used to make a proxy/abstraction of a thirdparty REST API.
+Or a quick web front-end to a pure-python program.
 
-You could end up generating a purely static website with no SQL backend `a la NPR`_.
+Another possiblity: generating a purely static website with no SQL backend `a la NPR`_.
 
-But it's most likely you'll be using SQLAlchemy. A common combination is
-to use it with `Flask-SQLAlchemy`_.
+If a website is using RDBMS, which is often true, a popular choice is
+SQLAlchemy. `Flask-SQLAlchemy`_ helps assist in gluing them together.
 
 .. _a la NPR: http://blog.apps.npr.org/2014/07/29/everything-our-app-template-does.html
 
@@ -754,11 +754,11 @@ Software development is a trade driven by best practices that form over time.
 Decisions should be made by people who understand the in's and out's of their
 product or service's needs.
 
-Flask is pure, but you'll always be missing something
------------------------------------------------------
+Flask is pure, but often missing something
+------------------------------------------
 
 The one thing that strikes me about Flask is it's really meant to stay out
-of your way. The API is, much like this website, documented in sphinx,
+of the way. The API is, much like this website, documented in sphinx,
 it's straight-forward and puts code first.
 
 I feel it almost puts the the job of getting a product shipped secondary.
@@ -766,16 +766,16 @@ It's *too* utilitarian, *too* much of a swiss-army knife.
 
 Over 10 years, the web hasn't changed that fundamentally that Rails and
 Django broke. On the contrary, they thrived since at the end of the day,
-you're just serving up JSON, HTML, CSS and JS assets. Flask will get you
-that far.
+the project is just serving up JSON, HTML, CSS and JS assets. Flask will get
+many that far.
 
 What about authentication?
 
-Well you have no way to store the users. So you grab SQLAlchemy, peewee,
-or MongoEngine. There's your database back-end.
+There's no way to store the users. So grab SQLAlchemy, peewee, or MongoEngine.
+There's the database back-end.
 
-Now you have to build your own user schema. Do you want to use email's as
-username? What about your password hashing? Maybe Flask-Security or
+Now to building the user schema. Should the website accept email addresses as
+usernames? What about password hashing? Maybe Flask-Security or
 Flask-Login will do here. OK, fair enough.
 
 Meanwhile, `Django would have
@@ -785,26 +785,31 @@ with database-backed validation. And it's pluggable and templated.
 
 OK, what about JSON and REST?
 
-Well if it involves a database backend, you have to cover that.
+Well if it involves a database backend, that still has to be done (like
+above).
 
-Here's where is gets hairy. You don't really have a *de facto* python
-object for database results, like Django's ``QuerySet``. So, you're not
-going to have easy database backed validations in PUT and POST.
+Here's where is gets hairy. There isn't really have a *de facto* python
+object for database results, like Django's :class:`~django:django.db.models.query.QuerySet`.
+So, stuff like easy database-backed validations in PUT and POST isn't
+covered as well.
 
-If you don't have an authentication system, it's also trickier to create
+Without an authentication system, it's also trickier to create
 an OAuth like token system to grant time-block'd permissions to slices of
-your data you want to make available. Stuff I'd get for free with
+data to make available. Stuff available for free with
 `django-rest-framework's django-guardian integration
 <http://www.django-rest-framework.org/api-guide/permissions/#djangoobjectpermissions>`_,
-in many cases aren't covered by the contrib community at all, and you're left to
-StackOverflow, aka programming your own solution. Taking time away from you.
+in many cases aren't covered by the contrib community at all. Help relies
+on sites like StackOverflow and programming the solution in-house. Time is
+going to be spent recreating solutions to problems that are already
+available and published, distracting attention.
 
-It's also rather error-prone to program your own replacements to these
-things. You don't have the benefit over thousands of others relying on the
-library in production to report back if there's unexpected behavior. The
-refinment from it being around for years. You'll have those customer-losing bugs
-where something breaks and it isn't until months later you get that `Intercom`_
-message that something's broke.
+It's also rather error-prone to program replacements to these
+things; Without the benefit over thousands of others relying on the
+library in production to report back if there's unexpected behavior; The
+refinment from it being around for years. It invites increased cases of
+customer-losing bugs where something breaks and it isn't until months later.
+When that lone `Intercom`_ message mentions something's broke, and has
+been for a while.
 
 .. _Intercom: https://www.intercom.com/
 
@@ -813,10 +818,10 @@ Django is comprehensive, solid, active, customizable, and robust
 
 :django:ref:`Batteries included <tut-batteries-included>`.
 
-A deep notion of customizability and using your own Field, Forms, Class
-Based Views, and so on to suit situations where need that.
+A deep notion of customizability and using subclassed Field, Forms, Class
+Based Views, and so on to suit situations.
 
-The parts fit together with Django. And you'll need them.
+The components django provided complement each other.
 
 From the :class:`~django:django.db.models.query.QuerySet`
 
@@ -824,9 +829,8 @@ Open source momentum
 --------------------
 
 Flask, as a microframework, is relatively dormant from an activity
-standpoint (after all, what are you really going to add to something meant
-to be small). It's not about stars, or commits, or contributor count. It's
-about features you can articulate in a `change log <https://github.com/pallets/flask/blob/master/CHANGES>`_.
+standpoint (after all, it's scope is well-defined). It's not about stars, or
+commits, or contributor count. It's about features articulated in `change logs <https://github.com/pallets/flask/blob/master/CHANGES>`_.
 
 The good news is, Flask isn't getting bloated. Recent pull requests seem
 to be on tweaking and refining facilities that are already present.
@@ -851,14 +855,14 @@ Suggestions -- Points to consider
 Beware the purity trap
 ----------------------
 
-The idea of having your python script there and being able to not tie in a
+The idea of having a python script there and being able to not tie in a
 whole framework is tempting.
 
 Further, being able to keep data models inert, so python scripts as well
 as a web app can both pull them inside, is good programming.
 
-By being so philosophically pure and pythonic, you'll save time in the long run.
-All the great virtues of ``import this``.
+A belief by being so philosophically pure and pythonic, time could be saved in
+the "long run". All the great virtues of ``import this``.
 
 Code that does too much to be "pure" or "correct" nearly never scales.
 
@@ -874,7 +878,7 @@ Anecdote: Pursuit of JS Holy Grail
 In 2014, I remember wanting to be able to re-use code on the front-end and
 back-end. So I opted to pick up Node.js. While I was able to use the same
 templates. In search of the "Holy Grail". It turned out, Node.js was a
-nightmare for scaling code at the time. When you're reusing behavior, middleware
+nightmare for scaling code at the time. For reusable behavior, middleware
 functions are not a replacement for OOP. Having to wrap everything in promises.
 In addition, we were left to our own getting validation on forms and REST
 endpoints to work. It all had to be done by hand. After what months of begging,
@@ -887,7 +891,7 @@ Anecdote: Pursuit of the Pythonic Holy Grail
 
 The other for me, was Flask and SQLAlchemy. Flask had a super fast
 template engine. Straight-forward modularization with blueprints. Works
-well with python code you have on standby. SQLAlchemy `is in AOSA 
+well with current python code stored away. SQLAlchemy `is in AOSA 
 <http://aosabook.org/en/sqlalchemy.html>`_ (*The Architecture of Open
 Source Applications*). And the way it builds on top of that layer of core
 commands. Brilliant architecture.
@@ -917,28 +921,28 @@ Conclusion
 So we've covered Flask and Django, their philosophies, their API's,
 juxtaposed against how it worked for me in practice. Some links to
 specific API's across a few python libraries, documentation sections, and
-project homepages should prove fruitful in this being a resource you can
+project homepages should prove fruitful in this being a resource someone can
 come back to.
 
 I think Flask is great for a quick web app, particularly for a python
-script you just want a front-end for. 
+script to build a web front-end for. 
 
-If you already are using SQLAlchemy models, you can get them working with
-your Flask application with little work. With Flask, you feel in control.
+If already using SQLAlchemy models, it's possible to get them working with
+a Flask application with little work. With Flask, things feel in control.
 
-Once you begin implementing a database backend, however, I felt Flask entered
-a cycle of diminishing returns. Before long, you'll be dealing with forms, REST
+Once implementing a database backend, however, Flask enters a cycle of
+diminishing returns. Before long, projects will be dealing with forms, REST
 endpoints and other things that are all best represented via a declarative model
 with types. Which is kind of the philosophy Django's Apps do from the
 start.
 
 There's an information perception that batteries included may mean a growing
 list of ill-maintained API's that get hooked into every request. In the
-case of Django, everything works across the board. If one API updates, you
-can expect Django's testsuites to break and the appropriate changes are
-made. So stuff integrates. This is something that's harder to do when you
-have a lot of packages from different authors you have to wait to cut a
-release in Flask's ecosystem.
+case of Django, everything works across the board. When an internal Django
+API changes, Django's testsuites to break and the appropriate changes are
+made. So stuff integrates. This is something that's harder to do when
+there's a lot of packages from different authors who have to wait for
+fixes to be released in Flask's ecosystem.
 
 And if things change. I look forward to it. Despite Flask's success, and missing
 out on Django's synergy, it is still a mighty, mighty microframework.
@@ -950,7 +954,7 @@ Since I still use Flask. I maintain a `cookiecutter <https://cookiecutter.readth
 `template project for it <https://github.com/tony/cookiecutter-flask-pythonic>`_.
 
 This cookiecutter project will create a core application object that can
-load your Flask blueprints via a declarative YAML or JSON configuration.
+load Flask blueprints via a declarative YAML or JSON configuration.
 
 Feel free to use it as a sample project. In terminal:
 
@@ -978,7 +982,7 @@ Preparation:
   <https://media.readthedocs.org/pdf/django/latest/django.pdf>`_ and `Flask's
   documentation PDF <http://flask.pocoo.org/docs/dev/.latex/Flask.pdf>`_. Read
   it on a smart phone or keep it open in a PDF reader.
-- In your spare time, get in the habit of reading python docs on
+- During spare time, get in the habit of reading python docs on
   ReadTheDocs.org (a documentation hosting website)
 
 Developing:
