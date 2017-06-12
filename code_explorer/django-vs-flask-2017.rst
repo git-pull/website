@@ -251,7 +251,7 @@ Only difference from the pure function view is the :meth:`~django.views.generic.
 
 You will get something like, *django.template.exceptions.TemplateDoesNotExist: core/myuser_detail.html*.
 The name of the file depends on the app name and model name. You need add
-an HTML template to a filename  :class:`~django:django.template.exceptions.TemplateDoesNotExist`
+an HTML template to a filename :exc:`~django:django.template.TemplateDoesNotExist`
 your *templates/* directory.
 
 Example: Inside of *yourapp/templates/*, create a file for *core/myuser_detail.html*.
