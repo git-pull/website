@@ -182,7 +182,8 @@ Django is a framework. The aspects django occupies are:
 A tool kit of web abstractions that solve proven, repeated problems in the trade.
 
 If it's hard to visualize a web app in terms of its database schema, and
-WordPress or Drupal would suffice, Django may not be a good pick for that.
+WordPress or Drupal would suffice, Django may not be the strongest pick for
+that.
 
 Where a CMS will automatically provide a web admin to post content, toggle
 plugins and settings, and even allow user registration and comments. Django
