@@ -26,6 +26,44 @@ Where both excel is prototyping. Getting an idea off the ground fast, and
 giving you the ability to chisel away fine-grain details after. Python
 makes both a joy to work with. 
 
+Concepts present in both frameworks
+===================================
+
+- Request object:
+  
+  Information of user's client request to server
+
+  :class:`flask:flask.Request` and :class:`django:django.http.HttpRequest`
+- URL routing:
+  
+  Routes HTTP requests (GET, POST, PUT, UPDATE), data payload, and URL path
+
+  :doc:`Django's routing <django:topics/http/urls>` and :ref:`Flask's routing <flask:url-route-registrations>`
+- Views:
+  
+  Invoked when a request matches URL pattern and receives request object
+
+  :doc:`Django's views <django:topics/http/views>` and :ref:`Flask's views <flask:views>`
+
+  Class-based: :doc:`django <django:topics/class-based-views/index>` and `flask <http://flask.pocoo.org/docs/0.12/api/#class-based-views>`_
+- Context information
+  
+  Passed into HTML template for processing.
+
+  :meth:`django:django.template.Template.render` (pass :py:class:`dict` into :class:`~django:django.template.Context` object)
+  
+  :func:`flask:flask.render_template` (accepts :py:class:`dict`)
+- HTML template engine:
+  
+  Renders template via context information.
+
+  :doc:`Django's templating <django:ref/templates/index>` and  `Flask's templating <http://flask.pocoo.org/docs/0.12/templating/>`_
+- Response object:
+  
+  Object with HTTP meta information and content to send to the browser.
+
+  :class:`django:django.http.HttpResponse` and :class:`flask:flask.Response`
+
 Django
 ======
 
