@@ -75,6 +75,14 @@ Object with HTTP meta information and content to send to the browser.
 
 :class:`django:django.http.HttpResponse` and :class:`flask:flask.Response`
 
+Static file-handling
+--------------------
+
+Handles static files like CSS, JS assets, and downloads.
+
+:doc:`Static files in django <django:howto/static-files/index>` and
+`Static files in Flask <http://flask.pocoo.org/docs/0.12/quickstart/#static-files>`_
+
 Django
 ======
 
@@ -142,7 +150,6 @@ Popular Django extensions include:
 - Filtering / Search: `django-filter`_
 - Tabular / paginated output of db: `django-tables2`_
 
-.. _Flask-SQLAlchemy: http://flask-sqlalchemy.pocoo.org/
 .. _Django REST Framework: http://www.django-rest-framework.org/
 .. _django-guardian: https://django-guardian.readthedocs.io/
 .. _django-compressor: https://django-compressor.readthedocs.io/
@@ -338,8 +345,8 @@ or class mixing in :class:`~django.views.generic.base.TemplateResponseMixin`.
 
 **Harder:** Getting the user by a username
 
-Even better, let's make the URL's based off the usernames,
-*/profile/yourusername*. In the views file::
+Next, let's try usernames instead of user ID's, */profile/yourusername*. In the
+views file::
 
     from django.contrib.auth import get_user_model
     from django.http import HttpResponse
@@ -587,6 +594,8 @@ What Flask provides
 - :doc:`Template system <flask:templating>` via `jinja2 <http://jinja.pocoo.org/>`_
 - :ref:`URL routing <flask:url-route-registrations>` via `Werkzeug <http://werkzeug.pocoo.org/>`_
 - Modularity via :ref:`blueprints <flask:blueprints>`
+- In-browser REPL-powered tracebook debugging via Werkzeug's
+- Static file handling
 
 Extending Flask
 ---------------
@@ -601,13 +610,19 @@ Popular Flask extensions include:
 - REST: `flask-restful`_ (`flask-restful-swagger`_)
 - Admins: `Flask-Admin`_ `Flask-SuperAdmin`_
 - Auth: `flask-login`_, `flask-security`_
+- Asset Pipeline: `Flask-Assets`_, `Flask-Webpack`_
+- Commands: `Flask-Script`_
 
+.. _Flask-Webpack: https://github.com/nickjj/flask-webpack
+.. _Flask-Assets: https://flask-assets.readthedocs.io
 .. _flask-restful: https://flask-restful.readthedocs.io/
 .. _flask-restful-swagger: https://github.com/rantav/flask-restful-swagger
 .. _Flask-Admin: https://github.com/flask-admin/flask-admin
 .. _Flask-SuperAdmin: https://github.com/SyrusAkbary/Flask-SuperAdmin
 .. _flask-login: https://flask-login.readthedocs.io/
 .. _flask-security: https://flask-security.readthedocs.io
+.. _Flask-SQLAlchemy: http://flask-sqlalchemy.pocoo.org/
+.. _Flask-Script: https://flask-script.readthedocs.io/
 
 Used with flask, but not flask-specific (could be used in normal scripts):
 
@@ -729,7 +744,7 @@ Here's where Flask's configurations aren't so orthogonal. There's also a
 Flask's Initialization
 ----------------------
 
-Since Flask doesn't include database models,
+Since Flask only needs to piece together 
 
 Flask and Databases
 -------------------
