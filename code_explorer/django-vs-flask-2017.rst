@@ -744,7 +744,9 @@ Here's where Flask's configurations aren't so orthogonal. There's also a
 Flask's Initialization
 ----------------------
 
-Since Flask only needs to piece together 
+Flask's initiation is different then Django's.
+
+Django's internals have a lot of implicit behavior.
 
 Flask and Databases
 -------------------
@@ -865,79 +867,14 @@ because there's code that could be reuseable being written, but not worth
 the effort to make an extension for. So there are `snippets
 <http://flask.pocoo.org/snippets/>`_ for that.
 
-Suggestions -- Points to consider
-=================================
-Beware the purity trap
-----------------------
-
-The idea of having a python script there and being able to not tie in a
-whole framework is tempting.
-
-Further, being able to keep data models inert, so python scripts as well
-as a web app can both pull them inside, is good programming.
-
-A belief by being so philosophically pure and pythonic, time could be saved in
-the "long run". All the great virtues of ``import this``.
-
-Code that does too much to be "pure" or "correct" nearly never scales.
-
-I feel the same attitude toward a certain other programming language, as
-well as an operating system. `Too much pride gets invested in identity
-<http://www.paulgraham.com/identity.html>`_.
-
-A couple of anecdotes of my own, in the spirit of `Burke and Wills ill-fated expedition <https://en.wikipedia.org/wiki/Burke_and_Wills_expedition>`_:
-
-Anecdote: Pursuit of JS Holy Grail
-""""""""""""""""""""""""""""""""""
-
-In 2014, I remember wanting to be able to re-use code on the front-end and
-back-end. So I opted to pick up Node.js. While I was able to use the same
-templates. In search of the "Holy Grail". It turned out, Node.js was a
-nightmare for scaling code at the time. For reusable behavior, middleware
-functions are not a replacement for OOP. Having to wrap everything in promises.
-In addition, we were left to our own getting validation on forms and REST
-endpoints to work. It all had to be done by hand. After what months of begging,
-I finally encouraged the supervisor to let us switch to Django. It rescued us.
-
-(Not knocking node.js, I still use it and since 2014, it's grown a lot)
-
-Anecdote: Pursuit of the Pythonic Holy Grail
-""""""""""""""""""""""""""""""""""""""""""""
-
-The other for me, was Flask and SQLAlchemy. Flask had a super fast
-template engine. Straight-forward modularization with blueprints. Works
-well with current python code stored away. SQLAlchemy `is in AOSA 
-<http://aosabook.org/en/sqlalchemy.html>`_ (*The Architecture of Open
-Source Applications*). And the way it builds on top of that layer of core
-commands. Brilliant architecture.
-
-So at the end of the day, the reality is, the (relatively) simpler
-solution provided by Django wins. Thanks to Django's features and third
-party extensions all plugging into :class:`~django:django.db.models.query.QuerySet`,
-everything ends up being consistent. No such plugin community of similar
-size and activity exists for SQLAlchemy's :class:`~sqlalchemy:sqlalchemy.orm.query.Query`
-
-Also ultimately, I wanted to have a declarative way to plug in blueprints
-(what django calls apps). So I ended up having a yaml file to specifying
-the python string path to the blueprints. And also, I even go so far as to
-scan for model classes and inject DB metadata into them. So basically, I'm
-recreate Django. And finally, I grab WTForms to do what django.forms does,
-and find that it's nowhere near as straight forward as what Django would
-give me out of the box.
-
-By the way, I still use SQLAlchemy on projects. And who knows, maybe next
-year the contrib community with Flask will forge forward. Anything's
-possible. I want to pick the best tool for the job, and if thing's change
-I promise to update.
-
 Conclusion
 ==========
 
-So we've covered Flask and Django, their philosophies, their API's,
-juxtaposed against how it worked for me in practice. Some links to
-specific API's across a few python libraries, documentation sections, and
-project homepages should prove fruitful in this being a resource someone can
-come back to.
+We've covered Flask and Django, their philosophies, their API's,
+and juxtaposed those against my personal experiences in production and
+open source. The article included links to specific API's across a few python
+libraries, documentation sections, and project homepages. Together, they should
+prove fruitful in this being a resource to come back to.
 
 I think Flask is great for a quick web app, particularly for a python
 script to build a web front-end for. 
@@ -985,26 +922,42 @@ Feel free to use it as a sample project. In terminal:
 Bonus: How do I learn Django or Flask?
 --------------------------------------
 
-Preparation:
+Preparation
+"""""""""""
 
-- Understand how python `virtual environments`_ (see `Real Python
-  <https://realpython.com/blog/python/python-virtual-environments-a-primer/>`_'s
-  tutorial) and PATH's work. This is an absolute must. Also, check out my
-  book *The Tao of tmux* `available online free
-  <https://leanpub.com/the-tao-of-tmux/read>`_ for some good coverage of
-  the terminal.
+- Understand how python `virtual environments`_ and `PATH`_'s work:
+  
+  - `Real Python's tutorial on virtualenvs 
+    <https://realpython.com/blog/python/python-virtual-environments-a-primer/>`_.
+  - Check out my book *The Tao of tmux* `available online free
+    <https://leanpub.com/the-tao-of-tmux/read>`_ for some good coverage of
+    the terminal.
+- For learning python, here are some free books:
+
+  - `Learn Python the Hard Way <https://learnpythonthehardway.org/book/>`_
+  - `The Hitchhiker's Guide to Python <https://python-guide.readthedocs.io/>`_
 - Grab `Django's documentation PDF
   <https://media.readthedocs.org/pdf/django/latest/django.pdf>`_ and `Flask's
   documentation PDF <http://flask.pocoo.org/docs/dev/.latex/Flask.pdf>`_. Read
   it on a smart phone or keep it open in a PDF reader.
-- During spare time, get in the habit of reading python docs on
-  ReadTheDocs.org (a documentation hosting website)
+- Get in the habit of reading python docs on `ReadTheDocs.org`_, a documentation
+  hosting website.
 
-Developing:
+.. _PATH: https://en.wikipedia.org/wiki/PATH_(variable)
+.. _ReadTheDocs.org: https://www.readthedocs.org
 
-- Make a hobby website in django or flask. Try hosting it on something
-  like `Heroku`_, which is free and has simple deployments. Also,
-  DigitalOcean plans `start at $5/mo <https://m.do.co/c/a8d3c8586c91>`_.
+Developing
+""""""""""
+
+- Make a hobby website in django or flask.
+  
+  Services like `Heroku`_ are free to try, and simple to deploy Django
+  websites to.
+
+  For more free hosting options see https://github.com/ripienaar/free-for-dev.
+  
+  DigitalOcean plans `start at $5/mo <https://m.do.co/c/a8d3c8586c91>`_
+  start at $5/month for an instance. Supports FreeBSD with ZFS.
 - Bookmark and study to this article to get the latest on differences
   between Django and Flask. While it's a comparison, it'll be helpful in
   curating the API and extension universe they have.
@@ -1018,6 +971,24 @@ Developing:
 .. _Visual Studio Code: https://code.visualstudio.com/
 .. _Atom: https://atom.io/
 .. _PyCharm: https://www.jetbrains.com/pycharm/
+
+Future articles
+===============
+
+I'm considering creating some articles or books that go deeper into Python
+internals.
+
+- Django's ORM
+- Django's startup
+- Flask's internals / code overview
+- Django's internals / code overview
+- Numpy, Pandas internals
+- CPython internals
+- Pypy internals
+
+I think talking through the code and patterns in large-scale applications
+is a good way to teach others. If you have a request, send an email, tony
+@ git-pull.com
 
 Hire me
 =======
