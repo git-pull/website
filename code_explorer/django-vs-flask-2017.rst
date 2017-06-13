@@ -722,7 +722,10 @@ like a module.
 
    There's a potential `Chesterton's Fence <https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence>`_
    issue also. I made an issue about it at https://github.com/pallets/flask/issues/2368
-   to document my observations.
+   to document my observations. (Update: `the response <https://github.com/pallets/flask/issues/2368#issuecomment-308116267>`_
+   is they're unveiling a new environmental variable, :envvar:`FLASK_APP`,
+   which can `specify an application factory with arbitrary arguments
+   <https://github.com/pallets/flask/blob/b5f4c52/CHANGES#L46>`_.
 
 Assuming *website/config/dev.py*::
 
