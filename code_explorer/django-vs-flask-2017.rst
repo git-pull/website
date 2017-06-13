@@ -181,16 +181,16 @@ Django is a framework. The aspects django occupies are:
   
 A tool kit of web abstractions that solve proven, repeated problems in the trade.
 
-If it's hard to visualize a web app in terms of its database schema, and
+If it's difficult to visualize a web app in terms of its database schema and
 WordPress or Drupal would suffice, Django may not be the strongest pick for
 that.
 
 Where a CMS will automatically provide a web admin to post content, toggle
-plugins and settings, and even allow user registration and comments. Django
-provides conventions to build features and building blocks of code
-that are amenable to highly granular changes.
+plugins and settings, and even allow user registration and comments, Django
+leaves you building blocks of components you customize to the situation.
+Programming is required.
 
-It's also where Django's programming language, python, gives a big boost.
+Django's programming language, python, also gives it a big boost.
 
 Django uses classes right
 """""""""""""""""""""""""
@@ -203,11 +203,10 @@ straight-forward and navigable.
     Free tools in the community such as `jedi`_ provide navigation of modules,
     functions and classes to editors like `vim`_ and `Atom`_.
 
-Used incorrectly, :python:ref:`classes <tut-classes>` make code harder to read
-and maintain. Needless abstraction sucks the air out of projects.
-
-On the other hand, used pragmatically, they're a pleasure to use as a building
-block downstream. Namely, Django's :doc:`class-based views <django:topics/class-based-views/index>`
+:python:ref:`Python classes <tut-classes>` benefit from many real-world
+examples being available in the open source community to study.
+They're a pleasure incorporating in your code. An example for django
+would be :doc:`class-based views <django:topics/class-based-views/index>`
 which shipped in :doc:`Django 1.3 <django:releases/1.3>`.
 
 .. seealso::
