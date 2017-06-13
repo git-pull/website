@@ -1,3 +1,5 @@
+:orphan:
+
 .. _support:
    
 Support my open source efforts
