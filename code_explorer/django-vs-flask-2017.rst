@@ -584,15 +584,15 @@ via WSGI (server)
 Flask
 =====
 
-Like Django, Flask is also built and maintained in the open source
-community. The creator of the software itself is Armin Ronacher. Initial
-release April 1, 2010.
+Flask is also built and maintained in the open source community. The project, as well
+as its dependencies, `Jinja2`_ and `Werkzeug`_, are `Pallets projects`_. The creator of
+the software itself is Armin Ronacher. Initial release April 1, 2010.
 
 What Flask provides
 -------------------
 
-- :doc:`Template system <flask:templating>` via `jinja2 <http://jinja.pocoo.org/>`_
-- :ref:`URL routing <flask:url-route-registrations>` via `Werkzeug <http://werkzeug.pocoo.org/>`_
+- :doc:`Template system <flask:templating>` via `Jinja2`_
+- :ref:`URL routing <flask:url-route-registrations>` via `Werkzeug`_
 - Modularity via :ref:`blueprints <flask:blueprints>`
 - In-browser REPL-powered tracebook debugging via Werkzeug's
 - Static file handling
@@ -845,14 +845,21 @@ From the :class:`~django:django.db.models.query.QuerySet`
 Open source momentum
 --------------------
 
-Flask, as a microframework, is relatively dormant from an activity
-standpoint (after all, it's scope is well-defined). It's not about stars, or
-commits, or contributor count. It's about features articulated in `change logs <https://github.com/pallets/flask/blob/master/CHANGES>`_.
+Flask, as a microframework, is relatively dormant from a feature
+standpoint. Its scope is well-defined.
 
-The good news is, Flask isn't getting bloated. Recent pull requests seem
-to be on tweaking and refining facilities that are already present.
+Flask isn't getting bloated. Recent pull requests seem to be on tweaking and
+refining facilities that are already present.
 
-Meanwhile, Django wants to do everything web. And everything fits together.
+It's not about stars, or commits, or contributor count. It's about features and
+support niceties that can be articulated in `change logs <https://github.com/pallets/flask/blob/master/CHANGES>`_.
+
+Even then though, it's hard to put things into proportion. Flask includes
+`Werkzeug`_ and `Jinja2`_ as hard dependencies. They run as independent
+projects (*i.e. their own issue trackers*), under the pallets
+organization.
+
+Django wants to do everything web. And everything fits together.
 And it needs to, because it's a framework. And since it covers so much
 ground, let's try to put it into proportion:
 
@@ -987,8 +994,8 @@ internals.
 - Pypy internals
 
 I think talking through the code and patterns in large-scale applications
-is a good way to teach others. If you have a request, send an email, tony
-@ git-pull.com
+is a good way to teach others. In lieu of that, they're fun to read. If you have
+a request, send an email, tony @ git-pull.com
 
 Hire me
 =======
@@ -998,3 +1005,6 @@ at git-pull.com.
 
 Like my stuff? :ref:`Your support is appreciated! <support>`
 
+.. _Pallets projects: https://www.palletsprojects.com/
+.. _Jinja2: http://jinja.pocoo.org/
+.. _Werkzeug: http://werkzeug.pocoo.org/
