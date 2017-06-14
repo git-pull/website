@@ -751,7 +751,55 @@ Flask's Initialization
 
 Flask's initiation is different then Django's.
 
-Django's internals have a lot of implicit behavior.
+Before any server is started, the :class:`~flask:flask.Flask` object
+must be initialized. The ``Flask`` object acts a registry URL mappings, view
+callback code (business logic), hooks, and other configuration data.
+
+The ``Flask`` object only requires one argument to initialize, the
+so-called ``import_name`` parameter. This is used as a way to identify
+what belongs to your application. For more information on this parameter,
+see *About the First Parameter* on the :ref:`Flask API documentation page
+<flask:api>`::
+
+    from flask import Flask
+    app = Flask('myappname')
+
+Above: ``app``, an instantiated ``Flask`` object. No server or
+configuration present (yet).
+
+.. _flask_object:
+
+Dissecting the ``Flask`` object
+"""""""""""""""""""""""""""""""
+
+During the initialization, the ``Flask`` object hollowed out :py:class:`dict`
+and :py:class:`list` attributes to store "hook" functions, such as:
+
+- :attr:`~flask:flask.Flask._error_handlers`
+- :attr:`~flask:flask.Flask._error_handler_spec`
+- :attr:`~flask:flask.Flask.url_build_error_handlers`
+- :attr:`~flask:flask.Flask.before_request_funcs`
+- :attr:`~flask:flask.Flask.before_first_request_funcs`
+- :attr:`~flask:flask.Flask.after_request_funcs`
+- :attr:`~flask:flask.Flask.teardown_request_funcs`
+- :attr:`~flask:flask.Flask.url_value_preprocessors`
+- :attr:`~flask:flask.Flask.url_default_preprocessors`
+- :attr:`~flask:flask.Flask.template_context_preprocessors`
+- :attr:`~flask:flask.Flask.shell_context_preprocessors`
+
+See a pattern above? They're all function callbacks that are triggered
+upon events occuring. ``template_context_preprocessors`` seems a lot like
+Django's.
+
+- :attr:`~flask:flask.Flask.blueprints`: blueprints
+- :attr:`~flask:flask.Flask.extensions`: extensions
+- :attr:`~flask:flask.Flask.url_map`: url mappings
+- :attr:`~flask:flask.Flask.view_functions`: view callbacks
+
+So why list out all those things? Situational awareness is a key
+matter when using a micro framework. Understanding what happens under the
+hood ensures confidence the application is handled by the developer, not the
+other way around.
 
 Flask and Databases
 -------------------
