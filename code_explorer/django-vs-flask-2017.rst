@@ -775,21 +775,21 @@ Dissecting the ``Flask`` object
 During the initialization, the ``Flask`` object hollowed out :py:class:`dict`
 and :py:class:`list` attributes to store "hook" functions, such as:
 
-- :attr:`~flask:flask.Flask._error_handlers`
-- :attr:`~flask:flask.Flask._error_handler_spec`
+- :attr:`~flask:flask.Flask.error_handler_spec`
 - :attr:`~flask:flask.Flask.url_build_error_handlers`
 - :attr:`~flask:flask.Flask.before_request_funcs`
 - :attr:`~flask:flask.Flask.before_first_request_funcs`
 - :attr:`~flask:flask.Flask.after_request_funcs`
 - :attr:`~flask:flask.Flask.teardown_request_funcs`
 - :attr:`~flask:flask.Flask.url_value_preprocessors`
-- :attr:`~flask:flask.Flask.url_default_preprocessors`
-- :attr:`~flask:flask.Flask.template_context_preprocessors`
-- :attr:`~flask:flask.Flask.shell_context_preprocessors`
+- :attr:`~flask:flask.Flask.url_default_functions`
+- :attr:`~flask:flask.Flask.template_context_processors`
+- :attr:`~flask:flask.Flask.shell_context_processors`
 
 See a pattern above? They're all function callbacks that are triggered
-upon events occuring. ``template_context_preprocessors`` seems a lot like
-Django's.
+upon events occuring. ``template_context_processors`` seems a lot like
+Django's :ref:`preprocessor <django:subclassing-context-requestcontext>`
+middleware.
 
 - :attr:`~flask:flask.Flask.blueprints`: blueprints
 - :attr:`~flask:flask.Flask.extensions`: extensions
