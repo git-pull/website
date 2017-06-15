@@ -1,10 +1,10 @@
 :orphan:
 
-.. _django-vs-flask-2017:
+.. _django-vs-flask:
 
-=============================
-Django vs Flask: 2017 Edition
-=============================
+===============
+Django vs Flask
+===============
 A practitioner's perspective
 ============================
 
