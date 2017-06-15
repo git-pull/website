@@ -788,7 +788,7 @@ and :py:class:`list` attributes to store "hook" functions, such as:
 
 See a pattern above? They're all function callbacks that are triggered
 upon events occuring. ``template_context_processors`` seems a lot like
-Django's :ref:`preprocessor <django:subclassing-context-requestcontext>`
+Django's :ref:`context processor <django:subclassing-context-requestcontext>`
 middleware.
 
 - :attr:`~flask:flask.Flask.blueprints`: blueprints
