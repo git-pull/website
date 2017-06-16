@@ -870,35 +870,22 @@ object for database results, like Django's :class:`~django:django.db.models.quer
 So, stuff like easy database-backed validations in PUT and POST isn't
 covered as well.
 
+Flask's extension community is good, but can't leverage Django's synergy
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 That isn't to say Flask has no extension community. It does. But it lacks
 the cohesion and comprehensiveness of Django's. Even in cases where
 there are extensions, there will be corner cases where features are just
 missing.
 
-Without an authentical and permissions system, it's difficult to create
-an OAuth like token system to grant time-block'd permissions to slices of
+For instance, without an authentical and permissions system, it's difficult to
+create an OAuth token system to grant time-block'd permissions to slices of
 data to make available. Stuff available for free with
 `django-rest-framework's django-guardian integration
 <http://www.django-rest-framework.org/api-guide/permissions/#djangoobjectpermissions>`_,
 which benefit from both Django's ORM and its permission system, in many cases
-aren't covered by the contrib community at all.
-
-By not having a united front, the oppurtunity for synergetic efforts that bridge
-across extensions (a la SQLAlchemy, DRF, and django-guardian) never materialize,
-creating extensions that are porous. Leaving devs to fill in the blanks,
-and should the dev decide to patch: create a PR, get a reponse, and wait until a
-release is finally tagged.
-
-Help relies on sites like StackOverflow and programming the solution in-house.
-Time is going to be spent recreating solutions to problems that are already
-available and published, distracting attention.
-
-It's also error-prone to program replacements to these systems; Without the
-benefit over thousands of others relying on the library in production to report
-back if there's unexpected behavior; The refinment from it being around for
-years. It invites increased cases of customer-losing bugs where something breaks
-and it isn't until months later. When that lone `Intercom`_ message mentions
-something's broke, and has been for a while.
+aren't covered by the contrib community at all. This is dicussed in
+greater detail in :ref:`open-source-momentum`.
 
 .. _Intercom: https://www.intercom.com/
 
@@ -913,6 +900,8 @@ Based Views, and so on to suit situations.
 The components django provided complement each other.
 
 From the :class:`~django:django.db.models.query.QuerySet`
+
+.. _open-source-momentum:
 
 Open source momentum
 --------------------
@@ -935,9 +924,10 @@ Django wants to do everything web. And everything fits together.
 And it needs to, because it's a framework. And since it covers so much
 ground, let's try to put it into proportion:
 
-- Django ORM -> SQLAlchemy
+- Django ORM -> SQLAlchemy, MongoEngine
 - Django Templates -> Jinja2
 - Django Core / URL's -> Werkzeug
+- Django Commands -> Flask-Script
 
 There are also feature requests that come in, often driven by need of the
 web development community, and things that otherwise wouldn't be
@@ -945,6 +935,30 @@ considered for Flask or Flask extension. Which kind of hurts open source,
 because there's code that could be reuseable being written, but not worth
 the effort to make an extension for. So there are `snippets
 <http://flask.pocoo.org/snippets/>`_ for that.
+
+And in a language like Python where packages, modules, and duck typing rule,
+I feel snippets, while laudable, are doomed to fall short in keeping in
+check perpetually recreating patterns someone else done. Not to mention,
+snippets don't have CI, nor versioning, issue trackers (maybe a comment
+thread).
+
+By not having a united front, the oppurtunity for synergetic efforts that bridge
+across extensions (a la SQLAlchemy, DRF, and django-guardian) never materialize,
+creating extensions that are porous. Leaving devs to fill in the blanks,
+and should the dev decide to patch: create a PR, get a reponse, and wait until a
+release is finally tagged.
+
+Help relies on sites like StackOverflow and programming the solution in-house.
+Time is going to be spent recreating solutions to problems that are already
+available and published, distracting attention.
+
+It's also error-prone to program replacements to these systems; whether or not
+you're the first or million developer who mapped out the same abstraction.
+Without the benefit over thousands of others relying on the library in production to report
+back if there's unexpected behavior; The refinment from it being around for
+years. It invites increased cases of customer-losing bugs where something breaks
+and it isn't until months later. When that lone `Intercom`_ message mentions
+something's broke, and has been for a while.
 
 Conclusion
 ==========
