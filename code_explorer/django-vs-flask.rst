@@ -826,6 +826,11 @@ Software development is a trade driven by best practices that form over time.
 Decisions should be made by people who understand the in's and out's of their
 product or service's needs.
 
+Over 10 years, the fundamentals of web projects haven't changed much.
+None of the Rails and Django's MVC workflows were thrown out the window. On the
+contrary, they thrived. At the end of the day, it just boils down to JSON, HTML
+templates, CSS and JS assets.
+
 Flask is pure, but often missing something
 ------------------------------------------
 
@@ -839,14 +844,8 @@ API documentation is important because that's how you'll be thinking
 in Flask. Further, you'll likely be reading Flask's code too to gain
 deeper understanding into it.
 
-I feel it's *too* utilitarian, *too* much of a swiss-army knife. The
-control that Flask gives comes at the cost of omitting niceties I most
+The control Flask gives comes at the cost of omitting niceties most
 web projects would actually *find helpful*, not an encumbrance.
-
-Over 10 years, the web hasn't changed that fundamentally that Rails and
-Django broke. On the contrary, they thrived since at the end of the day,
-the project is just serving up JSON, HTML, CSS and JS assets. Flask will get
-many that far.
 
 What about authentication?
 
@@ -864,31 +863,42 @@ with database-backed validation. And it's pluggable and templated.
 
 OK, what about JSON and REST?
 
-Well if it involves a database backend, that still has to be done (like
-above).
+If it involves a database backend, that still has to be done (like above).
 
 Here's where is gets hairy. There isn't really have a *de facto* python
 object for database results, like Django's :class:`~django:django.db.models.query.QuerySet`.
 So, stuff like easy database-backed validations in PUT and POST isn't
 covered as well.
 
-Without an authentication system, it's also trickier to create
+That isn't to say Flask has no extension community. It does. But it lacks
+the cohesion and comprehensiveness of Django's. Even in cases where
+there are extensions, there will be corner cases where features are just
+missing.
+
+Without an authentical and permissions system, it's difficult to create
 an OAuth like token system to grant time-block'd permissions to slices of
 data to make available. Stuff available for free with
 `django-rest-framework's django-guardian integration
 <http://www.django-rest-framework.org/api-guide/permissions/#djangoobjectpermissions>`_,
-in many cases aren't covered by the contrib community at all. Help relies
-on sites like StackOverflow and programming the solution in-house. Time is
-going to be spent recreating solutions to problems that are already
+which benefit from both Django's ORM and its permission system, in many cases
+aren't covered by the contrib community at all.
+
+By not having a united front, the oppurtunity for synergetic efforts that bridge
+across extensions (a la SQLAlchemy, DRF, and django-guardian) never materialize,
+creating extensions that are porous. Leaving devs to fill in the blanks,
+and should the dev decide to patch: create a PR, get a reponse, and wait until a
+release is finally tagged.
+
+Help relies on sites like StackOverflow and programming the solution in-house.
+Time is going to be spent recreating solutions to problems that are already
 available and published, distracting attention.
 
-It's also rather error-prone to program replacements to these
-things; Without the benefit over thousands of others relying on the
-library in production to report back if there's unexpected behavior; The
-refinment from it being around for years. It invites increased cases of
-customer-losing bugs where something breaks and it isn't until months later.
-When that lone `Intercom`_ message mentions something's broke, and has
-been for a while.
+It's also error-prone to program replacements to these systems; Without the
+benefit over thousands of others relying on the library in production to report
+back if there's unexpected behavior; The refinment from it being around for
+years. It invites increased cases of customer-losing bugs where something breaks
+and it isn't until months later. When that lone `Intercom`_ message mentions
+something's broke, and has been for a while.
 
 .. _Intercom: https://www.intercom.com/
 
