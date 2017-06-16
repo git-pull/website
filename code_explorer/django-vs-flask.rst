@@ -270,14 +270,14 @@ user's request and any URL group patterns to the view:
 1. :class:`~django:django.http.HttpRequest` is passed into the view as ``request``.
 
 2. Since the URL pattern, ``r'^profile/(?P<pk>\d+)/$'``, contains a named group,
-   ``pk``, that will be passed via :python:ref:`tut-keywordargs` ``**kwargs``.
+   ``pk``, that will be passed via :ref:`tut-keywordargs` ``**kwargs``.
 
    If it was ``r'^profile/(\d+)/$'``, it'd be passed in as :func:`tuple`
    argument into the ``*arg`` parameter.
    
    .. seealso::
      
-       Learn :python:ref:`the difference between arguments and parameters
+       Learn :ref:`the difference between arguments and parameters
        <faq-argument-vs-parameter>`.
 
 **Bring in a high-level view:**
