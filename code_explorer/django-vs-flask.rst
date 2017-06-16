@@ -796,12 +796,9 @@ middleware.
 - :attr:`~flask:flask.Flask.url_map`: url mappings
 - :attr:`~flask:flask.Flask.view_functions`: view callbacks
 
-So why list out all those things? Situational awareness is a key
-matter when using a micro framework. Understanding what happens under the
-hood ensures confidence the application is handled by the developer, not the
-other way around.
-
-
+So why list these? Situational awareness is a key matter when using a micro
+framework. Understanding what happens under the hood ensures confidence the
+application is handled by the developer, not the other way around.
 
 Flask and Databases
 -------------------
@@ -810,9 +807,8 @@ Unlike Django, Flask doesn't tie project's to a database.
 
 There's no rules saying a Flask app has to connect to a database. It's
 python, flask could used to make a proxy/abstraction of a thirdparty REST API.
-Or a quick web front-end to a pure-python program.
-
-Another possiblity: generating a purely static website with no SQL backend `a la NPR`_.
+Or a quick web front-end to a pure-python program. Another possiblity,
+generating a purely static website with no SQL backend `a la NPR`_.
 
 If a website is using RDBMS, which is often true, a popular choice is
 SQLAlchemy. `Flask-SQLAlchemy`_ helps assist in gluing them together.
@@ -834,15 +830,13 @@ templates, CSS and JS assets.
 Flask is pure, but often missing something
 ------------------------------------------
 
-The one thing that strikes me about Flask is it's really meant to stay out
-of the way and put the developer into control. Even over things as
-granular as piecing together the ``Flask`` object, registering blueprints and
-starting the web server.
+Flask is really meant to stay out of the way and put the developer into control.
+Even over things as granular as piecing together the ``Flask`` object,
+registering blueprints and starting the web server.
 
-The API is, much like this website, documented in sphinx. Having good
-API documentation is important because that's how you'll be thinking
-in Flask. Further, you'll likely be reading Flask's code too to gain
-deeper understanding into it.
+The API is, much like this website, is documented using `sphinx`_. The reference
+will become goto. You'll also have a relatively easier time reading Flask's code
+too to gain deeper understanding into it.
 
 The control Flask gives comes at the cost of omitting niceties most
 web projects would actually *find helpful*, not an encumbrance.
@@ -1097,6 +1091,7 @@ at git-pull.com.
 
 Like my stuff? :ref:`Your support is appreciated! <support>`
 
+.. _Sphinx: http://sphinx-doc.org
 .. _Pallets projects: https://www.palletsprojects.com/
 .. _Jinja2: http://jinja.pocoo.org/
 .. _Werkzeug: http://werkzeug.pocoo.org/
