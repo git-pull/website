@@ -925,10 +925,15 @@ together. And it needs to, because it's a framework. Or a framework
 of frameworks. Since it covers so much ground, let's try once again
 to put it into proportion, against Flask:
 
-- Django ORM -> SQLAlchemy, MongoEngine
-- Django Templates -> Jinja2
-- Django Core / URL's -> Werkzeug
-- Django Commands -> Flask-Script
+============================== ===========================================
+Django                         Flask
+============================== ===========================================
+Django ORM                     SQLAlchemy, MongoEngine
+Django Templates               Jinja2
+Django Core / URL's            Werkzeug
+Django Commands                Flask-Script
+============================== ===========================================
+
 
 There are also feature requests that come in, often driven by need of the
 web development community, and things that otherwise wouldn't be
