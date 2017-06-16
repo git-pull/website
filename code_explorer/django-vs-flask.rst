@@ -917,12 +917,13 @@ support niceties that can be articulated in `change logs <https://github.com/pal
 
 Even then though, it's hard to put things into proportion. Flask includes
 `Werkzeug`_ and `Jinja2`_ as hard dependencies. They run as independent
-projects (*i.e. their own issue trackers*), under the pallets
-organization.
+projects (*i.e. their own issue trackers*), under the `pallets
+organization <https://github.com/pallets>`_.
 
-Django wants to do everything web. And everything fits together.
-And it needs to, because it's a framework. And since it covers so much
-ground, let's try to put it into proportion:
+Django wants to handle everything on the web backend. Everything fits
+together. And it needs to, because it's a framework. Or a framework
+of frameworks. Since it covers so much ground, let's try once again
+to put it into proportion, against Flask:
 
 - Django ORM -> SQLAlchemy, MongoEngine
 - Django Templates -> Jinja2
@@ -944,9 +945,9 @@ thread).
 
 By not having a united front, the oppurtunity for synergetic efforts that bridge
 across extensions (a la SQLAlchemy, DRF, and django-guardian) never materialize,
-creating extensions that are porous. Leaving devs to fill in the blanks,
-and should the dev decide to patch: create a PR, get a reponse, and wait until a
-release is finally tagged.
+creating extensions that are porous. This leaves devs to fill in the blanks,
+and should they decide to contribute a patch: create a PR, get a reponse, and
+wait until a release is finally tagged.
 
 Help relies on sites like StackOverflow and programming the solution in-house.
 Time is going to be spent recreating solutions to problems that are already
