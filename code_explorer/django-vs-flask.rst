@@ -801,6 +801,8 @@ matter when using a micro framework. Understanding what happens under the
 hood ensures confidence the application is handled by the developer, not the
 other way around.
 
+
+
 Flask and Databases
 -------------------
 
@@ -828,11 +830,18 @@ Flask is pure, but often missing something
 ------------------------------------------
 
 The one thing that strikes me about Flask is it's really meant to stay out
-of the way. The API is, much like this website, documented in sphinx,
-it's straight-forward and puts code first.
+of the way and put the developer into control. Even over things as
+granular as piecing together the ``Flask`` object, registering blueprints and
+starting the web server.
 
-I feel it almost puts the the job of getting a product shipped secondary.
-It's *too* utilitarian, *too* much of a swiss-army knife.
+The API is, much like this website, documented in sphinx. Having good
+API documentation is important because that's how you'll be thinking
+in Flask. Further, you'll likely be reading Flask's code too to gain
+deeper understanding into it.
+
+I feel it's *too* utilitarian, *too* much of a swiss-army knife. The
+control that Flask gives comes at the cost of omitting niceties I most
+web projects would actually *find helpful*, not an encumbrance.
 
 Over 10 years, the web hasn't changed that fundamentally that Rails and
 Django broke. On the contrary, they thrived since at the end of the day,
