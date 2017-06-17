@@ -1052,8 +1052,8 @@ Help relies on sites like StackOverflow and programming the solution in-house.
 Time is going to be spent recreating solutions to problems that are already
 available and published, distracting attention.
 
-It's also error-prone to program replacements to these systems; whether or not
-you're the first or million developer who mapped out the same abstraction.
+It's also error-prone to program replacements to these systems; whether 
+you're the first or millionth developer who mapped out the same abstraction.
 Without the benefit over thousands of others relying on the library in production to report
 back if there's unexpected behavior; The refinment from it being around for
 years. It invites increased cases of customer-losing bugs where something breaks
