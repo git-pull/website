@@ -1043,7 +1043,7 @@ snippets don't have CI, nor versioning, nor issue trackers (maybe a comment
 thread).
 
 By not having a united front, the oppurtunity for synergetic efforts that bridge
-across extensions (a la SQLAlchemy, DRF, and django-guardian) never materialize,
+across extensions (a la Django ORM, Alchemy, DRF, and django-guardian) never materialize,
 creating extensions that are porous. This leaves devs to fill in the blanks,
 and should they decide to contribute a patch: create a PR, get a reponse, and
 wait until a release is finally tagged.
