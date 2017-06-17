@@ -877,6 +877,10 @@ Start Flask web server
 
 See :meth:`flask:flask.Flask.run`.
 
+.. versionadded:: 0.12
+
+    Flask also has a :ref:`command-line API <flask:cli>`
+
 Flask and Databases
 -------------------
 
@@ -1019,14 +1023,15 @@ together. And it needs to, because it's a framework. Or a framework
 of frameworks. Since it covers so much ground, let's try once again
 to put it into proportion, against Flask:
 
-============================== ===========================================
+============================== ================================================
 Django                         Flask
-============================== ===========================================
+============================== ================================================
 Django ORM                     SQLAlchemy, MongoEngine
 Django Templates               Jinja2
 Django Core / URL's            Werkzeug
-Django Commands                Flask-Script
-============================== ===========================================
+Django Commands                Flask-Script (flask bundles :ref:`CLI support 
+                               <flask:cli>` as of 0.11)
+============================== ================================================
 
 
 There are also feature requests that come in, often driven by need of the
