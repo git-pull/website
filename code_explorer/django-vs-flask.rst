@@ -52,14 +52,16 @@ Invoked when a request matches URL pattern and receives request object
 
 :doc:`Django's views <django:topics/http/views>` and :ref:`Flask's views <flask:views>`
 
-Class-based: :doc:`django <django:topics/class-based-views/index>` and `flask <http://flask.pocoo.org/docs/0.12/api/#class-based-views>`_
+Class-based: :doc:`django <django:topics/class-based-views/index>` and
+`flask <http://flask.pocoo.org/docs/0.12/api/#class-based-views>`_
 
 Context information
 -------------------
   
 Passed into HTML template for processing.
 
-:meth:`django:django.template.Template.render` (pass :py:class:`dict` into :class:`~django:django.template.Context` object)
+:meth:`django:django.template.Template.render` (pass :py:class:`dict` into
+:class:`~django:django.template.Context` object)
   
 :func:`flask:flask.render_template` (accepts :py:class:`dict`)
 
@@ -644,6 +646,8 @@ For more, see `awesome-flask`_ on github.
 
 .. _awesome-flask: https://github.com/humiaozuzu/awesome-flask
 
+.. _configuring-flask:
+
 Configuring Flask
 -----------------
 
@@ -799,6 +803,53 @@ middleware.
 So why list these? Situational awareness is a key matter when using a micro
 framework. Understanding what happens under the hood ensures confidence the
 application is handled by the developer, not the other way around.
+
+Hooking in views
+""""""""""""""""
+
+The application object is instantiated relatively early because it's
+used to decorate views.
+
+Still, at this point, you don't have a server running yet. Just a
+``Flask`` object. Most examples will show the object instantiated as
+``app``, you can of course use any name.
+
+.. code-block:: python
+
+    from flask import Flask
+    app = Flask(__name__)
+
+    @app.route('/')
+    def hello_world():
+        return 'Hello, World'
+
+The :meth:`flask:flask.Flask.route` decorator is just a fancy way of doing
+:meth:`flask:flask.Flask.add_url_rule`::
+
+    from flask import Flask
+    app = Flask(__name__)
+
+    def hello_world():
+        return 'Hello, World'
+    app.add_url_rule('/', 'hello_world', hello_world)
+
+Configure the Flask object
+""""""""""""""""""""""""""
+
+.. seealso::
+
+    :ref:`configuring-flask`
+
+So, *after* initializing the Python object, the configuration is then
+added.
+
+Start Flask web server
+""""""""""""""""""""""
+
+.. code-block:: python
+
+    if __name__ == '__main__':
+        app.run()
 
 Flask and Databases
 -------------------
