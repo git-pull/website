@@ -1150,7 +1150,7 @@ Developing
   For more free hosting options see https://github.com/ripienaar/free-for-dev.
   
   DigitalOcean plans `start at $5/mo <https://m.do.co/c/a8d3c8586c91>`_
-  start at $5/month for an instance. Supports FreeBSD with ZFS.
+  per instance. Supports FreeBSD with ZFS.
 - Bookmark and study to this article to get the latest on differences
   between Django and Flask. While it's a comparison, it'll be helpful in
   curating the API and extension universe they have.
