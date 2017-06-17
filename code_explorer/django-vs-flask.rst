@@ -848,6 +848,8 @@ objects. There's nothing magical here, nothing's tying you down - it's
 python. Unlike with django, which controls initialization, a Flask project
 controls the minutiae the initialization process.
 
+In this situation, I'll wrap it in a function.
+
 Start Flask web server
 """"""""""""""""""""""
 
@@ -876,14 +878,13 @@ SQLAlchemy. `Flask-SQLAlchemy`_ helps assist in gluing them together.
 Interpretations
 ===============
 
-Software development is a trade driven by best practices that form over time.
-Decisions should be made by people who understand the in's and out's of their
-product or service's needs.
+Software development best practices form over time. Decisions should be made by
+those with familiarity with their product or service's needs.
 
-Over 10 years, the fundamentals of web projects haven't changed much.
-None of the Rails and Django's MVC workflows were thrown out the window. On the
-contrary, they thrived. At the end of the day, it just boils down to JSON, HTML
-templates, CSS and JS assets.
+Over the last 10 years, the fundamentals of web projects haven't shifted.
+None of Rails' or Django's MVC workflows were thrown out the window. On the
+contrary, they thrived. At the end of the day, the basics still boils down to
+JSON, HTML templates, CSS, and JS assets.
 
 Flask is pure, but often missing something
 ------------------------------------------
