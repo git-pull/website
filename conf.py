@@ -7,7 +7,7 @@ extensions = [
   'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alagitpull'
 ]
 
-html_title = 'Tony\'s Confucian Gentlemen Club'
+html_title = 'git-pull.com'
 
 templates_path = ['_templates']
 
