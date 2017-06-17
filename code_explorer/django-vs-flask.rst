@@ -211,7 +211,8 @@ Django uses classes right
 While python isn't statically typed, its inheritance hierarchy is very
 straight-forward and navigable.
 
-.. seealso::
+.. admonition:: Code Editors
+    :class: seealso
   
     Free tools in the community such as `jedi`_ provide navigation of modules,
     functions and classes to editors like `vim`_ and `Atom`_.
@@ -222,7 +223,8 @@ They're a pleasure incorporating in your code. An example for django
 would be :doc:`class-based views <django:topics/class-based-views/index>`
 which shipped in :doc:`Django 1.3 <django:releases/1.3>`.
 
-.. seealso::
+.. admonition:: OOP + Python
+    :class: seealso
 
     For those seeking a good example of OOP in Python, in addition to
     class-based views, Django is a sweeping resource. It abstracts out
@@ -279,7 +281,8 @@ user's request and any URL group patterns to the view:
    If it was ``r'^profile/(\d+)/$'``, it'd be passed in as :func:`tuple`
    argument into the ``*arg`` parameter.
    
-   .. seealso::
+   .. admonition:: Arguments and Parameters
+       :class: seealso
      
        Learn :ref:`the difference between arguments and parameters
        <faq-argument-vs-parameter>`.
