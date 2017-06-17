@@ -8,6 +8,8 @@ Django vs Flask
 A practitioner's perspective
 ============================
 
+*June 2017*
+
 This analysis is a comparison of 2 python frameworks, Flask and Django.
 It discusses their features and how their technical philosophies impact software
 developers. It is based on my experience using both, as well as time spent
