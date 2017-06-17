@@ -952,7 +952,31 @@ Based Views, and so on to suit situations.
 
 The components django provided complement each other.
 
-From the :class:`~django:django.db.models.query.QuerySet`
+Rather than dragging in hard-requirements, nothing forces you to:
+
+- use the Form framework
+- if using the Form framework, to:
+
+  - back forms with models (ModelForm)
+  - output the form via :meth:`~django:django.forms.Form.as_p`,
+    :meth:`~django:django.forms.Form.as_table`, or
+    :meth:`~django:django.forms.Form.as_ul`
+- use class-based views
+- use a *specific* class-based view
+- if using a class-based view, fully implement every method of a specialized-view
+- use django's builtin User model
+
+Above are just a few examples, but Django doesn't strap projects into using
+every battery.
+
+That said, the :class:`~django:django.db.models.query.QuerySet` object
+plays a huge role in catalyzing the momentum django provides. It provides
+easy database-backed form validations, simple object retrieval with views,
+code readability. It's even utilized downstream by extensions like
+django-filters and django-tables2. These two plugins don't even know about
+each other, but since they both operate using the same database object,
+you can use django-filter's filter options to facet and search results
+that are produced by django-tables2.
 
 .. _open-source-momentum:
 
