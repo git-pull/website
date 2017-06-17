@@ -989,7 +989,7 @@ every battery.
 That said, the :class:`~django:django.db.models.query.QuerySet` object
 plays a huge role in catalyzing the momentum django provides. It provides
 easy database-backed form validations, simple object retrieval with views,
-code readability. It's even utilized downstream by extensions like
+and code readability. It's even utilized downstream by extensions like
 django-filters and django-tables2. These two plugins don't even know about
 each other, but since they both operate using the same database object,
 you can use django-filter's filter options to facet and search results
