@@ -848,7 +848,21 @@ objects. There's nothing magical here, nothing's tying you down - it's
 python. Unlike with django, which controls initialization, a Flask project
 controls the minutiae the initialization process.
 
-In this situation, I'll wrap it in a function.
+In this situation, let's wrap it in a pure function:
+
+.. code-block:: python
+
+    from flask import Flask
+
+    class DevConfig(object):
+        DEBUG = True
+        TESTING = True
+        DATABASE_URL = 'sqlite://:memory:'
+
+    def get_app():
+        app = Flask(__name__)
+        app.config.from_object(DevConfig)
+        return app
 
 Start Flask web server
 """"""""""""""""""""""
@@ -856,6 +870,7 @@ Start Flask web server
 .. code-block:: python
 
     if __name__ == '__main__':
+        app = get_app()
         app.run()
 
 See :meth:`flask:flask.Flask.run`.
