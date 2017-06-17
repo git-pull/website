@@ -848,7 +848,7 @@ the *after* initializing the Python object.
 You could make a function to act as a factory/bootstrapper for flask
 objects. There's nothing magical here, nothing's tying you down - it's
 python. Unlike with django, which controls initialization, a Flask project
-controls the minutiae the initialization process.
+has to handle minutiae of initialization on its own.
 
 In this situation, let's wrap it in a pure function:
 
