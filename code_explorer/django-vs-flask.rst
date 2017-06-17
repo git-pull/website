@@ -856,6 +856,8 @@ Start Flask web server
     if __name__ == '__main__':
         app.run()
 
+See :meth:`flask:flask.Flask.run`.
+
 Flask and Databases
 -------------------
 
