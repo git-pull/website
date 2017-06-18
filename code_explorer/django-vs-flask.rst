@@ -497,11 +497,19 @@ Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization
   - *Singleton*, meaning that it can be imported it the application code,
     retrieving the same instance of the object.
     
-    .. note::
+    .. admonition:: Reminder
+       :class: note
 
-       If someone brings up global interpreter locks and thread safety,
-       gently ask why a customer control panel or JSON API is bottle-necked
-       due to CPU constraints; most web problems are I/O bound.
+       Sometimes global interpreter locks and thread safety are brought up.
+       Customer control panels and JSON API's aren't CPU bound. Most web problems
+       are I/O bound.
+
+       In other words, the issues websites face when scaling are more concurrency
+       related. In practice, it's not limited to the dichotomy of concurrency or 
+       parallelism but by offloading to infrastructure like `reverse proxies`_,
+       task queue (e.g. `Celery`_, `RQ`_), and `Database replication`_.
+       Computational heavy backend services are done elsewhere and use different
+       tools (kafka, hadoop, spark, elasticsearch, etc).
 
 Django use :func:`~importlib.import_module` to turn a string into a
 :ref:`module <tut-modules>`. It's kind of like an ``eval``, but strictly for
@@ -528,6 +536,10 @@ To access settings attributes application-wide, do::
    This is the single biggest learning barrier python has. It will be a
    hindrance every step of the way until the concept is internalized.
 
+.. _reverse proxies: https://en.wikipedia.org/wiki/Reverse_proxy
+.. _Celery: http://www.celeryproject.org/
+.. _RQ: http://python-rq.org/
+.. _Database replication: https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE
 .. _environment variable: https://en.wikipedia.org/wiki/Environment_variable
 
 .. _djangos-initialization:
