@@ -171,11 +171,8 @@ Customizing Django
 Eventually the included forms, fields and class-based views included in
 Django aren't going to be enough. 
 
-Fear of prefabricated solutions
--------------------------------
-
-There's a well-advised stigma prefabricated solutions don't work in the
-long term.
+Django's scope
+--------------
 
 Django is a framework. The aspects django occupies are:
 
@@ -192,7 +189,8 @@ Django is a framework. The aspects django occupies are:
   environment variables (:envvar:`DJANGO_SETTINGS_MODULE`) e.g. dev, staging, prod
   workflows
   
-A tool kit of web abstractions that solve proven, repeated problems in the trade.
+A tool kit of libraries that abstract the monotony of common tasks in
+web projects.
 
 If it's difficult to visualize a web app in terms of its database schema and
 WordPress or Drupal would suffice, Django may not be the strongest pick for
