@@ -500,16 +500,16 @@ Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization
     .. admonition:: Reminder
        :class: note
 
-       Sometimes global interpreter locks and thread safety are brought up.
-       Customer control panels and JSON API's aren't CPU bound. Most web problems
-       are I/O bound.
+       Sometimes global interpreter locks and thread safety are brought up when
+       discussing languages. Web admin interfaces and JSON API's aren't CPU
+       bound. Most web problems are I/O bound.
 
-       In other words, the issues websites face when scaling are more concurrency
-       related. In practice, it's not limited to the dichotomy of concurrency or 
-       parallelism but by offloading to infrastructure like `reverse proxies`_,
-       task queue (e.g. `Celery`_, `RQ`_), and `Database replication`_.
+       In other words, issues websites face when scaling are concurrency
+       related. It's not limited to the dichotomy of concurrency and parallelism.
+       Websites scale by offloading to infrastructure such as: `reverse proxies`_,
+       task queues (e.g. `Celery`_, `RQ`_), and `Database replication`_.
        Computational heavy backend services are done elsewhere and use different
-       tools (kafka, hadoop, spark, elasticsearch, etc).
+       tools (kafka, hadoop, spark, Elasticsearch, etc).
 
 Django use :func:`~importlib.import_module` to turn a string into a
 :ref:`module <tut-modules>`. It's kind of like an ``eval``, but strictly for
