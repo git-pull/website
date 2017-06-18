@@ -315,8 +315,10 @@ default behavior grabs the PK::
 Append :meth:`~django.views.generic.base.View.as_view` to routes using
 class-based views.
 
-If  *profile/1* is accessed and missing a template, something happens like:
-*django.template.exceptions.TemplateDoesNotExist: core/myuser_detail.html*.
+If  *profile/1* is missing a template, accessing the page displays an error::
+  
+    django.template.exceptions.TemplateDoesNotExist: core/myuser_detail.html
+
 The file location and name depends on the app name and model name.
 Create a new template in the location after :exc:`~django:django.template.TemplateDoesNotExist`
 in any of the projects *templates/* directories.
