@@ -1136,8 +1136,8 @@ changes are made. So stuff integrates. This is something that's harder to do
 when there's a lot of packages from different authors who have to wait for
 fixes to be released in Flask's ecosystem.
 
-And if things change. I look forward to it. Despite Flask's success, and missing
-out on Django's synergy, it is still a mighty, mighty microframework.
+And if things change. I look forward to it. Despite Flask missing out on
+Django's synergy, it is still a mighty, mighty microframework.
 
 Bonus: Cookiecutter template for Flask projects
 -----------------------------------------------
