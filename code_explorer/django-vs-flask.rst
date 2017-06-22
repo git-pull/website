@@ -734,7 +734,8 @@ variable, do something like::
 The environmental variable set points to a file, which is interpreted
 like a module.
 
-.. caution::
+.. admonition:: Confusion with configs
+   :class: caution
 
    Despite the pythonic use of :meth:`~flask:flask.Config.from_object` and the
    :ref:`pattern of building classes <config-dev-prod>` to point to classes
