@@ -987,8 +987,8 @@ If it involves a database backend, that still has to be done (like above).
 To help Flask projects along, there are solutions like `Flask API`_ (inspired by
 Django Rest Framework) and `Flask-RESTful`_.
 
-Flask's extension community is good, but can't compare to Django's synergy
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Flask's extension community chugs, while Django's synergy seems unstoppable
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 That isn't to say Flask has no extension community. It does. But it lacks
 the cohesion and comprehensiveness of Django's. Even in cases where
