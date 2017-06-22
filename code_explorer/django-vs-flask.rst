@@ -749,15 +749,16 @@ like a module.
    <https://github.com/pallets/flask/blob/b5f4c52/CHANGES#L46>`_.)
 
    In the writer's opinion, in an API-centric framework like flask, the
-   recent ``FLASK_APP`` variable exacerbates the confusion. Why have
+   recent ``FLASK_APP`` variable exacerbates the confusion. Why introduce
    ``FLASK_APP`` when ``from_envvars`` is available? Why not allow `pointing to a
    config object and leveraging what flask already has and exemplifies in its
    documentation <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>`_?
 
    It's already de facto in the flask community to point to modules and
    classes when apps bootstrap. There's a reason for that. Maintainer's
-   should harken back on using the tools and gears that originally made flask so
-   beloved.
+   should harken back on using the tools and gears that originally earned flask
+   its respect. In microframeworks, nonorthogonality sticks out like a sore
+   thumb.
 
 Assuming *website/config/dev.py*::
 
