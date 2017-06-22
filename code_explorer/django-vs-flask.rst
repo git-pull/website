@@ -630,7 +630,7 @@ Popular Flask extensions include:
 - Database: `Flask-SQLAlchemy`_
 - REST: `Flask-RESTful`_ (`flask-restful-swagger`_), `Flask API`_
 - Admins: `Flask-Admin`_ `Flask-SuperAdmin`_
-- Auth: `flask-login`_, `flask-security`_
+- Auth: `Flask-Login`_, `Flask-Security`_
 - Asset Pipeline: `Flask-Assets`_, `Flask-Webpack`_
 - Commands: `Flask-Script`_
 
@@ -641,7 +641,7 @@ Popular Flask extensions include:
 .. _Flask API: http://www.flaskapi.org/
 .. _Flask-Admin: https://github.com/flask-admin/flask-admin
 .. _Flask-SuperAdmin: https://github.com/SyrusAkbary/Flask-SuperAdmin
-.. _flask-login: https://flask-login.readthedocs.io/
+.. _Flask-Login: https://flask-login.readthedocs.io/
 .. _flask-security: https://flask-security.readthedocs.io
 .. _Flask-SQLAlchemy: http://flask-sqlalchemy.pocoo.org/
 .. _Flask-Script: https://flask-script.readthedocs.io/
@@ -974,7 +974,7 @@ There's the database back-end.
 
 Now to building the user schema. Should the website accept email addresses as
 usernames? What about password hashing? Maybe `Flask-Security`_ or
-`flask-login`_ will do here.
+`Flask-Login`_ will do here.
 
 Meanwhile, `Django would have
 <https://docs.djangoproject.com/en/1.11/topics/auth/default/>`_ the ORM, User
