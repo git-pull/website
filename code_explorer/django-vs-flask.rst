@@ -954,8 +954,8 @@ There's no way to store the users. So grab SQLAlchemy, peewee, or MongoEngine.
 There's the database back-end.
 
 Now to building the user schema. Should the website accept email addresses as
-usernames? What about password hashing? Maybe Flask-Security or
-Flask-Login will do here. OK, fair enough.
+usernames? What about password hashing? Maybe `Flask-Security`_ or
+`flask-login`_ will do here.
 
 Meanwhile, `Django would have
 <https://docs.djangoproject.com/en/1.11/topics/auth/default/>`_ the ORM, User
