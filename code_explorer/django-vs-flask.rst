@@ -934,19 +934,24 @@ None of Rails' or Django's MVC workflows were thrown out the window. On the
 contrary, they thrived. At the end of the day, the basics still boils down to
 JSON, HTML templates, CSS, and JS assets.
 
-Flask is pure, but often missing something
-------------------------------------------
+Flask is pure, easy to master fully, but can lend to reinventing the wheel
+--------------------------------------------------------------------------
 
-Flask is really meant to stay out of the way and put the developer into control.
+Flask is meant to stay out of the way and put the developer into control.
 Even over things as granular as piecing together the ``Flask`` object,
 registering blueprints and starting the web server.
 
 The API is, much like this website, is documented using `sphinx`_. The reference
-will become goto. You'll also have a relatively easier time reading Flask's code
-too to gain deeper understanding into it.
+will become a goto. To add to it, a smaller codebase means a developer can
+realistically wrap their brain around the internals.
 
-The control Flask gives comes at the cost of omitting niceties most
-web projects would actually *find helpful*, not an encumbrance.
+Developers who that find implicit behavior to be a hindrance and thrive in
+explicitness will feel comfortable using Flask.
+
+However, this comes at the cost of omitting niceties many web projects would
+actually *find helpful*, not an encumbrance. It'll also leave developer's
+relying on third party extensions. To think of a few that'd come up for
+many:
 
 What about authentication?
 
@@ -962,7 +967,7 @@ Meanwhile, `Django would have
 Model, authentication decorators for views, *and* :class:`login forms <django:django.contrib.auth.views.LoginView>`,
 with database-backed validation. And it's pluggable and templated.
 
-OK, what about JSON and REST?
+What about JSON and REST?
 
 If it involves a database backend, that still has to be done (like above).
 To help Flask projects along, there are solutions like `Flask API`_ (inspired by
@@ -971,8 +976,8 @@ Django Rest Framework) and `Flask RESTful`_.
 .. _Flask API: http://www.flaskapi.org/
 .. _Flask RESTful: https://flask-restful.readthedocs.io/
 
-Flask's extension community is good, but can't leverage Django's synergy
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Flask's extension community is good, but can't compare to Django's synergy
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 That isn't to say Flask has no extension community. It does. But it lacks
 the cohesion and comprehensiveness of Django's. Even in cases where
