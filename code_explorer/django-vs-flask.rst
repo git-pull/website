@@ -749,8 +749,8 @@ like a module.
    to `specify an application factory with arbitrary arguments
    <https://github.com/pallets/flask/blob/b5f4c52/CHANGES#L46>`_.)
 
-   In the writer's opinion, in an API-centric framework like flask, the
-   recent ``FLASK_APP`` variable exacerbates the confusion. Why introduce
+   In the writer's opinion, an API-centric framework like flask introducing
+   the ``FLASK_APP`` variable exacerbates the aforementioned confusion. Why add
    ``FLASK_APP`` when ``from_envvars`` is available? Why not allow `pointing to a
    config object and leveraging what flask already has and exemplifies in its
    documentation <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>`_?
