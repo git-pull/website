@@ -740,9 +740,10 @@ like a module.
    :class: note
 
    Despite the pythonic use of :meth:`~flask:flask.Config.from_object` and the
-   :ref:`pattern of building classes <config-dev-prod>` to point to classes
-   for dev/prod setups in official documentation`, and the abundance of
-   string to python object importation utilities, it doesn't point to a class.
+   :ref:`pattern using classes <config-dev-prod>` to store configs
+   for dev/prod setups in official documentation, and the abundance of
+   string to python object importation utilities, environmental variables in Flask
+   don't point to a class, but to *files* which are interpreted as modules.
 
    There's a potential `Chesterton's Fence <https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence>`_
    issue also. I `made an issue <https://github.com/pallets/flask/issues/2368>`_ about it
