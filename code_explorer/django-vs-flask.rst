@@ -1048,7 +1048,6 @@ Django Commands                Flask-Script (flask bundles :ref:`CLI support
                                <flask:cli>` as of 0.11)
 ============================== ================================================
 
-
 There are also feature requests that come in, often driven by need of the
 web development community, and things that otherwise wouldn't be
 considered for Flask or Flask extension. Which kind of hurts open source,
@@ -1063,22 +1062,10 @@ snippets don't have CI, nor versioning, nor issue trackers (maybe a comment
 thread).
 
 By not having a united front, the oppurtunity for synergetic efforts that bridge
-across extensions (a la Django ORM, Alchemy, DRF, and django-guardian) never materialize,
-creating extensions that are porous. This leaves devs to fill in the blanks,
-and should they decide to contribute a patch: create a PR, get a reponse, and
-wait until a release is finally tagged.
-
-Help relies on sites like StackOverflow and programming the solution in-house.
-Time is going to be spent recreating solutions to problems that are already
-available and published, distracting attention.
-
-It's also error-prone to program replacements to these systems; whether 
-you're the first or millionth developer who mapped out the same abstraction.
-Without the benefit over thousands of others relying on the library in production to report
-back if there's unexpected behavior; The refinment from it being around for
-years. It invites increased cases of customer-losing bugs where something breaks
-and it isn't until months later. When that lone `Intercom`_ message mentions
-something's broke, and has been for a while.
+across extensions (a la Django ORM, Alchemy, DRF, and django-guardian) 
+fail to materialize, creating extensions that are porous. This leaves devs to
+fill in the blanks for all-inclusive functionality that'd already be
+working had they just picked a different tool for the job.
 
 Conclusion
 ==========
@@ -1095,18 +1082,18 @@ script to build a web front-end for.
 If already using SQLAlchemy models, it's possible to get them working with
 a Flask application with little work. With Flask, things feel in control.
 
-Once implementing a database backend, however, Flask enters a cycle of
+However, once relational databases come into play, Flask enters a cycle of
 diminishing returns. Before long, projects will be dealing with forms, REST
 endpoints and other things that are all best represented via a declarative model
-with types. Which is kind of the philosophy Django's Apps do from the
-start.
+with types. The exact stance :doc:`Django's applications <django:ref/applications>`
+take from the beginning.
 
-There's an information perception that batteries included may mean a growing
-list of ill-maintained API's that get hooked into every request. In the
-case of Django, everything works across the board. When an internal Django
-API changes, Django's testsuites to break and the appropriate changes are
-made. So stuff integrates. This is something that's harder to do when
-there's a lot of packages from different authors who have to wait for
+There's an informal perception that :django:ref:`Batteries included <tut-batteries-included>`
+may mean a growing list of ill-maintained API's that get hooked into every
+request. In the case of Django, everything works across the board. When an
+internal Django API changes, Django's testsuites to break and the appropriate
+changes are made. So stuff integrates. This is something that's harder to do 
+when there's a lot of packages from different authors who have to wait for
 fixes to be released in Flask's ecosystem.
 
 And if things change. I look forward to it. Despite Flask's success, and missing
