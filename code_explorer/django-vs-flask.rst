@@ -628,7 +628,7 @@ carte.
 Popular Flask extensions include:
 
 - Database: `Flask-SQLAlchemy`_
-- REST: `flask-restful`_ (`flask-restful-swagger`_)
+- REST: `Flask-RESTful`_ (`flask-restful-swagger`_), `Flask API`_
 - Admins: `Flask-Admin`_ `Flask-SuperAdmin`_
 - Auth: `flask-login`_, `flask-security`_
 - Asset Pipeline: `Flask-Assets`_, `Flask-Webpack`_
@@ -636,8 +636,9 @@ Popular Flask extensions include:
 
 .. _Flask-Webpack: https://github.com/nickjj/flask-webpack
 .. _Flask-Assets: https://flask-assets.readthedocs.io
-.. _flask-restful: https://flask-restful.readthedocs.io/
+.. _Flask-RESTful: https://flask-restful.readthedocs.io/
 .. _flask-restful-swagger: https://github.com/rantav/flask-restful-swagger
+.. _Flask API: http://www.flaskapi.org/
 .. _Flask-Admin: https://github.com/flask-admin/flask-admin
 .. _Flask-SuperAdmin: https://github.com/SyrusAkbary/Flask-SuperAdmin
 .. _flask-login: https://flask-login.readthedocs.io/
@@ -972,10 +973,7 @@ What about JSON and REST?
 
 If it involves a database backend, that still has to be done (like above).
 To help Flask projects along, there are solutions like `Flask API`_ (inspired by
-Django Rest Framework) and `Flask RESTful`_.
-
-.. _Flask API: http://www.flaskapi.org/
-.. _Flask RESTful: https://flask-restful.readthedocs.io/
+Django Rest Framework) and `Flask-RESTful`_.
 
 Flask's extension community is good, but can't compare to Django's synergy
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
