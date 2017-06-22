@@ -213,7 +213,8 @@ straight-forward and navigable.
     :class: seealso
   
     Free tools in the community such as `jedi`_ provide navigation of modules,
-    functions and classes to editors like `vim`_ and `Atom`_.
+    functions and classes to editors like `vim`_, `Visual Studio Code`_ and
+    `Atom`_.
 
 :ref:`Python classes <tut-classes>` benefit from many real-world
 examples being available in the open source community to study.
