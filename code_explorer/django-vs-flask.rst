@@ -967,7 +967,7 @@ The API is, much like this website, is documented using `sphinx`_. The reference
 will become a goto. To add to it, a smaller codebase means a developer can
 realistically wrap their brain around the internals.
 
-Developers who that find implicit behavior to be a hindrance and thrive in
+Developers that find implicit behavior to be a hindrance and thrive in
 explicitness will feel comfortable using Flask.
 
 However, this comes at the cost of omitting niceties many web projects would
