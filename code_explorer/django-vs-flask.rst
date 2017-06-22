@@ -734,8 +734,8 @@ variable, do something like::
 The environmental variable set points to a file, which is interpreted
 like a module.
 
-.. admonition:: Confusion with configs
-   :class: caution
+.. admonition:: Tangent: Confusion with configs
+   :class: note
 
    Despite the pythonic use of :meth:`~flask:flask.Config.from_object` and the
    :ref:`pattern of building classes <config-dev-prod>` to point to classes
@@ -743,9 +743,9 @@ like a module.
    string to python object importation utilities, it doesn't point to a class.
 
    There's a potential `Chesterton's Fence <https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence>`_
-   issue also. I made an issue about it at https://github.com/pallets/flask/issues/2368
-   to document my observations. (Update: `the maintainer's response <https://github.com/pallets/flask/issues/2368#issuecomment-308116267>`_
-   they're enhancing the :envvar:`FLASK_APP` environmental variable
+   issue also. I `made an issue <https://github.com/pallets/flask/issues/2368>`_ about it
+   to document my observations. The `maintainer's response <https://github.com/pallets/flask/issues/2368#issuecomment-308116267>`_
+   was they're enhancing the :envvar:`FLASK_APP` environmental variable
    to `specify an application factory with arbitrary arguments
    <https://github.com/pallets/flask/blob/b5f4c52/CHANGES#L46>`_.)
 
