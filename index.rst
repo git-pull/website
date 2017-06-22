@@ -7,7 +7,7 @@ Updates
 
 - *June 2017*
 
-  New article: :ref:`django-vs-flask`
+  New articles: :ref:`django-vs-flask` and :ref:`About UNIHAN <unihan-etl:unihan>`
 
   New Project: `unihan-db`_, database models and abstraction for
   `UNIHAN`_.
@@ -186,25 +186,25 @@ Porting (Linux-to-BSD)
 Scrapyard
 """""""""
 
-Experimental code / patches that never made it upstream.
+Experimental code / patches that never made it upstream:
 
-`kakoune`_ branches: `cmake <https://github.com/tony/kakoune/tree/cmake>`_ build support,
+`kakoune`_ branches: `cmake build support <https://github.com/tony/kakoune/tree/cmake>`_,
 `mini <https://github.com/tony/kakoune/tree/mini>`_, `new-cli <https://github.com/tony/kakoune/tree/new-cli>`_
 (`#693 <https://github.com/mawww/kakoune/pull/693>`_), `observers <https://github.com/tony/kakoune/tree/observers>`_,
 `rm-server <https://github.com/tony/kakoune/tree/rm-server>`_ (serverless
 kakoune), `pybind11 <https://github.com/tony/kakoune/tree/pybind11>`_
 and `Boost.Python <https://github.com/tony/kakoune/tree/python-boost>`_
-integration.
+integration
 
-`vis`_ branches: `cmake <https://github.com/tony/vis/tree/cmake-n-stuff>`_
-build system, `C++ <https://github.com/tony/vis/tree/cpp>`_ support, 
-`python integration <https://github.com/tony/vis/tree/cpp-python>`_.
+`vis`_ branches: `cmake support <https://github.com/tony/vis/tree/cmake-n-stuff>`_,
+`C++ <https://github.com/tony/vis/tree/cpp>`_ support, 
+`python integration <https://github.com/tony/vis/tree/cpp-python>`_
 
 `sphinx`_ branches: `flexible-builder <https://github.com/tony/sphinx/tree/flexible-builder>`_
-invocation.
+invocation
 
 `tmux`_ branches: `cmake <https://github.com/tony/tmux/tree/cmake>`_
-build support.
+build support
 
 .. _kakoune: https://github.com/mawww/kakoune
 .. _tmux: https://tmux.github.io/
