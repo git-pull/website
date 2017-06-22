@@ -156,6 +156,8 @@ Popular Django extensions include:
 - Filtering / Search: `django-filter`_
 - Tabular / paginated output of db: `django-tables2`_
 
+Django extension project names tend to be prefixed *django-* and lowercase.
+
 .. _Django REST Framework: http://www.django-rest-framework.org/
 .. _django-guardian: https://django-guardian.readthedocs.io/
 .. _django-compressor: https://django-compressor.readthedocs.io/
@@ -634,6 +636,10 @@ Popular Flask extensions include:
 - Auth: `Flask-Login`_, `Flask-Security`_
 - Asset Pipeline: `Flask-Assets`_, `Flask-Webpack`_
 - Commands: `Flask-Script`_
+
+Flask extension project names tend to be prefixed *Flask-*, `PascalCase
+<https://en.wikipedia.org/wiki/PascalCase>`_, with the first letter of
+words uppercase.
 
 .. _Flask-Webpack: https://github.com/nickjj/flask-webpack
 .. _Flask-Assets: https://flask-assets.readthedocs.io
