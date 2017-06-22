@@ -923,6 +923,18 @@ generating a purely static website with no SQL backend `a la NPR`_.
 If a website is using RDBMS, which is often true, a popular choice is
 SQLAlchemy. `Flask-SQLAlchemy`_ helps assist in gluing them together.
 
+SQLAlchemy is mature (a decade older than this writing), battle-tested
+with a massive test suite, dialects for many SQL solutions. It also
+provides something called ":ref:`core <sqlalchemy:core_toplevel>`" underneath the hood that allows building
+SQL queries via python objects.
+
+SQLAlchemy is also active. Innovation keeps happening. The change log
+keeps showing good things happening. Like Django's ORM, SQLAlchemy's
+documentation is top notch. Not to mention, `Alembic`_, a project by the same
+author, harnesses SQLAlchemy to power migrations.
+
+.. _Alembic: http://alembic.zzzcomputing.com/
+
 .. _a la NPR: http://blog.apps.npr.org/2014/07/29/everything-our-app-template-does.html
 
 Interpretations
@@ -1058,11 +1070,15 @@ to put it into proportion, against Flask:
 Django                         Flask
 ============================== ================================================
 Django ORM                     SQLAlchemy, MongoEngine
+Django Migrations              Alembic
 Django Templates               Jinja2
 Django Core / URL's            Werkzeug
+Django Forms  (ModelForm)      WTForms (`WTForms-Alchemy`_)
 Django Commands                Flask-Script (flask bundles :ref:`CLI support 
                                <flask:cli>` as of 0.11)
 ============================== ================================================
+
+.. _WTForms-Alchemy: https://wtforms-alchemy.readthedocs.io/
 
 There are also feature requests that come in, often driven by need of the
 web development community, and things that otherwise wouldn't be
