@@ -934,8 +934,8 @@ None of Rails' or Django's MVC workflows were thrown out the window. On the
 contrary, they thrived. At the end of the day, the basics still boils down to
 JSON, HTML templates, CSS, and JS assets.
 
-Flask is pure, easy to master fully, but can lend to reinventing the wheel
---------------------------------------------------------------------------
+Flask is pure, easy to master, but can lend to reinventing the wheel
+--------------------------------------------------------------------
 
 Flask is meant to stay out of the way and put the developer into control.
 Even over things as granular as piecing together the ``Flask`` object,
