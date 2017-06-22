@@ -1071,13 +1071,13 @@ Conclusion
 ==========
 
 We've covered Flask and Django, their philosophies, their API's,
-and juxtaposed those against my personal experiences in production and
+and juxtaposed those against the writer's personal experiences in production and
 open source. The article included links to specific API's across a few python
 libraries, documentation sections, and project homepages. Together, they should
 prove fruitful in this being a resource to come back to.
 
-I think Flask is great for a quick web app, particularly for a python
-script to build a web front-end for. 
+Flask is great for a quick web app, particularly for a python script to build a
+web front-end for.
 
 If already using SQLAlchemy models, it's possible to get them working with
 a Flask application with little work. With Flask, things feel in control.
@@ -1186,9 +1186,9 @@ internals.
 - CPython internals
 - Pypy internals
 
-I think talking through the code and patterns in large-scale applications
-is a good way to teach others. In lieu of that, they're fun to read. If you have
-a request, send an email, tony @ git-pull.com
+Talking through the code and patterns in large-scale applications is a good way
+to teach others. In lieu of that, they're fun to read. If you have a request,
+send an email, tony @ git-pull.com
 
 Hire me
 =======
