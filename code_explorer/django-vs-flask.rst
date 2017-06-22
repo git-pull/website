@@ -497,8 +497,8 @@ Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization
   - When an :ref:`attribute <tut-classobjects>` of ``django.conf.settings``
     is accessed, it will do a onetime "setup". The section :ref:`djangos-initialization`
     shows there's a few ways settings get configured.
-  - *Singleton*, meaning that it can be imported it the application code,
-    retrieving the same instance of the object.
+  - *Singleton*, meaning that it can be imported from throughout the application code and
+    still retrieve the same instance of the object.
     
     .. admonition:: Reminder
        :class: note
@@ -508,11 +508,11 @@ Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization
        bound. Most web problems are I/O bound.
 
        In other words, issues websites face when scaling are concurrency
-       related. It's not limited to the dichotomy of concurrency and parallelism.
-       Websites scale by offloading to infrastructure such as: `reverse proxies`_,
-       task queues (e.g. `Celery`_, `RQ`_), and `Database replication`_.
-       Computational heavy backend services are done elsewhere and use different
-       tools (kafka, hadoop, spark, Elasticsearch, etc).
+       related. In practice, it's not even limited to the dichotomy of
+       concurrency and parallelism: Websites scale by offloading to
+       infrastructure such as `reverse proxies`_, task queues (e.g. `Celery`_,
+       `RQ`_), and `replicated databases`_. Computational heavy backend services
+       are done elsewhere and use different tools (kafka, hadoop, spark, Elasticsearch, etc).
 
 Django use :func:`~importlib.import_module` to turn a string into a
 :ref:`module <tut-modules>`. It's kind of like an ``eval``, but strictly for
@@ -542,7 +542,7 @@ To access settings attributes application-wide, do::
 .. _reverse proxies: https://en.wikipedia.org/wiki/Reverse_proxy
 .. _Celery: http://www.celeryproject.org/
 .. _RQ: http://python-rq.org/
-.. _Database replication: https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE
+.. _replicated databases: https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE
 .. _environment variable: https://en.wikipedia.org/wiki/Environment_variable
 
 .. _djangos-initialization:
