@@ -269,8 +269,8 @@ function, grab the user model via :func:`~django:django.contrib.auth.get_user_mo
     ]
 
 So where does the ``request, **kwargs`` in ``user_profile`` come from?
-From django. When a user visits a page matching a pattern, it injects the
-user's request and any URL group patterns to the view:
+Django injects the user's request and any URL group pattern matches to
+views when the user visits a page matching a URL pattern.
 
 1. :class:`~django:django.http.HttpRequest` is passed into the view as ``request``.
 
