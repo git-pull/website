@@ -751,9 +751,9 @@ like a module.
 
    In the writer's opinion, an API-centric framework like flask introducing
    the ``FLASK_APP`` variable exacerbates the aforementioned confusion. Why add
-   ``FLASK_APP`` when ``from_envvars`` is available? Why not allow `pointing to a
-   config object and leveraging what flask already has and exemplifies in its
-   documentation <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>`_?
+   ``FLASK_APP`` when :meth:`~flask:flask.Config.from_envvar` is available? Why
+   not allow `pointing to a config object and leveraging what flask already has
+   and exemplifies in its documentation <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>`_?
 
    It's already de facto in the flask community to point to modules and
    classes when apps bootstrap. There's a reason for that. Maintainer's
