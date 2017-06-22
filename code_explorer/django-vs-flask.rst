@@ -965,11 +965,11 @@ with database-backed validation. And it's pluggable and templated.
 OK, what about JSON and REST?
 
 If it involves a database backend, that still has to be done (like above).
+To help Flask projects along, there are solutions like `Flask API`_ (inspired by
+Django Rest Framework) and `Flask RESTful`_.
 
-Here's where is gets hairy. There isn't really have a *de facto* python
-object for database results, like Django's :class:`~django:django.db.models.query.QuerySet`.
-So, stuff like easy database-backed validations in PUT and POST isn't
-covered as well.
+.. _Flask API: http://www.flaskapi.org/
+.. _Flask RESTful: https://flask-restful.readthedocs.io/
 
 Flask's extension community is good, but can't leverage Django's synergy
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
