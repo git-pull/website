@@ -113,7 +113,7 @@ What Django provides
 
   - :doc:`Fields <django:ref/forms/fields>`
   - :doc:`Widgets <django:ref/forms/widgets>`
-  - :doc:`Forms <django:topics/forms/modelforms>` (ORM-backed forms)
+  - :doc:`Model Forms <django:topics/forms/modelforms>` (ORM-backed forms)
 - :doc:`Views <django:topics/http/views>`
 
   - :doc:`Class-based views <django:topics/class-based-views/index>`
