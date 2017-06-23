@@ -706,7 +706,7 @@ Inside *website/config/dev.py*::
         TESTING = True
         DATABASE_URL = 'sqlite://:memory:'
     
-Subclassing :class:`flask:flask.Config` and pointing to it via
+Creating a class and pointing to it via
 :meth:`flask:flask.Config.from_object` also works::
 
     from .config.dev import DevConfig
