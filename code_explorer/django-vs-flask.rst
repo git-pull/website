@@ -410,7 +410,7 @@ We can specify a :attr:`~django:django.views.generic.detail.SingleObjectMixin.sl
     class UserProfile(DetailView):
         model = get_user_model()
         slug_field = 'username'
-        slug_kw_arg = 'username'
+        slug_url_kwarg = 'username'
 
 **Make it trickier:** User's logged in profile
 
