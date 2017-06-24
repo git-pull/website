@@ -518,7 +518,7 @@ Django use :func:`~importlib.import_module` to turn a string into a
 :ref:`module <tut-modules>`. It's kind of like an ``eval``, but strictly for
 importing. `It happens here <https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L110>`_.
 
-It's available as an environmental variable is projects commonly have multiple
+It's available as an environmental variable as projects commonly have multiple
 settings files. For instance, a base settings file, then other files for
 `local, development, staging, and production <https://en.wikipedia.org/wiki/Deployment_environment>`_.
 Those 3 will have different database configurations. Production will likely have
