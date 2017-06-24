@@ -1096,8 +1096,8 @@ the effort to make an extension for. So there are `snippets
 <http://flask.pocoo.org/snippets/>`_ for that.
 
 And in a language like Python where packages, modules, and duck typing rule,
-I feel snippets, while laudable, are doomed to fall short in keeping in
-check perpetually recreating patterns someone else done. Not to mention,
+I feel snippets, while laudable, are doomed to fall short keeping in
+check perpetual recreation of patterns someone else done. Not to mention,
 snippets don't have CI, nor versioning, nor issue trackers (maybe a comment
 thread).
 
