@@ -10,7 +10,7 @@ A practitioner's perspective
 
 *June 2017*
 
-This analysis is a comparison of 2 python frameworks, Flask and Django.
+This analysis is a comparison of 2 python web frameworks, Flask and Django.
 It discusses their features and how their technical philosophies impact software
 developers. It is based on my experience using both, as well as time spent
 personally admiring both codebases.
@@ -27,8 +27,8 @@ Flask developers will be forced to reinvent the wheel to catch up for things
 that'd be quick wins with Django.
 
 Both excel at prototyping; getting an idea off the ground fast, and
-giving chiselling away fine-grain details after. Python makes both a joy to work
-with.
+leave room for chiseling away fine-grain details after. Python makes both a joy
+to work with.
 
 Concepts present in both frameworks
 ===================================
