@@ -780,7 +780,7 @@ Let's apply a configuration from an environmental variable::
 
     app.config.from_envvars('FLASK_CONFIG')
 
-:envvar:`FLASK_CONFIG` should map to a python file. Any extension::
+:envvar:`FLASK_CONFIG` should map to a python file::
 
     export FLASK_CONFIG=website/config/dev.py
 
