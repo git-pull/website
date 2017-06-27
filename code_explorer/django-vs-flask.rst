@@ -524,17 +524,23 @@ settings files. For instance, a base settings file, then other files for
 Those 3 will have different database configurations. Production will likely have
 heavy caching.
 
-To access settings attributes application-wide, do::
+To access settings attributes application-wide, import the settings::
 
     from django.conf import settings
 
-.. warning::
-  
-   When developing: if not sourced in a virtual enviroment in a shell, the
-   settings module (and probably the django module itself) won't be found.
-   
-   When deploying: not including site-packages in uwsgi onfiguration, will
-   result in a similar error.
+From there, attributes can be accessed::
+
+    print(settings.DATABASES) 
+
+.. admonition:: Virtual environments and site packages
+   :class: note
+           
+   When developing via a shell, not being sourced into a virtual enviroment
+   could lead to a settings module (and probably the django package
+   itself) not being found.
+
+   The same applies to UWSGI configurations, similar symptoms will arise when
+   deploying. This can be done via the ``virtualenv`` option.
 
    This is the single biggest learning barrier python has. It will be a
    hindrance every step of the way until the concept is internalized.
