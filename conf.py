@@ -84,5 +84,6 @@ intersphinx_mapping = {
     'flask-sqlalchemy': ('http://flask-sqlalchemy.pocoo.org/2.2/', None),
     'werkzeug': ('http://werkzeug.pocoo.org/docs/0.12/', None),
     'jinja': ('http://jinja2.pocoo.org/docs/dev', None),
-    'sqlalchemy': ('http://docs.sqlalchemy.org/en/latest/', None)
+    'sqlalchemy': ('http://docs.sqlalchemy.org/en/latest/', None),
+    'uwsgi': ('https://uwsgi-docs.readthedocs.io/en/latest/', None),
 }
