@@ -514,7 +514,7 @@ Settings are a `lazily-loaded <https://en.wikipedia.org/wiki/Lazy_initialization
        `RQ`_), and `replicated databases`_. Computational heavy backend services
        are done elsewhere and use different tools (kafka, hadoop, spark, Elasticsearch, etc).
 
-Django use :func:`~importlib.import_module` to turn a string into a
+Django uses :func:`~importlib.import_module` to turn a string into a
 :ref:`module <tut-modules>`. It's kind of like an ``eval``, but strictly for
 importing. `It happens here <https://github.com/django/django/blob/1.11.2/django/conf/__init__.py#L110>`_.
 
