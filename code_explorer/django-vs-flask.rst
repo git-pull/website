@@ -103,7 +103,7 @@ What Django provides
   - :django:ref:`Filters <filters>`
   - :django:ref:`Tags <tags>`
   - :django:ref:`Context preprocessor middleware <subclassing-context-requestcontext>`
-    (global, per-request :py:class:`dict` passed into templates)
+    (global, per-request :py:class:`dict`-like object passed into templates)
 - :doc:`ORM <django:topics/db/models>`
 
   - :class:`~django:django.db.models.query.QuerySet` (reuseable object used in ORM-backed features)
