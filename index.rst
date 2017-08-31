@@ -13,7 +13,7 @@ Updates
   New website (*in development*): https://devel.tech
 
   See devel.tech's `open source contributions
-  <https://devel.tech/site/open-source>`_.
+  <https://devel.tech/site/open-source>`_ and `site updates <https://devel.tech/site/updates>`_
 - *June 2017*
 
   New articles: :ref:`django-vs-flask` and :ref:`About UNIHAN <unihan-etl:unihan>`
