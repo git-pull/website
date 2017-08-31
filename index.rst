@@ -7,7 +7,7 @@ Updates
 
 - *August 2017*
 
-  The design and internals of `HSKFlashCards`_ are refreshed
+  The design and internals of `HSKFlashCards`_ have been refreshed
 - *July 2017*
 
   New website (*in development*): https://devel.tech
