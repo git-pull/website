@@ -215,6 +215,10 @@ invocation
 `tmux`_ branches: `cmake <https://github.com/tony/tmux/tree/cmake>`_
 build support
 
+`saltstack`_ + `fabric`_ demo: `gist <https://gist.github.com/tony/6d8d975c817d2e4d43dd>`_
+
+.. _saltstack: https://saltstack.com
+.. _fabric: http://www.fabfile.org/
 .. _kakoune: https://github.com/mawww/kakoune
 .. _tmux: https://tmux.github.io/
 .. _vis: https://github.com/martanne/vis
