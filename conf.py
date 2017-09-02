@@ -28,7 +28,7 @@ pygments_style = 'sphinx'
 html_theme_path = [alagitpull.get_path()]
 html_theme = 'alagitpull'
 html_theme_options = {
-    'logo': 'img/tony.svg',
+    'logo': 'img/bagua.png',
     'projects': alagitpull.projects,
 }
 html_sidebars = {
