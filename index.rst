@@ -88,7 +88,7 @@ Language Projects
 
    .. container:: project col-xs-6
 
-      .. figure:: https://hsk-assets.s3.amazonaws.com/img/logo.png
+      .. figure:: https://static.hskflashcards.com/img/logo.png
           :align: center
           :target: https://www.hskflashcards.com
           :alt: HSKFlashCards.com
