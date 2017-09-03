@@ -27,6 +27,7 @@ pygments_style = 'sphinx'
 
 html_theme_path = [alagitpull.get_path()]
 html_theme = 'alagitpull'
+html_favicon = 'favicon.ico'
 html_theme_options = {
     'logo': 'img/bagua.png',
     'projects': alagitpull.projects,
