@@ -16,10 +16,12 @@ Updates
   <https://devel.tech/site/open-source>`_ and `site updates <https://devel.tech/site/updates>`_
 - *June 2017*
 
-  New articles: :ref:`django-vs-flask` and :ref:`About UNIHAN <unihan-etl:unihan>`
+  New articles: `Django vs Flask`_ and :ref:`About UNIHAN <unihan-etl:unihan>`
 
   New Project: `unihan-db`_, database models and abstraction for
   `UNIHAN`_.
+
+  .. _Django vs Flask: https://devel.tech/features/django-vs-flask/
 
 - *May 2017* 
 
