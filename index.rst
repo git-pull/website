@@ -5,6 +5,15 @@
 Updates
 -------
 
+- *November 2017*
+
+  New articles:
+
+  - `Minimal Vim Configuration With vim-plug
+    <https://devel.tech/snippets/n/vIMmz8vZ/minimal-vim-configuration-with-vim-plug>`__
+  - `Pipenv: Holy Grail for Python Environments
+    <https://devel.tech/tips/n/pIpEnvNh/pipenv/>`__
+
 - *August 2017*
 
   The design and internals of `HSKFlashCards`_ have been refreshed
