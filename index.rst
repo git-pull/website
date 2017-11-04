@@ -7,12 +7,11 @@ Updates
 
 - *November 2017*
 
-  New articles:
+  New article: `Minimal Vim Configuration With vim-plug <https://devel.tech/snippets/n/vIMmz8vZ/minimal-vim-configuration-with-vim-plug>`__
 
-  - `Minimal Vim Configuration With vim-plug
-    <https://devel.tech/snippets/n/vIMmz8vZ/minimal-vim-configuration-with-vim-plug>`__
-  - `Pipenv: Holy Grail for Python Environments
-    <https://devel.tech/tips/n/pIpEnvNh/pipenv/>`__
+- *September 2017*
+
+  New article: `Pipenv: Holy Grail for Python Environments <https://devel.tech/tips/n/pIpEnvNh/pipenv/>`__
 
 - *August 2017*
 
