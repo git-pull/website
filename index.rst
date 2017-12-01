@@ -7,7 +7,10 @@ Updates
 
 - *November 2017*
 
-  New article: `Minimal Vim Configuration With vim-plug <https://devel.tech/snippets/n/vIMmz8vZ/minimal-vim-configuration-with-vim-plug>`__
+  New articles:
+  
+  - `Minimal Vim Configuration With vim-plug <https://devel.tech/snippets/n/vIMmz8vZ/minimal-vim-configuration-with-vim-plug>`__
+  - `The Power of tmux Hooks <https://devel.tech/tips/n/tMuXz2lj/the-power-of-tmux-hooks/>`_
 
 - *September 2017*
 
