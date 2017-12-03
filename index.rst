@@ -5,12 +5,18 @@
 Updates
 -------
 
+- *December 2017*
+
+  New project: `django-slugify-processor <https://django-slugify-processor.devel.tech/>`__
+
+  New article: `Demystifying Django's import strings <https://devel.tech/tips/n/djms3tTe/demystifying-djangos-import-strings/>`__
+
 - *November 2017*
 
   New articles:
   
   - `Minimal Vim Configuration With vim-plug <https://devel.tech/snippets/n/vIMmz8vZ/minimal-vim-configuration-with-vim-plug>`__
-  - `The Power of tmux Hooks <https://devel.tech/tips/n/tMuXz2lj/the-power-of-tmux-hooks/>`_
+  - `The Power of tmux Hooks <https://devel.tech/tips/n/tMuXz2lj/the-power-of-tmux-hooks/>`__
 
 - *September 2017*
 
