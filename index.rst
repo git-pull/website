@@ -276,6 +276,11 @@ Donate
 
 Like my open source projects and learning resources? :ref:`Your support is appreciated! <support>`
 
+Hire me
+-------
+
+:ref:`I'm available for hire <hire-me>` (remote)
+
 .. _cookiecutter-pypackage: https://github.com/tony/cookiecutter-pypackage
 .. _cookiecutter-flask-pythonic: https://github.com/tony/cookiecutter-flask-pythonic
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
