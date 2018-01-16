@@ -5,6 +5,13 @@
 Updates
 -------
 
+- *January 2017*
+
+  New services:
+  
+  - :ref:`mentoring` 
+  - :ref:`consulting`
+
 - *December 2017*
 
   New project: `django-slugify-processor <https://django-slugify-processor.devel.tech/>`__
