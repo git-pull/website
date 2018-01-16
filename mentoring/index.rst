@@ -2,7 +2,7 @@
 
 .. _mentoring:
    
-Python Mentoring for entrepreneurs
+Python Mentoring for Entrepreneurs
 ==================================
 
 You want to learn a stack of technologies perfect for running your own
