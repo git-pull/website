@@ -93,30 +93,39 @@ See :ref:`what_people_say`.
 .. include:: ../what-people-say.rst
    :start-line: 6
 
-Live workshop
--------------
+Available workshops
+-------------------
 
-- 3-day intensive  $1299
-  *weekly follow-ups and check-ins for 1 month (included)*
+.. container:: row
 
-  Prepare for a brain dump of programming knowledge. bring coffee and pack up
-  on healthy snacks.
+   .. container:: project col-xs-6
 
-- 2-weeks online training internsive $3499
-  *weekly follow-ups and check-ins for 3 month (included)*
+      **3-day intensive**
 
-  Install a copy of Linux. we're going to get your environment setup and have
-  you deploy a website to digitalocean.
+      $1299
 
-  Prerequisites: 
-  
-  - Mint Linux / Ubuntu / Debian installed locally
-  - DigitalOcean account activated and ready to go
+      Prepare for a brain dump of programming knowledge. bring coffee and pack up
+      on healthy snacks.
+
+      Read more about the :ref:`mentoring/3-day-workshop`
+
+      *weekly follow-ups and check-ins for 1 month (included)*
+
+   .. container:: project col-xs-6
+
+      **2-weeks online training intensive**
+
+      $3499
+
+      Install a copy of Linux. we're going to get your environment setup and have
+      you deploy a website to digitalocean.
+
+      *weekly follow-ups and check-ins for 3 month (included)*
 
 Want to ask questions or get started? `Get in touch! <https://goo.gl/forms/8leBo6ZzeJI0KPAx1>`__
 
-Weekly follow ups
-"""""""""""""""""
+After your workshop
+-------------------
 
 Checking up on your progress and helping you succeed in wrapping your
 brain around concepts in our courses is important to me. You are a student
@@ -126,9 +135,26 @@ For the period after a workshop, you can contact me when you hit a
 road block, and I will respond within one business day, or
 connect with you live if needed.
 
-In addition, there are one hour conversations we schedule during the week. This
-can be used to talk about what you're building, help you with debugging, and so
-on.
+.. container:: row
+
+   .. container:: project col-xs-6
+
+      **Weekly follow ups**
+
+      In addition, there are one hour conversations we schedule during the week.
+      This can be used to talk about what you're building, help you with
+      debugging, and so on.
+
+   .. container:: project col-xs-6
+
+      **Flexible follow ups**
+
+      Students taking my workshops can opt to use their credit to check in
+      as they need. This allows you the time to fit your learning to your
+      schedule and habits.
+
+      Doing weekly follow ups and want to switch to flexible ones? Just
+      ask. No problem!
 
 Elite mentoring
 ---------------
