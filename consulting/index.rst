@@ -5,7 +5,7 @@
 Python and Django Consulting
 ============================
 
-I also provide a :ref:`Python mentoring program <mentoring>`.
+I also provide a :doc:`Python mentoring program </mentoring/index>`.
 
 You are ready to take action
 ----------------------------
@@ -72,9 +72,9 @@ company and an acquihire out of NYU Poly Incubator.
 What people say about me
 ------------------------
 
-See :ref:`what_people_say`.
+See :doc:`/what-people-say`.
 
-.. include:: ../what-people-say.rst
+.. include:: /what-people-say.rst
    :start-line: 6
 
 Get in touch

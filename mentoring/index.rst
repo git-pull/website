@@ -5,7 +5,7 @@
 Python Mentoring for Entrepreneurs
 ==================================
 
-About | :ref:`FAQ <mentoring/faq>` | `Apply / Ask`_
+About | :doc:`FAQ <./faq>` | `Apply / Ask`_
 
 .. _Apply / Ask: https://goo.gl/forms/8leBo6ZzeJI0KPAx1
 
@@ -27,7 +27,7 @@ That's another point. When you build your own website, not only is there
 no boss to suck up to, you maintain a controlling interest. It's about
 being master of your own life.
 
-(Business? I also provide :ref:`consulting services in Python <consulting>`)
+(Business? I also provide :doc:`consulting services in Python </consulting/index>`)
 
 Elite Tech Stack
 ----------------
@@ -88,9 +88,9 @@ was acquired by Merkle.
 What people say about me
 ------------------------
 
-See :ref:`what_people_say`.
+See :doc:`/what-people-say`.
 
-.. include:: ../what-people-say.rst
+.. include:: /what-people-say.rst
    :start-line: 6
 
 Available workshops

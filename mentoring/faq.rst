@@ -5,7 +5,7 @@
 Python Mentoring for Entrepreneurs
 ==================================
 
-:ref:`About <mentoring>` | FAQ
+:doc:`About <./index>` | FAQ
 
 FAQ
 ---
