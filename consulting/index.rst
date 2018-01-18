@@ -81,4 +81,4 @@ Get in touch
 ------------
 
 `Send us a message <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_ with your
-needs, time constraints and budget.
+current situation, needs, time constraints, and budget.
