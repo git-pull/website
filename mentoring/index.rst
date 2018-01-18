@@ -111,7 +111,7 @@ Live workshop
   - Mint Linux / Ubuntu / Debian installed locally
   - DigitalOcean account activated and ready to go
 
-Want to ask questions or get started? Email me at tony (at) git-pull.com
+Want to ask questions or get started? `Get in touch! <https://git-pull.typeform.com/to/VDPmEW>`__
 
 Weekly follow ups
 """""""""""""""""
@@ -137,8 +137,7 @@ What do you already know?
 
 You can have a plan custom tailored with a time/price for you.
 
-Get in touch with me at tony (at) git-pull.com
+`Get in touch with me <https://git-pull.typeform.com/to/VDPmEW>`__
 
 .. [1] https://news.ycombinator.com/item?id=15957273
 .. [2] https://news.ycombinator.com/item?id=14502827
-
