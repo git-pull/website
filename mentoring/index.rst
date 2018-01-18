@@ -14,10 +14,10 @@ You want to learn a stack of technologies perfect for running your own
 show. My mentoring workshops are all about teaching best technologies and
 frameworks that are available for starting your own web-based business.
 
-These programs are fully remote. All you need is a terminal, skype or Google
+These workshops are fully remote. All you need is a terminal, skype or Google
 Hangouts, internet, and most importantly, a hunger to learn.
 
-Python is a *cool* programming language. I recommend it often HN [1]_ [2]_.
+Python is a *cool* programming language. I recommend it often on HN [1]_ [2]_.
 Django is a choice web framework for taking your idea into something
 you can execute on, and own. This tech stack is one you won't regret.
 
