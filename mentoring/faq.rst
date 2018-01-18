@@ -28,20 +28,30 @@ FAQ
   themselves students - not open source practitioners or startup veterans.
 
   They also have little one-on-one time, they're mills that cram 10, 15, or 20
-  students into a cohort. Or street smarts, they're not startup alumni. Take
-  your normal McAcademy BootCamp instructor, put them one-on-one with me in a
-  Hackathon, I'd shred them to pieces.
+  students into a cohort. Or street smarts, they haven't been through the
+  ups and downs of startups to give you candid advice. Take your normal McAcademy
+  BootCamp instructor, put them one-on-one with me in a Hackathon, I'd shred
+  them to pieces.
 
-  The final thing is the guarantee of a job afterwards. I focus on
-  entrepreneurial minded people who want to do their own startup. If you
-  want a guarantee of employment, go to a camp, they can be a "safety net"
-  for you. But then, if you can't take risks and want job security, why are you
-  doing startups?
+  I also serve a different type of student. You yourself want to be a
+  founder. My ideal student already has a career and savings - and are trying to
+  augment what they *already* have.
+
+  A big sticking point of bootcamps is some form of job afterwards,
+  sometimes by the way of refunding if you don't get employed within a certain
+  amount of time. If you want a guarantee of employment, go to a camp, they can
+  be a "safety net" for you. But then, if you can't take risks and want job
+  security, why are you doing startups?
 
   Want to work at Google? Study computer science, data structures and
-  algorithms. Buy Cracking the Code Interview. You can sit there fantasizing
+  algorithms. Buy *Cracking the Code Interview* - a book that provides
+  no useful skill outside of interviewing. You can sit there fantasizing
   you'll be the token Google hire after learning Angular, but it's more likely
   you'll be working at Trader Joe's with $16k down the drain.
+
+  This kills three birds with one stone: Superior teacher, superior developer,
+  and I don't feed into systems that take advantage of people who don't know
+  better.
 
 - Mobile development?
 
@@ -77,7 +87,9 @@ FAQ
     business idea.
 
     Let's say you try to create a competitor. Mobile users do not like lag or
-    bad UI's. They can review your application and leave negative reviews.
+    bad UI's. They can review your application and leave negative reviews
+    for something just not being their taste. If (heaven forbid) you have an
+    actual glitch, they can be far less forgiving.
 
   - Even if you create a sweet app - you will still likely fail. Most people who
     sign up as Apple developers never even earn their $99 back:
@@ -98,5 +110,3 @@ FAQ
   you've learned and use `react-native`_.
 
   .. _react-native: https://facebook.github.io/react-native/
-
-

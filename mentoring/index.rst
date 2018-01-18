@@ -27,25 +27,33 @@ being master of your own life.
 
 (Business? I also provide :ref:`consulting services in Python <consulting>`)
 
-Elite tech stack
+Elite Tech Stack
 ----------------
 
-Python is the best programming language for generalist stuff and backends of
+**Python** is the best programming language for generalist stuff and backends of
 websites.
 
-JavaScript is an essential glue when building websites.
+**Django** is a solid, popular, permissively licensed web framework with
+great third party packages, solid documentation, and it's based in Python.
 
-Learning the terminal well helps you along the way, whether you're on your
-local machine or SSH'ing in remotely.
+**JavaScript** is an essential glue when building websites.
 
-E-commerce integration is one of the toughest things. It's boring. But you hav
-someone who has done it before to explain it to you.
+Learning the **terminal** well helps you along the way, whether you're on your
+local machine or SSH'ing in remotely. (`Check out my book`_ *The Tao of
+tmux* on Leanpub)
 
-The stuff fits.
+.. _Check out my book: https://leanpub.com/the-tao-of-tmux/read
 
-Programming is hard. You won't be a prodigy overnight. But your time spent
-here will be worth it. For years to come, you'll look back at the insight
-taught and mix in your own philosophy to set yourself apart.
+**E-commerce integration** is one of the toughest things. It's tedious, but essential
+to getting single-time and recurring income. Wiring it in correctly can
+give you a self-service SAAS website. I've spend hundreds of hours setting
+up solutions in `Stripe`_. I love Stripe.
+
+.. _Stripe: https://stripe.com/
+
+Programming is hard. You won't become a prodigy overnight. But your time spent
+here will be worth it. For years to come, you'll look back at the insights
+and mix in your own philosophy to set yourself apart.
 
 That's why this oppurtunity is special compared to others. I put my name on
 it. And I'm going to do everything in my power to make it work for you.
@@ -65,16 +73,15 @@ such as tmuxp (a tmux session manager). I am `an author <https://leanpub.com/the
 and have worked at a Y Combinator startup and a NYU Poly Incubator startup that
 was acquired by Merkle.
 
-`my projects`_ | `github`_ | `openhub`_ | `book`_ | `cv`_ | `twitter`_ | `hn`_
+`My Projects`_ | `GitHub`_ | `OpenHub`_ | `Book`_ | `CV`_ | `Twitter`_ | `HN`_
 
-.. _my projects: https://www.git-pull.com
-.. _github: https://github.com/tony
-.. _openhub: https://openhub.net/accounts/git-pull
-.. _book: https://leanpub.com/the-tao-of-tmux
-.. _cv: https://stackoverflow.com/story/tony
-.. _twitter: https://twitter.com/journey2dawest
-.. _hn: https://news.ycombinator.com/user?id=git-pull
-
+.. _My Projects: https://www.git-pull.com
+.. _GitHub: https://github.com/tony
+.. _OpenHub: https://openhub.net/accounts/git-pull
+.. _Book: https://leanpub.com/the-tao-of-tmux
+.. _CV: https://stackoverflow.com/story/tony
+.. _Twitter: https://twitter.com/journey2dawest
+.. _HN: https://news.ycombinator.com/user?id=git-pull
 
 What people say about me
 ------------------------
@@ -110,8 +117,8 @@ Weekly follow ups
 """""""""""""""""
 
 Checking up on your progress and helping you succeed in wrapping your
-brain around these concepts is important to me. You are a student of
-mine, and that is something that has dignity and esteem to it.
+brain around concepts in our courses is important to me. You are a student
+of mine, and that is something that has dignity and esteem to it.
 
 For the period after a workshop, you can contact me when you hit a
 road block, and I will respond within one business day, or

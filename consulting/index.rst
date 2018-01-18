@@ -29,8 +29,10 @@ Services
 - OAuth-backed REST API's
 - E-Commerce integration with monthly-rebilling
 - Scrapers / crawlers documents and websites
-- Data processing utilities and pipelines 
-- Unit and integration test suites
+- Data processing utilities and pipelines  (see unihan-etl)
+- Unit and integration test suites (see pytest contributions, testsuites
+  portfolio projects)
+- Large-scale application architecture (see cihai, tmuxp/libtmux)
 - Anything else Python
 
 About me
