@@ -5,7 +5,9 @@
 Python Mentoring for Entrepreneurs
 ==================================
 
-About | :ref:`FAQ <mentoring/faq>`
+About | :ref:`FAQ <mentoring/faq>` | `Apply / Ask`_
+
+.. _Apply / Ask: https://goo.gl/forms/8leBo6ZzeJI0KPAx1
 
 Take the leap into Python
 -------------------------
@@ -111,7 +113,7 @@ Live workshop
   - Mint Linux / Ubuntu / Debian installed locally
   - DigitalOcean account activated and ready to go
 
-Want to ask questions or get started? `Get in touch! <https://git-pull.typeform.com/to/VDPmEW>`__
+Want to ask questions or get started? `Get in touch! <https://goo.gl/forms/8leBo6ZzeJI0KPAx1>`__
 
 Weekly follow ups
 """""""""""""""""
@@ -137,7 +139,7 @@ What do you already know?
 
 You can have a plan custom tailored with a time/price for you.
 
-`Get in touch with me <https://git-pull.typeform.com/to/VDPmEW>`__
+`Get in touch with me <https://goo.gl/forms/8leBo6ZzeJI0KPAx1>`__
 
 .. [1] https://news.ycombinator.com/item?id=15957273
 .. [2] https://news.ycombinator.com/item?id=14502827
