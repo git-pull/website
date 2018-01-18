@@ -80,5 +80,5 @@ See :ref:`what_people_say`.
 Get in touch
 ------------
 
-Write me at tony (at) git-pull.com with your needs, time constraints, and
-budget.
+`Send us a message <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_ with your
+needs, time constraints and budget.
