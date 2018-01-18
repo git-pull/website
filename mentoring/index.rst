@@ -27,6 +27,16 @@ That's another point. When you build your own website, not only is there
 no boss to suck up to, you maintain a controlling interest. It's about
 being master of your own life.
 
+Programming is hard. You won't become a prodigy overnight. But your time spent
+here will be worth it. For years to come, you'll look back at the insights
+and mix in your own philosophy to set yourself apart.
+
+That's why this oppurtunity is special compared to others. I put my name on
+it. And I'm going to do everything in my power to make it work for you.
+
+You're prepared to make a financial investment to learn, and also
+to put your time and concentration into your studies.
+
 (Business? I also provide :doc:`consulting services in Python </consulting/index>`)
 
 Elite Tech Stack
@@ -53,21 +63,28 @@ up solutions in `Stripe`_. I love Stripe.
 
 .. _Stripe: https://stripe.com/
 
-Programming is hard. You won't become a prodigy overnight. But your time spent
-here will be worth it. For years to come, you'll look back at the insights
-and mix in your own philosophy to set yourself apart.
+Flexible
+--------
 
-That's why this oppurtunity is special compared to others. I put my name on
-it. And I'm going to do everything in my power to make it work for you.
+Courses are fully remote. `Slack`_ is the program used to chat (just like
+at a startup). Skype/Hangouts for screen sharing. Atom / VSCode or VIM +
+tmux for programming.
 
-You're prepared to make a financial investment in learning, but also
-to put your time and concentration into it. You know that becoming a
-programmer isn't easy.
+The program operates on a rolling basis. You can start any time of the year,
+as long as their is space.
+
+In addition, you can choose to split the 3 day workshops up into different
+days. Just ask to schedule with me.
+
+.. _Slack: https://slack.com/
+
+Your Instructor
+---------------
 
 .. _mentoring/about_me:
 
 About me
---------
+""""""""
 
 My name is Tony Narlock. I'm a seasoned open source participant who has
 contributed to over 100 open source projects, created my own popular projects
@@ -86,7 +103,7 @@ was acquired by Merkle.
 .. _HN: https://news.ycombinator.com/user?id=git-pull
 
 What people say about me
-------------------------
+""""""""""""""""""""""""
 
 See :doc:`/what-people-say`.
 
