@@ -10,7 +10,7 @@ I also provide a :doc:`Python mentoring program </mentoring/index>`.
 Am I a good fit for your project?
 ---------------------------------
 
-**My services start at $5,000.** We focus on projects that are **primarily
+**My services start at $5,000.** I focus on projects that are **primarily
 python-based**. Django is my main area of expertise. My service covers
 every end of development, from planning, documenting, testing, and deployment.
 
