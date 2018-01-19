@@ -7,19 +7,12 @@ Python and Django Consulting
 
 I also provide a :doc:`Python mentoring program </mentoring/index>`.
 
-You are ready to take action
-----------------------------
+Am I a good fit for your project?
+---------------------------------
 
-You are using (or willing to adopt) Python as a main programming language,
-and;
-
-You are funded, and;
-
-need an MVP complete, and/or;
-
-need database driven, OAuth, REST API backends, and/or;
-
-need E-Commerce integration and monthly billing setup with Stripe.
+**My services start at $5,000.** We focus on projects that are **primarily
+python-based**. Django is my main area of expertise. My service covers
+every end of development, from planning, documenting, testing, and deployment.
 
 Services
 --------
@@ -33,6 +26,9 @@ Services
 - Unit and integration test suites (see pytest contributions, testsuites
   portfolio projects)
 - Large-scale application architecture (see cihai, tmuxp/libtmux)
+- Ongoing maintenance
+- Datebase conversions to Django
+- Deployment scripts
 - Anything else Python
 
 About me
@@ -40,16 +36,14 @@ About me
 
 My name is Tony Narlock. I am creator of several open source Python projects:
 
-- tmuxp
-- libvcs
-- vcspull
-- libvcs
-- cihai (cli frontend)
-- unihan-etl
+- :doc:`tmuxp:index` (1800+ stars, packaged on debian) + :doc:`libtmux:index`
+- :doc:`vcspull:index` + :doc:`libvcs:index`
+- :doc:`cihai <cihai:index>` (:doc:`cli frontend <cihai-cli:index>`)
+- :doc:`unihan-etl <unihan-etl:index>`
 
 I am creator of a Django project:
 
-- django-slugify-processor
+- :doc:`django-slugify-processor:index`
 
 An author of *The Tao of tmux* (2017).
 
