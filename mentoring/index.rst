@@ -37,8 +37,6 @@ it. And I'm going to do everything in my power to make it work for you.
 You're prepared to make a financial investment to learn, and also
 to put your time and concentration into your studies.
 
-(Business? I also provide :doc:`consulting services for Python projects </consulting/index>`)
-
 Elite Tech Stack
 ----------------
 
@@ -102,13 +100,7 @@ was acquired by Merkle.
 .. _Twitter: https://twitter.com/journey2dawest
 .. _HN: https://news.ycombinator.com/user?id=git-pull
 
-What people say about me
-""""""""""""""""""""""""
-
-See :doc:`/what-people-say`.
-
-.. include:: /what-people-say.rst
-   :start-line: 6
+Check out :doc:`what people are saying about me and my work </what-people-say>`.
 
 Available workshops
 -------------------
@@ -173,12 +165,10 @@ connect with you live if needed.
       Doing weekly follow ups and want to switch to flexible ones? Just
       ask. No problem!
 
-Elite mentoring
----------------
+Tailored workshops
+------------------
 
-What do you want to learn?
-
-What do you already know?
+Is there something specific you want to learn or understand?
 
 You can have a plan custom tailored with a time/price for you.
 
@@ -186,3 +176,5 @@ You can have a plan custom tailored with a time/price for you.
 
 .. [1] https://news.ycombinator.com/item?id=15957273
 .. [2] https://news.ycombinator.com/item?id=14502827
+
+(Business? I also provide :doc:`consulting services for Python projects </consulting/index>`)

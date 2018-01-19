@@ -5,8 +5,6 @@
 Python and Django Consulting
 ============================
 
-I also provide a :doc:`Python mentoring program </mentoring/index>`.
-
 Am I a good fit for your project?
 ---------------------------------
 
@@ -47,12 +45,12 @@ I am creator of a Django project:
 
 An author of *The Tao of tmux* (2017).
 
-I've written several articles that were widely-received on tech
+I've written several articles that were well-received on tech
 sites:
 
-- Django vs Flask
-- Pipenv
-- Django import strings
+- `Django vs Flask <https://devel.tech/features/django-vs-flask/>`__
+- `Pipenv: Holy grail for python environments <https://devel.tech/tips/n/pIpEnvNh/pipenv/>`__
+- `How Django uses deferred imports to scale <https://devel.tech/tips/n/djms3tTe/how-django-uses-deferred-imports-to-scale/>`_
 
 I've also contributed upstream to hundreds of open source
 projects, including kaptan (which I'm a maintainer of),
@@ -63,16 +61,12 @@ I run two django-based websites, devel.tech and HSKFlashCards
 I am a veteran of several startups, including a Y Combinator
 company and an acquihire out of NYU Poly Incubator.
 
-What people say about me
-------------------------
-
-See :doc:`/what-people-say`.
-
-.. include:: /what-people-say.rst
-   :start-line: 6
+Check out :doc:`what people are saying about me and my work </what-people-say>`.
 
 Get in touch
 ------------
 
 `Send us a message <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_ with your
 current situation, needs, time constraints, and budget.
+
+(Training or learning? I also provide a :doc:`Python mentoring program </mentoring/index>`.)
