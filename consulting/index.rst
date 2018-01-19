@@ -9,13 +9,14 @@ Am I a good fit for your project?
 ---------------------------------
 
 **My services start at $5,000.** I focus on projects that are **primarily
-python-based**. Django is my main area of expertise. My service covers
-every end of development, from planning, documenting, testing, and deployment.
+python**. Django is my main area of expertise. My service covers every end of
+development, from planning, documenting, testing, and deployment. I am
+**US-based** (**CST timezone**) and **fully remote**.
 
 Services
 --------
 
-- Fully self-service SAAS websites
+- Self-service SAAS websites
 - Admin portals
 - OAuth-backed REST API's
 - E-Commerce integration with monthly-rebilling
@@ -51,16 +52,21 @@ sites:
 - `Pipenv: Holy grail for python environments <https://devel.tech/tips/n/pIpEnvNh/pipenv/>`__
 - `How Django uses deferred imports to scale <https://devel.tech/tips/n/djms3tTe/how-django-uses-deferred-imports-to-scale/>`_
 
-I've also contributed upstream to hundreds of open source
-projects, including kaptan (which I'm a maintainer of),
-django-model-utils, and django-robots.
+I've also contributed upstream to `hundreds of open source
+projects <https://openhub.net/accounts/git-pull>`_, including `kaptan`_ (which
+I'm a maintainer of), `django-model-utils <https://github.com/jazzband/django-model-utils>`_,
+and `django-robots <https://github.com/jazzband/django-robots>`_.
 
-I run two django-based websites, devel.tech and HSKFlashCards
+I run two django-based websites, `devel.tech`_ and `HSKFlashCards`_.
 
 I am a veteran of several startups, including a Y Combinator
 company and an acquihire out of NYU Poly Incubator.
 
 Check out :doc:`what people are saying about me and my work </what-people-say>`.
+
+.. _kaptan: https://github.com/emre/kaptan
+.. _devel.tech: https://devel.tech
+.. _HSKFlashCards: https://www.hskflashcards.com
 
 Get in touch
 ------------
