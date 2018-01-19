@@ -24,18 +24,24 @@ FAQ
 
   See above. Not to take a knock at code schools, many are great. But compare me
   side-by-side with instructors at an average code school. They're often
-  contractors (with no job security) paid less than 50k a year. Many were
-  themselves students - not open source practitioners or startup veterans.
+  contractors (with no labor protections) paid less than 50k a year. Many were
+  themselves students from a prior class - not open source practitioners or
+  startup veterans.
 
-  They also have little one-on-one time, they're mills that cram 10, 15, or 20
+  And then those teachers go around and tell you you're going to make
+  80k-100k? When they themselves aren't? If they were so good at programming, 
+  and the market is in such need (it's already saturated), why wouldn't they
+  already employed making that wage, or even more?
+  
+  They have little to no one-on-one time - they're mills that cram 10, 15, or 20
   students into a cohort. Or street smarts, they haven't been through the
-  ups and downs of startups to give you candid advice. Take your normal McAcademy
-  BootCamp instructor, put them one-on-one with me in a Hackathon, I'd shred
-  them to pieces.
+  ups and downs of startups to give you candid advice. Take your normal
+  McAcademy BootCamp instructor, put them one-on-one with me in a Hackathon,
+  it'd be a slaughter.
 
-  I also serve a different type of student. You yourself want to be a
-  founder. My ideal student already has a career and savings - and are trying to
-  augment what they *already* have.
+  I serve a different type of student. You yourself want to be a founder. My
+  ideal student already has a career and savings - and are trying to augment
+  what they *already* have.
 
   A big sticking point of bootcamps is some form of job afterwards,
   sometimes by the way of refunding if you don't get employed within a certain
@@ -45,13 +51,18 @@ FAQ
 
   Want to work at Google? Study computer science, data structures and
   algorithms. Buy *Cracking the Code Interview* - a book that provides
-  no useful skill outside of interviewing. You can sit there fantasizing
-  you'll be the token Google hire after learning Angular, but it's more likely
-  you'll be working at Trader Joe's with $16k down the drain.
+  no useful skill outside interviewing. You can sit fantasizing you'll be the
+  token Google hire after learning Angular, but it's more likely you'll be
+  working at Trader Joe's with $16k down the drain.
 
-  This kills three birds with one stone: Superior teacher, superior developer,
-  and I don't feed into systems that take advantage of people who don't know
-  better.
+  Don't fall for these mills. **Don't become a programmer out of desperation**.
+  Bootcamps take advantage of your fear by creating a false illusion their
+  flimsy accredition matters. Nobody cares. Do it because you have a vision you
+  want to realize.
+
+  My approach wins by killing three birds with one stone: Superior teacher,
+  superior developer, and I don't feed into systems that take advantage of
+  people who don't know better.
 
 - Mobile development?
 
