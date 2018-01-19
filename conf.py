@@ -74,6 +74,9 @@ intersphinx_mapping = {
     'cihai': ('https://cihai.git-pull.com/en/latest/', None),
     'cihai-cli': ('https://cihai-cli.git-pull.com/en/latest/', None),
     'unihan-etl': ('https://unihan-etl.git-pull.com/en/latest/', None),
+    'django-slugify-processor': (
+        'https://django-slugify-processor.git-pull.com/en/latest/', None,
+    ),
     'django': (
         'https://docs.djangoproject.com/en/1.11/',
         'https://docs.djangoproject.com/en/1.11/_objects/'
