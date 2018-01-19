@@ -37,7 +37,7 @@ it. And I'm going to do everything in my power to make it work for you.
 You're prepared to make a financial investment to learn, and also
 to put your time and concentration into your studies.
 
-(Business? I also provide :doc:`consulting services in Python </consulting/index>`)
+(Business? I also provide :doc:`consulting services for Python projects </consulting/index>`)
 
 Elite Tech Stack
 ----------------
