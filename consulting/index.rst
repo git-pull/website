@@ -16,18 +16,25 @@ development, from planning, documenting, testing, and deployment. I am
 Services
 --------
 
-- Self-service SAAS websites
-- Admin portals
-- OAuth-backed REST API's
-- E-Commerce integration with monthly-rebilling
-- Scrapers / crawlers documents and websites
-- Data processing utilities and pipelines
-- Unit and integration test suites
-- Large-scale application architecture
-- Ongoing maintenance
-- Datebase conversions to Django
-- Deployment scripts
-- Anything else Python
+.. container:: row
+
+   .. container:: project col-xs-6
+
+      - Self-service SAAS websites
+      - Admin dashboard
+      - OAuth-backed REST API's
+      - E-Commerce integration (subscriptions)
+      - Scrapers / crawlers for docs and websites
+      - Data processing utilities and pipelines
+
+   .. container:: project col-xs-6
+
+      - Unit and integration test suites
+      - Large-scale application architecture
+      - Database conversions to Django
+      - Deployment scripts
+      - Ongoing maintenance
+      - Anything else Python
 
 About me
 --------
@@ -77,7 +84,7 @@ Check out :doc:`what people are saying about me and my work </what-people-say>`.
 Get in touch
 ------------
 
-`Send us a message <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_ with your
-current situation, needs, time constraints, and budget.
+`Send me a message <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_, happy to
+hear from you!
 
 (Training or learning? I also provide a :doc:`Python mentoring program </mentoring/index>`.)
