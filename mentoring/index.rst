@@ -136,19 +136,18 @@ Want to ask questions or get started? `Get in touch! <https://goo.gl/forms/8leBo
 After your workshop
 -------------------
 
-Checking up on your progress and helping you succeed in wrapping your
-brain around concepts in our courses is important to me. You are a student
-of mine, and that is something that has dignity and esteem to it.
+Helping you succeed in wrapping your brain around concepts of our courses
+is important to me. You are a student of mine, and that is something that has
+dignity and esteem to it.
 
-For the period after a workshop, you can contact me when you hit a
-road block, and I will respond within one business day, or
-connect with you live if needed.
+After a workshop is complete, you can contact me when you hit a road block, and
+I will respond within one business day, or connect with you live if needed.
 
 .. container:: row
 
    .. container:: project col-xs-6
 
-      **Weekly follow ups**
+      **Weekly follow-ups**
 
       In addition, there are one hour conversations we schedule during the week.
       This can be used to talk about what you're building, help you with
@@ -156,13 +155,13 @@ connect with you live if needed.
 
    .. container:: project col-xs-6
 
-      **Flexible follow ups**
+      **Flexible follow-ups**
 
       Students taking my workshops can opt to use their credit to check in
       as they need. This allows you the time to fit your learning to your
       schedule and habits.
 
-      Doing weekly follow ups and want to switch to flexible ones? Just
+      Attending a weekly follow-ups and want to switch to flexible ones? Just
       ask. No problem!
 
 Tailored workshops
