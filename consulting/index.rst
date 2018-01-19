@@ -43,7 +43,7 @@ I am creator of a Django project:
 
 - :doc:`django-slugify-processor:index`
 
-An author of *The Tao of tmux* (2017).
+Author of the book `The Tao of tmux <https://leanpub.com/the-tao-of-tmux/read>`_ (2017)
 
 I've written several articles that were well-received on tech
 sites:
@@ -57,9 +57,15 @@ projects <https://openhub.net/accounts/git-pull>`_, including `kaptan`_ (which
 I'm a maintainer of), `django-model-utils <https://github.com/jazzband/django-model-utils>`_,
 and `django-robots <https://github.com/jazzband/django-robots>`_.
 
-I run two django-based websites, `devel.tech`_ and `HSKFlashCards`_.
+I run two django-based websites, `devel.tech`_, which is powered by my own
+`docutils`_-based, db-backed CMS system. And `HSKFlashCards`_, which I inherited
+from an ex-Googler.
 
-I am a veteran of several startups, including a Y Combinator
+(I forgot to mention, I'm a Google Summer of Code student and was also a mentor.)
+
+.. _docutils: http://docutils.sourceforge.net/
+
+I'm a veteran of several startups, including a Y Combinator
 company and an acquihire out of NYU Poly Incubator.
 
 Check out :doc:`what people are saying about me and my work </what-people-say>`.
