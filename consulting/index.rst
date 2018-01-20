@@ -2,8 +2,8 @@
 
 .. _consulting:
 
-Python and Django Consulting
-============================
+Python, Django, and Stripe Development Services
+===============================================
 
 Am I a good fit for your project?
 ---------------------------------
@@ -46,9 +46,7 @@ My name is Tony Narlock. I am creator of several open source Python projects:
 - :doc:`cihai <cihai:index>` (:doc:`cli frontend <cihai-cli:index>`)
 - :doc:`unihan-etl <unihan-etl:index>`
 
-I am creator of a Django project:
-
-- :doc:`django-slugify-processor:index`
+I'm creator of the :doc:`django-slugify-processor:index` package.
 
 Author of the book `The Tao of tmux <https://leanpub.com/the-tao-of-tmux/read>`_ (2017)
 
