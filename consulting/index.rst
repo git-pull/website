@@ -21,7 +21,7 @@ Services
    .. container:: project col-xs-6
 
       - Self-service SAAS websites
-      - Admin dashboard
+      - Admin dashboards
       - OAuth-backed REST API's
       - E-Commerce integration (subscriptions)
       - Scrapers / crawlers for docs and websites
