@@ -29,9 +29,9 @@ FAQ
   startup veterans.
 
   And then those teachers go around and tell you you're going to make
-  80k-100k? When they themselves aren't? If they were so good at programming, 
-  and the market is in such need (it's already saturated), why wouldn't they
-  already employed making that wage, or even more?
+  80k-100k when they themselves aren't. If they were so good at programming
+  and the market is in such need for programmers (it's already saturated), why
+  wouldn't they already be employed earning a higher wage?
   
   They have little to no one-on-one time - they're mills that cram 10, 15, or 20
   students into a cohort. Or street smarts, they haven't been through the
@@ -56,11 +56,11 @@ FAQ
   working at Trader Joe's with $16k down the drain.
 
   Don't fall for these mills. **Don't become a programmer out of desperation**.
-  Bootcamps take advantage of your fear by creating a false illusion their
+  Bootcamps take advantage of your naivete through creating an illusion their
   flimsy accredition matters. Nobody cares. Do it because you have a vision you
   want to realize.
 
-  My approach wins by killing three birds with one stone: Superior teacher,
+  My approach kills three birds with one stone: Superior teacher,
   superior developer, and I don't feed into systems that take advantage of
   people who don't know better.
 
