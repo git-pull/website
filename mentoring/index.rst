@@ -12,9 +12,9 @@ About | :doc:`FAQ <./faq>` | `Apply / Ask`_
 Take the leap into Python
 -------------------------
 
-You want to learn a stack of technologies perfect for running your own
-show. My mentoring workshops are all about teaching best technologies and
-frameworks that are available for starting your own web-based business.
+My courses are based off the best technologies for running your own
+show. My mentoring workshops are all about learning the skills and
+frameworks needed to create a self-service SAAS solution.
 
 These workshops are fully remote. All you need is a terminal, skype or Google
 Hangouts, internet, and most importantly, a hunger to learn.
@@ -23,19 +23,13 @@ Python is a *cool* programming language. I recommend it often on HN [1]_ [2]_.
 Django is a choice web framework for taking your idea into something
 you can execute on, and own. This tech stack is one you won't regret.
 
-That's another point. When you build your own website, not only is there
-no boss to suck up to, you maintain a controlling interest. It's about
-being master of your own life.
+When you do your own thing there is **no boss to suck up to**, you
+**maintain a controlling interest**. You can be **master of your own
+life**.
 
-Programming is hard. You won't become a prodigy overnight. But your time spent
-here will be worth it. For years to come, you'll look back at the insights
-and mix in your own philosophy to set yourself apart.
-
-That's why this oppurtunity is special compared to others. I put my name on
-it. And I'm going to do everything in my power to make it work for you.
-
-You're prepared to make a financial investment to learn, and also
-to put your time and concentration into your studies.
+Programming is hard. You won't become a prodigy overnight. For years to come,
+you'll look back at the insights and mix in your own philosophy to set yourself
+apart.
 
 Elite Tech Stack
 ----------------
