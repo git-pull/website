@@ -55,14 +55,18 @@ FAQ
   token Google hire after learning Angular, but it's more likely you'll be
   working at Trader Joe's with $16k down the drain.
 
-  Don't fall for these mills. **Don't become a programmer out of desperation**.
+  Don't fall for these mills. **Don't become a programmer out of desperation!**
   Bootcamps take advantage of your naivete through creating an illusion their
-  flimsy accredition matters. Nobody cares. Do it because you have a vision you
-  want to realize.
+  flimsy accredition matters. Nobody cares. In fact, there are reports of
+  interviewers **throwing out resumes from code camps** [1]_ [2]_. You learn
+  programming because you have a vision you want to realize.
 
   My approach kills three birds with one stone: Superior teacher,
   superior developer, and I don't feed into systems that take advantage of
   people who don't know better.
+
+  .. [1] https://news.ycombinator.com/item?id=11874096
+  .. [2] https://news.ycombinator.com/item?id=11872850
 
 - Mobile development?
 
