@@ -14,12 +14,13 @@ Take the leap into Python
 
 My courses are based off the best technologies for running your own
 show. My mentoring workshops are all about learning the skills and
-frameworks needed to create a self-service SAAS solution.
+frameworks needed to create a **software as a service** capable of generating
+passive income.
 
-These workshops are fully remote. All you need is a terminal, skype or Google
-Hangouts, internet, and most importantly, a hunger to learn.
+These workshops are **fully remote**. All you need is a terminal, slack, skype,
+or Google Hangouts, internet, and most importantly, **a hunger to learn**.
 
-Python is a *cool* programming language. I recommend it often on HN [1]_ [2]_.
+**Python is a cool programming language**. I recommend it often on HN [1]_ [2]_.
 Django is a choice web framework for taking your idea into something
 you can execute on, and own. This tech stack is one you won't regret.
 
