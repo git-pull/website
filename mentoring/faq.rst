@@ -32,21 +32,21 @@ FAQ
   80k-100k when they themselves aren't. If they were so good at programming
   and the market is in such need for programmers (it's already saturated), why
   wouldn't they already be employed earning a higher wage?
-  
-  They have little to no one-on-one time - they're mills that cram 10, 15, or 20
-  students into a cohort. Or street smarts, they haven't been through the
-  ups and downs of startups to give you candid advice. Take your normal
-  McAcademy BootCamp instructor, put them one-on-one with me in a Hackathon,
-  it'd be a slaughter.
 
   I serve a different type of student. You yourself want to be a founder. My
   ideal student already has a career and savings - and are trying to augment
   what they *already* have.
+  
+  Their teaching experience also sucks. They have little to no one-on-one time -
+  cramming 10, 15, or 20 students into a class. They can't teach street smarts,
+  they haven't been through the ups and downs of startups to give you candid
+  advice. Take your normal McAcademy BootCamp instructor, put them one-on-one
+  with me in a Hackathon, it'd be a slaughter.
 
   A big sticking point of bootcamps is some form of job afterwards,
   sometimes by the way of refunding if you don't get employed within a certain
   amount of time. If you want a guarantee of employment, go to a camp, they can
-  be a "safety net" for you. But then, if you can't take risks and want job
+  be a "safety net" for you. But then, if you're risk averse and want job
   security, why are you doing startups?
 
   Want to work at Google? Study computer science, data structures and
@@ -58,8 +58,7 @@ FAQ
   Don't fall for these mills. **Don't become a programmer out of desperation!**
   Bootcamps take advantage of your naivete through creating an illusion their
   flimsy accredition matters. Nobody cares. In fact, there are reports of
-  interviewers **throwing out resumes from code camps** [1]_ [2]_. You learn
-  programming because you have a vision you want to realize.
+  interviewers **throwing out resumes from code camps** [1]_ [2]_.
 
   My approach kills three birds with one stone: Superior teacher,
   superior developer, and I don't feed into systems that take advantage of
