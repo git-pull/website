@@ -130,25 +130,12 @@ FAQ
      .. _you're no snowflake: https://en.wikipedia.org/wiki/Law_of_Jante
 
   6. One-on-one teaching makes it untenable to give job guarantees to students.
+
      I run a small shop where I give attention to gifted students on an
-     individualized basis.
+     individualized basis. I don't run a year round operation.
      
      Code camps are able to because they have 30 students in a class. If
-     they have one drop out, they're shielded some what.
-
-  7. Personal principles
-
-     I am a true believer that those who have succeeded in their paths should
-     pass down their knowledge to the next generation. Learning is
-     everything. But not if you're going into debt. Not if you're attention
-     is being split between 10-30 other people.
-
-     There used to be a time where if you learned a trade, you'd be an
-     apprentice of someone who is a master. These days, there's some slothy
-     instructor passing scantrons down an aisle 15 rows deep. And your
-     earliest influences you met every day, your teachers, conditioned
-     you to think it's OK. And your teachers have more *far more* job security
-     than most.
+     they have one drop out, they're shielded in case someone fails.
 - Will you be my reference?
 
   I will be a reference and reliable witness to your ability, as well as your
@@ -161,7 +148,7 @@ FAQ
   I look highly on students that exhibit:
   
   - Improved / Good code quality
-  - Deplyed awebsite, service, product in staging, or better yet,
+  - Live website, service, product in staging, or better yet,
     production quality
   - Open source contributions
     
