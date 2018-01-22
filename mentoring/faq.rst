@@ -69,23 +69,24 @@ FAQ
 
 - Why don't you offer job positions / outcomes?
 
-  1. I don't want students who are desperate, out of options, and see
+  1. You should be a founder.
+
+  2. I don't want students who are desperate, out of options, and see
      programming as a last ditch effort to find employment.
 
-  2. The ideal student already has a career and is augmenting or
+  3. The ideal student already has a career and is augmenting or
      improving what they already have.
 
-  3. The job market is already saturated with boot camp graduates over the
+  4. The job market is already saturated with boot camp graduates over the
      past years.
 
-  4. It's a risky career path an an employee. There are no unions. There are
+  5. It's a risky career path an an employee. There are no unions. There are
      few protections to shield you from bad bosses, VC funding drying up,
-     bad equity deals, and so on. Too much power on the side of the
-     employer.
+     bad equity deals, and so on. Too much power on the side of the employer.
 
-  5. No respect for seniority
+  6. (Lack of) respect for seniority
      
-     Being a programmer as an *employee* isn't the panacaea it's made to be on
+     Being a programmer as an *employee* isn't the panacea it's made to be on
      TV. After a few years of hard work, you'll become a senior programmer.
     
      *Startup route*
@@ -96,10 +97,14 @@ FAQ
      If it's a startup, **you may have more experience than your own founder**.
      That's a disaster waiting to happen, and you'll always lose that one.
 
-     In 10 years, I've never had a phone call back from a startup founder who
-     thought they knew software better than me say "I'm so sorry for my hubris
-     and acting like I knew more than you as an expert, you were right." That's
-     pretty scary - because it also shows they can't humble themselves to learn.
+     You're going to be stuck on the ride of some bigheaded loudmouth, who
+     wouldn't even hire themself if they had the chance to. 
+     
+     (I'd love to hire myself. Wait, I forgot, I run this educational
+     course and have my own websites.)
+     
+     It's like a manager from hell with unchecked Dunning-Kruger, anyone who
+     challenges the soundness of their ideas is canned.
 
      *Large organizations*
      
@@ -111,8 +116,9 @@ FAQ
      know, `you're no snowflake`_.
      
      What was once a test of merit to harvest computer science chops has
-     devolved into a draconian filter that serves as a passport to protect an
-     entrenched system of careerists and bozos, not the best to perform a job.
+     devolved into a draconian filter that serves as a passport protecting an
+     entrenched system of careerists and bozos, not finding the best, or even
+     minimally viable candidate to perform a role.
 
      This fundamentally prohibits you from reaching your potential.
 
@@ -129,10 +135,11 @@ FAQ
 
      .. _you're no snowflake: https://en.wikipedia.org/wiki/Law_of_Jante
 
-  6. One-on-one teaching makes it untenable to give job guarantees to students.
-
-     I run a small shop where I give attention to gifted students on an
-     individualized basis. I don't run a year round operation.
+  6. The nature of personalized instruction
+     
+     I run a small shop where I give individualized instruction to gifted
+     students. Not a year round operation. It's not tenable to offer guarantees
+     with this model.
      
      Code camps are able to because they have 30 students in a class. If
      they have one drop out, they're shielded in case someone fails.
