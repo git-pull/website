@@ -37,6 +37,32 @@ FAQ
   requirements. You're ready and willing to make an investment in your
   future. You value raw insight and knowledge first and foremost.
 
+- Why Python?
+
+  Python does everything.
+
+  It's fast enough.
+
+  Strong standard library.
+
+  Code standards and hygeine.
+
+  It can be faster if you leverage the right libraries.
+
+  Scales well to medium-sized codebases.
+
+  Solid web frameworks.
+
+  Solid ML/AI.
+
+  Scraping.
+
+  Cleaning data.
+
+  Flagship third party libraries: requests
+
+  Testing. unittest + pytest
+
 - Are you better than a code school?
 
   See above. Not to take a knock at code schools, many are great. But compare me
@@ -112,7 +138,7 @@ FAQ
      programmer".
      
      If it's a startup, **you may have more experience than your own founder**.
-     That's a disaster waiting to happen, and you'll always lose that one.
+     That's a disaster waiting to happen. You'll always lose that one.
 
      You're going to be stuck on the ride of some bigheaded loudmouth, who
      wouldn't even hire themself if they had the chance to. 
@@ -121,7 +147,8 @@ FAQ
      course and have my own websites.)
      
      It's like a manager from hell with unchecked Dunning-Kruger, anyone who
-     challenges the soundness of their ideas is canned.
+     challenges the soundness of their ideas is canned. Will refuse take your
+     input. Fail to treat you as an equal or a partner.
 
      *Large organizations*
      
@@ -141,14 +168,13 @@ FAQ
 
      *Exceptions*
 
-     Entreprenuers, founders, DIY-types. **Building your own portfolio of
+     Entrepreneurs, founders, DIY-types. **Building your own portfolio of
      intellectual property and attaining customers is the ultimate validation of
      yourself**. I did it myself when I wrote my book. I'm doing it again now
      with my SAAS tools.
      
      **Those currently employed augmenting their career with awesome Python
-     skills** is another avenue for those in a position that has job security 
-     in the foreseeable future.
+     skills** is another type of student I could be a match with.
 
      .. _you're no snowflake: https://en.wikipedia.org/wiki/Law_of_Jante
 
