@@ -5,7 +5,24 @@
 Python Mentoring for Entrepreneurs
 ==================================
 
-:doc:`About <./index>` | FAQ
+:doc:`About <./index>` | FAQ | `Apply / Ask`_
+
+.. _Apply / Ask: https://goo.gl/forms/8leBo6ZzeJI0KPAx1
+
+Am I a fit for you?
+-------------------
+
+I'm not a tutor for everyone. If you don't like what I say here, maybe I'm
+not. Me teaching a student means I need to divert time away from working on
+other projects that could pan out. That includes actively *filtering out* people
+who wouldn't like me or not get the results they want.
+
+On the other hand, *I'm happy to accomodate students who appreciate my
+frankness on this page*.
+
+If what I say here makes sense, `let's talk`_.
+
+.. _let's talk: https://goo.gl/forms/8leBo6ZzeJI0KPAx1
 
 FAQ
 ---
@@ -113,7 +130,7 @@ FAQ
      think you can be a better programmer than me? Will people at Google,
      Uber, and so on use your software? Because even if you're demonstrably
      elite, these companies still force you to do dog tricks to let you
-     know, `you're no snowflake`_.
+     know `you're no snowflake`_.
      
      What was once a test of merit to harvest computer science chops has
      devolved into a draconian filter that serves as a passport protecting an
