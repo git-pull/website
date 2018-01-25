@@ -9,8 +9,8 @@ About | :doc:`FAQ <./faq>` | `Apply / Ask`_
 
 .. _Apply / Ask: https://goo.gl/forms/8leBo6ZzeJI0KPAx1
 
-Take the leap into Python
--------------------------
+Brain dump: it's a real term according to Wikipedia
+---------------------------------------------------
 
 My courses are based off the best technologies for running your own
 show. My mentoring workshops are all about learning the skills and
@@ -28,12 +28,12 @@ When you do your own thing there is **no boss to suck up to**, you
 **maintain a controlling interest**. You can be **master of your own
 life**.
 
-Programming is hard. You won't become a prodigy overnight. For years to come,
-you'll look back at the insights and mix in your own philosophy to set yourself
-apart.
-
 Elite Tech Stack
 ----------------
+
+These are my choice goto components I use to build with every day. I've
+used it in open source, at startups, on my own websites. I stick with them
+for one reason: **They move mountains**.
 
 **Python** is the best programming language for generalist stuff and backends of
 websites.
@@ -71,8 +71,8 @@ days. Just ask to schedule with me.
 
 .. _Slack: https://slack.com/
 
-Your Instructor
----------------
+Top-notch teacher
+-----------------
 
 .. _mentoring/about_me:
 
