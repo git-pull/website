@@ -18,8 +18,8 @@ timeline? Your current situation? Your budget? You can't afford to waste
 time to market with bad engineers that don't care about your business
 goals. It's time to put your needs to paper. Let's look at what I can do:
 
-What I can provide for you
---------------------------
+Solutions for you 
+-----------------
 
 .. container:: row
 
@@ -59,8 +59,8 @@ What I can provide for you
 
       Together we can develop a second opinion / action plan.
 
-Built to last, standard
------------------------
+Built to last, by default.
+--------------------------
 
 All new code written on a project will comply with the following.
 
@@ -82,45 +82,45 @@ All new code written on a project will comply with the following.
         are ready for API documentation.
       - Code Style (PEP8)
 
-Who are you?
-------------
+Solutions Expert
+----------------
 
-My name is Tony Narlock. I am creator of several robust, open source Python
-projects:
+Tony Narlock is creator of several robust, open source Python projects:
 
 - :doc:`tmuxp:index` (1800+ ⭐'s, packaged on debian) + :doc:`libtmux:index`
 - :doc:`vcspull:index` + :doc:`libvcs:index`
 - :doc:`cihai <cihai:index>` (:doc:`cli frontend <cihai-cli:index>`)
 - :doc:`unihan-etl <unihan-etl:index>`
 
-I'm creator of the :doc:`django-slugify-processor:index` package.
+In addition, creator of the :doc:`django-slugify-processor:index` package
+(2018).
 
 Author of the book `The Tao of tmux <https://leanpub.com/the-tao-of-tmux/read>`_ (2017)
 
-I've written several articles that were well-received on tech
-sites:
+He has written several articles that were well-received on tech sites:
 
 - `Django vs Flask <https://devel.tech/features/django-vs-flask/>`__
 - `Pipenv: Holy grail for python environments <https://devel.tech/tips/n/pIpEnvNh/pipenv/>`__
 - `How Django uses deferred imports to scale <https://devel.tech/tips/n/djms3tTe/how-django-uses-deferred-imports-to-scale/>`_
 
-I've also contributed upstream to `hundreds of open source
+He's also contributed upstream to `hundreds of open source
 projects <https://openhub.net/accounts/git-pull>`_, including `kaptan`_ (which
-I'm a maintainer of), `django-model-utils <https://github.com/jazzband/django-model-utils>`_,
+he maintains), `django-model-utils <https://github.com/jazzband/django-model-utils>`_,
 and `django-robots <https://github.com/jazzband/django-robots>`_.
 
-I run two django-based websites, `devel.tech`_, which is powered by my own
-`docutils`_-based, db-backed CMS system. And `HSKFlashCards`_, which I inherited
+He runs two django-based websites, `devel.tech`_, which is powered by my own
+`docutils`_-based, db-backed CMS system. And `HSKFlashCards`_, which he inherited
 from an ex-Googler.
 
-(I forgot to mention, I'm a Google Summer of Code student and was also a mentor.)
+He's an alumni of Google Summer of Code, as a student, and later as a
+mentor of a Brown University student.
 
 .. _docutils: http://docutils.sourceforge.net/
 
-I'm a veteran of several startups, including a Y Combinator
+Tony is a veteran of several startups, including a Y Combinator
 company and an acquihire out of NYU Poly Incubator.
 
-Check out :doc:`what people are saying about me and my work </what-people-say>`.
+Check out :doc:`what people are saying about him and his work </what-people-say>`.
 
 .. _kaptan: https://github.com/emre/kaptan
 .. _devel.tech: https://devel.tech
@@ -129,7 +129,7 @@ Check out :doc:`what people are saying about me and my work </what-people-say>`.
 Get in touch
 ------------
 
-`Send me a message <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_, happy to
+`Send him a message <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_, he'd happy to
 hear from you!
 
-(Training or learning? I also provide a :doc:`Python mentoring program </mentoring/index>`.)
+(Training or learning? We also provide a :doc:`Python mentoring program </mentoring/index>`.)
