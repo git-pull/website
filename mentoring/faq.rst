@@ -20,7 +20,7 @@ who wouldn't like me or not get the results they want.
 On the other hand, *I'm happy to accomodate students who appreciate my
 frankness on this page*.
 
-If what I say here makes sense, `let's talk`_.
+If what I say here makes sense, `let's talk`_!
 
 .. _let's talk: https://goo.gl/forms/8leBo6ZzeJI0KPAx1
 
