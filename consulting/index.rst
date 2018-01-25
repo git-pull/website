@@ -13,35 +13,82 @@ python**. Django is my main area of expertise. My service covers every end of
 development, from planning, documenting, testing, and deployment. I am
 **US-based** (**CST timezone**) and **fully remote**.
 
-Services
---------
+You want stuff shipped and working well. Can you define your needs? Your
+timeline? Your current situation? Your budget? You can't afford to waste
+time to market with bad engineers that don't care about your business
+goals. It's time to put your needs to paper. Let's look at what I can do:
+
+What I can provide for you
+--------------------------
 
 .. container:: row
 
    .. container:: project col-xs-6
 
-      - Self-service SAAS websites
-      - Admin dashboards
-      - OAuth-backed REST API's
-      - E-Commerce integration (subscriptions)
-      - Scrapers / crawlers for docs and websites
-      - Data processing utilities and pipelines
+      **Stripe E-Commerce Integration**
+
+      Monthly billing. Multiple plans. Discounts. Payment workflow.
+
+      Full-service SAAS solutions are more time consuming than they look,
+      and it's hard. You need someone with experience who can put billing
+      into place, have it work, and make it stick.
+
+      **Data-processing and Scraping**
+
+      Pull information from sources and documents, matching patterns,
+      process.
+
+      **Anything else Python / Django / Stripe**
+
+      Wheelhouse is Python. And Django. And Stripe.
 
    .. container:: project col-xs-6
 
-      - Unit and integration test suites
-      - Large-scale application architecture
-      - Database conversions to Django
-      - Deployment scripts
-      - Ongoing maintenance
-      - Anything else Python
+      **Backend API's / REST**
 
-About me
---------
+      If you're building a mobile application or developer API, you need
+      an OAuth2-backed solution with permissions wired into the
+      background. A skilled developer will listen to what your frontend
+      needs are and help you show and make editable the correct content.
 
-My name is Tony Narlock. I am creator of several open source Python projects:
+      **Planning**
 
-- :doc:`tmuxp:index` (1800+ stars, packaged on debian) + :doc:`libtmux:index`
+      If you're getting the run around from slow developers, you may need help
+      defining technical requirements. A skilled developer can help you break
+      the job into manageable pieces that are acceptable to your team.
+
+      Together we can develop a second opinion / action plan.
+
+Built to last, standard
+-----------------------
+
+All new code written on a project will comply with the following.
+
+.. container:: row
+
+   .. container:: project col-xs-6
+
+      **Python 3.6**
+
+      New code is written in the latest python version.
+
+   .. container:: project col-xs-6
+
+      **Standards compliance**
+
+      - Documented (PEP257)
+
+        That means code is navigable in the long term. Classes and methods
+        are ready for API documentation.
+      - Code Style (PEP8)
+
+Who are you?
+------------
+
+My name is Tony Narlock. I am creator of several robust, open source Python
+projects:
+
+- :doc:`tmuxp:index` (1800+ ⭐'s, packaged on debian) + :doc:`libtmux:index`
 - :doc:`vcspull:index` + :doc:`libvcs:index`
 - :doc:`cihai <cihai:index>` (:doc:`cli frontend <cihai-cli:index>`)
 - :doc:`unihan-etl <unihan-etl:index>`
