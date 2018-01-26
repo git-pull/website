@@ -2,8 +2,8 @@
 
 .. _consulting:
 
-Python, Django, and Stripe Contractors
-======================================
+Python, Django, and Stripe Contractor
+=====================================
 
 About | :doc:`Stripe Integration <./stripe-integration>` | `Contact`_
 
@@ -12,15 +12,15 @@ About | :doc:`Stripe Integration <./stripe-integration>` | `Contact`_
 Am I a good fit for your project?
 ---------------------------------
 
-**My services start at $5,000.** I focus on projects that are **primarily
-python**. Django is my main area of expertise. My service covers every end of
-development, from planning, documenting, testing, and deployment. I am
-**US-based** (**CST timezone**) and **fully remote**.
+**Services start at $5,000.** This is a **Python / Javascript** shop. Django is
+my main area of expertise. My service covers every end of development, from
+planning, documenting, testing, and deployment. I am **US-based**
+(**CST timezone**) and **fully remote**.
 
-You want stuff shipped and working well. Can you define your needs? Your
-timeline? Your current situation? Your budget? You can't afford to waste
-time to market with bad engineers that don't care about your business
-goals. It's time to put your needs to paper. Let's look at what I can do:
+Save money and get to market faster. Bypass ambivalent engineers that don't
+understand your business goals. A seasoned software developer will be on
+your side to help you avoid headaches and build high quality projects 
+as a foundation for growth.
 
 Solutions for you 
 -----------------
