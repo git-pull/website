@@ -260,3 +260,5 @@ FAQ
   you've learned and use `react-native`_.
 
   .. _react-native: https://facebook.github.io/react-native/
+
+(Back to :doc:`./index`)
