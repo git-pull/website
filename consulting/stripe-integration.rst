@@ -27,7 +27,7 @@ so we weren't slowing local development or customer's down.
 
 For both occasions, I wrote out models that acted as a parity to Stripe's data,
 so info could be available locally to avoid extra API calls, and even 
-*sychronized* with the freshest available data. Most importantly though,
+*synchronized* with the freshest available data. Most importantly though,
 it established a relationship between the **user's website account and the
 stripe customer**. That connection is critical, if we didn't have that, we 
 couldn't create a real dashboard.
@@ -37,6 +37,9 @@ billing sources and their subscriptions. But actually knowing that was the
 first part of the battle. We had to create a system where we protected
 the connect of the user's stripe account and the stripe ID, and gave a
 **registration workflow** so the user could **subscribe to plans**.
+
+Design protectively and for robustness
+--------------------------------------
 
 A true SAAS worth its salt is **almost completely self-service**. Users can also
 **cancel and change plans from the user dashboard**. That's where it takes
@@ -52,9 +55,17 @@ Later, at devel.tech, I would begin my own billing system **completely from
 scratch**. Ironically enough, I still **underestimated how long it would
 take and how hard it would be**. Even though I did it before.
 
+Built with clarity in mind
+--------------------------
+
 This time though, I had a different trajectory. I'll take my domain
 knowledge of Stripe and help other startups who needed help integrating
 things.
+
+To survive in the long term, a stripe integration must make sense so
+future programmers on the code can understand. With my track record in
+building API's and documentation that have been implemented around the
+world, you are in good hands to have the pieces fit.
 
 .. _stripe-python: https://github.com/stripe/stripe-python
 .. _stripe-node: https://github.com/stripe/stripe-node
