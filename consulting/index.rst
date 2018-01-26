@@ -2,8 +2,12 @@
 
 .. _consulting:
 
-Python, Django, and Stripe Development Services
-===============================================
+Python, Django, and Stripe Contractors
+======================================
+
+About | :doc:`Stripe Integration <./stripe-integration>` | `Contact`_
+
+.. _Contact: https://goo.gl/forms/K1uwUVIWOBX589Ip1
 
 Am I a good fit for your project?
 ---------------------------------
