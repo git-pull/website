@@ -37,6 +37,8 @@ Solutions for you
       and it's hard. You need someone with experience who can put billing
       into place, have it work, and make it stick.
 
+      :doc:`Learn more about our philosophy for billing <./stripe-integration>`
+
       **Data-processing and Scraping**
 
       Pull information from sources and documents, matching patterns,
