@@ -129,7 +129,7 @@ Check out :doc:`what people are saying about him and his work </what-people-say>
 Get in touch
 ------------
 
-`Send him a message <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_, he'd happy to
-hear from you!
+An experienced programmer can help you get your feature or product to market
+faster. Don't delay, `Get in touch <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_!
 
 (Training or learning? We also provide a :doc:`Python mentoring program </mentoring/index>`.)
