@@ -19,11 +19,10 @@ planning, documenting, testing, and deployment. I am **US-based**
 
 Save money and get to market faster. Bypass ambivalent engineers that don't
 understand your business goals. A seasoned software developer will be on
-your side to help you avoid headaches and build high quality projects 
-as a foundation for growth.
+your side to be ready for growth.
 
-Solutions for you 
------------------
+Solutions for you.
+------------------
 
 .. container:: row
 
@@ -88,10 +87,13 @@ All new code written on a project will comply with the following.
         are ready for API documentation.
       - Code Style (PEP8)
 
-Solutions Expert
-----------------
+On your side.
+-------------
 
-Tony Narlock is creator of several robust, open source Python projects:
+Tony Narlock is a veteran of several startups, including a Y Combinator
+company and an acquihire out of NYU Poly Incubator.
+
+He is creator of several robust, open source Python projects:
 
 - :doc:`tmuxp:index` (1800+ ⭐'s, packaged on debian) + :doc:`libtmux:index`
 - :doc:`vcspull:index` + :doc:`libvcs:index`
@@ -123,17 +125,14 @@ mentor of a Brown University student.
 
 .. _docutils: http://docutils.sourceforge.net/
 
-Tony is a veteran of several startups, including a Y Combinator
-company and an acquihire out of NYU Poly Incubator.
-
 Check out :doc:`what people are saying about him and his work </what-people-say>`.
 
 .. _kaptan: https://github.com/emre/kaptan
 .. _devel.tech: https://devel.tech
 .. _HSKFlashCards: https://www.hskflashcards.com
 
-Get in touch
-------------
+Get in touch.
+-------------
 
 An experienced programmer can help you get your feature or product to market
 faster. Don't delay, `Get in touch <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_!
