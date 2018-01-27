@@ -10,3 +10,6 @@ _build
 
 # ignore virtualenvs
 /*env*/
+
+# npm
+node_modules/
