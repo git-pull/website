@@ -1,7 +1,6 @@
 """Extension to load external links in new window."""
 import re
 from sphinx.writers.html import HTMLTranslator
-from sphinx.builders.html import StandaloneHTMLBuilder
 from docutils import nodes
 
 ALLOWED_HOSTS = [
@@ -34,7 +33,7 @@ class GitPullHTMLTranslator(HTMLTranslator):
             if (not any(node['refuri'] in host
                         for host in ALLOWED_HOSTS) and
                     not node['refuri'].startswith('#') and
-                    not re.match(r'(\.\.)?(\/)?[\w_-]*\.html', node['refuri']) and
+                    not re.match(r'(\.\.)?(\/)?[\w_-]*\.html', node['refuri']) and  # NOQA
                     not node['refuri'].startswith('/')):
                 atts['target'] = '_blank'
                 atts['class'] += ' offsite'
