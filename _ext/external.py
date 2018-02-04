@@ -34,7 +34,7 @@ class GitPullHTMLTranslator(HTMLTranslator):
             if (not any(node['refuri'] in host
                         for host in ALLOWED_HOSTS) and
                     not node['refuri'].startswith('#') and
-                    not re.match(r'(\.\.)?(\/)?[\w_]*\.html', node['refuri']) and
+                    not re.match(r'(\.\.)?(\/)?[\w_-]*\.html', node['refuri']) and
                     not node['refuri'].startswith('/')):
                 atts['target'] = '_blank'
                 atts['class'] += ' offsite'
