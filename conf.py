@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
+import sys
+from os.path import join, dirname, abspath
 
 import alagitpull
 
+sys.path.append(abspath(join(dirname(__file__), "_ext")))
+
 extensions = [
   'sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx',
-  'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alagitpull'
+  'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alagitpull', 'external',
 ]
 
 html_title = 'git-pull.com'
