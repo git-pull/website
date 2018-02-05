@@ -8,19 +8,19 @@ Yet, recruiters with no technical ability, and programmers and managers
 with less programming experience than me frequently place me into
 trivia and codegolf, trying to stump someone who is an expert.
 
-That mindset of knowing before hand someone can probably do something,
-but trying to trick them, rather than trying to understand in earnest
-their capabilities and qualifications, is a concerning trend in technical
-screening.
+That mindset of knowing beforehand someone can do something, but trying to trick
+them, rather than trying in earnest to understand their capabilities and 
+qualifications, is a concerning trend in technical screening.
 
-Initial points before I dig in:
+Disclaimer, before I dig in:
 
-1. This is just about *technical screens*. General interviews are fine!
+1. This is just about *technical screens*. **General interviews are
+   fine!**
 2. There *are* exceptions to this. But the good companies that have sensible
    tech screenings are too humble to shine and be a beacon for others.
-3. Half of the time, I'm the one who messes up the interview, not getting
-   enough sleep, someone better comes along, it's just not a fit. So let's set 
-   a margin of error.
+3. Half the time, I'm the one who messes up the interview, not getting
+   enough sleep, someone better comes along, or it's just not a fit. So let's 
+   set a margin of error.
 
 To begin, don't you think tech screeners look people up first?
 
@@ -100,7 +100,7 @@ been dragged around to places that lack the basal honesty to explain the
 role demands flexibility, passion, focus, teamwork, but maybe the skills
 *just a touch* more modest than their post's requirements. Maybe it's just
 CRUD, ETL, React.js, with some Pandas here and there. Not rewriting language
-primitives from the ground up in assembly. That kinda thing.
+primitives from the ground up in assembly. Like that.
 
 Sometimes, I'm flunked based on stuff I've done before, but haven't practiced
 in ages, or that's researchable and I'd be good at. It's safe to say, that
@@ -200,8 +200,8 @@ You go through a phase of imposter syndrome that lingers for years, because you
 think it's your own limitations or faults. Or you're just "bad". Until you
 realize the lengths interviewers go to not hire the person that replaces them.
 
-It's rare. But they exist. Here's another example of the "Bait and switch" and
-"Sabotager":
+It's rare. Subject to interpretation. But it happens. Another example of what I 
+perceive to be bait and switching and sabotage:
 
 .. admonition:: Story
 
@@ -262,18 +262,17 @@ them? Sometimes they may even fib they've done it before, and proceed to
 
    I walk in to my first startup in the suburbs, cool. The first
    interviewer that comes is very chill. He even admits to me he looked
-   me up before hand. I show him `unihan-etl
+   me up beforehand. I show him `unihan-etl
    <https://unihan-etl.git-pull.com/>`_ which clearly leaves him
    impressed about my experience working with complex data being
    readily available.
 
-   The other thing is, it's the first time an interviewer ever let me
-   demo my open source projects, and at that point, he said I was
-   senior, and had no interest in technical screening trivia. One of
-   the things that made me believe he was credible was his
-   vulnerability. He talked about his past working at a cell phone
-   company, not being able to do open source, and also that the job was
-   there to support him.
+   It's the first time an interviewer ever let me demo my open source projects, 
+   and at that point, he said I was senior, and had no interest in technical 
+   screening trivia. One of the things that made me believe he was credible was 
+   his vulnerability. He talked about his past working at a cell phone company, 
+   not being able to do open source, and also that the job was there to support 
+   him.
 
    Eventually, he leaves, and a new person comes in. A CPO.
 
@@ -304,12 +303,12 @@ them? Sometimes they may even fib they've done it before, and proceed to
    programming or Python. And don't know why any so-called programmer
    wouldn't just look up the documentation. 
 
-   I find this style of interview extremely weasley and a bit creepy. You're
-   chatting with people out of my sight, without telling me. Here I am,
-   thinking you're looking at my portfolio and abilities in earnest. And all the
-   while, this covert judging is taking place. Possibly under faulty
-   premises; which is... Kafkaesque? I never realize it at the time, only in
-   hindsight.
+   I find this style of interview extremely weasley and a bit creepy. Before
+   I answered any questions, he introduced himself with a lie. And chatted with 
+   people out of my sight, without telling me. Here I am, thinking you're 
+   looking at my portfolio and abilities in earnest. And all the while, this 
+   covert judging is taking place. Possibly under faulty premises; which is... 
+   Kafkaesque? I never realize it at the time, only in hindsight.
 
 For two remaining cases, there would be a programmer interviewing.
 
@@ -352,38 +351,27 @@ something in between. Here's why that doesn't work:
    level. The intuition of most programmers is to break big chunks of data up, 
    cache, and profile, is satisfactory.
 
-   .. admonition:: Jobs disappearing due to technological advancement
+   Even businesses that requires this kind of scaling only need it in
+   narrow aspects of their applications. Not every role requires the
+   need go back to basics and give asymptotic level of care, ever, period.
 
-     When you say that full stack developers can do a "data scientists"
-     or PhD's job, it's personal. Because you're basically saying they're
-     obsolete. Friction occurs, and manifests itself in passive aggressive
-     ways in the office. These aren't going to be comfy jobs anymore. They're
-     competing against JavaScript programmers that are scrappy, vivacious, 
-     autodidacts that've been hungry learning, and gaining intuition of
-     map/reduce/filter through osmosis. All the while, the data scientists who
-     thought they were part of the elite, that they were in a relatively secure,
-     comfortable job during this time, risk their grasp being contested.
-
-   Even businesses that require this kind of scaling only need it in
-   certain aspects of their applications. Not every programmer has to
-   start from scratch and give asymptotic level of care *ever* in their role.
-
-   The runaway fascination with scaling and unchecked buzzwords results in
-   businesses creating purely hypothetical job requirements. You must have
-   direct experience Spark and Hadoop - it doesn't matter if you have 10
-   years programming experience and have solved data problems before.
+The runaway fascination with scaling and unchecked buzzwords appears to have 
+created a marketplace for purely hypothetical job requirements, to match their 
+mistaken conceptualization of how scaling works. Stuff like:
    
-   You must talk and act in a certain way - vague and obscure enough to hide
-   it's just ETL and map reduce, yet esteemed and confident enough to not go into
-   details. Have ML/AI peppered on your resume, a PhD, in order to be
-   qualified under the laws of Physics to launch a Jupyter notebook.
+You must have direct experience with Spark and Hadoop - it doesn't matter if you
+have 10 years programming experience and have solved data problems before.
+You must talk and act in a certain way - vague and obscure enough to hide
+it's all just ETL, yet scholarly and esteemed enough for it to be rude to
+press for explanations. Keywords for ML/AI/Big data must be peppered on 
+resume, alongside a PhD, in order to be fully qualified under the laws of
+Physics as a data scientist and start a Jupyter notebook.
 
-Most business problems aren't asymptotic - bound to infinity. This puts the
-applicant in a position where they could be an expert and correct the
-interviewer (which ends the interview, Never Outshine the Master), or it could
-be taken as saying indirectly, their company "won't scale that way" (which the
-company incorrectly views as tantamount to success). Or the applicant could go
-along with it when they're not fresh on the subject.
+Most business problems aren't asymptotic - bound to infinity. The
+applicant can decide to correct the interviewer (ending the hiring process, 
+Never Outshine the Master), or be taken as an offense to infer the company 
+"won't scale" (be successful). Or, the applicant could go along with it when 
+they're not fresh on the subject. Being subjected to this wears many people out.
 
 Some hiring managers proclaim they want the best skill and talent, but in the
 end, are scared of trusting experts. Or thanks to Dunning-Kruger, think they can
@@ -402,7 +390,7 @@ It's all about mindset. Screening today is about stumping applicants, rather
 than an earnest effort to see if someone understands something, or could
 learn it on the job, if accomodated. That means any evidence the applicant has
 experience with something in the past has to be weighed. If a test is done, it 
-has to have an articulable reason and the applicant should know before hand.
+has to have an articulable reason and the applicant should know beforehand.
 
 Instead, the screening process actively ignores evidence of aptitude that
 doesn't follow the prescribed testing style used by the company at the
@@ -417,7 +405,7 @@ candidate's feelings either.
 Screening can work both ways - because that's the kind colleague that'd be
 passive aggressive, or a boss or organization that'd terminate you at-will on a
 whim, burn every bridge, only to have the business tank due to engineering waste
-and ineptness. Bad bosses are about as plentiful as bad employees.
+and ineptness. Bad bosses are highly dangerous.
 
 When you're an expert and the boss doesn't let you assume that position,
 you can't work with them. By extension, *they* may not be able to work with
