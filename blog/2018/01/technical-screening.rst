@@ -5,17 +5,20 @@ I'm in a unique position when it comes to technical screenings. There's
 clear and unambiguous public evidence that I can program.
 
 Yet, recruiters with no technical ability, and programmers and managers
-with less programming experience than me frequently try to drag me into
-trivia and golf, acting like they can stump someone who is an expert.
+with less programming experience than me frequently place me into
+trivia and codegolf, trying to stump someone who is an expert.
 
-That mindset, of knowing before hand someone can probably do something,
-but trying to trick them, is what technical screening has devolved to.
+That mindset of knowing before hand someone can probably do something,
+but trying to trick them, rather than trying to understand in earnest
+their capabilities and qualifications, is a concerning trend in technical
+screening.
 
-Two initial points before I dig in:
+Initial points before I dig in:
 
-1. There *are* exceptions to this. But the good companies that have sensible
+1. This is just about *technical screens*. General interviews are fine!
+2. There *are* exceptions to this. But the good companies that have sensible
    tech screenings are too humble to shine and be a beacon for others.
-2. Half of the time, I'm the one who messes up the interview, not getting
+3. Half of the time, I'm the one who messes up the interview, not getting
    enough sleep, someone better comes along, it's just not a fit. So let's set 
    a margin of error.
 
@@ -121,7 +124,7 @@ programmer interview flunking solid prospects, regularly, *at scale*.
 
 Some screenings ask you to do tricks that have no basis or grounding in
 *anything*. Questioning or denying the premise can really sour things. So we're
-passive and "just deal with it" to appear as prima donnas.
+passive and "just deal with it" to not appear as prima donnas.
 
 .. admonition:: Story
    
@@ -227,11 +230,6 @@ It's rare. But they exist. Here's another example of the "Bait and switch" and
    student's expressions were... bewildered to say the least. They found it
    too sophisticated and not web development related.
 
-   Fantastic. I can officially add public humiliation to my list of
-   disrespect. Which actually sets me apart from the general disrespect
-   programmers get at-large when interviewing! Can I apply for a special
-   discount on my Spotify/Netflix subscription now?
-
    After that, I'm put into a conversation with an instructor that's
    very junior to me. While he was impressed by my technical background
    and didn't require screening me (I was promised I'd be able to show some
@@ -323,24 +321,36 @@ gently say  I can't. Then they continue to lean in. *crunch*
 Web development roles for Django, Laravel, and Rails that insist on doing data
 structures and algorithms. Unless you're specifically planning on scaling data
 into terabytes or petabytes, or receiving millions of connections, or
-something in between. The thing is two fold:
+something in between. Here's why that doesn't work:
 
 1. Data structures and algorithms are cargo-culted as a way to "prove" a
-   programmer has deep understanding of CS concepts. It can be memorized
-   without someone internalizing it. This creates false positives.
+   programmer has deep understanding of CS concepts.
+   
+   But, they can be memorized without internalizing them. This creates false 
+   positives.
 
-   And someone can have lookup times, reads, writes, types of searches
-   internalized, but not be able to perform a test on command like a school
-   student would. This creates false negatives.
+   The test is kind of useless at this point.
 
-2. Many startups are grandiose about scaling / virality. You can be a successful
-   and profitable business, like McDonalds, but chances are, they're not going
-   to have "infinity" number of stores. The problem is stable enough to where 
-   you can partition and use constraints. Likely similar to the way their
-   corporate management structure works - country, region, so on. There's no
-   need to start with a blank canvas and assemble things at the quark level. The
-   intuition of most programmers is to break big chunks of data up, cache, and
-   profile, which is satisfactory.
+   Further analysis finds someone can have lookup times, reads, writes, types of
+   searches internalized, but not be able to perform a test on command like a
+   fresh graduate would. This creates false negatives.
+
+   At this point, it's considered harmful.
+
+2. Many startups are naive and grandiose about scaling
+
+   This is why it's important for founders to lend their ear to senior
+   programmers.
+   
+   You can be a successful and profitable business, like McDonalds, and they're 
+   not going to fluctuate between 0 and one billion restaurants every
+   millisecond. Things are predictable and stable enough to where you can 
+   partition and introduce constraints pragmatically. Likely similar to the way 
+   their corporate  management structure works - country, region, so on.
+   
+   There's no need to start with a blank canvas and assemble things at the quark
+   level. The intuition of most programmers is to break big chunks of data up, 
+   cache, and profile, is satisfactory.
 
    .. admonition:: Jobs disappearing due to technological advancement
 
@@ -454,20 +464,11 @@ They're not going to hang the process on a gimmick or trick, but probe and give
 the applicant a chance to fill in the blank if they know something, or could
 learn it. This avoids false negatives.
 
-I am going to be stern on this - as of 2018, there's *zero* respect for
+I am going to be stern on this: as of 2018, there's *zero* respect for
 programmers in interviews. Companies aren't helping us help them. To me,
 programming is an honorable trade, and the duties need to be recognized for how
 challenging they are, and the career path deserves more dignity and respect than
 it's currently getting.
-
-Outsiders truly underestimate the rigors of this trade. I think this is
-true for any trade. We make it look easy. We take these photos at work of us
-smiling at these startups like we're in paradise. Are we really happy
-inside? Or are we really hurting ourselves by our values conflicting with what's
-really happening. When we create false social proofs of success and
-survivorship bias, it cheapens the trade. It's psychologically unhealthy. It
-gets us further away from righting the course of things - and getting back to
-hacking.
 
 .. _concurrent.futures: https://docs.python.org/3/library/concurrent.futures.html
 .. _multiprocessing: https://docs.python.org/3/library/multiprocessing.html
