@@ -7,7 +7,6 @@ Python, Django, and Stripe Contractor
 
 About |
 :doc:`Stripe Integration <./stripe-integration>` | 
-:doc:`Will I work for equity? <./will-i-work-for-equity-only>` | 
 `Contact`_
 
 .. _Contact: https://goo.gl/forms/K1uwUVIWOBX589Ip1

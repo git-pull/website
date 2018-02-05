@@ -7,7 +7,6 @@ Stripe Integration
 
 :doc:`About <./index>` |
 Stripe Integration | 
-:doc:`Will I work for equity? <./will-i-work-for-equity-only>` | 
 `Contact`_
 
 .. _Contact: https://goo.gl/forms/K1uwUVIWOBX589Ip1
