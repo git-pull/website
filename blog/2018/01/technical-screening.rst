@@ -10,8 +10,7 @@ trivia and golf, acting like they get the game better than me.
 
 And it's painful to watch. It's obvious when they lie to themselves. To them,
 it's about the paycheck and their self-preservation, not about hacking or
-helping the company. It's so weak and cowardly, I feel sick to watch how
-low they sink.
+helping the company. It's so weak and cowardly. It's gross.
 
 Don't you think they look people up first?
 
@@ -26,7 +25,12 @@ Are they saying they could be inauthentic?
 Are they not enough to substantiate that somebody could work, *immediately*?
 
 If someone can't answer trivia off the top of their head, are we
-now to believe they're *unteachable*, or just that they didn't recollect it?
+now to assume they never knew it, or just that they didn't recollect it?
+
+If someone demonstrates clear expertise in a specific arena, but hasn't used
+exact, cherry-picked libraries out of chance yet, are we to believe they're
+*unteachable*? They can't learn it in 5 minutes? A day? A week? Some
+workplaces train for months.
 
 Performance issues? In a unique way, they can publicly see I get stuff done, 
 and have basically zero downtime.
@@ -66,7 +70,7 @@ seniority to random, non-standardized shotguns of trivia or pressured
 refactorings isn't just rude, but fallacious. The cadence of the job is
 nothing like that. And they know it.
 
-In this instances, both the company *and* the candidate are losing.
+In the current situation, both the company *and* the candidate are losing.
 
 Some of us have a sense of pride and care for the company we work for,
 and our colleagues, too.
@@ -154,9 +158,7 @@ weaker of a horse than I am.
 So to take that last part further: The other thing is, sometimes you'll get
 cringy interviews of two types:
 
-1. Bait and switch. The interviewer is more junior compared to me, and
-   deliberately malingers or makes excuses to sabotage the process out of
-   self-preservation.
+1. Bait and switch. Sabotaging.
 
    The thing with claiming someone deliberately sabotages your interview
    is enough have you question your mental health. Seriously, because you think
@@ -206,6 +208,11 @@ cringy interviews of two types:
       Google Summer of Code mentor. I give support in open source. I have
       great intuition for this. I talk about the whole open source way of
       how we learn, get mentored, then assume core roles.
+
+      The person kept not accepting it as an answer. He read my resume,
+      He already knew I'm not a *literal* teacher. And he wasn't either,
+      and he was a junior programmer, what is he doing teaching people
+      anyway? He doesn't have any laurels to rest on. He just wants a job.
 
       I leave, and the words the instructor mumbles is something about my
       "philosophy". Ugh, what? I wasn't egging on, I just candidly
