@@ -6,13 +6,20 @@ clear and unambiguous public evidence that I can program.
 
 Yet, recruiters with no technical ability, and programmers and managers
 with less programming experience than me frequently try to drag me into
-trivia and golf, acting like they get the game better than me.
+trivia and golf, acting like they can stump someone who is an expert.
 
-And it's painful to watch. It's obvious when they lie to themselves. To them,
-it's about the paycheck and their self-preservation, not about hacking or
-helping the company. It's so weak and cowardly. It's gross.
+That mindset, of knowing before hand someone can probably do something,
+but trying to trick them, is what technical screening has devolved to.
 
-Don't you think they look people up first?
+Two initial points before I dig in:
+
+1. There *are* exceptions to this. But the good companies that have sensible
+   tech screenings *are too humble* to shine and be a beacon for others.
+2. Half of the time, I'm the one who messes up the interview, not getting
+   enough sleep, someone better comes along, it's just not a fit. So let's set 
+   a margin of error.
+
+To begin, don't you think tech screeners look people up first?
 
 They always do. Even when they don't admit it.
 
@@ -25,7 +32,7 @@ Are they saying they could be inauthentic?
 Are they not enough to substantiate that somebody could work, *immediately*?
 
 If someone can't answer trivia off the top of their head, are we
-now to assume they never knew it, or just that they didn't recollect it?
+now to assume they never knew it, or they just didn't recollect it?
 
 If someone demonstrates clear expertise in a specific arena, but hasn't used
 exact, cherry-picked libraries out of chance yet, are we to believe they're
@@ -38,28 +45,36 @@ and have basically zero downtime.
 Fear they can't finish things? I've released 5+ completed open source projects, with
 packages, documentation, tests, continuous integration, end-to-end.
 
-What if someone can't perform a random programming routine / puzzle under
-pressure, on demand? Does that mean they can't hack? How do they explain all my
+If someone can't handle on-demand, randomized programming puzzles under
+pressure, does that mean they can't hack? How do they explain all my
 open source code? Did a magical elf appear and ask me to do Fibonacci when I
-wrote the `WorkspaceBuilder`_ for `tmuxp`_? What are they trying to prove?
+wrote the `WorkspaceBuilder`_ for `tmuxp`_?
+
+What are they trying to prove?
 
 Maybe these kinds of tests are only good for one thing: Finding people who
 say the right words, conditioned to do puzzles, even memorize them, to no
 demonstrable, beneficial effect. The ability to be obsessed with nonsense.
 
 So you get a person with a useless skill, with a possible inference they'd do
-nonsensical things when ordered to without question. While more and more
-spurned people come to the realization:  *wow, organizations really create 
-systems that cargocult waste at scale, maybe I have no option but to
-become a founder or a consultant*.
+nonsensical things, when ordered, without question. While more and more
+finally come to the personal epiphany: *wow, organizations really create 
+systems that cargocult waste at scale, like the Dilbert comic*.
 
-Maybe my analogy doesn't express my feelings as well as I'd like. I
-don't like the dichotomy if you don't succumb to nonsense, you'd be a
-bad employee.
+That is the exact problem agile / startups tries to solve. We cut the red tape,
+leverage cutting-edge frontend frameworks to get to market fast, pull in
+permissively licensed libraries from the internet, black swans. That kind of
+thing.
 
-Senior level employees have more agency. Some technical screenings aren't
-helping find ones that'd actually *help* the company. I like my trade, and I'm 
-perfectly amenable to being employed.
+But more and more often, startups are cargoculting Dilbert-style bozo
+interviews for programmers, too.
+
+(The last time I felt such frustration and tilting was when I played
+MoBA's.)
+
+Regardless, senior level employees have more agency, there's no way around it.
+Some technical screenings aren't helping find ones that'd actually *help* the
+company
 
 .. _WorkspaceBuilder: https://github.com/tony/tmuxp/blob/master/tmuxp/workspacebuilder.py
 .. _tmuxp: https://tmuxp.git-pull.com
