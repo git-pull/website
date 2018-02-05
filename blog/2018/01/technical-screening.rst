@@ -59,7 +59,7 @@ demonstrable, beneficial effect. The ability to be obsessed with nonsense.
 So you get a person with a useless skill, with a possible inference they'd do
 nonsensical things, when ordered, without question. While more and more
 finally come to the personal epiphany: *wow, organizations really create 
-systems that cargocult waste at scale, like the Dilbert comic*.
+systems that cargocult waste at scale, like Dilbert*.
 
 That is the exact problem agile / startups tries to solve. We cut the red tape,
 leverage cutting-edge frontend frameworks to get to market fast, pull in
@@ -83,10 +83,11 @@ Let's open up the conversation. Forget open source. Any programmer
 with 8+ years of real professional programming. Subjecting a candidate with
 seniority to random, non-standardized shotguns of trivia or pressured
 refactorings isn't just rude, but fallacious. The cadence of the job is
-nothing like that. And they know it.
+nothing like that.
+
+And they know it.
 
 In the current situation, both the company *and* the candidate are losing.
-
 Some of us have a sense of pride and care for the company we work for,
 and our colleagues, too.
 
@@ -224,10 +225,10 @@ cringy interviews of two types:
       great intuition for this. I talk about the whole open source way of
       how we learn, get mentored, then assume core roles.
 
-      The person kept not accepting it as an answer. He read my resume,
-      He already knew I'm not a *literal* teacher. And he wasn't either,
-      and he was a junior programmer, what is he doing teaching people
-      anyway? He doesn't have any laurels to rest on. He just wants a job.
+      The person refused to accept the answers. He read my resume, and understood
+      *literal* teacher. And he wasn't either, and he was a junior programmer,
+      what is he doing teaching people anyway? He doesn't have any
+      accomplishments. Turf protection.
 
       I leave, and the words the instructor mumbles is something about my
       "philosophy". Ugh, what? I wasn't egging on, I just candidly
@@ -301,21 +302,6 @@ in the field long enough to have *experience* to make educated decisions and
 analyze, synthesize information, and help treat / defer to someone else in a
 variety of situations.
 
-The norm in programmer interviews isn't just consciously ignoring evidence
-someone can perform a role, their time, but also they don't care about the
-candidate's feelings. Screening can work both ways - because that's
-the kind of boss that'd terminate you at-will on a whim, burn every bridge, and
-with full control and power, yet still have the business tank due to engineering
-waste.
-
-When you're an expert, and your boss doesn't let you assume that position,
-you can't work with them. But by extension - *they* may not be able to
-work with talent that'd *help* the company. The course of the company turns to
-devaluing programmers, instead hiring middle manager bozos that worship the
-ground they walk on, never giving sound technical advice, nor acting contrarian.
-A solid way to hold power, but not a good way to build a competitive business in
-tech, where the mantra is clear: innovate, adapt/pivot, or perish.
-
 The other thing is, sometimes the interviewer is projecting what *they*
 feel any programmer worth their salt would know. For instance, for me to
 write an ETL script (which I do well), but then asking me to optimize it,
@@ -330,6 +316,35 @@ isn't asymptotic - bound to infinity.* So, this puts me in a position where
 I could be an expert and correct the interviewer (which ends the
 interview, Never Outshine the Master), or I have to go along with it when
 I'm not fresh on the subject.
+
+It's all about mindset. Screening today, is about stumping applicants, rather
+than an earnest effort to see if someone understands something. That means
+any evidence the applicant has experience with something in the past has
+to be weighed. If a test is done, it has to have an articulable reason and
+the applicant should know before hand.
+
+Instead, the screening process actively ignores evidence of aptitude that
+doesn't follow the prescribed testing style used by the company at the
+time.
+
+This, coupled with interviewers ghosting and misrepresenting requirements
+for the job, shows a lack of respect for the candidate's time. But if my 
+anecdotes and Glassdoor are anything to go by: they don't care much about
+candidate's feelings either.
+
+Screening can work both ways - because that's the kind colleague that'd be
+passive aggressive, or a boss or organization that'd terminate you at-will on a
+whim, burn every bridge, only to have the business tank due to engineering waste
+and ineptness. Bad bosses are about as plentiful as bad employees.
+
+When you're an expert and the boss doesn't let you assume that position,
+you can't work with them. By extension, *they* may not be able to work with
+talent that'd *help* the company. The course of the company turns to
+devaluing tech, instead hiring middle manager bozos that worship the
+ground they walk on, never giving sound technical advice, nor acting contrarian.
+
+A solid way to hold power, but not a good way to build a competitive business in
+tech, where the mantra is clear: innovate, adapt/pivot, or perish.
 
 Parting observations:
 
@@ -361,11 +376,17 @@ instead of fantasizing hypotheticals of an ideal candidate materializing and
 candidates that'd fulfill the role excellently, and end up hiring a streetwise
 careerist/bozo who's a professional interviewer, not someone who can hack.
 
-It's not entitlement. I am going to be stern on this - as of 2018, there's
-*zero* respect for programmers in interviews. Companies aren't helping us
-help them. To me, programming is an honorable trade, and the duties need to be
-recognized for how challenging they are, and the career path deserves more
-dignity and respect than it's currently getting.
+Another example: If the organization values software developers enough, have
+senior engineers (not managers) be recruiters for programmers. They're not
+going to hang the process on a gimmick or trick, but probe and give the
+applicant a chance to fill in the blank if they know something, or could
+learn it. This avoids false negatives.
+
+I am going to be stern on this - as of 2018, there's *zero* respect for
+programmers in interviews. Companies aren't helping us help them. To me,
+programming is an honorable trade, and the duties need to be recognized for how
+challenging they are, and the career path deserves more dignity and respect than
+it's currently getting.
 
 Outsiders truly underestimate the rigors of this trade. I think this is
 true for any trade. We make it look easy. We take these photos at work of us
