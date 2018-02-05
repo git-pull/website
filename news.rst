@@ -74,4 +74,4 @@ News
 .. _free on the web: https://leanpub.com/the-tao-of-tmux/read
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
 .. _Kindle: http://amzn.to/2gPfRhC
-
+.. _cihai: https://cihai.git-pull.com
