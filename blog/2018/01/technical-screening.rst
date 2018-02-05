@@ -1,58 +1,72 @@
 Technical Screening
 ===================
 
-When I get asked the question if I'll do a *technical screen*, I ask myself
-if they are doing so in earnest.
+I'm in a unique position when it comes to technical screenings. There's
+clear and unambiguous public evidence that I can program.
 
-Did you look me up and take into account my work history? My open source
-contributions? My projects? My book? My posts? My publicly viewable
-updates across my projects? My overall track record?
+Yet, recruiters with no technical ability, and programmers and managers
+with less programming experience than me frequently try to drag me into
+trivia and golf, acting like they get the game better than me.
 
-Are you saying they could be inauthentic?
+And it's painful to watch. It's obvious when they lie to themselves. To them,
+it's about the paycheck and their self-preservation, not about hacking or
+helping the company. It's so weak and cowardly, I feel sick to watch how
+low they sink.
 
-If I'm being given trivia that's not fresh on my mind, are you saying that in
-spite of my history in this field, I'm *unteachable*?
+Don't you think they look people up first?
 
-Have I had issues learning in the past? I taught myself to program. Through 
-gruelling effort, I've become enough of a force people use my applications,
-libraries, and documentation.
+They always do. Even when they don't admit it.
 
-Have I had issues with performance? In a unique way, you can publicly see I
-get stuff done, and have basically zero downtime. Do I have issues
-completing things? I've released 5+ completed open source projects, with
+Did they take into account my work history? Open source
+contributions? Projects? My book? Publicly viewable
+updates across my projects? Overall track record?
+
+Are they saying they could be inauthentic?
+
+Are they not enough to substantiate that somebody could work, *immediately*?
+
+If someone can't answer trivia off the top of their head, are we
+now to believe they're *unteachable*, or just that they didn't recollect it?
+
+Performance issues? In a unique way, they can publicly see I get stuff done, 
+and have basically zero downtime.
+
+Fear they can't finish things? I've released 5+ completed open source projects, with
 packages, documentation, tests, continuous integration, end-to-end.
 
-If I can't perform a random programming routine / puzzle under pressure, on
-demand, does that mean I can't hack? How do you explain all my open
-source code? Did a magical elf appear and ask me to do Fibonacci when I
-wrote the `WorkspaceBuilder`_ for `tmuxp`_? What are you trying to prove?
+What if someone can't perform a random programming routine / puzzle under
+pressure, on demand? Does that mean they can't hack? How do they explain all my
+open source code? Did a magical elf appear and ask me to do Fibonacci when I
+wrote the `WorkspaceBuilder`_ for `tmuxp`_? What are they trying to prove?
 
-Or maybe these kinds of tests only show one thing: Someone's conditioned to 
-do puzzles, even memorize them, to no demonstrable, beneficial effect other than
-following orders to do something that's, well, *nonsense*.
+Maybe these kinds of tests are only good for one thing: Finding people who
+say the right words, conditioned to do puzzles, even memorize them, to no
+demonstrable, beneficial effect. The ability to be obsessed with nonsense.
 
-So you're either a person with a useless skill, with the possible
-inference you'd do nonsensical things when ordered to without question. Or
-someone who actually thinks and realizes, *wow, organizations really create 
+So you get a person with a useless skill, with a possible inference they'd do
+nonsensical things when ordered to without question. While more and more
+spurned people come to the realization:  *wow, organizations really create 
 systems that cargocult waste at scale, maybe I have no option but to
 become a founder or a consultant*.
 
-I don't know if my analogy expresses my feelings as well as I'd like. But I
-don't like the dichotomy that if you don't succumb to nonsense, you'd be a
-bad employee. I think senior level employees have more agency, and that
-some technical screenings aren't helping find ones that'd actually *help*
-the company. The whole reason I'm here writing, is I like my trade, and I'm
+Maybe my analogy doesn't express my feelings as well as I'd like. I
+don't like the dichotomy if you don't succumb to nonsense, you'd be a
+bad employee.
+
+Senior level employees have more agency. Some technical screenings aren't
+helping find ones that'd actually *help* the company. I like my trade, and I'm 
 perfectly amenable to being employed.
 
 .. _WorkspaceBuilder: https://github.com/tony/tmuxp/blob/master/tmuxp/workspacebuilder.py
 .. _tmuxp: https://tmuxp.git-pull.com
 
-It's partly a of matter of intellectual honesty. Most programmers don't have
-public contributions like me, but have work experience. That is critical,
-because subjecting a candidate with seniority to a random, non-standardized
-shotgun of trivia or pressured refactoring isn't just rude, but fallacious. The
-cadence of the job is nothing like that. Both the company *and* the candidate
-end up losing.
+Let's open up the conversation. Forget open source. Any programmer
+with 8+ years of real professional programming. Subjecting a candidate with
+seniority to random, non-standardized shotguns of trivia or pressured
+refactorings isn't just rude, but fallacious. The cadence of the job is
+nothing like that. And they know it.
+
+In this instances, both the company *and* the candidate are losing.
 
 Some of us have a sense of pride and care for the company we work for,
 and our colleagues, too.
