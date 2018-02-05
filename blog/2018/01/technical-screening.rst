@@ -14,7 +14,7 @@ but trying to trick them, is what technical screening has devolved to.
 Two initial points before I dig in:
 
 1. There *are* exceptions to this. But the good companies that have sensible
-   tech screenings *are too humble* to shine and be a beacon for others.
+   tech screenings are too humble to shine and be a beacon for others.
 2. Half of the time, I'm the one who messes up the interview, not getting
    enough sleep, someone better comes along, it's just not a fit. So let's set 
    a margin of error.
@@ -119,37 +119,39 @@ and flop interviews, when there's a better choice than me, and so on.
 Let's try to dive into some of the chemistry and dynamics of the modern
 programmer interview flunking solid prospects, regularly, *at scale*.
 
-Some screenings even go so far as to ask you to do tricks that have no basis or
-grounding in *anything*, and can cause serious friction with the
-interviewer when you accidentally, reflexively, yet gently question or
-deny the premise:
+Some screenings ask you to do tricks that have no basis or grounding in
+*anything*. Questioning or denying the premise can really sour things. So we're
+passive and "just deal with it" to appear as prima donnas.
 
 .. admonition:: Story
    
-   An interviewer wrote an ORM snippet of models from Django, and wanted
+   An interviewer showed a code snippet of a `Django model`, and wanted
    me to describe the schemas it would create. I correctly explained that
-   `ManyToManyField`_ creates an intermediary table to ``JOIN``. Then, he
-   wrote a `QuerySet`_ and wanted me to exactly write the SQL. *crunch*
+   `ManyToManyField`_ creates an intermediary table to ``JOIN``.
+   
+   Then, he wrote a `QuerySet`_ and wanted me to write the SQL. *crunch*
 
-   I'm fully capable to writing my own SQL Queries / navigating SQL CLI in
-   the terminal *provided I have documentation*. But, what did me being able to
-   write the exact query intend to prove? In my current work, I rarely touch raw
-   SQL unless I have a specific need to. In fact, `ORMs are good
+   .. _Django model: https://docs.djangoproject.com/en/2.0/topics/db/models/
+
+   Provided I have documentation, I'm able to write my own own SQL queries and
+   navigate SQL CLI through the terminal. What did being able to write the exact
+   query intend to prove? In my current work, I rarely touch raw SQL unless I
+   have a specific need to. In fact, `ORMs are good
    <https://news.ycombinator.com/item?id=14661391>`_.
 
    I actually ended up getting an offer from this place. They let me
    screenshare and show my code. But I don't know where the trivia came
-   from, and why specifically being able to write SQL at a parity of an
-   ORM mattered. A mental mapping of JOINs, INDEXs, when queries are
-   cached / rerunning wastefully, and profiling is sufficient.
+   from - why being able to craft perfect SQL by hand at parity with an
+   ORM mattered. Intuition of JOINs, INDEXs, and when queries are
+   cached / rerunning wastefully, paired with profiling, is sufficient.
 
 .. _ManyToManyField: https://docs.djangoproject.com/en/2.0/ref/models/fields/#django.db.models.ManyToManyField
 .. _QuerySet: https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet
 
-The other is, most technical interviews never let me know what
-specifically is being tested. So, when I come in with Language A on my mind,
-I get something else, I come off as rusty. Which makes me look like far
-weaker of a horse than I am.
+Even when I reach out and ask, it's difficult to get honest answers of what to
+expect in a screen. So, when I come in with Language A on my mind,
+I get something else. This causes things to fall apart, because being
+rusty is going to spoil the interview.
 
 .. admonition:: Story
 
@@ -158,174 +160,244 @@ weaker of a horse than I am.
    time, I went through with it. I double checked to see what the interview
    would be, and felt OK the person had a process. When I entered the
    interview, I was presented with *JavaScript* and *Underscore.js*.
-   Something I have programmed in 4 or so years. Of course, even though I did
-   social media campaigns at Social Amp for 1-800-Flowers, Elle, and Marie
-   Claire, I looked as if I couldn't grasp JS. I hadn't touched a real JS
-   script handling data in that long of a time, and I was expecting Python.
+   Something I haven't touched in 4 years.
+   
+   Back when I did, it was with successful social media campaigns at Social Amp
+   for 1-800-Flowers, Elle, and Marie Claire. But now, with no warning, I'm faced
+   with JavaScript as a total surprise when I had Python on my mind. I looked as
+   if I couldn't grasp JS.
 
-   Interviewers, when they protect their job, can get cringely Machiavellian and
-   desperate. I've had them outright put words in my mouth. This interviewer,
-   when I asked how much of the code is in Python vs JavaScript (since he
-   decided to flip the script and do a different programming language), began
-   talking about mathematics, for no reason. Likely to fabricate an excuse that
-   I was concerned about doing algebra. But who knows, it could be unconscious on
-   his part.
+   Had I have known, I could have studied a few hours the evening before.
+   It was clear, this wasn't an active discovery of whether I could perform a
+   role. When I told him I haven't seen JS like this in four years, he
+   didn't say, "Oh, go back and study this, and come back this evening."
+   It was a carnival game of odds and chance.
 
-So to take that last part further: The other thing is, sometimes you'll get
-cringy interviews of two types:
+   The interviewer did one of those things where they put words in your mouth.
+   At the very last minute, he asked if I had questions. Since he decided
+   to flip the script and do a different programming language, I asked how
+   much of this project promised to be in Django was actually JavaScript.
 
-1. Bait and switch. Sabotaging.
+   His answer was something about mathematics. For no reason. I think he was
+   unconciously trying to fabricate that I was concerned about doing algebra
+   calculations. But who knows. At that point, you're talking with a
+   person who made it pretty apparent they wouldn't be cooperative as a
+   colleague.
 
-   The thing with claiming someone deliberately sabotages your interview
-   is enough have you question your mental health. Seriously, because you think
-   it's your own lackings and faults. You go through a phase of imposter
-   syndrome that lingers for years until you realize the lengths people go to
-   not hire the person that replaces them.
+Claiming screeners deliberately sabotage interviews is enough to question your
+sanity. You're kind of on your own.
 
-   .. admonition:: Story
+If onlookers see you upset, they `may misinterpret your irritation afterward to 
+be the cause of your problem, rather than a reaction to unfair treatment
+<https://en.wikipedia.org/wiki/Fundamental_attribution_error>`_. You
+have to adjust your view of the world and people, it's not as just and
+meritocratic as you thought it may have been.
 
-      I submitted an application for an instructor role at a code camp. I got a
-      call from the founder within < 15min. I was told by the CEO in NYC - which
-      I had a delightful conversation with - I'd be giving a presentation at
-      their Chicago office to *instructors*. And specifically, it should be a
-      challenging one intended for the faculty. I took the Metra down there. 
+You go through a phase of imposter syndrome that lingers for years, because you 
+think it's your own limitations or faults. Or you're just "bad". Until you
+realize the lengths interviewers go to not hire the person that replaces them.
 
-      I opted to go into some of the innards and build system of `tmux`_. This
-      fit with me well, since I just got done publishing the first
-      edition of `The Tao of tmux`_. I didn't get much sleep the night before,
-      but was able to wrap up some of the slides when I arrived at the incubator.
+It's rare. But they exist. Here's another example of the "Bait and switch" and
+"Sabotager":
 
-      .. _tmux: https://en.wikipedia.org/wiki/Tmux
+.. admonition:: Story
 
-      I am ushered in, prepared to give my speech, to first see a group of
-      5-10 students. OK, so where's the empty room so I can get plugged in
-      before the faculty arrives? Then, through one more door. I see a huge
-      class, 6+ rows deep, with 20, maybe even 30 students. My heart sank.
+   I submitted an application for an instructor role at a code camp. I got a
+   call from the founder within < 15min. I was told by the CEO in NYC - which
+   I had a delightful conversation with - I'd be giving a presentation at
+   their Chicago office to *instructors*. And specifically, it should be a
+   challenging one intended for the faculty. I took the Metra down there. 
 
-      I'm directed to a podium.
+   I opted to go into some of the innards and build system of `tmux`_. This
+   fit with me well, since I just got done publishing the first
+   edition of `The Tao of tmux`_. I didn't get much sleep the night before,
+   but was able to wrap up some of the slides when I arrived at the incubator.
 
-      Some people would have just walked out of there. If it were me doing
-      it again, I would have. While I ended up giving a good speech, the
-      student's expressions were... bewildered to say the least. They found it
-      too sophisticated and not web development related.
+   .. _tmux: https://en.wikipedia.org/wiki/Tmux
 
-      Fantastic. I can officially add public humiliation to my list of
-      disrespect. Which actually sets me apart from the general disrespect
-      programmers get at-large when interviewing! Can I apply for a special
-      discount on my Spotify/Netflix subscription now?
+   I am ushered in, prepared to give my speech, to first see a group of
+   5-10 students. OK, so where's the empty room so I can get plugged in
+   before the faculty arrives? Then, through one more door. I see a huge
+   class, 6+ rows deep, with 20, maybe even 30 students. My heart sank.
 
-      After that, I'm put into a conversation with an instructor that's
-      very junior to me. While he was impressed by my technical background
-      and didn't require screening me (I was expected to show some of my
-      open source code off, I love doing that). He keeps asking me about my
-      teaching experience.
+   I'm directed to a podium.
 
-      I do have teaching experience. I teach people at work. I'm a former
-      Google Summer of Code mentor. I give support in open source. I have
-      great intuition for this. I talk about the whole open source way of
-      how we learn, get mentored, then assume core roles.
+   Some people would have just walked out of there. If it were me doing
+   it again, I would have. While I ended up giving a good speech, the
+   student's expressions were... bewildered to say the least. They found it
+   too sophisticated and not web development related.
 
-      The person refused to accept the answers. He read my resume, and understood
-      *literal* teacher. And he wasn't either, and he was a junior programmer,
-      what is he doing teaching people anyway? He doesn't have any
-      accomplishments. Turf protection.
+   Fantastic. I can officially add public humiliation to my list of
+   disrespect. Which actually sets me apart from the general disrespect
+   programmers get at-large when interviewing! Can I apply for a special
+   discount on my Spotify/Netflix subscription now?
 
-      I leave, and the words the instructor mumbles is something about my
-      "philosophy". Ugh, what? I wasn't egging on, I just candidly
-      answered questions. That's when I perceived they were portraying me a
-      certain way and trying to hold on to their job.
+   After that, I'm put into a conversation with an instructor that's
+   very junior to me. While he was impressed by my technical background
+   and didn't require screening me (I was promised I'd be able to show some
+   of my open source code off, I love doing that). He keeps asking me about
+   my teaching experience.
 
-      .. _The Tao of tmux: https://leanpub.com/the-tao-of-tmux
+   I do have teaching experience. I've taught people at work. I'm a former
+   Google Summer of Code mentor. I give support in open source. I have
+   great intuition for this. I talk about the whole open source way of
+   how we learn, get mentored, then assume core roles.
 
-2. The interviewer isn't a techie, but tries to play like they know better
-   as they're own way to "weed out a poser candidate".
+   The person refused to accept my answers. He read my resume and understood
+   beforehand I was never a literal professor. Nor was he before this, and he
+   was a junior programmer, what's he doing teaching people anyway? He
+   doesn't have any accomplishments. The students are paying $15k+ per
+   seat.
 
-   .. admonition:: Story
+   I leave, and the words the instructor mumbles is something about my
+   "philosophy". Ugh, what? I wasn't egging on, I just candidly
+   answered questions. That's when I perceived they were portraying me a
+   certain way and trying to hold on to their job.
 
-      I walk in to my first startup in the suburbs, cool. The first
-      interviewer that comes is very chill. He even admits to me he looked
-      me up before hand. I show him `unihan-etl
-      <https://unihan-etl.git-pull.com/>`_ which clearly leaves him
-      impressed about my experience working with complex data being
-      readily available.
+   .. _The Tao of tmux: https://leanpub.com/the-tao-of-tmux
 
-      The other thing is, it's the first time an interviewer ever let me
-      demo my open source projects, and at that point, he said I was
-      senior, and had no interest in technical screening trivia. One of
-      the things that made me believe he was credible was his
-      vulnerability. He talked about his past working at a cell phone
-      company, not being able to do open source, and also that the job was
-      there to support him.
+Who hasn't encountered a non-techie who thought they knew tech better than
+them? Sometimes they may even fib they've done it before, and proceed to 
+"weed out a poser candidate":
 
-      Eventually, he leaves, and a new person comes in. A CPO.
+.. admonition:: Story
 
-      He shuffles in with his open laptop, clasped between his palm and thumbs;
-      a big smirk on his face. He claims before he worked these various
-      non-tech jobs, *he himself was a programmer*. And begins directing the
-      conversations more and more into trivia. I make broad statements about
-      concurrency vs parallelism, and am honest if what I've done and haven't
-      done before.
+   I walk in to my first startup in the suburbs, cool. The first
+   interviewer that comes is very chill. He even admits to me he looked
+   me up before hand. I show him `unihan-etl
+   <https://unihan-etl.git-pull.com/>`_ which clearly leaves him
+   impressed about my experience working with complex data being
+   readily available.
 
-      When I mention my projects and evidence that I have a track record
-      in Python, he ignores it, and proceeds with questions.
+   The other thing is, it's the first time an interviewer ever let me
+   demo my open source projects, and at that point, he said I was
+   senior, and had no interest in technical screening trivia. One of
+   the things that made me believe he was credible was his
+   vulnerability. He talked about his past working at a cell phone
+   company, not being able to do open source, and also that the job was
+   there to support him.
 
-      As of Feburary 2018, I've never used `multiprocessing`_, `threading`_, or
-      `concurrent.futures`_. Now, if I were to try these, would I be good at
-      them?  If my track record with Python was any guess - probably. But I
-      haven't had the need to use them in the course of my natural duties.
+   Eventually, he leaves, and a new person comes in. A CPO.
 
-      I was expecting the founder would come in and talk to me. But you
-      could see the CPO type 3 keys. He has some sort of interactivity
-      happening on that screen. We shake hands, and I leave. Not seeing
-      the CEO? He didn't come in? (I know their faces from LinkedIn)  
+   He shuffles in with his open laptop, clasped between his palm and thumbs;
+   a big smirk on his face. He claims before he worked these various
+   non-tech jobs, *he himself was a programmer*. And begins directing the
+   conversations more and more into trivia. I make broad statements about
+   concurrency vs parallelism, and am honest if what I've done and haven't
+   done before.
 
-      And I am left walking out, right past the CEO as he forcefully stares down
-      at his phone as if I'm not there. Awkward.
+   When I mention my projects and evidence that I have a track record
+   in Python, he ignores it, and proceeds with questions.
 
-      I looked up the CPO once more, and see no hint he ever did
-      programming or Python. And don't know why any so-called programmer
-      wouldn't just look up the documentation. 
+   As of Feburary 2018, I've never used `multiprocessing`_, `threading`_, or
+   `concurrent.futures`_. Now, if I were to try these, would I be good at
+   them?  If my track record with Python was any guess - probably. But I
+   haven't had the need to use them in the course of my natural duties.
 
-      I find this style of interview extremely weasley and a bit creepy. You're
-      chatting with people out of my sight, without telling me. Here I am,
-      thinking you're looking at my portfolio and abilities in earnest. And all the
-      while, this covert judging is taking place. Possibly under faulty
-      premises; which is... Kafkaesque? I never realize it at the time, only in
-      hindsight.
+   I was expecting the founder would come in and talk to me. But you
+   could see the CPO type 3 keys. He has some sort of interactivity
+   happening on that screen. We shake hands, and I leave. Not seeing
+   the CEO? He didn't come in? (I know their faces from LinkedIn)  
 
-So consider that last camp, there's also a group of people who don't want
-to trust experts. Would you start giving trivia to your doctor? I
-bet you could probably throw them off on a definition, but you'd probably
-tick them off. They're not there to be play Jeopardy! on demand - they're
-experts. We know they studied the material for years, that they've been immersed
-in the field long enough to have *experience* to make educated decisions and
-analyze, synthesize information, and help treat / defer to someone else in a
-variety of situations.
+   And I am left walking out, right past the CEO as he forcefully stares down
+   at his phone as if I'm not there. Awkward.
 
-The other thing is, sometimes the interviewer is projecting what *they*
-feel any programmer worth their salt would know. For instance, for me to
-write an ETL script (which I do well), but then asking me to optimize it,
-when I see no route to do so at the moment. I gently say  I can't. Then they
-continue to lean in. *crunch*
+   I looked up the CPO once more, and see no hint he ever did
+   programming or Python. And don't know why any so-called programmer
+   wouldn't just look up the documentation. 
 
-There's also a kind that's looking around for Django, Laravel, Rails, and
-so on developers that insist on doing data structures and algorithms. I
-can't explain why, because in all these years, it hasn't come up once at
-work. *Unless you're specifically working on a large data set, the problem
-isn't asymptotic - bound to infinity.* So, this puts me in a position where
-I could be an expert and correct the interviewer (which ends the
-interview, Never Outshine the Master), or I have to go along with it when
-I'm not fresh on the subject.
+   I find this style of interview extremely weasley and a bit creepy. You're
+   chatting with people out of my sight, without telling me. Here I am,
+   thinking you're looking at my portfolio and abilities in earnest. And all the
+   while, this covert judging is taking place. Possibly under faulty
+   premises; which is... Kafkaesque? I never realize it at the time, only in
+   hindsight.
 
-It's all about mindset. Screening today, is about stumping applicants, rather
-than an earnest effort to see if someone understands something. That means
-any evidence the applicant has experience with something in the past has
-to be weighed. If a test is done, it has to have an articulable reason and
-the applicant should know before hand.
+For two remaining cases, there would be a programmer interviewing.
+
+An interviewer may project what *they* feel any programmer worth their salt
+would know. For instance, for me to write an ETL script (which I do well), but
+then asking me to optimize it, when I see no route to do so at the moment. I
+gently say  I can't. Then they continue to lean in. *crunch*
+
+Web development roles for Django, Laravel, and Rails that insist on doing data
+structures and algorithms. Unless you're specifically planning on scaling data
+into terabytes or petabytes, or receiving millions of connections, or
+something in between. The thing is two fold:
+
+1. Data structures and algorithms are cargo-culted as a way to "prove" a
+   programmer has deep understanding of CS concepts. It can be memorized
+   without someone internalizing it. This creates false positives.
+
+   And someone can have lookup times, reads, writes, types of searches
+   internalized, but not be able to perform a test on command like a school
+   student would. This creates false negatives.
+
+2. Many startups are grandiose about scaling / virality. You can be a successful
+   and profitable business, like McDonalds, but chances are, they're not going
+   to have "infinity" number of stores. The problem is stable enough to where 
+   you can partition and use constraints. Likely similar to the way their
+   corporate management structure works - country, region, so on. There's no
+   need to start with a blank canvas and assemble things at the quark level. The
+   intuition of most programmers is to break big chunks of data up, cache, and
+   profile, which is satisfactory.
+
+   .. admonition:: Jobs disappearing due to technological advancement
+
+     When you say that full stack developers can do a "data scientists"
+     or PhD's job, it's personal. Because you're basically saying they're
+     obsolete. Friction occurs, and manifests itself in passive aggressive
+     ways in the office. These aren't going to be comfy jobs anymore. They're
+     competing against JavaScript programmers that are scrappy, vivacious, 
+     autodidacts that've been hungry learning, and gaining intuition of
+     map/reduce/filter through osmosis. All the while, the data scientists who
+     thought they were part of the elite, that they were in a relatively secure,
+     comfortable job during this time, risk their grasp being contested.
+
+   Even businesses that require this kind of scaling only need it in
+   certain aspects of their applications. Not every programmer has to
+   start from scratch and give asymptotic level of care *ever* in their role.
+
+   The runaway fascination with scaling and unchecked buzzwords results in
+   businesses creating purely hypothetical job requirements. You must have
+   direct experience Spark and Hadoop - it doesn't matter if you have 10
+   years programming experience and have solved data problems before.
+   
+   You must talk and act in a certain way - vague and obscure enough to hide
+   it's just ETL and map reduce, yet esteemed and confident enough to not go into
+   details. Have ML/AI peppered on your resume, a PhD, in order to be
+   qualified under the laws of Physics to launch a Jupyter notebook.
+
+Most business problems aren't asymptotic - bound to infinity. This puts the
+applicant in a position where they could be an expert and correct the
+interviewer (which ends the interview, Never Outshine the Master), or it could
+be taken as saying indirectly, their company "won't scale that way" (which the
+company incorrectly views as tantamount to success). Or the applicant could go
+along with it when they're not fresh on the subject.
+
+Some hiring managers proclaim they want the best skill and talent, but in the
+end, are scared of trusting experts. Or thanks to Dunning-Kruger, think they can
+get around it.
+
+Would you "test" your doctor by giving them trivia? You could probably throw
+them off on a definition; embarass them. They're not there to be play
+*Jeopardy!* on demand. They studied the material for years, been immersed in 
+the field long  enough to have *experience*. They can make educated decisions 
+and analyze, synthesize information, help treat a problem, or defer to someone else.
+
+When dealing with experts, you trust them in good faith, and put your best
+foot forward with them. If it doesn't work out, you find a second opinion.
+
+It's all about mindset. Screening today is about stumping applicants, rather
+than an earnest effort to see if someone understands something, or could
+learn it on the job, if accomodated. That means any evidence the applicant has
+experience with something in the past has to be weighed. If a test is done, it 
+has to have an articulable reason and the applicant should know before hand.
 
 Instead, the screening process actively ignores evidence of aptitude that
 doesn't follow the prescribed testing style used by the company at the
-time.
+time. That is something that can be performed by a non-programmer against a pool
+of thousands, ensuring false negatives.
 
 This, coupled with interviewers ghosting and misrepresenting requirements
 for the job, shows a lack of respect for the candidate's time. But if my 
@@ -346,9 +418,9 @@ ground they walk on, never giving sound technical advice, nor acting contrarian.
 A solid way to hold power, but not a good way to build a competitive business in
 tech, where the mantra is clear: innovate, adapt/pivot, or perish.
 
-Parting observations:
+Parting observations on technical screens:
 
-- the current system has no respect for seniority
+- current system has no respect for seniority
 - no standardized test(s)
 - there's no indication technical screening determines excellent
   candidates for a role to be people who fail the screen
@@ -362,12 +434,12 @@ Parting observations:
 - it's on the spot,  under pressure, and random, which is not like the
   job, and
 - contrary to the opinion of many, if I am any example, open source isn't enough
-  evidence for interviews
+  evidence for interviews at most places
 
-Ideas for improving?
+Improving
 
-I do have ideas, but a lot of them require effort on part of employers
-that are interviewing to *themselves* be more honest, ethical, professional,
+A lot of the ideas require effort on part of employers that are 
+interviewing to *themselves* be more honest, ethical, professional,
 and put more active thought into their process and candidate's time.
 
 For example, teams could explain candidly what the daily course of duty is,
@@ -377,9 +449,9 @@ candidates that'd fulfill the role excellently, and end up hiring a streetwise
 careerist/bozo who's a professional interviewer, not someone who can hack.
 
 Another example: If the organization values software developers enough, have
-senior engineers (not managers) be recruiters for programmers. They're not
-going to hang the process on a gimmick or trick, but probe and give the
-applicant a chance to fill in the blank if they know something, or could
+senior engineers (not managers) fill in as recruiters for programmer roles. 
+They're not going to hang the process on a gimmick or trick, but probe and give
+the applicant a chance to fill in the blank if they know something, or could
 learn it. This avoids false negatives.
 
 I am going to be stern on this - as of 2018, there's *zero* respect for
