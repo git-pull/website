@@ -95,16 +95,13 @@ Some of us have a sense of pride and care for the company we work for,
 and our colleagues, too.
 
 In so many ways, I've seen technical screenings fail to confirm in the
-affirmative or the negative I could program or truly perform a role. I've
-been dragged around to places that lack the basal honesty to explain the
+affirmative or the negative I could program or truly perform a role. 
+
+I've been dragged around to places that lack the basal honesty to explain the
 role demands flexibility, passion, focus, teamwork, but maybe the skills
 *just a touch* more modest than their post's requirements. Maybe it's just
 CRUD, ETL, React.js, with some Pandas here and there. Not rewriting language
 primitives from the ground up in assembly. Like that.
-
-Sometimes, I'm flunked based on stuff I've done before, but haven't practiced
-in ages, or that's researchable and I'd be good at. It's safe to say, that
-effects how competetent you come off as.
 
 Even when it comes to basic programming API's and standard libraries, I
 don't remember every one, and regularly look up documentation for it.
@@ -182,7 +179,7 @@ rusty is going to spoil the interview.
    much of this project promised to be in Django was actually JavaScript.
 
    His answer was something about mathematics. For no reason. I think he was
-   unconciously trying to fabricate that I was concerned about doing algebra
+   unconsciously trying to fabricate that I was concerned about doing algebra
    calculations. But who knows. At that point, you're talking with a
    person who made it pretty apparent they wouldn't be cooperative as a
    colleague.
@@ -286,7 +283,7 @@ them? Sometimes they may even fib they've done it before, and proceed to
    When I mention my projects and evidence that I have a track record
    in Python, he ignores it, and proceeds with questions.
 
-   As of Feburary 2018, I've never used `multiprocessing`_, `threading`_, or
+   As of February 2018, I've never used `multiprocessing`_, `threading`_, or
    `concurrent.futures`_. Now, if I were to try these, would I be good at
    them?  If my track record with Python was any guess - probably. But I
    haven't had the need to use them in the course of my natural duties.
@@ -319,8 +316,8 @@ gently say  I can't. Then they continue to lean in. *crunch*
 
 Web development roles for Django, Laravel, and Rails that insist on doing data
 structures and algorithms. Unless you're specifically planning on scaling data
-into terabytes or petabytes, or receiving millions of connections, or
-something in between. Here's why that doesn't work:
+into terabytes or petabytes, or receiving millions of connections, or some
+mix of that. Here's why that doesn't work:
 
 1. Data structures and algorithms are cargo-culted as a way to "prove" a
    programmer has deep understanding of CS concepts.
@@ -341,19 +338,19 @@ something in between. Here's why that doesn't work:
    This is why it's important for founders to lend their ear to senior
    programmers.
    
-   You can be a successful and profitable business, like McDonalds, and they're 
+   You can be a successful and profitable business, like McDonalds, but they're 
    not going to fluctuate between 0 and one billion restaurants every
    millisecond. Things are predictable and stable enough to where you can 
-   partition and introduce constraints pragmatically. Likely similar to the way 
+   partition and introduce constraints pragmatically. Similar to the way 
    their corporate  management structure works - country, region, so on.
    
    There's no need to start with a blank canvas and assemble things at the quark
    level. The intuition of most programmers is to break big chunks of data up, 
    cache, and profile, is satisfactory.
 
-   Even businesses that requires this kind of scaling only need it in
-   narrow aspects of their applications. Not every role requires the
-   need go back to basics and give asymptotic level of care, ever, period.
+   Even businesses that requires this kind of scaling only need it in narrow 
+   aspects of their applications. Not every role requires going back to basics 
+   and giving asymptotic level of care, ever, period.
 
 The runaway fascination with scaling and unchecked buzzwords appears to have 
 created a marketplace for purely hypothetical job requirements, to match their 
@@ -378,8 +375,8 @@ end, are scared of trusting experts. Or thanks to Dunning-Kruger, think they can
 get around it.
 
 Would you "test" your doctor by giving them trivia? You could probably throw
-them off on a definition; embarass them. They're not there to be play
-*Jeopardy!* on demand. They studied the material for years, been immersed in 
+them off on a definition; embarrass them. They're not there to be play
+*Jeopardy!* on-demand. They studied the material for years, been immersed in 
 the field long  enough to have *experience*. They can make educated decisions 
 and analyze, synthesize information, help treat a problem, or defer to someone else.
 
@@ -388,7 +385,7 @@ foot forward with them. If it doesn't work out, you find a second opinion.
 
 It's all about mindset. Screening today is about stumping applicants, rather
 than an earnest effort to see if someone understands something, or could
-learn it on the job, if accomodated. That means any evidence the applicant has
+learn it on the job if accommodated. That means any evidence the applicant has
 experience with something in the past has to be weighed. If a test is done, it 
 has to have an articulable reason and the applicant should know beforehand.
 
