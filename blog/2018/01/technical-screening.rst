@@ -344,9 +344,18 @@ mix of that. Here's why that doesn't work:
    partition and introduce constraints pragmatically. Similar to the way 
    their corporate  management structure works - country, region, so on.
    
-   There's no need to start with a blank canvas and assemble things at the quark
-   level. The intuition of most programmers is to break big chunks of data up, 
+   There's no need to start with a blank canvas and assemble things in 1's
+   and 0's. The intuition of most programmers is to break big chunks of data up, 
    cache, and profile, is satisfactory.
+
+   Get it? There are various reasons why this stuff isn't communicated, but if 
+   you don't need something - trying to play a prophet is just as bad as 
+   premature opimization sometimes. You don't even have information on the ground
+   to understand your own problem, but you want to bring the scaling squad
+   into every front on the line of battle, until you're spread thin
+   supplying non-existant fronts. You don't have enough substance to justify it.
+   Sorry, but it's true. You need infantry (full stack devs / generalists)
+   for most stuff so you can actually have a product and users first.
 
    Even businesses that requires this kind of scaling only need it in narrow 
    aspects of their applications. Not every role requires going back to basics 
