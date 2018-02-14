@@ -81,9 +81,9 @@ Here are the general reasons why programmers don't work for promises:
   LinkedIn.
   
   And ultimately, you want something immediate. You want a person with a trade 
-  skill to drop what they're doing in the short term and program for you.
+  skill to drop what they're doing in the short-term and program for you.
 
-  What do you bring in the short term?
+  What do you bring in the short-term?
  
   Most other programmers are in no better spot to drop everything and
   undertake your venture, *even if* the promises are certain, since:
@@ -163,6 +163,10 @@ Here are the general reasons why programmers don't work for promises:
   For that matter, that applies to *anybody you deal with*. Not just
   programmers, but also users and VC's.
 - If you were promising, you'd have have funding
+
+  If you want free short-term work and favors, there's a word for that: begging.
+  It comes from a position of weakness. People are going to ask themselves why
+  you're empty-handed.
 
   If you've proven yourself in business, you *already have* investor
   connections. Your idea and track record is enough to get funding for
