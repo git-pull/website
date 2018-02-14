@@ -56,9 +56,7 @@ Here are the general reasons why programmers don't work for promises:
   What a programmer gets is a person bossing them around, without getting
   paid.
   
-  That's like having a NASCAR with no pit crew (*dude.*)
-
-  You're a superstar racer. You got the best car. But, stuff breaks, you want
+  You're a super NASCAR racer. You got the best car. But, stuff breaks, you want
   upgrades. And despite your trying to make do with budget parts and volunteers,
   not just any mechanic works on these types of vehicles, or does it 
   well/fast/etc. enough to keep you competitive.
@@ -77,16 +75,18 @@ Here are the general reasons why programmers don't work for promises:
   Sure, it helps with tirekickers, your intuition was right.
 
   It takes a lot of energy to shift to someone else's way of thinking and
-  understand them. They're happy to do it, and built to please. But programmers
-  want to work on stuff in their wheelhouse.
+  understand them. We're happy to do it and built to please.
 
-  As a scrappy open source programmer, the most *frugal* and most *swamped* type
-  of programmer, because that's volunteering. It's like being a public defender,
-  you get a big case load. I don't have the availability to undertake someone
-  else's ventures, *even if* the promises were certain.
+  You're a total stranger to us. You send us an message on Angel or
+  LinkedIn.
   
+  And ultimately, you want something immediate. You want a person with a trade 
+  skill to drop what they're doing in the short term and program for you.
+
+  What do you bring in the short term?
+ 
   Most other programmers are in no better spot to drop everything and
-  focus on your plan without you paying, since:
+  undertake your venture, *even if* the promises are certain, since:
 - We've already tried it before
 
   If you're a senior software developer, you've already been there and
