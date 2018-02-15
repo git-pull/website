@@ -205,7 +205,7 @@ Industry and Press
 Code Exploration
 ----------------
 
-- :ref:`django-vs-flask`
+- `Django vs Flask <https://https://devel.tech/features/django-vs-flask/>`_
 - :ref:`python_wos_trackers`
 - :ref:`reST, docutils, sphinx, readthedocs` (*Updated Feb 09, 2015*)
 - :ref:`python_packaging_modules_cyclic`
