@@ -21,10 +21,10 @@ planning, documenting, testing, and deployment. I am **US-based**
 
 Save money and get to market faster. Bypass ambivalent engineers that don't
 understand your business goals. A seasoned software developer will be on
-your side to be ready for growth.
+your side to scale and protect your company's technical interests.
 
-Solutions for you.
-------------------
+Solutions for Startups.
+-----------------------
 
 .. container:: row
 
@@ -58,13 +58,23 @@ Solutions for you.
       background. A skilled developer will listen to what your frontend
       needs are and help you show and make editable the correct content.
 
-      **Planning**
+      **React / Vue.js frontend development**
 
-      If you're getting the run around from slow developers, you may need help
-      defining technical requirements. A skilled developer can help you break
-      the job into manageable pieces that are acceptable to your team.
+      Build powerful user interfaces for your users with the latest tools.
+      Services for React, Redux, and Reselect and Vue.js and Vuex.
 
-      Together we can develop a second opinion / action plan.
+      Wire-in filtering, drag and drop, graphs and visualizations.
+
+      React and Vue.js components decouple your frontend interface to make
+      them built to last.
+
+      `Sample Vue.js project <https://cv-vue.git-pull.com>`_ 
+      (`source code
+      <https://github.com/tony/cv/tree/master/vue>`__)
+
+      `Sample React project <https://cv-react.git-pull.com>`_ 
+      (`source code
+      <https://github.com/tony/cv/tree/master/react>`__)
 
 Built to last, by default.
 --------------------------
@@ -79,21 +89,29 @@ All new code written on a project will comply with the following.
 
       New code is written in the latest python version.
 
+      **Deployment**
+
+      Projects can be scripted to deploy automatically via
+      Fabric or Saltstack. See my `fabtools branch for Python 3
+      <https://github.com/develtech/fabtools/tree/fabric3>`__.
+
    .. container:: project col-xs-6
 
       **Standards compliance**
 
-      - Documented (PEP257)
+      - Code Documentation (PEP257, JSDoc)
 
-        That means code is navigable in the long term. Classes and methods
-        are ready for API documentation.
-      - Code Style (PEP8)
+        Keep code navigable in the long term. Classes and methods
+        are prepared for API documentation.
+      - Code Style (PEP8 / `Airbnb JS
+        <https://github.com/airbnb/javascript>`__) - can be adjusted on
+        request.
 
 On your side.
 -------------
 
-Tony Narlock is a veteran of several startups, including a Y Combinator
-company and an acquihire out of NYU Poly Incubator.
+`Tony Narlock <https://cv.git-pull.com>`_ is a veteran of several startups, 
+including a Y Combinator company and an acquihire out of NYU Poly Incubator.
 
 He is creator of several robust, open source Python projects:
 
