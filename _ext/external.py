@@ -53,4 +53,6 @@ class GitPullHTMLTranslator(HTMLTranslator):
 
 def setup(app):
     app.set_translator('html', GitPullHTMLTranslator)
+    # for RTD: https://git.io/vAct0
+    app.set_translator('readthedocs', GitPullHTMLTranslator)
 # vim: set expandtab shiftwidth=4 softtabstop=4 :
