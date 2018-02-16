@@ -7,7 +7,7 @@ What's new
 
 .. include:: news.rst
    :start-line: 4
-   :end-before: - *September 2017*
+   :end-before: - *November 2017*
 
 :doc:`See more <news>`
 
