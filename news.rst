@@ -6,7 +6,7 @@ News
 
   New article:
   
-  - :doc:`consulting/will-i-work-for-equity-only` 
+  - :doc:`consulting/working-for-equity`
 
   New front-end app, "CV", two versions:
 
