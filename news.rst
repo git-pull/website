@@ -4,6 +4,12 @@ News
 
 - *February 2018*
 
+  Package update:
+
+  - `alagitpull <https://github.com/git-pull/alagitpull>`_, a sphinx theme based
+    off `alabaster <https://github.com/bitprophet/alabaster>`_, learned to open 
+    external links in new tabs.
+
   New article:
   
   - :doc:`consulting/working-for-equity`
