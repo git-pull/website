@@ -11,7 +11,9 @@ News
   New front-end app, "CV", two versions:
 
   - `React Version <https://cv-react.git-pull.com>`__: React + Redux + Reselect + webpack
+    (`source <https://github.com/tony/cv/tree/master/react>`__)
   - `Vue.js Version <https://cv-vue.git-pull.com>`__: Vue.js + Vuex + webpack 
+    (`source <https://github.com/tony/cv/tree/master/vue>`__)
 
   See source code on GitHub at https://github.com/tony/cv.
 
