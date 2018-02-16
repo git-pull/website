@@ -16,7 +16,7 @@ Publications
 
 .. container:: row
 
-   .. container:: project col-xs-6
+   .. container:: project col-xs-12 col-sm-6
 
       .. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
           :height: 150
@@ -37,7 +37,7 @@ Language Projects
 
 .. container:: row
 
-   .. container:: project col-xs-6
+   .. container:: project col-xs-12 col-sm-6
 
       .. figure:: https://cihai.git-pull.com/en/latest/_static/img/cihai.svg
           :align: center
@@ -49,7 +49,7 @@ Language Projects
           
           United front for creating open, permissive, standardized CJK datasets.
 
-   .. container:: project col-xs-6
+   .. container:: project col-xs-12 col-sm-6
 
       .. figure:: https://static.hskflashcards.com/img/logo.png
           :align: center
@@ -67,7 +67,7 @@ Unix-like Utilities
 
 .. container:: row
 
-   .. container:: project col-xs-6
+   .. container:: project col-xs-12 col-sm-6
 
       .. figure:: https://tmuxp.git-pull.com/en/latest/_static/img/tmuxp.svg
           :align: center
@@ -79,7 +79,7 @@ Unix-like Utilities
 
           tmux session manager via JSON and YAML file
 
-   .. container:: project col-xs-6
+   .. container:: project col-xs-12 col-sm-6
 
       .. figure:: https://libtmux.git-pull.com/en/latest/_static/img/libtmux.svg
           :align: center
@@ -93,7 +93,7 @@ Unix-like Utilities
 
 .. container:: row
 
-   .. container:: project col-xs-6
+   .. container:: project col-xs-12 col-sm-6
 
        .. figure:: https://vcspull.git-pull.com/en/latest/_static/img/vcspull.svg
           :align: center
@@ -105,7 +105,7 @@ Unix-like Utilities
        
           manage and update multiple git / hg / svn projects via JSON or YAML file
 
-   .. container:: project col-xs-6
+   .. container:: project col-xs-12 col-sm-6
 
       .. figure:: https://libvcs.git-pull.com/en/latest/_static/img/libvcs.svg
           :align: center
