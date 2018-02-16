@@ -1,7 +1,7 @@
 :orphan:
         
-Will I work for equity?
-=======================
+Working for equity
+==================
 
 :doc:`About <./index>` | :doc:`Stripe Integration <./stripe-integration>` | Will I
 work for equity? | `Contact`_
