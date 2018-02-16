@@ -8,7 +8,7 @@ sys.path.append(abspath(join(dirname(__file__), "_ext")))
 
 extensions = [
   'sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx',
-  'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alagitpull', 'external',
+  'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alagitpull',
 ]
 
 html_title = 'git-pull.com'
@@ -28,6 +28,13 @@ release = '0.0'
 exclude_patterns = ['_build', '.venv']
 
 pygments_style = 'sphinx'
+
+alagitpull_internal_hosts = [
+    'git-pull.com',
+    'www.git-pull.com',
+    '0.0.0.0',
+]
+alagitpull_external_hosts_new_window = True
 
 html_theme_path = [alagitpull.get_path()]
 html_theme = 'alagitpull'
