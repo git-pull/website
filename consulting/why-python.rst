@@ -102,16 +102,19 @@ Talent pool
 - According to Stack Overflow, it's one of the most popular languages
 - Second most highly sought programming language according in demand [#]_
 
-.. [#] *The 7 Most In-Demand Programming Languages of 2018*, compiled from
-   Indeed.com. http://www.codingdojo.com/blog/7-most-in-demand-programming-languages-of-2018/ 
+.. [#] Misirlakis, Speros. (2017, December 13). *The 7 Most In-Demand Programming Languages of 2018* [Blog post]. Compiled from
+   Indeed.com. Retrieved from http://www.codingdojo.com/blog/7-most-in-demand-programming-languages-of-2018/ 
 
 Node.js vs Python
 -----------------
 
-JavaScript is one of the most widely discussed programming languages [#]_
+If you stick to Node.js, your startup may only need one programming
+language.
 
-In 2018, if you are a programmer at a startup, you'll have to learn JavaScript
-to wire in frontend interactivity.
+It handles the server side / backend / scripting, and the browser side JS
+and frameworks (React, Vue.js, Knockout)
+
+JavaScript is one of the most widely discussed programming languages [#]_
 
 JavaScript has many uses. It's also used in the browser. It's used in
 abstractions like PostgresSQL's `plv8`_.
@@ -124,8 +127,8 @@ resources.
 
 BBC, LinkedIn, and USA Today use it.
 
-.. [#] Stack Overflow 2017 Developer Survey - Most Popular Technologies
-   https://insights.stackoverflow.com/survey/2017#technology
+.. [#] 2017. *Stack Overflow 2017 Developer Survey - Most Popular Technologies*
+   Retrieved from https://insights.stackoverflow.com/survey/2017#technology
 
 .. _plv8: https://github.com/plv8/plv8
 .. _npm: https://www.npmjs.com/
@@ -167,6 +170,21 @@ PHP.
 
 Why I stick to Python
 ---------------------
+
+You'll notice above, I have experience with all these languages. I also
+actually enjoy Ruby, Node.js, and PHP. So why such a fuss?
+
+Spreading oneself too thin
+""""""""""""""""""""""""""
+
+Each language has its own tooling, libraries, and so on to handle the same
+situations.
+
+In some of those languages, there might not even be a library, so you
+could be stuck reinventing the wheel [#]_.
+
+.. [#] Barrow, Lionel (2013, March 7) *Gotchas, Irritants, and Warts in Go Web Development* [Blog post].
+   Retrieved from https://www.braintreepayments.com/blog/gotchas-irritants-and-warts-in-go-web-development/
 
 Switching cost
 """"""""""""""
