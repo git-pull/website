@@ -144,6 +144,12 @@ Pain points
    These are my opinions from using Node.js extensively. I still use
    and enjoy Node.
 
+While this is ultimately based on tastes, I feel many Node users
+confront a sunk-cost fallacy, want to conform to Node's way of doing
+things believing it'll pay off in the end, and in some cases even
+misunderstand when non-blocking/async actually helps, rather than
+hinders.
+
 Node.js is cumbersome from scripts that don't absolutely need to be
 non-blocking.
 
@@ -158,7 +164,7 @@ functions, when they're juggling around promises, object literals,
 and dictionary-like objects, that add to the cognitive load
 when doing the job.
 
-- Things are Async by default, when you don't benefit from it
+- Things are async by default, when you don't benefit from it
 
   Java is a fantastic programming language. People sometimes get irked by the 
   amount of bureaucratic boilerplate involved.
@@ -268,9 +274,7 @@ when doing the job.
 Ruby vs Python
 --------------
 
-Ruby is another in-demand language.
-
-To many, it's considered the most delightful to program. I agree.
+It's considered the most delightful to program in. I agree.
 
 The community is brilliant. And joyous.
 
@@ -278,6 +282,21 @@ GitHub uses it.
 
 Rails, one of the most legendary web frameworks uses it. Rails in itself
 is the prime reason most people begin Ruby - not the other way around.
+
+There are a lot of startups hiring Rails developers. There is a huge
+talent pool to meet the demand.
+
+Homebrew, macOS user's favorite packaage manger. Vagrant, the VM manager.
+Jekyll, a blogging platform. Metasploit, a security framework.
+
+Downsides to Ruby
+"""""""""""""""""
+
+Documentation is kind of shoddy compared to Python's Sphinx and
+ReadTheDocs.
+
+It's a generalist language, but the community has overwhelmingly
+picked Python for scripting.
 
 PHP vs Python
 -------------
