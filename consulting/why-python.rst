@@ -206,17 +206,13 @@ advantages in `Why you should move to Python`_.
 Safety
 ------
 
-I may not be as accurate in predicting the time and effort on deliverables. This
-is not a risk I'm comfortable with introducing you to.
+Accurate estimates are important to a project / sprints success.
 
-Even in the most optimistic of circumstances, your startup is often solving a 
-much needed problem in a novel way. Sometimes, even with Python, we
-realize the approach we decided on is harder than we (me and you) realized
-at first. We don't always have enough information before hand, because
-we're sort of in uncharted territory at times.
+I'm better able to predict the time and effort of things in the
+programming language I'm most familiar with. This creates an
+additional layer of safety on top of an already safe language.
 
-On the other hand, a lot of the stuff is also hard work, but stuff that
-can be more predictable. When this is combined with a programming language
-I'm already fluid in, this helps me give you a better outcome, while doing
-everything I can to minimize not making a due date or performing under
-expectations.
+Your startup may be solving a much needed problem in a novel way. Sometimes, 
+even with Python, we realize the approach we decided on is harder than we (me 
+and you) realized at first. We don't always have enough information before hand,
+because we're sort of in uncharted territory at times.
