@@ -15,14 +15,21 @@ About |
 Am I a good fit for your project?
 ---------------------------------
 
-**Services start at $5,000.** This is a **Python / Javascript** shop. Django is
-my main area of expertise. My service covers every end of development, from
-planning, documenting, testing, and deployment. I am **US-based**
-(**CST timezone**) and **fully remote**.
+**Services start at $5,000.** I am generalist / polyglot, my focus is in Python 
+(Backend) and JavaScript (Vue/React). Django and Flask are my main area of 
+expertise. My services covers every end of development, from planning, 
+documenting, testing,  and deployment. I am **US-based** (**CST timezone**) and 
+**fully remote**.
 
-Get an engineer on your side with product focus who will care about your
-products vision and users. A seasoned software developer will be on
-your side to scale and protect your company's technical interests.
+I'll be on your side and happy to take the time to understand your product 
+vision and goals. A seasoned software developer will be conscientious of
+working with the user in mind, and protect your company's technical interests.
+
+With my open source background, I'm accustomed to (any enjoy) adapting to a 
+variety of codebases and teams around the world.
+
+(2018-02-21) I've built a copy of my CV in `React <https://cv-react.git-pull.com>`_ 
+and `Vue.js <https://cv-vue.git-pull.com>`_.
 
 Solutions for Startups.
 -----------------------
