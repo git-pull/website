@@ -99,22 +99,71 @@ Prominence
 Talent pool
 """""""""""
 
-- According to StackOverflow, it's one of the most popular languages
+- According to Stack Overflow, it's one of the most popular languages
+- Second most highly sought programming language according in demand [#]_
 
-Python vs Node.js
+.. [#] *The 7 Most In-Demand Programming Languages of 2018*, compiled from
+   Indeed.com. http://www.codingdojo.com/blog/7-most-in-demand-programming-languages-of-2018/ 
+
+Node.js vs Python
 -----------------
 
-coming soon
+JavaScript is one of the most widely discussed programming languages [#]_
 
-Python vs Ruby
+In 2018, if you are a programmer at a startup, you'll have to learn JavaScript
+to wire in frontend interactivity.
+
+JavaScript has many uses. It's also used in the browser. It's used in
+abstractions like PostgresSQL's `plv8`_.
+
+`npm`_, provides a sensible, easy, default package manager. Want super
+speeds? Try `yarn`_.
+
+*package.json* + *./node_modules* is a simple layout for handling project
+resources.
+
+BBC, LinkedIn, and USA Today use it.
+
+.. [#] Stack Overflow 2017 Developer Survey - Most Popular Technologies
+   https://insights.stackoverflow.com/survey/2017#technology
+
+.. _plv8: https://github.com/plv8/plv8
+.. _npm: https://www.npmjs.com/
+.. _yarn: https://yarnpkg.com/
+
+Ruby vs Python
 --------------
 
-coming soon
+Ruby is another in-demand language.
 
-Python vs PHP
+To many, it's considered the most delightful to program. I agree.
+
+The community is brilliant. And joyous.
+
+GitHub uses it.
+
+Rails, one of the most legendary web frameworks uses it. Rails in itself
+is the prime reason most people begin Ruby - not the other way around.
+
+PHP vs Python
 -------------
 
-coming soon
+PHP's legacy is in web development. Many programmers (myself included)
+were web developers using PHP in the early days, but migrated to different
+programming languages.
+
+Even then, PHP is still a force to be reckoned with.
+
+Facebook was built on PHP. And still uses it.
+
+Laravel, perhaps the most elite of all web frameworks, is in PHP. This in
+itself is enough a reason to use PHP for many. They like Laravel that
+much.
+
+WordPress - the world's most popular and legendary blog platform, is PHP.
+
+Drupal, a super powerful CMS with a brilliant extension community, is also
+PHP.
 
 Why I stick to Python
 ---------------------
