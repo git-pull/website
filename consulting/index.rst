@@ -19,8 +19,8 @@ my main area of expertise. My service covers every end of development, from
 planning, documenting, testing, and deployment. I am **US-based**
 (**CST timezone**) and **fully remote**.
 
-Save money and get to market faster. Bypass ambivalent engineers that don't
-understand your business goals. A seasoned software developer will be on
+Get an  engineers on your side with product focus who will care about your
+products vision and users. A seasoned software developer will be on
 your side to scale and protect your company's technical interests.
 
 Solutions for Startups.
