@@ -196,7 +196,7 @@ For me: I would have to factor in extra time and cost into getting up to
 speed with the language and libraries, in addition to your codebase and
 startup.
 
-Oppurtunity cost
+Opportunity cost
 """"""""""""""""
 
 I'm more productive and efficient in Python. There are more and better
