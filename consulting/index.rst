@@ -7,6 +7,7 @@ Python, Django, and Stripe Contractor
 
 About |
 :doc:`Stripe Integration <./stripe-integration>` | 
+:doc:`Why Python? <./why-python>` |
 `Contact`_
 
 .. _Contact: https://goo.gl/forms/K1uwUVIWOBX589Ip1
@@ -106,6 +107,12 @@ All new code written on a project will comply with the following.
       - Code Style (PEP8 / `Airbnb JS
         <https://github.com/airbnb/javascript>`__) - can be adjusted on
         request.
+
+Product / Customer focused
+--------------------------
+
+Since my background is in startups, I take special care to understand
+whether I'm a good fit and understand your project.
 
 On your side.
 -------------
