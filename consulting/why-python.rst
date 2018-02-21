@@ -148,15 +148,30 @@ Node.js is cumbersome from scripts that don't absolutely need to be
 non-blocking.
 
 In more than half of my programming code, the boost from it being
-asynchronous is negligible. Not work the headaches controlling flow
-in Node introduces.
+asynchronous is negligible. Not worth the headaches controlling flow
+Node's flow introduces.
 
-Technically speaking, well written code will be throwing around a lot
-of *pure* functions. The issue is, the notion of this gets skewed
-in practice: objects, promises, and asynchronous functions are
-being thrown around.
+Well written code will be throwing around a lot of *pure* functions. The notion 
+of this is skewed. Since we have to follow Node's callback pattern, I've
+found many developers think they're getting the benefits of pure
+functions, when they're juggling around promises, object literals,
+and dictionary-like objects, that add to the cognitive load
+when doing the job.
+
+- Things are Async by default, when you don't benefit from it
+
+  Java is a fantastic programming language. People sometimes get irked by the 
+  amount of bureaucratic boilerplate involved.
+
+  Node.js runs JavaScript code in an Event Loop [#]_. This style of
+  programming makes scaling I/O nearly a feature of the language, and it's
+  therefore a convention that Node code adopt a callback pattern [#]_.
+
+  In most of my scripting, I found I missed Ruby and Python's succinct
+  blocking, synchronous code. It's clearer and more concise.
 
 - It's harder to understand, write, test and debug code in Node's callback
+  style
 
   That's a pretty big indictment. But when you're writing a lot of code in
   this way, and not getting a proportional benefit in return, it has been
@@ -173,21 +188,71 @@ being thrown around.
   promise, do you consider that pure?
   
   If you're passing in a specialized context object literal, how do you
-  type check it?
+  type check it? With Python, it's more clear through documentation and
+  trackbacks I'm interacting with instance of a critical object, like
+  `requests.Response
+  <http://docs.python-requests.org/en/master/api/#requests.Response>`_.
+
+  With JavaScript, you're passing around dictionary-like objects too, but
+  they libraries don't crystalize them in the form of a class in the way
+  Python does. Even though Python is weakly-typed and duck-typed, objects
+  play part of the technical culture.
+
+  JavaScript does have TypeScript and Flow. But I feel for something like
+  JS, change needs to happen from the ground up to represent responses as
+  typed objects. The existence and growth of typed javascript shows the
+  need, but I'm concerned they're not grasping it from the angle I'm
+  seeing, and may end up with a porous system where typed responses don't
+  play a role in a language that doesn't do enough for control flow.
+
+  I mean, I think it'd even be better to have an optional `PropTypes`_-like 
+  dictionary to pass along that validates things and if something pops up,
+  raises a detailed traceback.
   
   How easy is it to test and mock the response, at scale?
 
-- Things are Async by default, when you don't benefit from it
+  .. _PropTypes: https://reactjs.org/docs/typechecking-with-proptypes.html
 
-  Java is a fantastic programming language. People sometimes get irked by the 
-  amount of bureaucratic boilerplate involved.
+- Promises, Async / Await, and so on, don't help much
 
-  Node.js runs JavaScript code in an Event Loop [#]_. This style of
-  programming makes scaling I/O nearly a feature of the language, and it's
-  therefore a convention that Node code adopt a callback pattern [#]_.
+  This really mask the pain I feel developers are having (but not
+  articulating) . It's not any easier to think about, write, or test.
 
-  In most of my scripting, I found I missed Ruby and Python's succinct
-  blocking, synchronous code. It's clearer and more concise.
+  And after playing with the many (well-intentioned, and innovative)
+  solutions. You begin to realize how much time gets sunk trying to
+  simplify code that you otherwise wouldn't *need* asynchronous.
+
+  You begin to miss Ruby, Python, Golang, and other languages
+  for not putting you through the following:
+
+  We need to end the callback pyramid of death. It's not an option
+  to change the fundamentals of Node.js's worker system, so we need
+  to create wrapper objects around functions that consume the
+  callback-style node.js uses.
+
+  But that's not enough. Because we also have to use `.then(), .catch(),
+  and finally()
+  <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise>`_
+  to control the flow.
+
+  I didn't want that. I want to return and resolve the variable in one
+  line, as-is. Like `request.request`_ does in Python, or `fs.readFileSync`_
+  (and other functions ending in ``Sync``) do.
+
+  .. _request.request: http://docs.python-requests.org/en/master/api/#requests.request
+  .. _fs.readFileSync: https://nodejs.org/api/fs.html#fs_fs_readfilesync_path_options
+
+  And *even with* native promises in ES6, `we have programmers preferring
+  Bluebird <https://stackoverflow.com/a/34961040>`_. In 2013, this meant
+  some libraries were incompatible with each other's promises. Meaning
+  required libraries and responses have to be adjusted in your own code,
+  to work around dysfunction of code that *literally only controls flow*.
+
+  I thought at first glance, `async / await
+  <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function>`_
+  would cure the pain. But should actually involve having to wrap
+  promises. I'm not trying to be cynical - but it's like there's no escape
+  from just getting the code to block and give me a response.
 
 .. [#] 2017. *Stack Overflow 2017 Developer Survey - Most Popular Technologies*
    Retrieved from https://insights.stackoverflow.com/survey/2017#technology
