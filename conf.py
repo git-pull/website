@@ -39,6 +39,7 @@ alagitpull_external_hosts_new_window = True
 html_theme_path = [alagitpull.get_path()]
 html_theme = 'alagitpull'
 html_favicon = 'favicon.ico'
+html_scaled_image_link = False  # don't add link to scaled images
 html_theme_options = {
     'logo': 'img/bagua.png',
     'projects': alagitpull.projects,
