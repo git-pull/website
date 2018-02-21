@@ -76,6 +76,7 @@ Web frameworks
 """"""""""""""
 
 - Flask is top tier microframework
+- Django (compare to Laravel, Rails)
 
 Databases
 """""""""
@@ -93,9 +94,13 @@ Template engines
 Maturity
 """"""""
 
-- Python is older than Java
-- Python 3 has been around since
-- 
+- Python is older than Java (1991 and 1995, respectively) [#]_ [#]_
+- Python 3 has been around 9+ years (December 3, 2008)
+
+.. [#] Rossum, Guido. *A Brief Timeline of Python* [Blog post].
+   Retrieved from https://python-history.blogspot.com/2009/01/brief-timeline-of-python.html
+.. [#] Oracle. *The History of Java Technology*
+   Retrieved from http://www.oracle.com/technetwork/java/javase/overview/javahistory-index-198355.html
 
 Prominence
 """"""""""
