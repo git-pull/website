@@ -14,6 +14,13 @@ Why Python? |
    :align: right
    :width: 200
 
+.. note::
+   
+   This is a draft and not completed yet.
+   
+   Wording needs to be improved, technical things have to be double checked, and 
+   statements have yet to be cited.
+
 I'm a polyglot. I have contributed to a variety of open source projects in
 everything from Ruby to C++. I fully believe I'd be competent regardless
 of programming language. However, my proficiency in Python is considerable.
@@ -108,8 +115,10 @@ Talent pool
 Node.js vs Python
 -----------------
 
-If you stick to Node.js, your startup may only need one programming
-language.
+One language to rule them all.
+
+A huge amount of Node's ecosystem gets a boost from being non-blocking.
+This is highly efficient.
 
 It handles the server side / backend / scripting, and the browser side JS
 and frameworks (React, Vue.js, Knockout)
@@ -127,8 +136,65 @@ resources.
 
 BBC, LinkedIn, and USA Today use it.
 
+Pain points
+"""""""""""
+
+.. note::
+
+   These are my opinions from using Node.js extensively. I still use
+   and enjoy Node.
+
+Node.js is cumbersome from scripts that don't absolutely need to be
+non-blocking.
+
+In more than half of my programming code, the boost from it being
+asynchronous is negligible. Not work the headaches controlling flow
+in Node introduces.
+
+Technically speaking, well written code will be throwing around a lot
+of *pure* functions. The issue is, the notion of this gets skewed
+in practice: objects, promises, and asynchronous functions are
+being thrown around.
+
+- It's harder to understand, write, test and debug code in Node's callback
+
+  That's a pretty big indictment. But when you're writing a lot of code in
+  this way, and not getting a proportional benefit in return, it has been
+  mind numbing for me.
+
+  Many people are apparently fine with it. There is are endless droves of
+  happy node.js developers writing massive codebases. But for me,
+  headaches it caused me really impacted me delivering product goals, and
+  my overall feeling of writing clean, maintainable code.
+  
+  How do you know the type of object being thrown around?
+  
+  In Ruby and Python, you don't know either, but if you're passing in a
+  promise, do you consider that pure?
+  
+  If you're passing in a specialized context object literal, how do you
+  type check it?
+  
+  How easy is it to test and mock the response, at scale?
+
+- Things are Async by default, when you don't benefit from it
+
+  Java is a fantastic programming language. People sometimes get irked by the 
+  amount of bureaucratic boilerplate involved.
+
+  Node.js runs JavaScript code in an Event Loop [#]_. This style of
+  programming makes scaling I/O nearly a feature of the language, and it's
+  therefore a convention that Node code adopt a callback pattern [#]_.
+
+  In most of my scripting, I found I missed Ruby and Python's succinct
+  blocking, synchronous code. It's clearer and more concise.
+
 .. [#] 2017. *Stack Overflow 2017 Developer Survey - Most Popular Technologies*
    Retrieved from https://insights.stackoverflow.com/survey/2017#technology
+.. [#] *Overview of Blocking vs Non-Blocking*
+   Retrieved from https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/
+.. [#] *Don't Block the Event Loop (or the Worker Pool)*.
+   Retrieved from https://nodejs.org/en/docs/guides/dont-block-the-event-loop/
 
 .. _plv8: https://github.com/plv8/plv8
 .. _npm: https://www.npmjs.com/
