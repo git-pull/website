@@ -3,7 +3,10 @@
 Working for equity
 ==================
 
-:doc:`About <./index>` | :doc:`Stripe Integration <./stripe-integration>` | Working for equity | `Contact`_
+:doc:`About <./index>` |
+:doc:`Stripe Integration <./stripe-integration>` |
+Working for equity |
+`Contact`_
 
 .. _Contact: https://goo.gl/forms/K1uwUVIWOBX589Ip1
 
