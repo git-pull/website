@@ -155,7 +155,7 @@ things believing it'll pay off in the end, and in some cases even
 misunderstand when non-blocking/async actually helps, rather than
 hinders.
 
-Node.js is cumbersome from scripts that don't absolutely need to be
+Node.js is cumbersome for scripts that don't sharply benefit from
 non-blocking.
 
 In more than half of my programming code, the boost from it being
