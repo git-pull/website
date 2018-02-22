@@ -18,13 +18,11 @@ Stripe Integration |
 
 The difficulties of building a SAAS platform.
 
-Multiple times in my history at startups, we had to tackle settings
-up billing each time. It is labor intensive to say the least.
+At my past companies, I had to deliver a billing and subscription system
+from the ground up. Back in the day, these API's were very cumbersome and 
+buggy, lMuch less friendly than they are today.
 
-Back in the day, these API's were very cumbersome and limited. *Much less* 
-friendly than it is today.
-
-Today we have libraries like `stripe-python`_ and `stripe-node` that wrap on top
+Today, with libraries like `stripe-python`_ and `stripe-node`_ that wrap on top
 of API's so you don't have to build your own API client.
 
 At Boostable (W14), I wrote the stripe integration for node, and later :doc:`for the

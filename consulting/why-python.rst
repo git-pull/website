@@ -47,8 +47,8 @@ distributions. I stand by my track record.
 
 In my past startups, I didn't have the power to override and enforce safer 
 solutions that could have led the business to a better outcome. I've also
-tried various combinations of software stacks, and learn how important
-it is to stick to safe, effective technologies.
+tried various combinations of software stacks, and learned how important
+it is to stick to one solution over another.
 
 I don't refuse work solely based on me not liking a programming language.
 If I'm not programming Python, I'm concerned I won't meet your expectations.
