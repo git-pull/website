@@ -115,8 +115,8 @@ All new code written on a project will comply with the following.
         <https://github.com/airbnb/javascript>`__) - can be adjusted on
         request.
 
-Product / Customer focused
---------------------------
+Product / Customer focused.
+---------------------------
 
 Since my background is in startups, I take special care to understand
 whether I'm a good fit and understand your project.
@@ -171,4 +171,4 @@ Get in touch.
 An experienced programmer can help you get your feature or product to market
 faster. Don't delay, `Get in touch <https://goo.gl/forms/K1uwUVIWOBX589Ip1>`_!
 
-(Training or learning? We also provide a :doc:`Python mentoring program </mentoring/index>`.)
+(Training or learning? I also provide a :doc:`Python mentoring program </mentoring/index>`.)
