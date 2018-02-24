@@ -132,25 +132,41 @@ FAQ
      Being a programmer as an *employee* isn't the panacea it's made to be on
      TV. After a few years of hard work, you'll become a senior programmer.
     
-     *Startup route*
+     **Startup route**
 
-     You'll find, much to your shock, founders view you as "just another
-     programmer".
-     
-     If it's a startup, **you may have more experience than your own founder**.
-     That's a disaster waiting to happen. You'll always lose that one.
+     *Sometimes*, there can be downsides. Nobody talks about them. These
+     are anecdotes of people I know:
 
-     You're going to be stuck on the ride of some bigheaded loudmouth, who
-     wouldn't even hire themself if they had the chance to. 
-     
-     (I'd love to hire myself. Wait, I forgot, I run this educational
-     course and have my own websites.)
-     
-     It's like a manager from hell with unchecked Dunning-Kruger, anyone who
-     challenges the soundness of their ideas is canned. Will refuse take your
-     input. Fail to treat you as an equal or a partner.
+     "There *is* such a thing as BAD STARTUPS. They are rare, but they
+     exist!"
 
-     *Large organizations*
+     "You'll find, much to your shock, founders may view you as 'just another
+     programmer'."
+     
+     "If it's a startup, *you may have more experience than your own founder*."
+     If this causes friction, you'll always lose that one.
+
+     "You could be stuck on the ride of some bigheaded loudmouth, who
+     wouldn't even hire themself if they had the chance to."
+     
+     "... manager from hell with unchecked Dunning-Kruger, anyone who challenges
+     the soundness of their ideas is canned." Will refuse take your input. They 
+     could, like any other place, fail to treat you as a team member.
+
+     So, there are non-startup startups. Because these sound a lot like
+     *Dilbert* to me.
+
+     **Large organizations**
+
+     In good cases, the environment is professional, has a work-life
+     balance, they have extensive support for employees having hardship,
+     and if (in the unlikely event) you're having poor performance, they give 
+     you a clear indication and a chance to rebound.
+
+     In other words, there are fair employers. But I feel they're getting
+     harder to find. That's why I don't guarantee outcomes.
+
+     More and more often, in the USA:
      
      Larger organizations tell you to go to the back of the line and do
      brainteasers, code golf, and so on. No respect for seniority. Do you
@@ -166,7 +182,7 @@ FAQ
 
      This fundamentally prohibits you from reaching your potential.
 
-     *Exceptions*
+     *Areas where I'm optimistic*
 
      Entrepreneurs, founders, DIY-types. **Building your own portfolio of
      intellectual property and attaining customers is the ultimate validation of

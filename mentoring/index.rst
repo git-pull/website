@@ -24,9 +24,13 @@ or Google Hangouts, internet, and most importantly, **a hunger to learn**.
 Django is a choice web framework for taking your idea into something
 you can execute on, and own. This tech stack is one you won't regret.
 
-When you do your own thing there is **no boss to suck up to**, you
-**maintain a controlling interest**. You can be **master of your own
-life**.
+Maintain a controlling interest of the intellectual property you
+create. Be master of your own life, take charge and learn to program.
+Do it so you can contribute to your own idea, your partners, or teams.
+
+I focus and obsess on building and improving products. I take a positive 
+approach with students and always am happy to understand what their goals
+are and what is technical viable.
 
 Elite Tech Stack
 ----------------
@@ -41,7 +45,12 @@ websites.
 **Django** is a solid, popular, permissively licensed web framework with
 great third party packages, solid documentation, and it's based in Python.
 
-**JavaScript** is an essential glue when building websites.
+**JavaScript** is an essential glue when building websites. ES5 + ES6
+
+**React / Vue** for front-end.
+
+See an example project of mine at https://cv.git-pull.com, and view the source 
+code at https://github.com/tony/cv.
 
 Learning the **terminal** well helps you along the way, whether you're on your
 local machine or SSH'ing in remotely. (`Check out my book`_ *The Tao of
