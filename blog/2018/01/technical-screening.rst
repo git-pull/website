@@ -1,6 +1,53 @@
 Technical Screening
 ===================
 
+If my experience and observations is any guide, as a programmer,
+
+Interviewing can be likened to a rollercoaster that dunks you underwater and 
+drowns you. To take you up relaxingly to see the most beautiful sights, to dunk 
+you in again, It's seriously messed. That's my analogy.
+
+And, perhaps, based on what I've seen from other's - they have similar experiences
+to report. I see patterns it could more than my own A/B trials of faceplants from
+"Juggernauting" into interviews with no idea what their culture is.
+
+There is indictation small businesses and startups with flat organizational 
+structures are becoming increasingly bureaucratic.
+
+
+This strikes me as ironic, since the whole idea of the startup ethos is 
+shunning *Dilbert* bozocraft for common sense. Importantly, we at startups
+are teams focused intensely on products and users - not things involving
+process.
+
+Can you think of any time in recent history, where people have decided to take
+culture, or technology, and then tried to draft a specification for who you
+should be, how you should talk, act, and the ramifications of it? Did you ever
+get the feeling those who wrote it may not be qualified, or even know what
+they're talking about to understand the ramifications of enforcing what
+they think is necessary?
+
+Well, one of those are job requirements and interviews for programmers.
+
+Because you can't be too cocky or have too many achievements. Never outshine the 
+master. (So many VP's viewed my LinkedIn... And I view their profile... You 
+begin to develop a feeling of why you're ghosting not *solely* being perceived
+as a rabble-rouser)
+
+Yet, you must be competetant, sufficiently, in whatever trivia the screener
+may fire off. It's as if interviews are some alternate reality, like our 
+trade doesn't involve having StackOverflow opened all day.
+
+Or maybe, the feeling I'm having, could have some grounding in reality at times.
+
+
+.. note::
+
+   To be fair, before I move on. I'm at fault for screwing up many interviews.
+   For my first jobs - while I cared about products and team immensely - I put 
+   technical skill at the expense of everything else. I errored greatly. I 
+   suffered for it in these past few years (2016/2017).
+
 I'm in a unique position when it comes to technical screenings. There's
 clear and unambiguous public evidence that I can program.
 
