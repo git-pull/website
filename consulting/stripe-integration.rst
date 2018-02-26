@@ -20,7 +20,7 @@ The difficulties of building a SAAS platform.
 
 At my past companies, I had to deliver a billing and subscription system
 from the ground up. Back in the day, these API's were very cumbersome and 
-buggy, lMuch less friendly than they are today.
+buggy, much less friendly than they are today.
 
 Today, with libraries like `stripe-python`_ and `stripe-node`_ that wrap on top
 of API's so you don't have to build your own API client.
