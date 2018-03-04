@@ -2,6 +2,11 @@
 News
 ====
 
+- *March 2018*
+
+  - Continuous integration fixed for `tmuxp`_ 
+    (`#348 <https://github.com/tony/tmuxp/pull/348>`_)
+
 - *February 2018*
 
   Package update:
@@ -96,3 +101,4 @@ News
 .. _Leanpub: https://leanpub.com/the-tao-of-tmux
 .. _Kindle: http://amzn.to/2gPfRhC
 .. _cihai: https://cihai.git-pull.com
+.. _tmuxp: https://tmuxp.git-pull.com
