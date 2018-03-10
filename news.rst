@@ -5,7 +5,7 @@ News
 - *March 2018*
 
   - Continuous integration fixed for `tmuxp`_ 
-    (`#348 <https://github.com/tony/tmuxp/pull/348>`_)
+    (`#348 <https://github.com/tmux-python/tmuxp/pull/348>`_)
 
 - *February 2018*
 
