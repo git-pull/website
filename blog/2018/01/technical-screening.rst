@@ -126,7 +126,7 @@ Regardless, senior level employees have more agency, there's no way around it.
 Some technical screenings aren't helping find ones that'd actually *help* the
 company
 
-.. _WorkspaceBuilder: https://github.com/tony/tmuxp/blob/master/tmuxp/workspacebuilder.py
+.. _WorkspaceBuilder: https://github.com/tmux-python/tmuxp/blob/master/tmuxp/workspacebuilder.py
 .. _tmuxp: https://tmuxp.git-pull.com
 
 Let's open up the conversation. Forget open source. Any programmer

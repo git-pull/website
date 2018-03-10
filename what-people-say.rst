@@ -18,7 +18,7 @@ What people say about Tony Narlock
 
 - http://pragmaticcoders.com/blog/tmuxp-preconfigured-sessions/
 - https://blog.bugsnag.com/tmux-and-vim/
-- https://github.com/tony/tmuxp/issues/221
+- https://github.com/tmux-python/tmuxp/issues/221
 - https://news.ycombinator.com/item?id=14416750
 
 .. libvcs
