@@ -4,6 +4,18 @@ News
 
 - *March 2018*
 
+  - Two new organizations:
+
+    - `tmux-python <https://github.com/tmux-python>`_, for the
+      `tmuxp <https://github.com/tmux-python/tmuxp>`__ and
+      `libtmux <https://github.com/tmux-python/libtmux>`_ project.
+
+    - `vcs-python <https://github.com/vcs-python>`_, for the
+      `vcspull <https://github.com/vcs-python/vcspull>`_ and
+      `libvcs <https://github.com/vcs-python/libvcs>`_ project.
+
+    Working slogan: *Permissively licensed. For the public good.*
+
   - Continuous integration fixed for `tmuxp`_ 
     (`#348 <https://github.com/tmux-python/tmuxp/pull/348>`_)
 
