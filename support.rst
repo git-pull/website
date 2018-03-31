@@ -22,7 +22,8 @@ organization to use on your own terms.
 `because <https://github.com/universal-ctags/ctags/issues/969>`_
 `it <https://github.com/libgit2/pygit2/issues/632>`_
 `assures <https://bitbucket.org/jendrikseipp/vulture/issues/14/license>`_
-maximum flexibility for developers leveraging open source technologies.
+`maximum <https://github.com/python-bugzilla/python-bugzilla/issues/25>`_
+flexibility for developers leveraging open source technologies.
 
 Your support keeps me doing `open source`_, that includes maintenance of
 projects like:
