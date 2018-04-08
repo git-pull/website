@@ -2,6 +2,13 @@
 News
 ====
 
+- *April 2018*
+
+  New organization mirrors on GitLab:
+  
+  - `tmux-python <https://gitlab.com/tmux-python>`__
+  - `vcs-python <https://gitlab.com/vcs-python>`__
+  - `cihai <https://gitlab.com/cihai>`__
 - *March 2018*
 
   - Two new organizations:
