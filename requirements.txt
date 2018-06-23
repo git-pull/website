@@ -1,2 +1,2 @@
 sphinx==1.7.5
-alagitpull==0.0.20
+alagitpull==0.0.21
