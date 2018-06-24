@@ -2,6 +2,11 @@
 News
 ====
 
+- *June 2018*
+
+  Notes on common patterns in :doc:`project structure <code/python/structure>` /
+  layout in git-pull python projects.
+
 - *April 2018*
 
   New organization mirrors on GitLab:
