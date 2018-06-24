@@ -1,15 +1,13 @@
 [[source]]
-
-url = "https://pypi.python.org/simple"
+url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
-[packages]
-
-Sphinx = "==1.7.2"
-alagitpull = "==0.0.19"
-
-
 [dev-packages]
 
+[packages]
+alagitpull = "==0.0.21"
+Sphinx = "==1.7.5"
+
+[requires]
+python_version = "2.7"
