@@ -172,3 +172,6 @@ serve_py2:
 
 serve_py3:
 	python -m http.server ${HTTP_PORT}
+
+sync_pipfile:
+	pipenv install --skip-lock -r requirements.txt
