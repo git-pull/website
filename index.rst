@@ -2,6 +2,20 @@
 你好 朋友
 =========
 
+Hi I'm Tony. I make a software utilities and libraries for computer programmers 
+and language studying.
+
+My most recent language project is `cihai`_, for Chinese, Japanese, and
+Korean languages.
+
+My most popular software utility is `tmuxp`_, which sets up `tmux`_ terminal 
+sessions from a JSON or YAML file. I've also written a book about tmux,
+`The Tao of tmux`_.
+
+.. _cihai: https://cihai.git-pull.com
+.. _tmuxp: https://tmuxp.git-pull.com
+.. _The Tao of tmux: https://leanpub.com/the-tao-of-tmux
+
 What's new
 ----------
 
