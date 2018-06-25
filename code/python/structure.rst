@@ -175,6 +175,9 @@ Overrides ``python setup.py test`` with a custom class:
 
 .. code-block:: python
 
+    from setuptools import setup
+    from setuptools.command.test import test as TestCommand
+
     class PyTest(TestCommand):
         user_options = [('pytest-args=', 'a', "Arguments to pass to py.test")]
 
