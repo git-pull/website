@@ -1,8 +1,8 @@
 Structure of Python Projects
 ============================
 
-Want to help in a git-pull project? They follow a common layout,
-this guide is to help you make sense of things!
+Want to contribute to a git-pull project? They follow a common layout.
+This guide can help you make sense of things!
 
 tmuxp, libtmux, cihai, libvcs, vcspull, and others follow
 common patterns in their layout.
@@ -76,9 +76,9 @@ will automatically handle dependencies via `pipenv`_
 Make tasks
 ----------
 
-There are many utility commands which are commonly used but require a lot of 
-remembering / typing. For convenience, these can be stored in tasks in
-*Makefile* to prevent unnecessary repetition.
+`make(1)`_ is a popular utility on POSIX-like systems to save common
+commands across codebases/checkouts. For convenience, these can be 
+stored in tasks in *Makefile* to prevent unnecessary repetition.
 
 To ensure uniformity and max interoperability across developer systems, `Make`_ 
 tasks are used. In addition, makefiles make use of variables via command 
@@ -87,24 +87,29 @@ concatenation to find / filter source files across different platforms.
 *Makefile*
 """"""""""
 
-*Variables*: Example is ``PY_FILES= find . -type f -not -path '*/\.*' |
-grep -i '.*[.]py$$' 2> /dev/null``. This is uses `find(1)`_ and `grep(1)`_
-options tested to work across BSD/macOS/Linux to scan files recursively
-(in nested directories), and also filter them. For instance, ``-f -not -path
-'*/\.*`` ignore files beginning with a dot, e.g. ``.env``, and grep's
-``-i '.*[.]py$$'`` filters for only ``*.py`` files. The double ``$$`` is
-used to escape the ``$``. In regular expressions, a ``$`` is used to
-represent the end of a string.
+Variable example:
 
+.. code-block:: make
+
+   PY_FILES= find . -type f -not -path '*/\.*' | grep -i '.*[.]py$$' 2> /dev/null
+   
+This is uses `find(1)`_ and `grep(1)`_ options tested to work across BSD, macOS,
+Linux to scan files recursively (in nested directories), and also filter them. 
+For instance, ``-f -not -path '*/\.*`` ignore files beginning with a dot, e.g.
+``.env``, and grep's ``-i '.*[.]py$$'`` filters for only ``*.py`` files. The 
+double ``$$`` is used to escape the ``$``. In regular expressions, a ``$`` is 
+used to represent the end of a string.
 
 *doc/Makefile*
 """"""""""""""
 
 Sphinx documentation tasks.
 
-Variables inside:
+Variable example:
 
-``WATCH_FILES= find .. -type f -not -path '*/\.*' | grep -i '.*[.]rst\|CHANGES\|TODO\|.*conf\.py\|.*[.]py$$' 2> /dev/null``
+.. code-block:: make
+
+   WATCH_FILES= find .. -type f -not -path '*/\.*' | grep -i '.*[.]rst\|CHANGES\|TODO\|.*conf\.py\|.*[.]py$$' 2> /dev/null
 
 Will be used to generate a list of files to monitor for changes. This uses
 ``find ..`` to look a directory behind ``./doc`` (``../doc`` is the project root).
@@ -112,7 +117,9 @@ It will monitor for ``*.rst`` and ``*.py`` files (python files have code
 documentation) and also for ``CHANGES`` and ``TODO`` (which include
 reStructuredTest, but lack file extensions for legacy purposes.)
 
-``PYVERSION=$(shell python -c "import sys;v=sys.version_info[0];sys.stdout.write(str(v))")``
+.. code-block:: make
+
+   PYVERSION=$(shell python -c "import sys;v=sys.version_info[0];sys.stdout.write(str(v))")
 
 Is used for version checks. It is a uniform and tested way to find the
 major python version (``2`` or ``3``), since they used a different module
@@ -149,6 +156,42 @@ They reside in the project root, inside of the *tests/* folder. Test
 files are kept in *test_{subject_name}.py*. In addition, helper modules
 of any name (e.g. *helper.py*) are permitted, in addition to the use
 of *conftest.py* (which is used by `pytest's fixture`_ system)
+
+*setup.py*
+----------
+
+What you'll find in a *setup.py* file.
+
+requirements.txt integration
+""""""""""""""""""""""""""""
+
+*requirements.txt* / *requirements/base.txt* for ``install_requires``
+*requirements/test.txt* for ``install_requires``
+
+pytest integration
+""""""""""""""""""
+
+Overrides ``python setup.py test`` with a custom class:
+
+.. code-block:: python
+
+    class PyTest(TestCommand):
+        user_options = [('pytest-args=', 'a', "Arguments to pass to py.test")]
+
+        def initialize_options(self):
+            TestCommand.initialize_options(self)
+            self.pytest_args = []
+
+        def run_tests(self):
+            import pytest
+            errno = pytest.main(self.pytest_args)
+            sys.exit(errno)
+    setup(
+        # ... stuff
+        cmdclass={'test': PyTest},
+    )
+
+
 
 .. _pipenv: https://docs.pipenv.org/
 .. _Make: https://en.wikipedia.org/wiki/Make_(software)
