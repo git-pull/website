@@ -38,7 +38,7 @@ Publications
           :target: https://leanpub.com/the-tao-of-tmux
           :alt: The Tao of tmux
 
-          `The Tao of tmux <https://leanpub.com/the-tao-of-tmux>`_
+          `The Tao of tmux <https://leanpub.com/the-tao-of-tmux>`__
 
           Available on `Leanpub`_ and `Kindle`_ (Amazon). Read the book for `free on the web`_.
 
