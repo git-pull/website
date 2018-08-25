@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 alagitpull = "==0.0.21"
-Sphinx = "==1.7.5"
+Sphinx = "==1.7.7"
 
 [requires]
 python_version = "2.7"
