@@ -7,6 +7,21 @@ This guide can help you make sense of things!
 tmuxp, libtmux, cihai, libvcs, vcspull, and others follow
 common patterns in their layout.
 
+Styling
+-------
+
+`black`_ is used for code formatting.
+
+The max line length is 88 (compared to PEP8's 79). ``flake8: noqa`` is
+permitted for docstrings where it's too long.
+
+Use ``$ make black`` to run your code through black.
+
+Use ``$ make flake8`` to validate compliance with the project's code
+standards.
+
+.. _black: https://github.com/ambv/black
+
 Dependencies
 ------------
 
