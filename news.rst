@@ -2,6 +2,13 @@
 News
 ====
 
+- *August 2019*
+
+  - :ref:`unihan-etl <unihan-etl:index>` 0.10.3 released
+  - :ref:`cihai <cihai:index>` 0.9 released
+  - :ref:`cihai-cli <cihai-cli:index>` 0.5 released, you can now install
+    via ``pip install cihai[cli]``
+
 - *June 2018*
 
   Notes on common patterns in :doc:`project structure <code/python/structure>` /
