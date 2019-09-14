@@ -6,8 +6,8 @@ name = "pypi"
 [dev-packages]
 
 [packages]
-alagitpull = "==0.0.21"
-Sphinx = "==1.7.7"
+alagitpull = "~=0.0.21"
+Sphinx = "~=2.2.0"
 
 [requires]
-python_version = "2.7"
+python_version = "3"
