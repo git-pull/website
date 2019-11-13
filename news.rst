@@ -2,6 +2,26 @@
 News
 ====
 
+- *November 2019*
+
+  - Love 💖
+
+    It's easy to get caught in the monotony of things and we never talk
+    about this because we'd be too vulnerable to express ourselves.
+
+    I found the abstractions of Bowlby/Ainsworth's `attachment theory
+    <https://en.wikipedia.org/wiki/Attachment_theory>`_ to be insightful
+    and to the point in understanding our feelings and the interactions of
+    others.
+
+    For adults, parents, personal and professional relations we are
+    focused on our bonds to people and want secure, stable, honest
+    relationships with people and fear abandonment and betrayal
+    (compensating to head off their own internalized fear of abandonment).
+    For relationships please consider *Romantic Love Conceptualized as an Attachment
+    Process* by Cindy Hazan and Phillip Shaver.
+    [`pdf <https://pdfs.semanticscholar.org/1d36/ac75d7081fcd86d467f6d2ef408d60c8ffca.pdf>`_]
+
 - *August 2019*
 
   - :ref:`unihan-etl <unihan-etl:index>` 0.10.3 released
