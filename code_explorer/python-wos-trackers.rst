@@ -224,7 +224,7 @@ Exceptions:
 
 
 .. [1] https://github.com/waylan/Python-Markdown/pulls?q=is%3Apr+is%3Aclosed
-.. [2] (Our old Google Code repositiory is:
+.. [2] (Our old Google Code repository is:
    https://code.google.com/p/protobuf/. We moved to github on Aug 26, 2014
    and no future changes will be made on the Google Code site. For latest 
    code updates/issues, please visit our github site. 
