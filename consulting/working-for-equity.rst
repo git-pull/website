@@ -163,7 +163,7 @@ Here are the general reasons why programmers don't work for promises:
 
   For that matter, that applies to *anybody you deal with*. Not just
   programmers, but also users and VC's.
-- If you were promising, you'd have have funding
+- If you were promising, you'd have funding
 
   If you want free short-term work and favors, there's a word for that: begging.
   It comes from a position of weakness. It doesn't suit you. People are going to
