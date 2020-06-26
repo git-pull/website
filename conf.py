@@ -1,95 +1,109 @@
 # -*- coding: utf-8 -*-
 import sys
-from os.path import join, dirname, abspath
+from os.path import abspath, dirname, join
 
 import alagitpull
 
 sys.path.append(abspath(join(dirname(__file__), "_ext")))
 
 extensions = [
-  'sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx',
-  'sphinx.ext.todo', 'sphinx.ext.viewcode', 'alagitpull',
+    "sphinx.ext.autodoc",
+    "sphinx.ext.doctest",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.todo",
+    "sphinx.ext.viewcode",
+    "alagitpull",
 ]
 
-html_title = 'git-pull.com'
+html_title = "git-pull.com"
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
-source_suffix = '.rst'
+source_suffix = ".rst"
 
-master_doc = 'index'
+master_doc = "index"
 
-project = u'confucian gentleman\'s club 🍵'
-copyright = u'2013 - 2018, Tony Narlock'  # NOQA
+project = u"confucian gentleman's club 🍵"
+copyright = u"2013 - 2020, Tony Narlock"  # NOQA
 
-version = '0.0'
-release = '0.0'
+version = "0.0"
+release = "0.0"
 
-exclude_patterns = ['_build', '.venv']
+exclude_patterns = ["_build", ".venv"]
 
-pygments_style = 'sphinx'
+pygments_style = "sphinx"
 
 alagitpull_internal_hosts = [
-    'git-pull.com',
-    'www.git-pull.com',
-    '0.0.0.0',
+    "git-pull.com",
+    "www.git-pull.com",
+    "0.0.0.0",
 ]
 alagitpull_external_hosts_new_window = True
 
 html_theme_path = [alagitpull.get_path()]
-html_theme = 'alagitpull'
-html_favicon = '_static/favicon.ico'
+html_theme = "alagitpull"
+html_favicon = "_static/favicon.ico"
 html_scaled_image_link = False  # don't add link to scaled images
 html_theme_options = {
-    'logo': 'img/bagua.png',
-    'projects': alagitpull.projects,
+    "logo": "img/bagua.png",
+    "projects": alagitpull.projects,
 }
-html_sidebars = {
-    '**': [
-        'about.html',
-        'relations.html',
-        'more.html',
-    ]
-}
+html_sidebars = {"**": ["about.html", "relations.html", "more.html",]}
 
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
-htmlhelp_basename = 'confuciangentlemansclubdoc'
+htmlhelp_basename = "confuciangentlemansclubdoc"
 
 
-latex_elements = {
-}
+latex_elements = {}
 
 latex_documents = [
-  ('index', 'confuciangentlemansclub.tex', u'confucian gentleman\'s',
-   u'Tony Narlock', 'manual'),
+    (
+        "index",
+        "confuciangentlemansclub.tex",
+        u"confucian gentleman's",
+        u"Tony Narlock",
+        "manual",
+    ),
 ]
 
 man_pages = [
-    ('index', 'confuciangentlemansclub', u'confucian gentleman\'s club',
-     [u'Tony Narlock'], 1)
+    (
+        "index",
+        "confuciangentlemansclub",
+        u"confucian gentleman's club",
+        [u"Tony Narlock"],
+        1,
+    )
 ]
 
 texinfo_documents = [
-  ('index', 'confuciangentlemansclub', u'confucian gentleman\'s club',
-   u'Tony Narlock', 'confuciangentlemansclub', 'Scribe.',
-   'Miscellaneous'),
+    (
+        "index",
+        "confuciangentlemansclub",
+        u"confucian gentleman's club",
+        u"Tony Narlock",
+        "confuciangentlemansclub",
+        "Scribe.",
+        "Miscellaneous",
+    ),
 ]
 
 intersphinx_mapping = {
-    'https://docs.python.org/2/': None,
-    'tmuxp': ('https://tmuxp.git-pull.com/en/latest/', None),
-    'libtmux': ('https://libtmux.git-pull.com/en/latest/', None),
-    'libvcs': ('https://libvcs.git-pull.com/en/latest/', None),
-    'vcspull': ('https://vcspull.git-pull.com/en/latest/', None),
-    'cihai': ('https://cihai.git-pull.com/en/latest/', None),
-    'cihai-cli': ('https://cihai-cli.git-pull.com/en/latest/', None),
-    'unihan-etl': ('https://unihan-etl.git-pull.com/en/latest/', None),
-    'django-slugify-processor': (
-        'https://django-slugify-processor.git-pull.com/en/latest/', None,
+    "https://docs.python.org/2/": None,
+    "tmuxp": ("https://tmuxp.git-pull.com/en/latest/", None),
+    "libtmux": ("https://libtmux.git-pull.com/en/latest/", None),
+    "libvcs": ("https://libvcs.git-pull.com/en/latest/", None),
+    "vcspull": ("https://vcspull.git-pull.com/en/latest/", None),
+    "cihai": ("https://cihai.git-pull.com/en/latest/", None),
+    "cihai-cli": ("https://cihai-cli.git-pull.com/en/latest/", None),
+    "unihan-etl": ("https://unihan-etl.git-pull.com/en/latest/", None),
+    "django-slugify-processor": (
+        "https://django-slugify-processor.git-pull.com/en/latest/",
+        None,
     ),
-    'django': (
-        'https://docs.djangoproject.com/en/1.11/',
-        'https://docs.djangoproject.com/en/1.11/_objects/'
+    "django": (
+        "https://docs.djangoproject.com/en/1.11/",
+        "https://docs.djangoproject.com/en/1.11/_objects/",
     ),
 }
