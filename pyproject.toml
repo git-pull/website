@@ -22,7 +22,6 @@ python = "^3.5"
 
 ### Docs ###
 sphinx = "*"
-recommonmark = {version = "^0.6.0"}
 alagitpull = {version = "^0.1.0"}
 
 [tool.poetry.dev-dependencies]
@@ -37,7 +36,7 @@ isort = [
 flake8 = "*"
 
 [tool.poetry.extras]
-docs = ["sphinx", "sphinx-issues", "alagitpull", "recommonmark"]
+docs = ["sphinx", "alagitpull"]
 format = ["black", "isort"]
 lint = ["flake8"]
 
