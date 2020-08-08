@@ -46,11 +46,21 @@ html_favicon = "_static/favicon.ico"
 html_scaled_image_link = False  # don't add link to scaled images
 html_theme_options = {
     "logo": "img/bagua.png",
-    "projects": alagitpull.projects,
+    'projects': alagitpull.projects,
+    'project_name': 'git-pull // Tony Narlock',
+    'project_title': 'git-pull // Tony Narlock',
+    'project_description': (
+        'Homepage of Tony Narlock, open source programmer and author'
+    ),
+    'project_url': 'https://www.git-pull.com',
+    'show_meta_manifest_tag': True,
+    'show_meta_og_tags': True,
+    'show_meta_app_icon_tags': True,
 }
-html_sidebars = {"**": ["about.html", "relations.html", "more.html",]}
+html_sidebars = {"**": ["about.html", "relations.html", "more.html"]}
 
 html_static_path = ["_static"]
+html_extra_path = ["manifest.json"]
 
 htmlhelp_basename = "confuciangentlemansclubdoc"
 
