@@ -93,7 +93,7 @@ intersphinx_mapping = {
     "https://docs.python.org/2/": None,
     "tmuxp": ("https://tmuxp.git-pull.com/en/latest/", None),
     "libtmux": ("https://libtmux.git-pull.com/en/latest/", None),
-    "libvcs": ("https://libvcs.git-pull.com/en/latest/", None),
+    "libvcs": ("https://libvcs.git-pull.com/", None),
     "vcspull": ("https://vcspull.git-pull.com/en/latest/", None),
     "cihai": ("https://cihai.git-pull.com/en/latest/", None),
     "cihai-cli": ("https://cihai-cli.git-pull.com/en/latest/", None),
