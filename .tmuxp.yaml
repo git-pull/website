@@ -1,16 +1,16 @@
 session_name: website
 start_directory: ./ # load session relative to config location (project root).
-before_script: pipenv install --dev --skip-lock
+before_script: ./.tmuxp-before-script.sh
+shell_command_before:
+- '[ -f .venv/bin/activate ] && source .venv/bin/activate && reset'
 windows:
 - window_name: website
+  focus: True
   layout: main-horizontal
   options:
     main-pane-height: 35
-  start_directory: ./
-  shell_command_before:
-    - '[ -d `pipenv --venv` ] && source `pipenv --venv`/bin/activate && reset'
   panes:
   - focus: true
-  - pane
+  - pane 
   - make serve
   - make watch
