@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "git-pull-website"
+version = "0.3.0"
+description = "git-pull website"
+
+license = "All Rights Reserved."
+
+authors = [
+    "Tony Narlock <tony@git-pull.com>"
+]
+
+readme = 'README.rst'
+
+homepage = "https://www.git-pull.com"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/git-pull/website/issues"
+Repository = "https://github.com/git-pull/website"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+### Docs ###
+sphinx = "*"
+recommonmark = {version = "^0.6.0"}
+alagitpull = {version = "^0.1.0"}
+
+[tool.poetry.dev-dependencies]
+### Format ###
+black = {version="==19.10b0", python="^3.6"}
+isort = [
+  {version="<5", python="<3.6"},
+  {version="*", python=">=3.6"}
+]
+
+### Lint ###
+flake8 = "*"
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinx-issues", "alagitpull", "recommonmark"]
+format = ["black", "isort"]
+lint = ["flake8"]
+
+[tool.black]
+skip-string-normalization = true
+include = '\.pyi?$'
