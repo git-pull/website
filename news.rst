@@ -2,6 +2,19 @@
 News
 ====
 
+- *August 2020*
+
+  - All documentation moved to `poetry <https://python-poetry.org/>`__,
+    Amazon CloudFront and GitHub actions
+
+  - `HSKFlashCards`_ has been rewritten in `Gatsby`_ + `TypeScript`_ +
+    `chakra-ui`_
+
+.. _Gatsby: https://gatsbyjs.com
+.. _TypeScript: https://www.typescriptlang.org
+.. _chakra-ui: https://chakra-ui.com/
+.. _HSKFlashCards: https://www.hskflashcards.com
+
 - *August 2019*
 
   - :ref:`unihan-etl <unihan-etl:index>` 0.10.3 released
@@ -117,7 +130,7 @@ News
   *The Tao of tmux* has been updated. See :ref:`2017-03-30` for more details.
 - *February 2017*
 
-  `HSKFlashCards <https://www.hskflashcards.com>`_ has gotten a face lift. Take
+  `HSKFlashCards`_ has gotten a face lift. Take
   your study of chinese glyphs to the next level with its new `search <https://www.hskflashcards.com/search>`_
   and `directory <https://www.hskflashcards.com/browse>`_ functionality.
 - *January 2017*
@@ -133,3 +146,4 @@ News
 .. _Kindle: http://amzn.to/2gPfRhC
 .. _cihai: https://cihai.git-pull.com
 .. _tmuxp: https://tmuxp.git-pull.com
+
