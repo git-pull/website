@@ -2,6 +2,16 @@
 News
 ====
 
+- *April 2021*
+
+  - Created ``@social-embed`` web component / library in TypeScript + LitElement:
+    `Homepage <https://social-embed.git-pull.com>`_, `GitHub
+    <https://github.com/social-embed/social-embed>`_
+
+- *Feb 2021*
+
+  - Experimenting with new CV: `cv-react-v2.git-pull.com <https://cv-react-v2.git-pull.com/>`_ 
+
 - *August 2020*
 
   - All documentation moved to `poetry <https://python-poetry.org/>`__,
