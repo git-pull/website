@@ -16,10 +16,9 @@ sessions from a JSON or YAML file. I've also written a book about tmux,
 
 ## What's new
 
-```{eval-rst}
-.. include:: news.rst
-   :start-line: 4
-   :end-before: - *November 2017*
+```{include} news.md
+:start-line: 2
+:end-before: "- _February 2018_"
 ```
 
 {doc}`See more <news>`
