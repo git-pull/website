@@ -24,7 +24,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 project = u"confucian gentleman's club 🍵"
-copyright = u"2013 - 2020, Tony Narlock"  # NOQA
+copyright = u"2013 - , Tony Narlock"  # NOQA
 
 version = "0.0"
 release = "0.0"
