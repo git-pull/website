@@ -1,10 +1,11 @@
-:orphan:
+---
+orphan: true
 
-.. _cihai:
+---
 
-================================
-Cihai: China in a python package
-================================
+(cihai)=
+
+# Cihai: China in a python package
 
 Have you ever downloaded a foreign song and saw garbled junk?
 
@@ -16,7 +17,7 @@ internet. Python is a major implementation on computer systems world wide
 and in Asia.
 
 The current problem, underneath it all, programmers lack the tools to
-handle codec issues. 
+handle codec issues.
 
 The results of poor software bubble up in pesky places. Software crashes,
 general slowdowns. Individual programmers and teams of programmers
@@ -30,7 +31,7 @@ utility library that fills the gap. It fixes a pain point.
 
 It further helps us move forward to Python 3 - the next iteration of
 python that uses Unicode as a default, but it not default on production
-systems yet. 
+systems yet.
 
 [1] How does Cihai help that?
 
@@ -40,35 +41,27 @@ old codecs are an afterthought.
 - With codec issues being a realm of confusion, ambiguity, there isn't
   enough time for programmers in developing counries to focus on it.
 - Python 2.x had an issue with handing strings. See:
-  https://www.youtube.com/watch?v=sgHbC6udIqc
+  <https://www.youtube.com/watch?v=sgHbC6udIqc>
 
 This issue affects people on the web. This issue affects software.
-
 
 This issue affects the productivity and technical mechanics behind all
 countries utilizing the Chinese language. Python may be used as a utility
 script to release firmware.
-
-
 
 The direction we're heading:
 
 - The migration to python 3 is a world shift. Unicode is becoming a front
   stage standard.
 
-
 What Cihai is:
-
 
 What Cihai covers:
 
 - It solves smooths out technical bottlenecks prohibiting python based
   projects from localizing.
-
-
 - This library could be useful for non-python projects in other
   programming languages. Python is already proven as a utility language.
-
 
 What would help this effort:
 
@@ -79,38 +72,28 @@ The areas that can be affected, applications:
 
 Directly:
 
-
 Down the road:
 
 - Better documentation for Chinese software
-
 
 Niches that Cihai does cover:
 
 - Traditional Chinese Characters - Used in Taiwan and Hong Kong
 - Chinese codecs - There are many codecs for Chinese Text across asia.
 
-
-
 What Cihai does not cover:
 
 - Cihai is not translation of Chinese to english. This is a deeper
   linguistic issue.
 
-
 Could it be used as a tool to help these potentially? YES! This is a
 clean abstraction of the official Unihan release by Unicode, Inc.
 
-
-
-
-Background research on current means of 
+Background research on current means of
 
 - Python's popularity
 - Python in china
 - internet usage in china
-
-
 
 In tiny ways we may not suspect.
 
@@ -119,14 +102,13 @@ Clarifying Chinese unicode is a step forward in itself.
 Bringing the python, the world's system utility language closer to us, is
 akin to dispersing a heuristic that can benefit the many.
 
-
 [1] How does Cihai help the migration from python 2.x to python 3?
 
 Python 2.7 is a realm of ambiguity that many python developers are stuck
 with. They can't articulate a problem they can't describe. A language
 brought upon the philosophy "Explicit is better than implicit"
 automatically picks codecs when a developer may not want to.
-https://www.youtube.com/watch?v=sgHbC6udIqc
+<https://www.youtube.com/watch?v=sgHbC6udIqc>
 
 [2] Are there already tools that help?
 
@@ -145,11 +127,11 @@ python is a system tool and a utility language. It is used in the ongoing
 development, maintenance and QA of a project and service.
 
 Who hasn't bought an item that says "Made in China" before. The firmware
-of the application may have been built in China also. 
+of the application may have been built in China also.
 
 [4] Isn't there already tools *inside* python for decoding and encoding?
 
-Yes, and it *could* be easy as: ``'thisstring'.decode('gb2312')``, but
+Yes, and it *could* be easy as: `'thisstring'.decode('gb2312')`, but
 real life is complicated. First please see [1], the bottleneck with
 unicode is based off systems around the world using python 2.7, which has
 a confusing way of handling encoding and decoding.
@@ -177,3 +159,5 @@ returned. The software has to assume.
 This is another realm of ambiguity and a different conversation, but check
 out chardet. Guessing encoding is not perfect, but there are odds of it
 being correct.
+
+

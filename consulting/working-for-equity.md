@@ -1,14 +1,15 @@
-:orphan:
-        
-Working for equity
-==================
+---
+orphan: true
 
-:doc:`Home <../index>` |
+---
+
+# Working for equity
+
+{doc}`Home <../index>` |
 Working for equity |
-`Contact`_
+[Contact][contact]
 
-.. _Contact: https://goo.gl/forms/K1uwUVIWOBX589Ip1
-
+[contact]: https://goo.gl/forms/K1uwUVIWOBX589Ip1
 
 So you have an idea. You want someone to program it, but you don't want to
 pay now. You want to pay in equity, or deferred money based on some
@@ -44,7 +45,7 @@ Here are the general reasons why programmers don't work for promises:
 
   You're worth it. You are esteemed, can run a business, and deserve all the
   respect that entails.
-  
+
   However, there are boundaries of what people will and won't put up with when
   you're the boss. So right now, brace, I'm going to say some things that may
   take you out of the frame you're used to getting talked to.
@@ -56,12 +57,12 @@ Here are the general reasons why programmers don't work for promises:
 
   What a programmer gets is a person bossing them around, without getting
   paid.
-  
+
   You're a super NASCAR racer. You got the best car. But, stuff breaks, you want
   upgrades. And despite your trying to make do with budget parts and volunteers,
-  not just any mechanic works on these types of vehicles, or does it 
+  not just any mechanic works on these types of vehicles, or does it
   well/fast/etc. enough to keep you competitive.
-  
+
   We expect the person with the vision to supply more than just the blueprint,
   web hosting, and a code repository, but to inject enough capital into the
   business to pay employees to build an MVP / product release / whatever.
@@ -80,12 +81,12 @@ Here are the general reasons why programmers don't work for promises:
 
   You're a total stranger to us. You send us an message on Angel or
   LinkedIn.
-  
-  And ultimately, you want something immediate. You want a person with a trade 
+
+  And ultimately, you want something immediate. You want a person with a trade
   skill to drop what they're doing in the short-term and program for you.
 
   What do you bring in the short-term?
- 
+
   Most other programmers are in no better spot to drop everything and
   undertake your venture, *even if* the promises are certain, since:
 - We've already tried it before
@@ -119,17 +120,17 @@ Here are the general reasons why programmers don't work for promises:
   parachute somewhere else and live another day.
 
   It's not the programmer's job, *ever*, to have to worry about money or
-  hear excuses. Sorry if it's tough to hear now. It's just the way it is. 
+  hear excuses. Sorry if it's tough to hear now. It's just the way it is.
 
   But most of all, even though you're a genius and have your success
   written in the stars, *still*:
 - We can't prospect business plans
 
   I'm a programmer. I'm proven to do that. Not based on phony technical
-  screenings, trivia, or code golf, but a `track record of demonstrable
-  outcomes and a diverse portfolio <https://cv.git-pull.com>`_. More than any of
+  screenings, trivia, or code golf, but a [track record of demonstrable
+  outcomes and a diverse portfolio](<https://cv.git-pull.com>). More than any of
   my peers, *by a landslide*.
-  
+
   However, I'm *not* proven to operate whole businesses and sell them, or invest
   in them. I can't determine in the affirmative or negative if your business plan
   makes sense.
@@ -140,14 +141,14 @@ Here are the general reasons why programmers don't work for promises:
 
   That in itself is enough to get you ghosted when you try to meet a
   programmer.
-  
+
   They're **not** saying "you suck".
-  
+
   **Programmers have no way of understanding your value**, and no way to explain
   that to you. Funding is a responsibility you take off the shoulders of your
   employees so they can function and work, rather than stay in suspended
   animation and lingering dread of being unpaid.
-  
+
   You'll find quickly that people will bend over backwards for you and do things
   they don't like if you have funding. You see how often I say "Only Python" on
   my other pages, right? I've done JS, PHP, and Ruby at times. People will swallow
@@ -181,7 +182,7 @@ Here are the general reasons why programmers don't work for promises:
 
   Elon Musk gets *billions* in funding. How? Mostly from being a lovable,
   charming... you know what.
-  
+
   *Only after that* he hires the best and brightest. Gets the best management,
   and so on.
 
@@ -195,3 +196,5 @@ demonstrate that. Money is the only thing that can pull a talented person away
 from what they're doing so they give your venture the attention and care it
 deserves. This is true for any expert you seek to retain, seek advice from, or
 employ.
+
+
