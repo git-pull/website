@@ -13,13 +13,16 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
     "alagitpull",
+    'myst_parser',
 ]
+
+myst_enable_extensions = ["colon_fence"]
 
 html_title = "git-pull.com"
 
 templates_path = ["_templates"]
 
-source_suffix = ".rst"
+source_suffix = {'.rst': 'restructuredtext', '.md': 'markdown'}
 
 master_doc = "index"
 
