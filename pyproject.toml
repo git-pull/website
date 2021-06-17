@@ -18,19 +18,16 @@ homepage = "https://www.git-pull.com"
 Repository = "https://github.com/git-pull/website"
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.6"
 
 ### Docs ###
 sphinx = "*"
-alagitpull = {version = "^0.1.0"}
+alagitpull = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 ### Format ###
-black = {version="==19.10b0", python="^3.6"}
-isort = [
-  {version="<5", python="<3.6"},
-  {version="*", python=">=3.6"}
-]
+black = {version="==21.6b0", python="^3.6.2"}
+isort = "*"
 
 ### Lint ###
 flake8 = "*"
