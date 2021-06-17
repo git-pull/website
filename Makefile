@@ -171,3 +171,6 @@ serve_py3:
 
 dev:
 	$(MAKE) -j watch serve
+
+format_markdown:
+	prettier --parser=markdown -w *.md docs/*.md **/*.md CHANGES
