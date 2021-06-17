@@ -173,4 +173,4 @@ dev:
 	$(MAKE) -j watch serve
 
 format_markdown:
-	prettier --parser=markdown -w *.md docs/*.md **/*.md CHANGES
+	prettier --parser=markdown -w *.md **/*.md
