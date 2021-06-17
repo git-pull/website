@@ -82,13 +82,6 @@ News
 
   See source code on GitHub at https://github.com/tony/cv.
 
-- *January 2018*
-
-  New services:
-  
-  - :doc:`mentoring/index` 
-  - :doc:`consulting/index`
-
 - *December 2017*
 
   New project: `django-slugify-processor <https://django-slugify-processor.devel.tech/>`__
