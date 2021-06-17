@@ -2,6 +2,11 @@
 News
 ====
 
+- *June 2021*
+
+  - tmux-python (tmuxp + libtmux), vcs-python (vcspull + libvcs), cihai
+    (cihai, cihai-cli, unihan-etl, unihan-db) moved to markdown
+
 - *April 2021*
 
   - Created ``@social-embed`` web component / library in TypeScript + LitElement:
