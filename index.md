@@ -243,9 +243,9 @@ build support
 ## Code Exploration
 
 - [Django vs Flask](https://devel.tech/features/django-vs-flask/)
-- {ref}`python_wos_trackers`
-- {ref}`reST, docutils, sphinx, readthedocs` (_Updated Feb 09, 2015_)
-- {ref}`python_packaging_modules_cyclic`
+- {ref}`python-wos-trackers`
+- {ref}`reST, docutils, sphinx, readthedocs<rest-docutils-sphinx-readthedocs>` (_Updated Feb 09, 2015_)
+- {ref}`python-packaging-modules-cyclic`
 
 ## Other
 
