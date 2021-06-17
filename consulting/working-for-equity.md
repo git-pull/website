@@ -1,6 +1,5 @@
 ---
 orphan: true
-
 ---
 
 # Working for equity
@@ -39,8 +38,8 @@ Here are the general reasons why programmers don't work for promises:
 
   When you employ us, or we consult for you, or we talk to you, we're
   taking time away from our own ideas that could pan out. And when we work
-  on *our own* ideas, *we retain the intellectual property to use and
-  improve down the road*. At the very least. If not, we're creating
+  on _our own_ ideas, _we retain the intellectual property to use and
+  improve down the road_. At the very least. If not, we're creating
   passive income streams or our own startup.
 
   You're worth it. You are esteemed, can run a business, and deserve all the
@@ -67,9 +66,10 @@ Here are the general reasons why programmers don't work for promises:
   web hosting, and a code repository, but to inject enough capital into the
   business to pay employees to build an MVP / product release / whatever.
 
-  There's no shortage of people with ideas. There's *zero* programmers
+  There's no shortage of people with ideas. There's _zero_ programmers
   waiting around for someone thinking, "I ran out of ideas, If only I had
   someone approach me with a vision so I could program it". Because:
+
 - Getting the undivided attention of competent labor is hard
 
   See how I have forms and a minimum amount on my consulting page?
@@ -88,7 +88,8 @@ Here are the general reasons why programmers don't work for promises:
   What do you bring in the short-term?
 
   Most other programmers are in no better spot to drop everything and
-  undertake your venture, *even if* the promises are certain, since:
+  undertake your venture, _even if_ the promises are certain, since:
+
 - We've already tried it before
 
   If you're a senior software developer, you've already been there and
@@ -103,9 +104,10 @@ Here are the general reasons why programmers don't work for promises:
   you have a place with no VC, do you think it looks more or less promising?
 
   In any event, you're using the programmer's labor to offset your risk. And:
+
 - We can't shoulder the risk
 
-  Startups are very positive. You're going to win. *We're going to win*.
+  Startups are very positive. You're going to win. _We're going to win_.
 
   It's totally fine to work at a startup and visualize equity turning into
   a new car, house, or yacht. It's a huge motivator.
@@ -119,25 +121,26 @@ Here are the general reasons why programmers don't work for promises:
   that are off on the street. Most founders, even when they flop, get to
   parachute somewhere else and live another day.
 
-  It's not the programmer's job, *ever*, to have to worry about money or
+  It's not the programmer's job, _ever_, to have to worry about money or
   hear excuses. Sorry if it's tough to hear now. It's just the way it is.
 
   But most of all, even though you're a genius and have your success
-  written in the stars, *still*:
+  written in the stars, _still_:
+
 - We can't prospect business plans
 
   I'm a programmer. I'm proven to do that. Not based on phony technical
   screenings, trivia, or code golf, but a [track record of demonstrable
-  outcomes and a diverse portfolio](<https://cv.git-pull.com>). More than any of
-  my peers, *by a landslide*.
+  outcomes and a diverse portfolio](https://cv.git-pull.com). More than any of
+  my peers, _by a landslide_.
 
-  However, I'm *not* proven to operate whole businesses and sell them, or invest
+  However, I'm _not_ proven to operate whole businesses and sell them, or invest
   in them. I can't determine in the affirmative or negative if your business plan
   makes sense.
 
-  But when you ask for work based on promises, you are *implicitly giving me a
+  But when you ask for work based on promises, you are _implicitly giving me a
   burden to assess your situation when I have no qualification to judge you or
-  your idea / product / service / whatever*.
+  your idea / product / service / whatever_.
 
   That in itself is enough to get you ghosted when you try to meet a
   programmer.
@@ -156,34 +159,35 @@ Here are the general reasons why programmers don't work for promises:
   employer.
 
   But anyway - back to the point: You say you have a great business plan. Why
-  should *any* programmer simply take your word?
+  should _any_ programmer simply take your word?
 
   This may upset you, but understand, it's **not** a judgment of your character,
   your idea, or your business. The burden rests on the founder to demonstrate they're
   more than just talk.
 
-  For that matter, that applies to *anybody you deal with*. Not just
+  For that matter, that applies to _anybody you deal with_. Not just
   programmers, but also users and VC's.
+
 - If you were promising, you'd have funding
 
   If you want free short-term work and favors, there's a word for that: begging.
   It comes from a position of weakness. It doesn't suit you. People are going to
   ask themselves why you're empty-handed.
 
-  If you've proven yourself in business, you *already have* investor
+  If you've proven yourself in business, you _already have_ investor
   connections. Your idea and track record is enough to get funding for
   your MVP.
 
-  If you've been successful in your field, you could also *self-fund*.
+  If you've been successful in your field, you could also _self-fund_.
   That could mean digging into your savings or selling assets you have.
 
   There are people with no track record, in business or their field, who
   raise seed rounds just from being really charismatic.
 
-  Elon Musk gets *billions* in funding. How? Mostly from being a lovable,
+  Elon Musk gets _billions_ in funding. How? Mostly from being a lovable,
   charming... you know what.
 
-  *Only after that* he hires the best and brightest. Gets the best management,
+  _Only after that_ he hires the best and brightest. Gets the best management,
   and so on.
 
   Have you ever seen Kickstarter before? If some of them can get funding, I
@@ -191,10 +195,8 @@ Here are the general reasons why programmers don't work for promises:
   a far more solid horse to back than the median in that pool. That's a fair
   statement, don't you think?
 
-*Let me repeat*, You're worth it. You can do it. But the burden rests on you
+_Let me repeat_, You're worth it. You can do it. But the burden rests on you
 demonstrate that. Money is the only thing that can pull a talented person away
 from what they're doing so they give your venture the attention and care it
 deserves. This is true for any expert you seek to retain, seek advice from, or
 employ.
-
-

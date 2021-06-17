@@ -15,7 +15,7 @@ I will begin with an overview at the of reStructuredText, docutils, then sphinx 
 **reStructuredText** sometimes seen as **reST** and **rst**, is a
 specification for marking up documents. It was defined in [PEP 287][pep 287].
 
-*Markup Language* ([Docutil's website about reStructuredText][docutil's website about restructuredtext]) - "reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system." [^id2] It is abbreviated as `reST`, with an extension of `.rst`.
+_Markup Language_ ([Docutil's website about reStructuredText][docutil's website about restructuredtext]) - "reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system." [^id2] It is abbreviated as `reST`, with an extension of `.rst`.
 
 Like [Markdown][markdown], the markup language used on sites like [GitHub][github]. [See other document markup languages][see other document markup languages].
 
@@ -25,7 +25,7 @@ reST of course does not translate itself into HTML. It requires a software to do
 
 ## Docutils
 
-*Processor* - [Docutils Homepage][docutils homepage] - Docutils is a processor for reST
+_Processor_ - [Docutils Homepage][docutils homepage] - Docutils is a processor for reST
 documents.
 
 Docutils is used as a library by python projects for websites, books and as a component of larger documentation software.
@@ -55,14 +55,12 @@ Internally, 99% of cases, Docutils uses generates HTML via the same plugin (`htm
 [^id4]: <http://sourceforge.net/p/docutils/code/7661/tree/trunk/docutils/docutils/writers/html4css1/__init__.py#l1556>
 
 [writer]: http://repo.or.cz/w/docutils.git/tree/HEAD:/docutils/docutils/writer
-
 [override standard html output]: https://github.com/github/markup/pull/220/files
-
 [rest files on github preview with a black border]: https://github.com/github/markup/pull/220
 
 ## Sphinx
 
-*Documentation Generator* ([Sphinx Homepage][sphinx homepage]) **Sphinx** is used to build Documentation projects. If docutils is a machine, sphinx is the factory. One of many [documentation generators][documentation generators].
+_Documentation Generator_ ([Sphinx Homepage][sphinx homepage]) **Sphinx** is used to build Documentation projects. If docutils is a machine, sphinx is the factory. One of many [documentation generators][documentation generators].
 
 Sphinx has a theming system, supports extensions, and an assembly line that allows docutils to "hook" in at various points during the build process.
 
@@ -70,7 +68,7 @@ Sphinx implements concepts in [Docutils](docutils) such as roles and directives 
 
 Here are some **sphinx projects** and their corresponding HTML and PDF versions.
 
-*todo* flask, python 2.7, python 3, sqlalchemy, non python projects
+_todo_ flask, python 2.7, python 3, sqlalchemy, non python projects
 
 ### Theming Sphinx
 
@@ -78,17 +76,20 @@ Here are some **sphinx projects** and their corresponding HTML and PDF versions.
 
 You are building a [theme for sphinx][theme for sphinx], keep in mind:
 
-1. Theme *at least* the [html4css1.css][html4css1.css] rules or accept the defaults.
+1. Theme _at least_ the [html4css1.css][html4css1.css] rules or accept the defaults.
 
    Leaving anything missed here **will** cause standard reST to show up incorrectly :(.
-2. Theme *at least* the [basic.css_t][basic.css_t] rules or accept the defaults (`@import url("basic.css");`).
+
+2. Theme _at least_ the [basic.css_t][basic.css_t] rules or accept the defaults (`@import url("basic.css");`).
 
    To build upon the defaults, you can `@import url("basic.css");` into your `.css_t` file. You can see an example of this at {}`pyramid.css_t`.
 
    One weak point of sphinx, if you have viewed the `basic.css_t` file, is wtf is going where here.
+
 3. Know the default templates, and override them if you want:
 
    Here are the default templates. <https://bitbucket.org/birkenfeld/sphinx/src/e5e3a44d334a/sphinx/themes/basic?at=default>
+
 4. Understand the concept: the "layout" and the "content"
 
    **The Content:** output of reST markup The CSS and HTML rules for the
@@ -98,8 +99,7 @@ You are building a [theme for sphinx][theme for sphinx], keep in mind:
 
    Theming the content output of reST is more akin to [typesetting][typesetting].
 
-   If in doubt, you can inherit defaults from [basic.css_t][basic.css_t] via `@import
-   url("basic.css");` in your CSS file and this in theme.conf:
+   If in doubt, you can inherit defaults from [basic.css_t][basic.css_t] via `@import url("basic.css");` in your CSS file and this in theme.conf:
 
    ```
    [theme]
@@ -117,19 +117,16 @@ You are building a [theme for sphinx][theme for sphinx], keep in mind:
    The HTML wrapping the theme, the `.css_t file`, the sidebars,
    headers, etc. The wireframe being put together.
 
-Options for dynamic / customizable themes: Sphinx uses `.css_t` because you can use `{{ myoption }}` to let theme variables pass into it.  *to be completed*
+Options for dynamic / customizable themes: Sphinx uses `.css_t` because you can use `{{ myoption }}` to let theme variables pass into it. _to be completed_
 
 [pyramid.css_t]: https://bitbucket.org/birkenfeld/sphinx/src/e5e3a44d334a95fb2e83c1f485b8f57366c081e4/sphinx/themes/pyramid/static/pyramid.css_t?at=default
-
 [basic.css_t]: https://bitbucket.org/birkenfeld/sphinx/src/e5e3a44d334a95fb2e83c1f485b8f57366c081e4/sphinx/themes/basic/static/basic.css_t?at=default
-
 [theme for sphinx]: http://sphinx-doc.org/theming.html
-
 [html4css1.css]: http://docutils.sourceforge.net/docutils/writers/html4css1/html4css1.css
 
 ## Readthedocs.org
 
-*Similar: http://pythonhosted.org/*.
+_Similar: http://pythonhosted.org/_.
 
 [readthedocs][readthedocs], aka rtfd / rtd / readthedocs.org is a website for serving documentation for software projects.
 
@@ -157,7 +154,7 @@ Python.org's official documentation uses Sphinx, and therefore docutils. However
 
 ### Docutils in the wild / use cases
 
-*Non-readthedocs, non-sphinx implementations of docutils.*
+_Non-readthedocs, non-sphinx implementations of docutils._
 
 #### PEP website and docutils
 
@@ -243,17 +240,11 @@ command(:rest2html, /re?st(\.txt)?/)
 GitHub, with the script `_rest2html`, kind of goes out of there way to make reST happy. Their software for markup is ruby, but for `rest2html` to work, their server has to have working python, docutils, and the burden of an open cog running python on their service in the light of day. It looks solid, knock one wood, but to someone in charge of security, adding a new language in this way is just more gray hairs.
 
 [/lib/github/markups.rb]: https://github.com/github/markup/blob/425f4aa10e53461773a715b4e6681421cd415dfe/lib/github/markups.rb
-
 [/lib/github/markups.rb#l51]: https://github.com/github/markup/blob/425f4aa10e53461773a715b4e6681421cd415dfe/lib/github/markups.rb#L51
-
 [markup]: https://github.com/github/markup
-
 [/lib/github/commands/]: https://github.com/github/markup/blob/master/lib/github/commands/
-
 [/lib/github/commands/rest2html]: https://github.com/github/markup/blob/master/lib/github/commands/rest2html
-
 [rest2html]: https://github.com/github/markup/blob/master/lib/github/commands/rest2html
-
 [/lib/github/markup.rb]: https://github.com/github/markup/blob/master/lib/github/markup.rb#L30
 
 ## Updates
@@ -265,46 +256,26 @@ GitHub, with the script `_rest2html`, kind of goes out of there way to make reST
 - 11/03/2013 - Created.
 
 [python enhancement proposal]: http://www.python.org/dev/peps/pep-0001/
-
 [pep 287]: https://www.python.org/dev/peps/pep-0287/
-
 [pep website]: http://www.python.org/dev/peps/
-
 [pep websites' source]: http://hg.python.org/peps/file/tip
-
 [docutil's website about restructuredtext]: http://en.wikipedia.org/wiki/ReStructuredText
-
 [rest]: http://en.wikipedia.org/wiki/ReStructuredText
-
 [see other document markup languages]: http://en.wikipedia.org/wiki/Comparison_of_document_markup_languages
-
 [documentation generators]: http://en.wikipedia.org/wiki/Comparison_of_documentation_generators
-
 [docutils homepage]: http://docutils.sourceforge.net/
-
 [sphinx homepage]: http://sphinx-doc.org/
-
 [markdown]: http://en.wikipedia.org/wiki/Markdown
-
 [typesetting]: http://en.wikipedia.org/wiki/Typesetting
-
 [wikipedia]: http://wikipedia.org
-
 [readthedocs]: https://readthedocs.org/
-
 [cpython]: http://hg.python.org/cpython/
-
 [jinja2]: http://jinja.pocoo.org/docs/
-
 [github]: https://www.github.com/
-
 [wiki markup]: http://en.wikipedia.org/wiki/Wiki_markup
 
 **LICENSE:** <http://creativecommons.org/licenses/by-nc-nd/3.0/us/>
 
 **Copyright:** Tony Narlock 2013
 
-**Build to Markdown**: `$ pandoc --from=rst --to=markdown
---output=reStructuredText.md reStructuredText.rst`
-
-
+**Build to Markdown**: `$ pandoc --from=rst --to=markdown --output=reStructuredText.md reStructuredText.rst`

@@ -70,7 +70,6 @@ mailing list post][unicode mailing list post], and another comment how many reso
 [their own regular expressions][their own regular expressions] to pull out data.
 
 [unicode mailing list post]: http://unicode.org/mail-arch/unicode-ml/y2004-m04/0255.html
-
 [their own regular expressions]: http://www.unicode.org/mail-arch/unicode-ml/y2017-m05/0186.html
 
 #### unihan-db
@@ -89,7 +88,7 @@ Key standards embraced in projects by the cihai organization.
 
 ### Zero configuration
 
-By default, all tools and libraries should fall back on *portable* defaults.
+By default, all tools and libraries should fall back on _portable_ defaults.
 
 Portable - Working across regions and systems
 
@@ -97,8 +96,7 @@ Portable - Working across regions and systems
 
 This assures usage and output of applications work regardless of system's
 regional settings. This is especially important as regions where CJK is
-prominent use [many encoding types][many encoding types] (hence the creation of {ref}`Han Unification
-<unihan-etl:unihan>`
+prominent use [many encoding types][many encoding types] (hence the creation of {ref}`Han Unification <unihan-etl:unihan>`
 
 [many encoding types]: https://en.wikipedia.org/wiki/Chinese_character_encoding
 
@@ -133,5 +131,3 @@ possible.
 As an added way to make the tools more sustainable and transparent, the
 software is licensed to the cihai organization. Cihai works for the public
 benefit.
-
-

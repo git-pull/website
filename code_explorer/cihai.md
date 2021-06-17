@@ -1,6 +1,5 @@
 ---
 orphan: true
-
 ---
 
 (cihai)=
@@ -129,14 +128,14 @@ development, maintenance and QA of a project and service.
 Who hasn't bought an item that says "Made in China" before. The firmware
 of the application may have been built in China also.
 
-[4] Isn't there already tools *inside* python for decoding and encoding?
+[4] Isn't there already tools _inside_ python for decoding and encoding?
 
-Yes, and it *could* be easy as: `'thisstring'.decode('gb2312')`, but
+Yes, and it _could_ be easy as: `'thisstring'.decode('gb2312')`, but
 real life is complicated. First please see [1], the bottleneck with
 unicode is based off systems around the world using python 2.7, which has
 a confusing way of handling encoding and decoding.
 
-Real life is complicated because opening *ANY* data could be *ANY codec*:
+Real life is complicated because opening _ANY_ data could be _ANY codec_:
 
 - we open a file and the codec of the page may
 - we rows from a database (note that mysql allows fields to have their own
@@ -159,5 +158,3 @@ returned. The software has to assume.
 This is another realm of ambiguity and a different conversation, but check
 out chardet. Guessing encoding is not perfect, but there are odds of it
 being correct.
-
-

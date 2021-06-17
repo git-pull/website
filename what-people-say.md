@@ -1,6 +1,5 @@
 ---
 orphan: true
-
 ---
 
 (what-people-say)=
@@ -43,5 +42,3 @@ articles (django vs flask)
 - <https://www.reddit.com/r/flask/comments/6itkvf/django_vs_flask_a_practitioners_perspective_2017/djak1lk/>
 
 Unless otherwise specified, the users on these websites own the copyright to what they say.
-
-

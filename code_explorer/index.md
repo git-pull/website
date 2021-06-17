@@ -1,6 +1,5 @@
 ---
 orphan: true
-
 ---
 
 # Code Explorer
@@ -13,5 +12,3 @@ rst-docutils-sphinx-readthedocs
 python-packaging-relative-cyclic
 
 ```
-
-

@@ -6,7 +6,7 @@ Take a look at flask, pip
 
 Inside their own modules, flask:
 
-Let's look at [flask/__init__.py][flask/__init__.py]:
+Let's look at [flask/**init**.py][flask/__init__.py]:
 
 ```
 # utilities we import from Werkzeug and Jinja2 that are unused
@@ -51,7 +51,7 @@ from .signals import appcontext_pushed, appcontext_popped
 I heard before its best practice to just import the module and access it
 namespaced.
 
-Pip [pip.__init__.py][pip.__init__.py]:
+Pip [pip.**init**.py][pip.__init__.py]:
 
 ```
 #!/usr/bin/env python
@@ -90,7 +90,6 @@ from pip._vendor import colorama
 Where [pip.backwardcompat][pip.backwardcompat] is a module.
 
 [pip.log]: https://github.com/pypa/pip/blob/develop/pip/log.py
-
 [pip.backwardcompat]: https://github.com/pypa/pip/blob/develop/pip/backwardcompat/__init__.py
 
 Wrap your brain around this concept.
@@ -103,5 +102,3 @@ Look at `__init__`.
 Software development with time constrictions may not permit every project
 to be module, but for software that goes up on pypi or gets reused at
 work, adhering to good architecture will save time.
-
-
