@@ -28,7 +28,7 @@ myst_parser = "^0.15.1"
 
 [tool.poetry.dev-dependencies]
 ### Format ###
-black = {version="==21.10b0", python="^3.6.2"}
+black = "*"
 isort = "*"
 
 ### Lint ###
