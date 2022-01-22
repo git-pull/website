@@ -24,7 +24,7 @@ python = "^3.7"
 sphinx = "*"
 alagitpull = "^0.1.0"
 sphinx-autodoc-typehints = "^1.12.0"
-myst_parser = "^0.15.1"
+myst_parser = "~0.16.1"
 
 [tool.poetry.dev-dependencies]
 ### Format ###
