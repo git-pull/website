@@ -1,6 +1,10 @@
 h1.logo { font-size: 13px; }
 img.logo { margin: 0 0 20px 0; }
 
+#software-developer-with-startup-and-open-source-experience {
+  margin-top: -30px;
+}
+
 div.book-container > p {
     text-align: center;
 }
