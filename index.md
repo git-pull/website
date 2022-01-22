@@ -1,4 +1,4 @@
-# Tony Narlock
+# Tony Narlock - software developer with startup / open source background
 
 Hi I'm Tony. I make a software utilities and libraries for computer programmers
 and language studying.
