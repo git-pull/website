@@ -1,4 +1,4 @@
-# 你好 朋友
+# Tony Narlock
 
 Hi I'm Tony. I make a software utilities and libraries for computer programmers
 and language studying.
