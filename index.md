@@ -2,8 +2,10 @@
 
 ## software developer with startup and open source experience
 
-Hi I'm Tony. I make a software utilities and libraries for computer programmers
-and language studying.
+Hi, I'm Tony Narlock.
+
+In my spare time I am open source programmer. I write software utilities and libraries for
+computer programmers and language studying.
 
 My most recent language project is [cihai][cihai], for Chinese, Japanese, and
 Korean languages.
