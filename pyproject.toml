@@ -38,7 +38,3 @@ flake8 = "*"
 docs = ["sphinx", "alagitpull", "myst_parser", "sphinx-autodoc-typehints"]
 format = ["black", "isort"]
 lint = ["flake8"]
-
-[tool.black]
-skip-string-normalization = true
-include = '\.pyi?$'
