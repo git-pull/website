@@ -13,7 +13,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
     "alagitpull",
-    'myst_parser',
+    "myst_parser",
 ]
 
 myst_enable_extensions = ["colon_fence"]
@@ -22,12 +22,12 @@ html_title = "git-pull.com"
 
 templates_path = ["_templates"]
 
-source_suffix = {'.rst': 'restructuredtext', '.md': 'markdown'}
+source_suffix = {".rst": "restructuredtext", ".md": "markdown"}
 
 master_doc = "index"
 
-project = u"confucian gentleman's club 🍵"
-copyright = u"2013 - , Tony Narlock"  # NOQA
+project = "confucian gentleman's club 🍵"
+copyright = "2013 - , Tony Narlock"  # NOQA
 
 version = "0.0"
 release = "0.0"
@@ -49,16 +49,16 @@ html_favicon = "_static/favicon.ico"
 html_scaled_image_link = False  # don't add link to scaled images
 html_theme_options = {
     "logo": "img/bagua.png",
-    'projects': alagitpull.projects,
-    'project_name': 'git-pull // Tony Narlock',
-    'project_title': 'git-pull // Tony Narlock',
-    'project_description': (
-        'Homepage of Tony Narlock, open source programmer and author'
+    "projects": alagitpull.projects,
+    "project_name": "git-pull // Tony Narlock",
+    "project_title": "git-pull // Tony Narlock",
+    "project_description": (
+        "Homepage of Tony Narlock, open source programmer and author"
     ),
-    'project_url': 'https://www.git-pull.com',
-    'show_meta_manifest_tag': True,
-    'show_meta_og_tags': True,
-    'show_meta_app_icon_tags': True,
+    "project_url": "https://www.git-pull.com",
+    "show_meta_manifest_tag": True,
+    "show_meta_og_tags": True,
+    "show_meta_app_icon_tags": True,
 }
 html_sidebars = {"**": ["about.html", "relations.html", "more.html"]}
 
@@ -74,8 +74,8 @@ latex_documents = [
     (
         "index",
         "confuciangentlemansclub.tex",
-        u"confucian gentleman's",
-        u"Tony Narlock",
+        "confucian gentleman's",
+        "Tony Narlock",
         "manual",
     ),
 ]
@@ -84,8 +84,8 @@ man_pages = [
     (
         "index",
         "confuciangentlemansclub",
-        u"confucian gentleman's club",
-        [u"Tony Narlock"],
+        "confucian gentleman's club",
+        ["Tony Narlock"],
         1,
     )
 ]
@@ -94,8 +94,8 @@ texinfo_documents = [
     (
         "index",
         "confuciangentlemansclub",
-        u"confucian gentleman's club",
-        u"Tony Narlock",
+        "confucian gentleman's club",
+        "Tony Narlock",
         "confuciangentlemansclub",
         "Scribe.",
         "Miscellaneous",
