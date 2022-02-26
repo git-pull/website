@@ -174,3 +174,6 @@ dev:
 
 format_markdown:
 	prettier --parser=markdown -w *.md **/*.md
+
+start:
+	poetry run sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) --port ${HTTP_PORT} $(O)
