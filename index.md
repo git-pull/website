@@ -1,22 +1,20 @@
-# Tony Narlock
+# I am Tony Narlock
 
-## software developer with startup and open source experience
+I write software utilities and libraries, mostly in python. They're tailored
+to other computer programmers trying to save time automating a repetitive task.
+One of them, [tmuxp] constructs [tmux]  sessions from a JSON or YAML file.
 
-Hi, I'm Tony Narlock.
+On that note, I've also written a book about tmux a few years ago, [The Tao of tmux].
 
-In my spare time I am open source programmer. I write software utilities and libraries for
-computer programmers and language studying.
+Another suite of tools I've created is the [cihai] project, a set of tools wrapping
+Unicode's UNIHAN dataset for Chinese, Japanese, and Korean languages.
 
-My most recent language project is [cihai][cihai], for Chinese, Japanese, and
-Korean languages.
-
-My most popular software utility is [tmuxp][tmuxp], which sets up [tmux][tmux] terminal
-sessions from a JSON or YAML file. I've also written a book about tmux,
-[The Tao of tmux][the tao of tmux].
+On the UX and design side I use react, TypeScript, and relay (graphql). You can see 
+my resume at <https://cv.git-pull.com>.
 
 [cihai]: https://cihai.git-pull.com
 [tmuxp]: https://tmuxp.git-pull.com
-[the tao of tmux]: https://leanpub.com/the-tao-of-tmux
+[The Tao of tmux]: https://leanpub.com/the-tao-of-tmux
 
 ## What's new
 
