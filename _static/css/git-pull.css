@@ -36,6 +36,10 @@ div.book-container .rightside-book p:first-of-type
   }
 }
 
+.project {
+  margin-bottom: 1rem;
+}
+
 .project div.figure p.caption {
   margin-bottom: 0px;
 }
@@ -43,6 +47,10 @@ div.book-container .rightside-book p:first-of-type
 .book-container a.reference:hover,
 .project a.reference:hover {
   border-bottom: 0px;
+}
+
+.project img {
+  height: 150px;
 }
 
 /* attempt to fix flexbox in screen responsiveness at mid-width */

@@ -73,7 +73,7 @@ United front for creating open, permissive, standardized CJK datasets.
 
 ::::{container} project col-xs-12 col-sm-6
 
-:::{figure} https://static.hskflashcards.com/img/logo.png
+:::{figure} https://www.hskflashcards.com/icons/icon-512x512.png
 :align: center
 :target: https://www.hskflashcards.com
 :alt: HSKFlashCards.com

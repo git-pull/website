@@ -2,8 +2,6 @@
 import sys
 from os.path import abspath, dirname, join
 
-import alagitpull
-
 sys.path.append(abspath(join(dirname(__file__), "_ext")))
 
 extensions = [
@@ -12,13 +10,16 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
-    "alagitpull",
+    "sphinx_click.ext",  # sphinx-click
+    "sphinx_inline_tabs",
+    "sphinx_copybutton",
+    "sphinxext.opengraph",
     "myst_parser",
 ]
 
 myst_enable_extensions = ["colon_fence"]
 
-html_title = "git-pull.com"
+html_title = "Tony Narlock"
 
 templates_path = ["_templates"]
 
@@ -34,36 +35,48 @@ release = "0.0"
 
 exclude_patterns = ["_build", ".venv"]
 
-pygments_style = "sphinx"
+pygments_style = "monokai"
+pygments_dark_style = "monokai"
 
-alagitpull_internal_hosts = [
-    "git-pull.com",
-    "www.git-pull.com",
-    "0.0.0.0",
-]
-alagitpull_external_hosts_new_window = True
-
-html_theme_path = [alagitpull.get_path()]
-html_theme = "alagitpull"
+html_theme_path = []
+html_theme = "furo"
 html_favicon = "_static/favicon.ico"
 html_scaled_image_link = False  # don't add link to scaled images
 html_theme_options = {
-    "logo": "img/bagua.png",
-    "projects": alagitpull.projects,
-    "project_name": "git-pull // Tony Narlock",
-    "project_title": "git-pull // Tony Narlock",
-    "project_description": (
-        "Homepage of Tony Narlock, open source programmer and author"
-    ),
-    "project_url": "https://www.git-pull.com",
-    "show_meta_manifest_tag": True,
-    "show_meta_og_tags": True,
-    "show_meta_app_icon_tags": True,
+    "light_logo": "img/icons/logo.svg",
+    "dark_logo": "img/icons/logo-dark.svg",
+    "footer_icons": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/git-pull/website",
+            "html": """
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+            """,
+            "class": "",
+        },
+    ],
 }
-html_sidebars = {"**": ["about.html", "relations.html", "more.html"]}
-
+html_sidebars = {
+    "**": [
+        "sidebar/scroll-start.html",
+        "sidebar/brand.html",
+        "sidebar/search.html",
+        "sidebar/navigation.html",
+        "sidebar/projects.html",
+        "sidebar/scroll-end.html",
+    ]
+}
 html_static_path = ["_static"]
+html_css_files = ["css/custom.css", "css/git-pull.css", "css/flexboxgrid.min.css"]
 html_extra_path = ["manifest.json"]
+
+# sphinxext.opengraph
+ogp_site_url = "https://www.git-pull.com"
+ogp_image = "_static/img/icons/icon-192x192.png"
+ogp_desscription_length = "Author of software utilities built for computer programmers"
+ogp_site_name = "Tony Narlock"
 
 htmlhelp_basename = "confuciangentlemansclubdoc"
 
