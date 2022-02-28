@@ -23,14 +23,14 @@ jobs:
           root_docs:
             - CHANGES
             - README.*
-            - pyproject.toml
-            - poetry.lock
-            - .github/workflows/*
           docs:
             - '**/*.rst'
             - '**/*.md'
           python_files:
             - '*.py'
+            - pyproject.toml
+            - poetry.lock
+            - .github/workflows/*
 
     - name: Should publish
       if: steps.changes.outputs.docs == 'true' || steps.changes.outputs.root_docs == 'true' || steps.changes.outputs.python_files == 'true'
