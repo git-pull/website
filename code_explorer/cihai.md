@@ -38,7 +38,7 @@ The hard truth is: The world moves faster when we move to Unicode and the
 old codecs are an afterthought.
 
 - With codec issues being a realm of confusion, ambiguity, there isn't
-  enough time for programmers in developing counries to focus on it.
+  enough time for programmers in developing countries to focus on it.
 - Python 2.x had an issue with handing strings. See:
   <https://www.youtube.com/watch?v=sgHbC6udIqc>
 

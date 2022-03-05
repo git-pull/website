@@ -97,7 +97,7 @@ Here are the general reasons why programmers don't work for promises:
 
   A proposition to work for equity / deferred payment is a source of dread
   for programmers. It rarely ever pans out. Sometimes the lingering effects of
-  oppurtunity cost hurt much more than the initial loss.
+  opportunity cost hurt much more than the initial loss.
 
   It boils down to sacrificing other oppourtunities to work for free.
   Even most funded (VC backed) startups go poof and equity means nothing. But if

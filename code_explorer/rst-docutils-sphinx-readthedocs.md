@@ -6,7 +6,7 @@ Journeying through reST, docutils, sphinx and extensions.
 
 For those designing themes based upon reStructuredText, docutils, sphinx or any of its dependencies, I'd like to save your time by clearing the fog of ambiguity and seeing the big picture.
 
-Purpose: readthedocs > sphinx > extensions > docutils > reST play a major role in the web. This includes websites, documention and more. It's difficult to have a concrete perception of what is what without diving into the source and researching.
+Purpose: readthedocs > sphinx > extensions > docutils > reST play a major role in the web. This includes websites, documentation and more. It's difficult to have a concrete perception of what is what without diving into the source and researching.
 
 I will begin with an overview at the of reStructuredText, docutils, then sphinx and its extensions.
 
