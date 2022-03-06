@@ -2,13 +2,14 @@
 
 - _June 2021_
 
-  - tmux-python (tmuxp + libtmux), vcs-python (vcspull + libvcs), cihai
-    (cihai, cihai-cli, unihan-etl, unihan-db) moved to markdown
+  - tmux-python (tmuxp + libtmux), vcs-python (vcspull + libvcs), cihai (cihai, cihai-cli,
+    unihan-etl, unihan-db) moved to markdown
 
 - _April 2021_
 
   - Created `@social-embed` web component / library in TypeScript + LitElement:
-    [Homepage](https://social-embed.git-pull.com), [GitHub](https://github.com/social-embed/social-embed)
+    [Homepage](https://social-embed.git-pull.com),
+    [GitHub](https://github.com/social-embed/social-embed)
 
 - _Feb 2021_
 
@@ -16,10 +17,10 @@
 
 - _August 2020_
 
-  - All documentation moved to [poetry](https://python-poetry.org/),
-    Amazon CloudFront and GitHub actions
-  - [HSKFlashCards][hskflashcards] has been rewritten in [Gatsby][gatsby] + [TypeScript][typescript] +
-    [chakra-ui][chakra-ui]
+  - All documentation moved to [poetry](https://python-poetry.org/), Amazon CloudFront and GitHub
+    actions
+  - [HSKFlashCards][hskflashcards] has been rewritten in [Gatsby][gatsby] +
+    [TypeScript][typescript] + [chakra-ui][chakra-ui]
 
 [gatsby]: https://gatsbyjs.com
 [typescript]: https://www.typescriptlang.org
@@ -30,13 +31,13 @@
 
   - {ref}`unihan-etl <unihan-etl:index>` 0.10.3 released
   - {ref}`cihai <cihai:index>` 0.9 released
-  - {ref}`cihai-cli <cihai-cli:index>` 0.5 released, you can now install
-    via `pip install cihai[cli]`
+  - {ref}`cihai-cli <cihai-cli:index>` 0.5 released, you can now install via
+    `pip install cihai[cli]`
 
 - _June 2018_
 
-  Notes on common patterns in {doc}`project structure <code/python/structure>` /
-  layout in git-pull python projects.
+  Notes on common patterns in {doc}`project structure <code/python/structure>` / layout in git-pull
+  python projects.
 
 - _April 2018_
 
@@ -66,9 +67,9 @@
 
   Package update:
 
-  - [alagitpull](https://github.com/git-pull/alagitpull), a sphinx theme based
-    off [alabaster](https://github.com/bitprophet/alabaster), learned to open
-    external links in new tabs.
+  - [alagitpull](https://github.com/git-pull/alagitpull), a sphinx theme based off
+    [alabaster](https://github.com/bitprophet/alabaster), learned to open external links in new
+    tabs.
 
   New article:
 
@@ -87,7 +88,8 @@
 
   New project: [django-slugify-processor](https://django-slugify-processor.devel.tech/)
 
-  New article: [Demystifying Django's import strings](https://devel.tech/tips/n/djms3tTe/demystifying-djangos-import-strings/)
+  New article:
+  [Demystifying Django's import strings](https://devel.tech/tips/n/djms3tTe/demystifying-djangos-import-strings/)
 
 - _November 2017_
 
@@ -98,7 +100,8 @@
 
 - _September 2017_
 
-  New article: [Pipenv: Holy Grail for Python Environments](https://devel.tech/tips/n/pIpEnvNh/pipenv/)
+  New article:
+  [Pipenv: Holy Grail for Python Environments](https://devel.tech/tips/n/pIpEnvNh/pipenv/)
 
 - _August 2017_
 
@@ -108,23 +111,22 @@
 
   New website (_in development_): <https://devel.tech>
 
-  See devel.tech's [open source contributions](https://devel.tech/site/open-source) and [site updates](https://devel.tech/site/updates)
+  See devel.tech's [open source contributions](https://devel.tech/site/open-source) and
+  [site updates](https://devel.tech/site/updates)
 
 - _June 2017_
 
   New articles: [Django vs Flask][django vs flask] and {ref}`About UNIHAN <unihan-etl:unihan>`
 
-  New Project: [unihan-db][unihan-db], database models and abstraction for
-  [UNIHAN][unihan].
+  New Project: [unihan-db][unihan-db], database models and abstraction for [UNIHAN][unihan].
 
   [django vs flask]: https://devel.tech/features/django-vs-flask/
 
 - _May 2017_
 
-  [unihan-etl][unihan-etl], a tool to access [UNIHAN][unihan], a dataset of Chinese,
-  Japanese, and Korean character information, to a etl format, is now
-  available. Supports customizable export to CSV, YAML, JSON, python, and
-  [Data Package][data package] format.
+  [unihan-etl][unihan-etl], a tool to access [UNIHAN][unihan], a dataset of Chinese, Japanese, and
+  Korean character information, to a etl format, is now available. Supports customizable export to
+  CSV, YAML, JSON, python, and [Data Package][data package] format.
 
 - _April 2017_
 
@@ -136,13 +138,14 @@
 
 - _February 2017_
 
-  [HSKFlashCards][hskflashcards] has gotten a face lift. Take
-  your study of chinese glyphs to the next level with its new [search](https://www.hskflashcards.com/search)
-  and [directory](https://www.hskflashcards.com/browse) functionality.
+  [HSKFlashCards][hskflashcards] has gotten a face lift. Take your study of chinese glyphs to the
+  next level with its new [search](https://www.hskflashcards.com/search) and
+  [directory](https://www.hskflashcards.com/browse) functionality.
 
 - _January 2017_
 
-  A new book, _The Tao of tmux_ is available on [Leanpub][leanpub] and [Kindle][kindle] (Amazon). Read and browse the book for [free on the web][free on the web].
+  A new book, _The Tao of tmux_ is available on [Leanpub][leanpub] and [Kindle][kindle] (Amazon).
+  Read and browse the book for [free on the web][free on the web].
 
 [unihan-etl]: https://unihan-etl.git-pull.com
 [unihan-db]: https://unihan-db.git-pull.com

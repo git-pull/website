@@ -64,8 +64,7 @@ Based off [Python 3 Wall of Superpowers][python 3 wall of superpowers].
 - <https://github.com/giampaolo/psutil>
 - <https://github.com/twisted/twisted>
 - <https://github.com/dabeaz/ply>
-- <https://github.com/waylan/Python-Markdown> (has more activity than
-  docutils [^id5])
+- <https://github.com/waylan/Python-Markdown> (has more activity than docutils [^id5])
 - <https://gitlab.com/pycqa/flake8>
 - <https://github.com/getsentry/raven-python>
 - <https://github.com/cython/cython>
@@ -131,8 +130,8 @@ Based off [Python 3 Wall of Superpowers][python 3 wall of superpowers].
 - <https://github.com/minitage/minitage.paste>
 - <https://pypi.python.org/pypi/fixtures>
 - <https://github.com/python-excel/xlwt>
-- <https://github.com/rackspace/python-cloudfiles> (defunct,
-  pyrax <https://github.com/rackspace/pyrax>)
+- <https://github.com/rackspace/python-cloudfiles> (defunct, pyrax
+  <https://github.com/rackspace/pyrax>)
 - <https://github.com/Flexget/Flexget>
 - <https://github.com/redis/hiredis-py>
 - <https://github.com/zopefoundation/zope.deprecation>
@@ -152,8 +151,7 @@ Based off [Python 3 Wall of Superpowers][python 3 wall of superpowers].
 
 Accepts Github Pull requests:
 
-- <https://bitbucket.org/zzzeek/mako/> -
-  <https://github.com/zzzeek/mako>, see
+- <https://bitbucket.org/zzzeek/mako/> - <https://github.com/zzzeek/mako>, see
   <http://www.makotemplates.org/community.html>
 - <http://twistedmatrix.com/trac/browser/> -
   <https://github.com/twisted/twisted/pulls?q=is%3Apr+is%3Aclosed>
@@ -222,13 +220,12 @@ Exceptions:
 
 [^id5]: <https://github.com/waylan/Python-Markdown/pulls?q=is%3Apr+is%3Aclosed>
 [^id6]:
-    (Our old Google Code repository is:
-    <https://code.google.com/p/protobuf/>. We moved to github on Aug 26, 2014
-    and no future changes will be made on the Google Code site. For latest
-    code updates/issues, please visit our github site.
+    (Our old Google Code repository is: <https://code.google.com/p/protobuf/>. We moved to github on
+    Aug 26, 2014 and no future changes will be made on the Google Code site. For latest code
+    updates/issues, please visit our github site.
     (<https://developers.google.com/protocol-buffers/docs/downloads>)
 
 [^id7]: <http://www.sqlobject.org/community.html>
 [^id8]:
-    code hosted on gh <https://github.com/openstack/python-novaclient>,
-    requires submission through <http://wiki.openstack.org/GerritWorkflow>
+    code hosted on gh <https://github.com/openstack/python-novaclient>, requires submission through
+    <http://wiki.openstack.org/GerritWorkflow>

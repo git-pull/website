@@ -37,8 +37,7 @@ from .signals import signals_available, template_rendered, request_started, \
 
 [flask/__init__.py]: https://github.com/mitsuhiko/flask/blob/master/flask/__init__.py
 
-<https://github.com/mitsuhiko/flask/blob/master/flask/ctx.py> is importing
-relatively with names:
+<https://github.com/mitsuhiko/flask/blob/master/flask/ctx.py> is importing relatively with names:
 
 ```
 from werkzeug.exceptions import HTTPException
@@ -48,8 +47,7 @@ from .module import blueprint_is_module
 from .signals import appcontext_pushed, appcontext_popped
 ```
 
-I heard before its best practice to just import the module and access it
-namespaced.
+I heard before its best practice to just import the module and access it namespaced.
 
 Pip [pip.**init**.py][pip.__init__.py]:
 
@@ -94,11 +92,10 @@ Where [pip.backwardcompat][pip.backwardcompat] is a module.
 
 Wrap your brain around this concept.
 
-This is not an applied application being used for a personal project, this
-is a proper package that stands on its own. It's Flask.
+This is not an applied application being used for a personal project, this is a proper package that
+stands on its own. It's Flask.
 
 Look at `__init__`.
 
-Software development with time constrictions may not permit every project
-to be module, but for software that goes up on pypi or gets reused at
-work, adhering to good architecture will save time.
+Software development with time constrictions may not permit every project to be module, but for
+software that goes up on pypi or gets reused at work, adhering to good architecture will save time.
