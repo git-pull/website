@@ -31,15 +31,18 @@ On the UX and design side I use react, TypeScript, and relay (graphql). You can 
 
 ::::{container} project col-xs-12 col-sm-6
 
-:::{figure} https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large :height: 150
-:align: center :target: https://leanpub.com/the-tao-of-tmux :alt: The Tao of tmux
+```{eval-rst}
+.. figure:: https://s3.amazonaws.com/titlepages.leanpub.com/the-tao-of-tmux/large
+  :height: 150
+  :align: center
+  :target: https://leanpub.com/the-tao-of-tmux
+  :alt: The Tao of tmux
+```
 
 [The Tao of tmux](https://leanpub.com/the-tao-of-tmux)
 
 Available on [Leanpub][leanpub] and [Kindle][kindle] (Amazon). Read the book for [free on the
 web][free on the web].
-
-:::
 
 ::::
 
@@ -55,28 +58,33 @@ web][free on the web].
 
 ::::{container} project col-xs-12 col-sm-6
 
-:::{figure} https://cihai.git-pull.com/en/latest/_static/img/cihai.svg :align: center :target:
-https://cihai.git-pull.com :alt: cihai.git-pull.com :height: 150
+```{eval-rst}
+.. figure:: https://cihai.git-pull.com/en/latest/_static/img/cihai.svg
+  :align: center
+  :target: https://cihai.git-pull.com
+  :alt: cihai.git-pull.com
+  :height: 150
+```
 
-[cihai][cihai]
+[cihai](https://cihai.git-pull.com)
 
 United front for creating open, permissive, standardized CJK datasets.
-
-:::
 
 ::::
 
 ::::{container} project col-xs-12 col-sm-6
 
-:::{figure} https://www.hskflashcards.com/icons/icon-512x512.png :align: center :target:
-https://www.hskflashcards.com :alt: HSKFlashCards.com :height: 150
+```{eval-rst}
+.. figure:: https://www.hskflashcards.com/icons/icon-512x512.png
+  :align: center
+  :target: https://www.hskflashcards.com
+  :alt: HSKFlashCards.com :height: 150
+```
 
 [HSK FlashCards](https://www.hskflashcards.com)
 
 Study chinese flashcards for _Hànyǔ Shuǐpíng Kǎoshì_, _(New) Practical Chinese Reader_ and
 _Integrated Chinese_
-
-:::
 
 ::::
 
@@ -88,27 +96,33 @@ _Integrated Chinese_
 
 ::::{container} project col-xs-12 col-sm-6
 
-:::{figure} https://tmuxp.git-pull.com/en/latest/_static/img/tmuxp.svg :align: center :target:
-https://tmuxp.git-pull.com :alt: tmuxp :height: 150
+```{eval-rst}
+.. figure:: https://tmuxp.git-pull.com/en/latest/_static/img/tmuxp.svg
+  :align: center
+  :target: https://tmuxp.git-pull.com
+  :alt: tmuxp
+  :height: 150
+```
 
 [tmuxp](https://tmuxp.git-pull.com) ([中文](https://tmuxp.readthedocs.io/zh_CN/latest/))
 
 tmux session manager via JSON and YAML file
 
-:::
-
 ::::
 
 ::::{container} project col-xs-12 col-sm-6
 
-:::{figure} https://libtmux.git-pull.com/en/latest/_static/img/libtmux.svg :align: center :target:
-https://libtmux.git-pull.com :alt: libtmux :height: 150
+```{eval-rst}
+.. figure:: https://libtmux.git-pull.com/en/latest/_static/img/libtmux.svg
+   :align: center
+   :target: https://libtmux.git-pull.com
+   :alt: libtmux
+   :height: 150
+```
 
 [libtmux](https://libtmux.git-pull.com)
 
 pilot tmux with python
-
-:::
 
 ::::
 
@@ -118,27 +132,33 @@ pilot tmux with python
 
 ::::{container} project col-xs-12 col-sm-6
 
-:::{figure} https://vcspull.git-pull.com/en/latest/_static/img/vcspull.svg :align: center :target:
-https://vcspull.git-pull.com :alt: vcspull :height: 150
+```{eval-rst}
+.. figure:: https://vcspull.git-pull.com/en/latest/_static/img/vcspull.svg
+  :align: center
+  :target: https://vcspull.git-pull.com
+  :alt: vcspull
+  :height: 150
+```
 
 [vcspull](https://vcspull.git-pull.com)
 
 manage and update multiple git / hg / svn projects via JSON or YAML file
 
-:::
-
 ::::
 
 ::::{container} project col-xs-12 col-sm-6
 
-:::{figure} https://libvcs.git-pull.com/en/latest/_static/img/libvcs.svg :align: center :target:
-https://libvcs.git-pull.com :alt: libvcs :height: 150
+```{eval-rst}
+.. figure:: https://libvcs.git-pull.com/en/latest/_static/img/libvcs.svg
+  :align: center
+  :target: https://libvcs.git-pull.com
+  :alt: libvcs
+  :height: 150
+```
 
 [libvcs](https://libvcs.git-pull.com)
 
 pythonic API for [version control](https://en.wikipedia.org/wiki/Version_control) systems
-
-:::
 
 ::::
 
@@ -267,3 +287,7 @@ Like my open source projects and learning resources? {ref}`Your support is appre
 [cookiecutter-pypackage]: https://github.com/tony/cookiecutter-pypackage
 [cookiecutter-flask-pythonic]: https://github.com/tony/cookiecutter-flask-pythonic
 [cookiecutter]: https://github.com/audreyr/cookiecutter
+
+```
+
+```
