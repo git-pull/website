@@ -116,7 +116,7 @@ jobs:
 
     - name: Generate list of changed files for CloudFront to invalidate
       run: |
-        FILES=$(find _build/html -exec realpath --relative-to _build/html {} \; | awk '{print "/"$0}' | grep "html\|searchindex.js\|custom.css\|.svg");
+        FILES=$(find _build/html -exec realpath --relative-to _build/html {} \; | awk '{print "/"$0}' | grep "html\|searchindex.js\|custom.css\|git-pull.css\|.svg");
         for file in $FILES; do
           echo $file
           # add bare directory to list of updated paths when we see index.html
