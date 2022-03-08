@@ -86,7 +86,7 @@
 
 - _December 2017_
 
-  New project: [django-slugify-processor](https://django-slugify-processor.devel.tech/)
+  New project: [django-slugify-processor](https://django-slugify-processor.git-pull.com/)
 
   New article:
   [Demystifying Django's import strings](https://devel.tech/tips/n/djms3tTe/demystifying-djangos-import-strings/)
