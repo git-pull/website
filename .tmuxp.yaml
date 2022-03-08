@@ -12,5 +12,5 @@ windows:
   panes:
   - focus: true
   - pane 
-  - make serve
-  - make watch
+  - pane
+  - make start
