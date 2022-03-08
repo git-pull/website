@@ -10,41 +10,44 @@ Leather grows to you with time. It smells good and feels good to wear.
 
 Don't wear leather to be cool, wear it because you like it, and you will be cool without trying.
 
-:::{figure} \_static/leather/IMG_20131123_031318-medium.jpg :width: 300px
 
-by [Freddie Matara][freddie matara], williamzburg
+## Wrist bands
 
-:::
+by [Freddie Matara], williamzburg
 
-:::{figure} \_static/leather/IMG_20131123_031351-medium.jpg :width: 300px
+```{eval-rst}
+.. figure:: _static/leather/IMG_20131123_031318-medium.jpg
+  :width: 300px
+```
 
-by [Freddie Matara][freddie matara], williamzburg
+```{eval-rst}
+.. figure:: _static/leather/IMG_20131123_031351-medium.jpg
+  :width: 300px
+```
 
-:::
+## Wallet
 
-:::{figure} \_static/leather/IMG_20131123_031223-medium.jpg :width: 300px
+by Bill Carnes @ [Clintonville Leather]. My favorite wallet.
 
-by Bill Carnes @ [Clintonville Leather][clintonville leather]. My favorite wallet.
+```{eval-rst}
+.. figure:: _static/leather/IMG_20131123_031223-medium.jpg
+  :width: 300px
+```
 
-:::
+```{eval-rst}
+.. figure:: _static/leather/IMG_20131123_031251-medium.jpg
+  :width: 300px
+```
 
-:::{figure} \_static/leather/IMG_20131123_031251-medium.jpg :width: 300px
+```{eval-rst}
+.. figure:: _static/leather/IMG_20131123_031647-medium.jpg
+  :width: 300px
+```
 
-by Bill Carnes @ [Clintonville Leather][clintonville leather].
+```{eval-rst}
+.. figure:: _static/leather/IMG_20131123_031939-medium.jpg
+  :width: 300px
+```
 
-:::
-
-:::{figure} \_static/leather/IMG_20131123_031647-medium.jpg :width: 300px
-
-by Bill Carnes @ [Clintonville Leather][clintonville leather].
-
-:::
-
-:::{figure} \_static/leather/IMG_20131123_031939-medium.jpg :width: 300px
-
-by Bill Carnes @ [Clintonville Leather][clintonville leather].
-
-:::
-
-[freddie matara]: http://freddiematara.com/
-[clintonville leather]: http://www.etsy.com/shop/ClintonvilleLeather
+[Freddie Matara]: http://freddiematara.com/
+[Clintonville Leather]: http://www.etsy.com/shop/ClintonvilleLeather
