@@ -25,6 +25,7 @@ jobs:
             - README.*
           docs:
             - '**/*.rst'
+            - '**/*.css'
             - '**/*.md'
           python_files:
             - '*.py'
