@@ -287,7 +287,3 @@ Like my open source projects and learning resources? {ref}`Your support is appre
 [cookiecutter-pypackage]: https://github.com/tony/cookiecutter-pypackage
 [cookiecutter-flask-pythonic]: https://github.com/tony/cookiecutter-flask-pythonic
 [cookiecutter]: https://github.com/audreyr/cookiecutter
-
-```
-
-```
