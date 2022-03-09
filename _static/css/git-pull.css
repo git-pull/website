@@ -48,7 +48,7 @@ div.book-container .rightside-book p:first-of-type {
   font-size: 1rem;
 }
 .project :not(a) {
-  color: rgb(178, 186, 194);
+  color: var(--color-foreground-secondary);
   font-size: .9rem;
   line-height: 1.5;
 }
