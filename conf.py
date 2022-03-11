@@ -77,6 +77,13 @@ ogp_image = "_static/img/icons/icon-192x192.png"
 ogp_desscription_length = "Author of software utilities built for computer programmers"
 ogp_site_name = "Tony Narlock"
 
+# sphinx-copybutton
+copybutton_prompt_text = (
+    r">>> |\.\.\. |> |\$ |\# | In \[\d*\]: | {2,5}\.\.\.: | {5,8}: "
+)
+copybutton_prompt_is_regexp = True
+copybutton_remove_prompts = True
+
 htmlhelp_basename = "confuciangentlemansclubdoc"
 
 
