@@ -33,7 +33,7 @@ copyright = "2013 - , Tony Narlock"  # NOQA
 version = "0.0"
 release = "0.0"
 
-exclude_patterns = ["_build", ".venv"]
+exclude_patterns = ["_build", ".venv", "widget"]
 
 pygments_style = "monokai"
 pygments_dark_style = "monokai"

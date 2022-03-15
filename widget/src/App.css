@@ -1,0 +1,22 @@
+#git-pull-projects {
+  font-size: .75rem;
+}
+
+#git-pull-projects h1, h2, h3 {
+  margin-block-end: 0.25rem;
+  margin-block-start: 0.25rem;
+}
+
+#git-pull-projects h1 {
+  font-size: 1rem;
+}
+
+#git-pull-projects h2 {
+  font-size: .85rem;
+  display: inline-flex;
+  margin-right: .5rem;
+}
+
+#git-pull-projects .indent {
+  margin-left: 1rem;
+}
