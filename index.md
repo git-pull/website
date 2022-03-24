@@ -1,13 +1,13 @@
 # I am Tony Narlock
 
-I write software utilities and libraries, mostly in python. They're tailored to other computer
+I create software tools and libraries, mostly in python. They're tailored to other computer
 programmers trying to save time automating a repetitive task. One of them, [tmuxp] constructs [tmux]
 sessions from a JSON or YAML file.
 
 On that note, I've also written a book about tmux a few years ago, [The Tao of tmux].
 
-Another suite of tools I've created is the [cihai] project, a set of tools wrapping Unicode's UNIHAN
-dataset for Chinese, Japanese, and Korean languages.
+Another suite of tools I've created is [cihai], which is built around Unicode's UNIHAN dataset for
+Chinese, Japanese, and Korean languages.
 
 On the UX and design side I use react, TypeScript, and relay (graphql). You can see my resume at
 <https://cv.git-pull.com>.
