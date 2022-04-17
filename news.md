@@ -1,5 +1,9 @@
 # News
 
+- _March 2022_
+
+  - All sites moved to new design.
+
 - _June 2021_
 
   - tmux-python (tmuxp + libtmux), vcs-python (vcspull + libvcs), cihai (cihai, cihai-cli,
