@@ -1,10 +1,3 @@
-<script type="text/javascript">
-window.onload = () => {
-  console.log(window.location.hostname)
-  const sidebar = document.getElementById("sidebar-projects")
-  window.sidebar = sidebar
-}
-</script>
 <div class="sidebar-tree projects" id="sidebar-projects">
   <p class="caption" role="heading">
     <span class="caption-text"
@@ -36,3 +29,17 @@ window.onload = () => {
     </span>
   </p>
 </div>
+<script type="text/javascript">
+(() => {
+  const sidebar = document.getElementById("sidebar-projects")
+  sidebar.querySelectorAll(`a[href*="${window.location.hostname}"]`)
+    .forEach((link) => {
+      if (!link.classList.contains("active")) {
+        const d = document.createElement('span');
+        d.innerHTML = link.innerHTML;
+        d.classList.add("active");
+        link.parentNode.replaceChild(d, link);
+      }
+    });
+})()
+</script>

@@ -31,3 +31,7 @@ h4 {
   font-weight: bold;
   margin-right: calc(var(--sidebar-item-spacing-horizontal) / 2.5);
 }
+
+.sidebar-tree .active {
+  font-weight: bold;
+}
