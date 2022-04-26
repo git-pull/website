@@ -26,10 +26,6 @@ h4 {
   display: block;
 }
 
-.sidebar-tree p.indented-block > :not(.project-name) {
-  font-size: var(--toc-font-size);
-}
-
 .sidebar-tree p.indented-block .project-name {
   font-size: var(--sidebar-item-font-size);
   font-weight: bold;
