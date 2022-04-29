@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # Structure of Python Projects
 
 Want to contribute to a git-pull project? They follow a common layout. This guide can help you make
