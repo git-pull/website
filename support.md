@@ -59,6 +59,13 @@ Thank you!
 
 - <https://cash.me/$TonyNarlock>
 - <https://paypal.me/TonyNarlock>
+- BTC: 16xEyUeKJbFgk2TZgbqhxUBfVjx3maTjcR
+- ETH: 0x04164A9Cd613dAbF11df09FFC2577b8Eb58ed33C
+- LTC: MA53MUeY3fz2CHGHSiYs7oRNjYrcQB7UbA
+- ADA: addr1v8tal508gk0kku6axfd256fkf6ll3cngyqvq7xrz7m9lr2qq9p7av
+- SHIB: 0xA99b5A0C540470E4f1b05d0093817e86073a0ED5
+- DOGE: DAJWASf3rBkoyciYxyghXiNXMoBFCdqKaz
+- DOT: 1w1RMRhJ5ipTDQxiwP3kCPvHLw1PgTjodGDoQ4PfS47FgMn
 
 [open source]: https://openhub.net/accounts/git-pull
 [the tao of tmux]: https://leanpub.com/the-tao-of-tmux/read
