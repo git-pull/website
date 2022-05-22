@@ -170,7 +170,7 @@ pythonic API for [version control](https://en.wikipedia.org/wiki/Version_control
 
 :::::::
 
-### [Cookiecutter][cookiecutter] project templates
+## [Cookiecutter][cookiecutter] project templates
 
 Permissively licensed starter templates you can use to bootstrap your projects.
 
