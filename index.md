@@ -1,19 +1,18 @@
 # I am Tony Narlock
 
-I create software for programmers. If you're not one, what I do likely
-won't make sense to you.
+I create tools for programmers. If you're not one, what I do likely won't make sense to you.
 
-My tools assist programmers automating certain tasks. For example,
+My software assists programmers and system administrators automating certain tasks. For example,
 [tmuxp] constructs [tmux] sessions from a JSON or YAML file.
 
 On that note, I've also written a book about tmux a few years ago, [The Tao of tmux].
 
-Another tool I've created is [cihai], which is built around Unicode's UNIHAN dataset for
-Chinese, Japanese, and Korean languages.
+Another tool I've created is [cihai], which is built around Unicode's UNIHAN dataset for Chinese,
+Japanese, and Korean languages.
 
-While I'm a polyglot programmer - as seen by my C++ contributions in my [CV] - as a day job,
-I've always been a web developer. Today this task is often given a snazzier title, e.g.
-senior full-stack software engineer.
+While I'm a polyglot programmer - as seen by my C++ contributions in my [CV] - as a day job, I've
+always been a web developer. Today this task is often given a snazzier title, e.g. senior full-stack
+software engineer.
 
 I use react, TypeScript, and relay (graphql) on the frontend.
 
