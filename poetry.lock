@@ -114,7 +114,7 @@ pyflakes = ">=2.4.0,<2.5.0"
 
 [[package]]
 name = "furo"
-version = "2022.6.4"
+version = "2022.6.4.1"
 description = "A clean customisable Sphinx documentation theme."
 category = "main"
 optional = false
@@ -705,8 +705,8 @@ flake8 = [
     {file = "flake8-4.0.1.tar.gz", hash = "sha256:806e034dda44114815e23c16ef92f95c91e4c71100ff52813adf7132a6ad870d"},
 ]
 furo = [
-    {file = "furo-2022.6.4-py3-none-any.whl", hash = "sha256:5e888a0cd68608006788dbb9e40a4efc7ef7f87563a6da045b6ae5f0c7ea5056"},
-    {file = "furo-2022.6.4.tar.gz", hash = "sha256:bb25b3f275d902441d7b87f42b7d85422c9b2efeac6411a9a5ed380bcbff24dc"},
+    {file = "furo-2022.6.4.1-py3-none-any.whl", hash = "sha256:79f2d3a61e3d971c0acd59f53d3202e7336789cd893f7bdc3cc7bc37d6ef252c"},
+    {file = "furo-2022.6.4.1.tar.gz", hash = "sha256:c927848edf3292030d0719ebdab9e16d56f1b91c68562b9be316aa5b843775ab"},
 ]
 idna = [
     {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
