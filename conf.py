@@ -10,7 +10,6 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
-    "sphinx_click.ext",  # sphinx-click
     "sphinx_inline_tabs",
     "sphinx_copybutton",
     "sphinxext.opengraph",
