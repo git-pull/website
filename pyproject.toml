@@ -20,20 +20,16 @@ Repository = "https://github.com/git-pull/website"
 [tool.poetry.dependencies]
 python = "^3.10"
 
+[tool.poetry.dev-dependencies]
 ### Docs ###
 sphinx = "*"
 furo = "*"
 sphinx-autobuild = "*"
-sphinx-click = "*"
 sphinx-inline-tabs = { version = "*", python = "^3.7" }
 sphinxext-opengraph = "*"
 sphinx-copybutton = "*"
 sphinxext-rediraffe = "*"
 myst_parser = "*"
-
-[tool.poetry.dev-dependencies]
-### Docs ###
-sphinx-autobuild = "*"
 
 ### Format ###
 black = "*"
