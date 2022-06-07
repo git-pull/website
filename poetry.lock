@@ -640,7 +640,7 @@ lint = []
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "aa8917d715081e9af6f07f565639753b517a03c8d6e9ebedd039d82818dcf636"
+content-hash = "4e99503a2d8fb57fca0d5177550c6d5bfb5cd0a5ffa6bafaffe860d0340bf8cd"
 
 [metadata.files]
 alabaster = [

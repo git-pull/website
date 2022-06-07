@@ -22,18 +22,18 @@ python = "^3.10"
 
 ### Docs ###
 sphinx = "*"
-furo = "^2022.2.23"
-sphinx-autobuild = "^2021.3.14"
+furo = "*"
+sphinx-autobuild = "*"
 sphinx-click = "*"
 sphinx-inline-tabs = { version = "*", python = "^3.7" }
 sphinxext-opengraph = "*"
-sphinx-copybutton = "^0.5.0"
+sphinx-copybutton = "*"
 sphinxext-rediraffe = "*"
-myst_parser = "~0.17.0"
+myst_parser = "*"
 
 [tool.poetry.dev-dependencies]
 ### Docs ###
-sphinx-autobuild = "^2021.3.14"
+sphinx-autobuild = "*"
 
 ### Format ###
 black = "*"
