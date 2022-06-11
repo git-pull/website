@@ -5,7 +5,7 @@ I create tools for programmers. If you're not one, what I do likely won't make s
 My software assists programmers and system administrators automating certain tasks. For example,
 [tmuxp] constructs [tmux] sessions from a JSON or YAML file.
 
-On that note, I've also written a book about tmux a few years ago, [The Tao of tmux].
+To that end, I've also written a book about tmux a few years ago, [The Tao of tmux].
 
 Another tool I've created is [cihai], which is built around Unicode's UNIHAN dataset for Chinese,
 Japanese, and Korean languages.
