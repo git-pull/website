@@ -1,5 +1,25 @@
 # News
 
+- _June 2022_
+
+  - [libvcs] and [vcspull] are being rebuilt from the ground up. This will be a fresh take on one of
+    my earliest python projects. What they'll be using:
+
+    - [doctest]: actual code demo in documentation which also function as tests
+    - [mypy]: type checking through annotations ([PEP 484], [PEP 526])
+    - [dataclasses] (experimental): As a library creator, I will put these to the test
+
+    The projects will be a proving ground for quality standards and patterns I'll adopt across my
+    other and future packages.
+
+    [libvcs]: https://libvcs.git-pull.com
+    [vcspull]: https://vcspull.git-pull.com
+    [doctest]: https://docs.python.org/3/library/doctest.html
+    [mypy]: https://mypy.readthedocs.io/
+    [dataclasses]: https://docs.python.org/3/library/dataclasses.html
+    [pep 484]: https://peps.python.org/pep-0484/
+    [pep 526]: https://peps.python.org/pep-0526/
+
 - _March 2022_
 
   - All sites moved to new design.
