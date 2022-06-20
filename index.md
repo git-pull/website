@@ -21,7 +21,7 @@ I use react, TypeScript, and relay (graphql) on the frontend.
 [the tao of tmux]: https://leanpub.com/the-tao-of-tmux
 [cv]: https://cv.git-pull.com
 
-## What's new
+## What's going on in my life as a programmer
 
 ```{include} news.md
 :start-line: 2
