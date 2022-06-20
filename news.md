@@ -23,8 +23,7 @@
 
   - All documentation moved to [poetry](https://python-poetry.org/), Amazon CloudFront and GitHub
     actions
-  - [HSKFlashCards][hskflashcards] has been rewritten in [Gatsby][gatsby] +
-    [TypeScript][typescript] + [chakra-ui][chakra-ui]
+  - [HSKFlashCards] has been rewritten in [Gatsby] + [TypeScript] + [chakra-ui]
 
 [gatsby]: https://gatsbyjs.com
 [typescript]: https://www.typescriptlang.org
@@ -55,17 +54,12 @@
 
   - Two new organizations:
 
-    - [tmux-python](https://github.com/tmux-python), for the
-      [tmuxp](https://github.com/tmux-python/tmuxp) and
-      [libtmux](https://github.com/tmux-python/libtmux) project.
-    - [vcs-python](https://github.com/vcs-python), for the
-      [vcspull](https://github.com/vcs-python/vcspull) and
-      [libvcs](https://github.com/vcs-python/libvcs) project.
+    - [tmux-python](https://github.com/tmux-python), for the [tmuxp] and [libtmux] project.
+    - [vcs-python](https://github.com/vcs-python), for the [vcspull] and [libvcs] project.
 
     Working slogan: _Permissively licensed. For the public good._
 
-  - Continuous integration fixed for [tmuxp][tmuxp]
-    ([#348](https://github.com/tmux-python/tmuxp/pull/348))
+  - Continuous integration fixed for [tmuxp] ([#348](https://github.com/tmux-python/tmuxp/pull/348))
 
 - _February 2018_
 
@@ -109,7 +103,7 @@
 
 - _August 2017_
 
-  The design and internals of [HSKFlashCards][hskflashcards] have been refreshed
+  The design and internals of [HSKFlashCards] have been refreshed
 
 - _July 2017_
 
@@ -120,21 +114,21 @@
 
 - _June 2017_
 
-  New articles: [Django vs Flask][django vs flask] and {ref}`About UNIHAN <unihan-etl:unihan>`
+  New articles: [Django vs Flask] and {ref}`About UNIHAN <unihan-etl:unihan>`
 
-  New Project: [unihan-db][unihan-db], database models and abstraction for [UNIHAN][unihan].
+  New Project: [unihan-db], database models and abstraction for [UNIHAN].
 
   [django vs flask]: https://devel.tech/features/django-vs-flask/
 
 - _May 2017_
 
-  [unihan-etl][unihan-etl], a tool to access [UNIHAN][unihan], a dataset of Chinese, Japanese, and
-  Korean character information, to a etl format, is now available. Supports customizable export to
-  CSV, YAML, JSON, python, and [Data Package][data package] format.
+  [unihan-etl], a tool to access [UNIHAN], a dataset of Chinese, Japanese, and Korean character
+  information, to a etl format, is now available. Supports customizable export to CSV, YAML, JSON,
+  python, and [Data Package] format.
 
 - _April 2017_
 
-  [cihai][cihai], a project to open and standardize CJK datasets, is being restarted.
+  [cihai], a project to open and standardize CJK datasets, is being restarted.
 
 - _March 2017_
 
@@ -142,21 +136,24 @@
 
 - _February 2017_
 
-  [HSKFlashCards][hskflashcards] has gotten a face lift. Take your study of chinese glyphs to the
-  next level with its new [search](https://www.hskflashcards.com/search) and
+  [HSKFlashCards] has gotten a face lift. Take your study of chinese glyphs to the next level with
+  its new [search](https://www.hskflashcards.com/search) and
   [directory](https://www.hskflashcards.com/browse) functionality.
 
 - _January 2017_
 
-  A new book, _The Tao of tmux_ is available on [Leanpub][leanpub] and [Kindle][kindle] (Amazon).
-  Read and browse the book for [free on the web][free on the web].
+  A new book, _The Tao of tmux_ is available on [Leanpub] and [Kindle] (Amazon). Read and browse the
+  book for [free on the web].
 
+[libtmux]: https://libtmux.git-pull.com
+[tmuxp]: https://tmuxp.git-pull.com
+[libvcs]: https://libvcs.git-pull.com
+[vcspull]: https://vcspull.git-pull.com
 [unihan-etl]: https://unihan-etl.git-pull.com
 [unihan-db]: https://unihan-db.git-pull.com
 [unihan]: https://en.wikipedia.org/wiki/Han_unification
+[cihai]: https://cihai.git-pull.com
 [data package]: http://frictionlessdata.io/data-packages/
 [free on the web]: https://leanpub.com/the-tao-of-tmux/read
 [leanpub]: https://leanpub.com/the-tao-of-tmux
 [kindle]: http://amzn.to/2gPfRhC
-[cihai]: https://cihai.git-pull.com
-[tmuxp]: https://tmuxp.git-pull.com
