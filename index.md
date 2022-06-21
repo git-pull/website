@@ -11,9 +11,8 @@ Another tool I've created is [cihai], which is built around Unicode's UNIHAN dat
 Japanese, and Korean languages.
 
 While I'm a polyglot - as seen by my C++ contributions in my [CV] - as a day job, I've always been a
-web developer. Today this task is often given a snazzier title, e.g. senior full-stack software
-engineer. I'm not a web designer, nor a computer scientist, but if both were part of a continuum I'd
-be somewhere in the middle.
+{abbr}`web developer (Today this task is often given a snazzier title, e.g. senior full-stack software engineer)` -
+not a web designer, IT admin, or a computer scientist, but somewhere in between.
 
 I use react, TypeScript, and relay (graphql) on the frontend.
 
