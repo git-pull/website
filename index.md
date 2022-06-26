@@ -279,6 +279,10 @@ _These are mostly outdated_
 - [cookiecutter-pypackage] - bootstrap python packages
 - [cookiecutter-flask-pythonic] - flask project
 
+[cookiecutter-pypackage]: https://github.com/tony/cookiecutter-pypackage
+[cookiecutter-flask-pythonic]: https://github.com/tony/cookiecutter-flask-pythonic
+[cookiecutter]: https://github.com/cookiecutter/cookiecutter
+
 ## Presentations
 
 - [Guest Speaker @ Fullstack Academy (YC S12)](https://www.slideshare.net/secret/JE3xKLQUGPxy41) at
@@ -314,7 +318,3 @@ _These are mostly outdated_
 ## Donate
 
 Like my open source projects and learning resources? {ref}`Your support is appreciated! <support>`
-
-[cookiecutter-pypackage]: https://github.com/tony/cookiecutter-pypackage
-[cookiecutter-flask-pythonic]: https://github.com/tony/cookiecutter-flask-pythonic
-[cookiecutter]: https://github.com/cookiecutter/cookiecutter
