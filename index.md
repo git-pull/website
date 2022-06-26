@@ -196,7 +196,6 @@ pythonic API for [version control](https://en.wikipedia.org/wiki/Version_control
 
 [portscout]: https://portscout.freebsd.org/tony@git-pull.com.html
 [freebsd]: https://www.freebsd.org
-[openhub]: https://openhub.net/accounts/git-pull
 [freebsd wiki page]: https://wiki.freebsd.org/TonyNarlock
 [@tony]: https://www.github.com/tony
 
