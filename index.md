@@ -3,17 +3,16 @@
 This is my professional website, I've been a software developer for 14 years. If you're not one,
 what I do likely won't make sense to you.
 
-I work at tech startups in
-{abbr}`web-based projects (Today this task is often given a snazzy title, e.g. senior full-stack software engineer)`.
+I work at tech startups making
+{abbr}`web-based apps (Today this task is often given a snazzy title, e.g. senior full-stack software engineer)`.
 I use [React], [TypeScript], and [Relay] ([GraphQL]) on the frontend and [Python] / [Amazon Web
 Services] on the backend.
 
-In my spare time, I help other programmers by creating tools to automate repetitive tasks. For
-example, [tmuxp] constructs [tmux] sessions from a JSON or YAML file. To that end, I've also written
-a book about tmux a few years ago, [The Tao of tmux].
-
-Another tool I've created is [cihai], which is built around [Unicode]'s [UNIHAN] dataset for
-Chinese, Japanese, and Korean languages.
+In my spare time, I write
+{abbr}`developer tools (I help other programmers by creating reusable components or applications to automate repetitive tasks)`.
+For example, [tmuxp] constructs [tmux] sessions from a JSON or YAML file. To that end, I've also
+written a book about tmux a few years ago, [The Tao of tmux]. Another tool I've created is [cihai],
+which is built around [Unicode]'s [UNIHAN] dataset for Chinese, Japanese, and Korean languages.
 
 I contribute to [open source] software projects; find me on [GitHub], [GitLab], [OpenHub].
 
