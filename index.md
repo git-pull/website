@@ -63,8 +63,7 @@ _What am I busy with outside of work?_
 
 [The Tao of tmux](https://leanpub.com/the-tao-of-tmux)
 
-Available on [Leanpub][leanpub] and [Kindle][kindle] (Amazon). Read the book for [free on the
-web][free on the web].
+Available on [Leanpub] and [Kindle] (Amazon). Read the book for [free on the web].
 
 ::::
 
@@ -188,12 +187,12 @@ pythonic API for [version control](https://en.wikipedia.org/wiki/Version_control
 
 ## Coding around the web
 
-- My ports for the [FreeBSD][freebsd] operating system on [portscout][portscout]
-- My issues for [FreeBSD][freebsd] in
+- My ports for the [FreeBSD] operating system on [portscout]
+- My issues for [FreeBSD] in
   [Bugzilla](https://bugs.freebsd.org/bugzilla/buglist.cgi?bug_status=New&bug_status=Open&bug_status=In%20Progress&bug_status=Closed&bug_status=UNCONFIRMED&email1=tony%40git-pull.com&emailassigned_to1=1&emailcc1=1&emaillongdesc1=1&emailreporter1=1&emailtype1=equals&f0=OP&f1=OP&f2=product&f3=component&f4=alias&f5=short_desc&f7=CP&f8=CP&j1=OR&o2=substring&o3=substring&o4=substring&o5=substring&query_format=advanced)
-- Software porting from Linux to BSD on my [FreeBSD Wiki Page][freebsd wiki page]
-- Unofficial tally / roster of open source contributions on [OpenHub][openhub]
-- GitHub [@tony][@tony] for recent / current coding
+- Software porting from Linux to BSD on my [FreeBSD Wiki Page]
+- Unofficial tally / roster of open source contributions on [OpenHub]
+- GitHub [@tony] for recent / current coding
 
 [portscout]: https://portscout.freebsd.org/tony@git-pull.com.html
 [freebsd]: https://www.freebsd.org
@@ -235,7 +234,7 @@ pythonic API for [version control](https://en.wikipedia.org/wiki/Version_control
 
 Experimental code / patches that never made it upstream:
 
-[kakoune][kakoune] branches: [cmake build support](https://github.com/tony/kakoune/tree/cmake),
+[kakoune] branches: [cmake build support](https://github.com/tony/kakoune/tree/cmake),
 [mini](https://github.com/tony/kakoune/tree/mini),
 [new-cli](https://github.com/tony/kakoune/tree/new-cli)
 ([#693](https://github.com/mawww/kakoune/pull/693)),
@@ -244,17 +243,16 @@ Experimental code / patches that never made it upstream:
 [pybind11](https://github.com/tony/kakoune/tree/pybind11) and
 [Boost.Python](https://github.com/tony/kakoune/tree/python-boost) integration
 
-[vis][vis] branches: [cmake support](https://github.com/tony/vis/tree/cmake-n-stuff),
+[vis] branches: [cmake support](https://github.com/tony/vis/tree/cmake-n-stuff),
 [C++](https://github.com/tony/vis/tree/cpp) support,
 [python integration](https://github.com/tony/vis/tree/cpp-python)
 
-[sphinx][sphinx] branches: [flexible-builder](https://github.com/tony/sphinx/tree/flexible-builder)
+[sphinx] branches: [flexible-builder](https://github.com/tony/sphinx/tree/flexible-builder)
 invocation
 
-[tmux][tmux] branches: [cmake](https://github.com/tony/tmux/tree/cmake) build support
+[tmux] branches: [cmake](https://github.com/tony/tmux/tree/cmake) build support
 
-[saltstack][saltstack] + [fabric][fabric] demo:
-[gist](https://gist.github.com/tony/6d8d975c817d2e4d43dd)
+[saltstack] + [fabric] demo: [gist](https://gist.github.com/tony/6d8d975c817d2e4d43dd)
 
 [saltstack]: https://saltstack.com
 [fabric]: http://www.fabfile.org/
@@ -279,8 +277,8 @@ _These are mostly outdated_
 
 ##### [Cookiecutter]
 
-- [cookiecutter-pypackage][cookiecutter-pypackage] - bootstrap python packages
-- [cookiecutter-flask-pythonic][cookiecutter-flask-pythonic] - flask project
+- [cookiecutter-pypackage] - bootstrap python packages
+- [cookiecutter-flask-pythonic] - flask project
 
 ## Presentations
 
@@ -320,4 +318,4 @@ Like my open source projects and learning resources? {ref}`Your support is appre
 
 [cookiecutter-pypackage]: https://github.com/tony/cookiecutter-pypackage
 [cookiecutter-flask-pythonic]: https://github.com/tony/cookiecutter-flask-pythonic
-[cookiecutter]: https://github.com/audreyr/cookiecutter
+[cookiecutter]: https://github.com/cookiecutter/cookiecutter
