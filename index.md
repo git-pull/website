@@ -1,19 +1,24 @@
 # I am Tony Narlock
 
-I've been a software developer for 14 years. If you're not one, what I do likely won't make sense to
-you.
+This is my professional website, I've been a software developer for 14 years. If you're not one,
+what I do likely won't make sense to you.
 
-In my spare time, I create software to assist programmers and system administrators in automating
-certain tasks. For example, [tmuxp] constructs [tmux] sessions from a JSON or YAML file. To that
-end, I've also written a book about tmux a few years ago, [The Tao of tmux].
+I work at tech startups in
+{abbr}`web-based projects (Today this task is often given a snazzy title, e.g. senior full-stack software engineer)`.
+I use [React], [TypeScript], and [Relay] ([GraphQL]) on the frontend and [Python] / [Amazon Web
+Services] on the backend.
+
+In my spare time, I help other programmers by creating tools to automate repetitive tasks. For
+example, [tmuxp] constructs [tmux] sessions from a JSON or YAML file. To that end, I've also written
+a book about tmux a few years ago, [The Tao of tmux].
 
 Another tool I've created is [cihai], which is built around [Unicode]'s [UNIHAN] dataset for
 Chinese, Japanese, and Korean languages.
 
-While I'm a polyglot - as seen by my C++ contributions in my [CV] - as a day job, I've always been a
-{abbr}`web developer (Today this task is often given a snazzier title, e.g. senior full-stack software engineer)` -
-not a web designer, IT admin, or a computer scientist, but somewhere in between. I use [React],
-[TypeScript], and [Relay] ([GraphQL]).
+I contribute to [open source] software projects; find me on [GitHub], [GitLab], [OpenHub].
+
+My [CV] tracks everything I've ever done - work, my projects, and open source (I'm a polyglot, there
+is some C++ in there).
 
 [cihai]: https://cihai.git-pull.com
 [tmuxp]: https://tmuxp.git-pull.com
@@ -25,6 +30,12 @@ not a web designer, IT admin, or a computer scientist, but somewhere in between.
 [relay]: https://relay.dev/
 [react]: https://reactjs.org/
 [graphql]: https://graphql.org/
+[open source]: https://en.wikipedia.org/wiki/Open-source_software
+[github]: https://www.github.com/tony
+[gitlab]: https://www.gitlab.com/tony
+[python]: https://www.python.org/
+[amazon web services]: https://aws.amazon.com/
+[openhub]: https://openhub.net/accounts/git-pull
 
 ## What's going on in my life as a programmer
 
