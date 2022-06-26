@@ -39,6 +39,8 @@ is some C++ in there).
 
 ## What's going on in my life as a programmer
 
+_What am I busy with outside of work?_
+
 ```{include} news.md
 :start-line: 2
 :end-before: "- _February 2018_"
@@ -185,13 +187,6 @@ pythonic API for [version control](https://en.wikipedia.org/wiki/Version_control
 
 :::::::
 
-## [Cookiecutter][cookiecutter] project templates
-
-Permissively licensed starter templates you can use to bootstrap your projects.
-
-- [cookiecutter-pypackage][cookiecutter-pypackage] - bootstrap python packages
-- [cookiecutter-flask-pythonic][cookiecutter-flask-pythonic] - flask project
-
 ## Coding around the web
 
 - My ports for the [FreeBSD][freebsd] operating system on [portscout][portscout]
@@ -268,6 +263,13 @@ invocation
 [tmux]: https://tmux.github.io/
 [vis]: https://github.com/martanne/vis
 [sphinx]: http://www.sphinx-doc.org/en/stable/
+
+#### [Cookiecutter][cookiecutter] project templates
+
+Permissively licensed starter templates you can use to bootstrap your projects.
+
+- [cookiecutter-pypackage][cookiecutter-pypackage] - bootstrap python packages
+- [cookiecutter-flask-pythonic][cookiecutter-flask-pythonic] - flask project
 
 ## Presentations
 
