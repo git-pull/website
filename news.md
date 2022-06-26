@@ -45,11 +45,6 @@
     actions
   - [HSKFlashCards] has been rewritten in [Gatsby] + [TypeScript] + [chakra-ui]
 
-[gatsby]: https://gatsbyjs.com
-[typescript]: https://www.typescriptlang.org
-[chakra-ui]: https://chakra-ui.com/
-[hskflashcards]: https://www.hskflashcards.com
-
 - _August 2019_
 
   - {ref}`unihan-etl <unihan-etl:index>` 0.10.3 released
@@ -177,3 +172,7 @@
 [free on the web]: https://leanpub.com/the-tao-of-tmux/read
 [leanpub]: https://leanpub.com/the-tao-of-tmux
 [kindle]: http://amzn.to/2gPfRhC
+[gatsby]: https://gatsbyjs.com
+[typescript]: https://www.typescriptlang.org
+[chakra-ui]: https://chakra-ui.com/
+[hskflashcards]: https://www.hskflashcards.com
