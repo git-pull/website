@@ -263,9 +263,21 @@ invocation
 [vis]: https://github.com/martanne/vis
 [sphinx]: http://www.sphinx-doc.org/en/stable/
 
-#### [Cookiecutter][cookiecutter] project templates
+#### Project templates
 
 Permissively licensed starter templates you can use to bootstrap your projects.
+
+_These are mostly outdated_
+
+##### Frontend
+
+- [react-typescript-vanilla-starter]: Webpack v4
+- [vue-typescript-vanilla-starter]: vue 2.x, webpack v4
+
+[react-typescript-vanilla-starter]: https://github.com/tony/react-typescript-vanilla-starter
+[vue-typescript-vanilla-starter]: https://github.com/tony/vue-typescript-vanilla-starter
+
+##### [Cookiecutter]
 
 - [cookiecutter-pypackage][cookiecutter-pypackage] - bootstrap python packages
 - [cookiecutter-flask-pythonic][cookiecutter-flask-pythonic] - flask project
