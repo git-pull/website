@@ -1,25 +1,30 @@
 # I am Tony Narlock
 
-I create tools for programmers. If you're not one, what I do likely won't make sense to you.
+I've been a software developer for 14 years. If you're not one, what I do likely won't make sense to
+you.
 
-My software assists programmers and system administrators automating certain tasks. For example,
-[tmuxp] constructs [tmux] sessions from a JSON or YAML file.
+In my spare time, I create software to assist programmers and system administrators in automating
+certain tasks. For example, [tmuxp] constructs [tmux] sessions from a JSON or YAML file. To that
+end, I've also written a book about tmux a few years ago, [The Tao of tmux].
 
-To that end, I've also written a book about tmux a few years ago, [The Tao of tmux].
-
-Another tool I've created is [cihai], which is built around Unicode's UNIHAN dataset for Chinese,
-Japanese, and Korean languages.
+Another tool I've created is [cihai], which is built around [Unicode]'s [UNIHAN] dataset for
+Chinese, Japanese, and Korean languages.
 
 While I'm a polyglot - as seen by my C++ contributions in my [CV] - as a day job, I've always been a
 {abbr}`web developer (Today this task is often given a snazzier title, e.g. senior full-stack software engineer)` -
-not a web designer, IT admin, or a computer scientist, but somewhere in between.
-
-I use react, TypeScript, and relay (graphql) on the frontend.
+not a web designer, IT admin, or a computer scientist, but somewhere in between. I use [React],
+[TypeScript], and [Relay] ([GraphQL]).
 
 [cihai]: https://cihai.git-pull.com
 [tmuxp]: https://tmuxp.git-pull.com
 [the tao of tmux]: https://leanpub.com/the-tao-of-tmux
 [cv]: https://cv.git-pull.com
+[unicode]: https://graphql.org/
+[unihan]: https://unicode.org/charts/unihan.html
+[typescript]: https://www.typescriptlang.org/
+[relay]: https://relay.dev/
+[react]: https://reactjs.org/
+[graphql]: https://graphql.org/
 
 ## What's going on in my life as a programmer
 
