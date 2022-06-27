@@ -74,8 +74,10 @@
 
   - Two new organizations:
 
-    - [tmux-python](https://github.com/tmux-python), for the [tmuxp] and [libtmux] project.
-    - [vcs-python](https://github.com/vcs-python), for the [vcspull] and [libvcs] project.
+    - [tmux-python](https://github.com/tmux-python), for the [tmuxp](https://tmuxp.git-pull.com) and
+      [libtmux](https://libvcs.git-pull.com) projects.
+    - [vcs-python](https://github.com/vcs-python), for the [vcspull](https://vcspull.git-pull.com)
+      and [libvcs](https://libvcs.git-pull.com) projects.
 
     Working slogan: _Permissively licensed. For the public good._
 
