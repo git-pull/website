@@ -42,7 +42,7 @@ _What am I busy with outside of work?_
 
 ```{include} news.md
 :start-line: 2
-:end-before: "- _August 2019_"
+:end-before: "- _August 2020_"
 ```
 
 {doc}`See more <news>`

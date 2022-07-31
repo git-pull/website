@@ -1,5 +1,24 @@
 # News
 
+- _August 2022_ - Promises kept (and keep coming)
+
+  [libvcs 0.14.0] released w/ typing annotations and doctests.
+
+  Also, added a URL Parser (_compare to {mod}`urlparse`_) for {mod}`~libvcs:libvcs.parse.git`,
+  {mod}`~libvcs:libvcs.parse.hg`, and {mod}`~libvcs:libvcs.parse.svn` URLs. Extensible using
+  {mod}`framework tools <libvcs:libvcs.parse.base>`. Built on [dataclasses] and uses {mod}`doctest`.
+
+  In the process, "side inventions" (License MIT):
+
+  - {class}`~libvcs:libvcs._internal.query_list.QueryList`: Nested searching of {class}`dict`-like
+    data.
+  - {class}`~libvcs:libvcs._internal.subprocess.SubprocessCommand`: Deferrable {mod}`subprocess`
+    commands.
+  - {class}`~libvcs:libvcs._internal.dataclasses.SkipDefaultFieldsReprMixin`: Exclude default fields
+    (useful for clearer pytest assertions / printing). Thanks Pietro Oldrati.
+
+  [libvcs 0.14.0]: https://libvcs.git-pull.com/history.html#libvcs-0-14-0-2022-07-31
+
 - _June 2022_
 
   - [libvcs] and [vcspull] are being rebuilt from the ground up. This will be a fresh take on one of
