@@ -11,7 +11,7 @@ tmuxp, libtmux, cihai, libvcs, vcspull, and others follow common patterns in the
 
 ## Styling
 
-[black][black] is used for code formatting.
+[black] is used for code formatting.
 
 The max line length is 88 (compared to PEP8's 79). `flake8: noqa` is permitted for docstrings where
 it's too long.
@@ -26,7 +26,7 @@ Use `$ make flake8` to validate compliance with the project's code standards.
 
 ### Traditional requirements files
 
-_requirements/_ - dependencies, for backwards support on systems not using [pipenv][pipenv]
+_requirements/_ - dependencies, for backwards support on systems not using [pipenv]
 
 Not all projects may have these. If they don't require third party dependencies in the main project,
 e.g. SQLAlchemy or colorama, then their may be no _base.txt_.
@@ -37,12 +37,12 @@ _requirements/base.txt_ - Direct project dependencies. These things are included
 _requirements/test.txt_ - Test packages. Examples: pytest, pytest-rerunfailures. These can be
 included via `test_requires` in setup.py, so they're invoked via `python setup.py test`.
 
-As of June 2018, our projects also use [pyup.io][pyup.io] for automated package updates. These don't
+As of June 2018, our projects also use [pyup.io] for automated package updates. These don't
 support _Pipfile_ yet, so that's another reason we're not moving over to Pipfile immediately.
 
 ### Pipfile
 
-[pipenv][pipenv] supports installing via a _Pipfile_:
+[pipenv] supports installing via a _Pipfile_:
 
 ```
 $ pipenv install --dev --skip-lock
@@ -78,17 +78,17 @@ sync_pipfile:
 
 ## tmuxp
 
-You can automatically launch and IDE-like terminal session from [tmux][tmux] via [tmuxp][tmuxp] and
+You can automatically launch and IDE-like terminal session from [tmux] via [tmuxp] and
 the includes _.tmuxp.yaml_ file. These functionality will automatically handle dependencies via
-[pipenv][pipenv]
+[pipenv]]
 
 ## Make tasks
 
-[make(1)][make(1)] is a popular utility on POSIX-like systems to save common commands across
+[make(1)] is a popular utility on POSIX-like systems to save common commands across
 codebases/checkouts. For convenience, these can be stored in tasks in _Makefile_ to prevent
 unnecessary repetition.
 
-To ensure uniformity and max interoperability across developer systems, [Make][make] tasks are used.
+To ensure uniformity and max interoperability across developer systems, [Make] tasks are used.
 In addition, makefiles make use of variables via command concatenation to find / filter source files
 across different platforms.
 
@@ -102,7 +102,7 @@ PY_FILES= find . -type f -not -path '*/\.*' | grep -i '.*[.]py$$' 2> /dev/null
 
 ```
 
-This is uses [find(1)][find(1)] and [grep(1)][grep(1)] options tested to work across BSD, macOS,
+This is uses [find(1)] and [grep(1)] options tested to work across BSD, macOS,
 Linux to scan files recursively (in nested directories), and also filter them. For instance,
 `-f -not -path '*/\.*` ignore files beginning with a dot, e.g. `.env`, and grep's `-i '.*[.]py$$'`
 filters for only `*.py` files. The double `$$` is used to escape the `$`. In regular expressions, a
@@ -160,11 +160,11 @@ Task example: `make watch`
 
 ## pytest
 
-pytest is used for testing, instead of standard library's [unittest][unittest].
+pytest is used for testing, instead of standard library's [unittest].
 
 They reside in the project root, inside of the _tests/_ folder. Test files are kept in
 _test\_{subject_name}.py_. In addition, helper modules of any name (e.g. _helper.py_) are permitted,
-in addition to the use of _conftest.py_ (which is used by [pytest's fixture][pytest's fixture]
+in addition to the use of _conftest.py_ (which is used by [pytest's fixture]
 system)
 
 ## _setup.py_
