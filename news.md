@@ -1,6 +1,17 @@
 # News
 
-- _August 2022_ - Promises kept (and keep coming)
+- _Mid August 2022_ - Promises keep coming
+
+  Additionally, test and quality infrastructure has been improved across all
+  projects:
+
+  - [libtmux] now has comprehensive typings (`--strict` mypy compliance) as of
+    [0.13.0](https://libtmux.git-pull.com/history.html#libtmux-0-13-0-2022-08-05)
+  - All projects except vcspull now have basic [mypy] and [doctest] support.
+
+  [libtmux]: https://libtmux.git-pull.com
+
+- _Early August 2022_ - Promises kept (and keep coming)
 
   [libvcs 0.14.0] released w/ typing annotations and doctests.
 
