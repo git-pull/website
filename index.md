@@ -318,3 +318,10 @@ _These are mostly outdated_
 ## Donate
 
 Like my open source projects and learning resources? {ref}`Your support is appreciated! <support>`
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+org/index
+```
