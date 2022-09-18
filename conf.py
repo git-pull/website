@@ -133,6 +133,7 @@ intersphinx_mapping = {
     "cihai": ("https://cihai.git-pull.com/", None),
     "cihai-cli": ("https://cihai-cli.git-pull.com/", None),
     "unihan-etl": ("https://unihan-etl.git-pull.com/", None),
+    "gp-libs": ("https://gp-libs.git-pull.com/", None),
     "django-slugify-processor": (
         "https://django-slugify-processor.git-pull.com/",
         None,
