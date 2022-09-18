@@ -140,7 +140,7 @@ intersphinx_mapping = {
         None,
     ),
     "django": (
-        "https://docs.djangoproject.com/en/1.11/",
-        "https://docs.djangoproject.com/en/1.11/_objects/",
+        "https://docs.djangoproject.com/en/4.1/",
+        "https://docs.djangoproject.com/en/4.1/_objects/",
     ),
 }
