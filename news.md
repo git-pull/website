@@ -1,5 +1,25 @@
 # News
 
+- _September 2022_ - One more thing on doctest
+
+  I wrote a {mod}`doctest` module that can parse [reStructuredText] and
+  [markdown]:
+
+  {ref}`doctest_docutils`
+
+  It also has a {ref}`pytest plugin <pytest_doctest_docutils>`
+
+  On that note, I also made a [pytest plugin] for libtmux and libvcs:
+
+  - {ref}`libtmux:pytest_plugin` - bootstrap [tmux] sessions in your tests
+  - {ref}`libvcs pytest plugin <libvcs:pytest_plugin>` - setup and teardown git,
+    mercurial and subversion repos in your tests.
+
+  [restructuredtext]: https://docutils.sourceforge.io/rst.html
+  [markdown]: https://en.wikipedia.org/wiki/Markdown
+  [pytest plugin]: https://docs.pytest.org/en/7.1.x/how-to/plugins.html
+  [tmux]: https://github.com/tmux/tmux/wiki
+
 - _Mid August 2022_ - Promises keep coming
 
   Additionally, test and quality infrastructure has been improved across all
