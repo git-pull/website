@@ -40,6 +40,29 @@ All git-pull projects use pradyunsg's [Furo] theme.
 
 [furo]: https://github.com/pradyunsg/furo
 
+### Autobuilding
+
+#### via sphinx-autobuild
+
+Default preview server: http://localhost:8023
+
+[sphinx-autobuild] will automatically build the docs, watch for file changes and launch a server.
+
+From home directory: `make start_docs` From inside `docs/`: `make start`
+
+[sphinx-autobuild]: https://github.com/executablebooks/sphinx-autobuild
+
+#### via `entr(1)`
+
+`cd docs/` and `make html` to build. `make serve` to start http server.
+
+Helpers: `make build_docs`, `make serve_docs`
+
+Rebuild docs on file change: `make watch_docs` (requires [entr(1)])
+
+Rebuild docs and run server via one terminal: `make dev_docs` (requires above, and a `make(1)` with
+`-J` support, e.g. GNU Make)
+
 ### API Documentation
 
 We document all APIs in our projects via `sphinx.ext.autodoc`. This automatically outputs our
