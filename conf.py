@@ -125,7 +125,7 @@ texinfo_documents = [
 ]
 
 intersphinx_mapping = {
-    "https://docs.python.org/2/": None,
+    "https://docs.python.org/3/": None,
     "tmuxp": ("https://tmuxp.git-pull.com/", None),
     "libtmux": ("https://libtmux.git-pull.com/", None),
     "libvcs": ("https://libvcs.git-pull.com/", None),
