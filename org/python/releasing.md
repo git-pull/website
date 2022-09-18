@@ -13,24 +13,34 @@
 
 We need to develop intensively pre-1.0, and that often means massive refactors and breakages.
 
-If you know there may be users utilizing an API, even if it's internal, avoid de deprecating it in a
-patch release.
+If you think there could be users utilizing an API, even if it's internal, avoid de deprecating it
+in a patch release. e.g. v0.3.3 -> v0.3.4. Instead, wait for a larger release, e.g. v0.3.x -> v0.4.0
+to do the change.
 
-You're not obligated to search public code, maintainers are encouraged to as it only takes a few
-minutes to see if someone's using the API you want to phase out or move. Ultimately, downstream
-package users are responsible for filing an issue for you requesting the internal API be stabilizing
-and made public. If they have - be considerate about removing APIs, use deprecation warnings, give
-them migration instructions, etc.
+_You could be even more courteous:_
 
-1. Check GitHub / GitLab code search for anyone using the API
-2. Check for an issues mentioning discussing the API (or making an internal API public)
+You could search public code, it only takes a few minutes to see if someone's using the API you want
+to phase out or move. In 2022 it's regular practice, thankfully, for downstream package users to pin
+packages to avoid automatically pulling in a breaking release.
+
+Realistically, if it's an internal API especially, they're are responsible for filing an issue for
+you requesting the internal API be stabilizing and made public. If they have - be considerate about
+removing APIs, use deprecation warnings, give them migration instructions, etc.
+
+_The Super Conscientious Releaser:_
+
+1. Checks GitHub / GitLab code search for anyone using the API
+2. Checks for an issues mentioning discussing the API (or making an internal API public)
 
 If either of the above is true, make a release with a deprecation notice to phase out the API and
 document a migration path.
 
 ### After 1.0 (Semantic versioning)
 
-If the package is beyond version 1.0, follow semantic versionion
+If the package is beyond version 1.0, follow semantic versioning.
+
+If you need to be like Firefox or Google Chrome and bump releases up like 94.0.3 -> 95.0.32 every
+month, then do that.
 
 ## Deploying packages
 
