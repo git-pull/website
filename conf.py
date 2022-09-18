@@ -126,15 +126,15 @@ texinfo_documents = [
 
 intersphinx_mapping = {
     "https://docs.python.org/2/": None,
-    "tmuxp": ("https://tmuxp.git-pull.com/en/latest/", None),
-    "libtmux": ("https://libtmux.git-pull.com/en/latest/", None),
+    "tmuxp": ("https://tmuxp.git-pull.com/", None),
+    "libtmux": ("https://libtmux.git-pull.com/", None),
     "libvcs": ("https://libvcs.git-pull.com/", None),
-    "vcspull": ("https://vcspull.git-pull.com/en/latest/", None),
-    "cihai": ("https://cihai.git-pull.com/en/latest/", None),
-    "cihai-cli": ("https://cihai-cli.git-pull.com/en/latest/", None),
-    "unihan-etl": ("https://unihan-etl.git-pull.com/en/latest/", None),
+    "vcspull": ("https://vcspull.git-pull.com/", None),
+    "cihai": ("https://cihai.git-pull.com/", None),
+    "cihai-cli": ("https://cihai-cli.git-pull.com/", None),
+    "unihan-etl": ("https://unihan-etl.git-pull.com/", None),
     "django-slugify-processor": (
-        "https://django-slugify-processor.git-pull.com/en/latest/",
+        "https://django-slugify-processor.git-pull.com/",
         None,
     ),
     "django": (
