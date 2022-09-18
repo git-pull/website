@@ -8,7 +8,6 @@ Whether you're contributing to a git-pull project or exploring what tools you co
 own, welcome!
 
 ```{toctree}
-why-python
 setup
 code-quality
 documenting
