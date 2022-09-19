@@ -25,7 +25,7 @@ python = "^3.10"
 sphinx = "*"
 furo = "*"
 sphinx-autobuild = "*"
-sphinx-inline-tabs = { version = "*", python = "^3.7" }
+sphinx-inline-tabs = "*"
 sphinxext-opengraph = "*"
 sphinx-copybutton = "*"
 sphinxext-rediraffe = "*"
