@@ -2,8 +2,7 @@
 
 - _September 2022_ - One more thing on doctest
 
-  I wrote a {mod}`doctest` module that can parse [reStructuredText] and
-  [markdown]:
+  I wrote a {mod}`doctest` module that can parse [reStructuredText] and [markdown]:
 
   {ref}`doctest_docutils`
 
@@ -12,18 +11,16 @@
   On that note, I also made a [pytest plugin] for libtmux and libvcs:
 
   - {ref}`libtmux:pytest_plugin` - bootstrap [tmux] sessions in your tests
-  - {ref}`libvcs pytest plugin <libvcs:pytest_plugin>` - setup and teardown git,
-    mercurial and subversion repos in your tests.
+  - {ref}`libvcs pytest plugin <libvcs:pytest_plugin>` - setup and teardown git, mercurial and
+    subversion repos in your tests.
 
   [restructuredtext]: https://docutils.sourceforge.io/rst.html
   [markdown]: https://en.wikipedia.org/wiki/Markdown
   [pytest plugin]: https://docs.pytest.org/en/7.1.x/how-to/plugins.html
-  [tmux]: https://github.com/tmux/tmux/wiki
 
 - _Mid August 2022_ - Promises keep coming
 
-  Additionally, test and quality infrastructure has been improved across all
-  projects:
+  Additionally, test and quality infrastructure has been improved across all projects:
 
   - [libtmux] now has comprehensive typings (`--strict` mypy compliance) as of
     [0.13.0](https://libtmux.git-pull.com/history.html#libtmux-0-13-0-2022-08-05)
@@ -217,10 +214,7 @@
   A new book, _The Tao of tmux_ is available on [Leanpub] and [Kindle] (Amazon). Read and browse the
   book for [free on the web].
 
-[libtmux]: https://libtmux.git-pull.com
 [tmuxp]: https://tmuxp.git-pull.com
-[libvcs]: https://libvcs.git-pull.com
-[vcspull]: https://vcspull.git-pull.com
 [unihan-etl]: https://unihan-etl.git-pull.com
 [unihan-db]: https://unihan-db.git-pull.com
 [unihan]: https://en.wikipedia.org/wiki/Han_unification
