@@ -1,5 +1,7 @@
 (rest-docutils-sphinx-readthedocs)=
 
+(reST, docutils, sphinx, readthedocs)=
+
 # reST, docutils and sphinx
 
 Journeying through reST, docutils, sphinx and extensions.
