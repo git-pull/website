@@ -75,7 +75,7 @@ Based off [Python 3 Wall of Superpowers][python 3 wall of superpowers].
   <https://bitbucket.org/eventlet/eventlet/>)
 - <https://github.com/RDFLib/rdflib>
 - <https://github.com/RDFLib/sparqlwrapper>
-- <https://github.com/buildout/buildout/tree/master/>[zc.recipe.egg](zc.recipe.egg)
+- <https://github.com/buildout/buildout/tree/master/> `zc.recipe.egg`
 - <https://github.com/appliedsec/pygeoip>
 - <https://github.com/msgpack/msgpack-python>
 - <https://github.com/esnme/ultrajson>
