@@ -1,3 +1,5 @@
+(python-code-quality)=
+
 # Code quality
 
 The ecosystem we reside in enjoys the benefit of well-developed tooling to ensure code is:
