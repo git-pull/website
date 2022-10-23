@@ -1,5 +1,14 @@
 # News
 
+- _November 2022_ The powerful pattern to scaling python
+
+  ```{mermaid}
+  sequenceDiagram
+      json/yaml/toml/anything
+      dataclass state language
+      runner/builder
+  ```
+
 - _September 2022_ - One more thing on doctest
 
   I wrote a {mod}`doctest` module that can parse [reStructuredText] and [markdown]:
