@@ -565,14 +565,14 @@ test = ["pytest"]
 
 [[package]]
 name = "sphinxext-opengraph"
-version = "0.6.3"
+version = "0.7.1"
 description = "Sphinx Extension to enable OGP support"
 category = "dev"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
-sphinx = ">=2.0"
+sphinx = ">=4.0"
 
 [[package]]
 name = "sphinxext-rediraffe"
@@ -909,8 +909,7 @@ sphinxcontrib-serializinghtml = [
     {file = "sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl", hash = "sha256:352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd"},
 ]
 sphinxext-opengraph = [
-    {file = "sphinxext-opengraph-0.6.3.tar.gz", hash = "sha256:cd89e13cc7a44739f81b64ee57c1c20ef0c05dda5d1d8201d31ec2f34e4c29db"},
-    {file = "sphinxext_opengraph-0.6.3-py3-none-any.whl", hash = "sha256:bf76017c105856b07edea6caf4942b6ae9bb168585dccfd6dbdb6e4161f6b03a"},
+    {file = "sphinxext_opengraph-0.7.1-py3-none-any.whl", hash = "sha256:b73529ccb7a065fed444d4d2d797bb7ac55b03c3b68cf6237e87b71fb602aa96"},
 ]
 sphinxext-rediraffe = [
     {file = "sphinxext-rediraffe-0.2.7.tar.gz", hash = "sha256:651dcbfae5ffda9ffd534dfb8025f36120e5efb6ea1a33f5420023862b9f725d"},
