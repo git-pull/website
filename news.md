@@ -1,5 +1,16 @@
 # News
 
+- _December 2022_ - I'm not giving up being successful
+
+  In 2023:
+  - Snappable, expressive configurations will enliven [tmuxp] and [vcspull]
+
+    Dataclasses will resemble the structure of the:
+
+    - [libtmux]: tmux session, and
+    - [libvcs]: the file paths of the user's repository checkouts
+  - My oldest library - [libtmux] - will be renewed with dataclasses, documentation, and
+    improve tests
 - _September 2022_ - One more thing on doctest
 
   I wrote a {mod}`doctest` module that can parse [reStructuredText] and [markdown]:
