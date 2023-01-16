@@ -318,3 +318,14 @@ _These are mostly outdated_
 ## Donate
 
 Like my open source projects and learning resources? {ref}`Your support is appreciated! <support>`
+
+## Emboldening virtue, the Junzi
+
+- _To be a righteous person (君子 jūn zǐ), as opposed to (小人 xiăorén)_
+
+What makes a good gentleman-scholar in Confucius eyes?
+
+- _Be coherent: "How did we get here?", "How do these things connect?"_
+- _Tolerate ambiguity_
+- _Treat matters in proportion to the issue_
+- _Secure attachment_
