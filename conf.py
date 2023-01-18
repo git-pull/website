@@ -28,7 +28,7 @@ source_suffix = {".rst": "restructuredtext", ".md": "markdown"}
 master_doc = "index"
 
 project = "confucian gentleman's club 🍵"
-copyright = "2013 - , Tony Narlock"  # NOQA
+copyright = "1988 - , Tony Narlock"  # NOQA
 
 version = "0.0"
 release = "0.0"
