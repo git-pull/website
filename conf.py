@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
+import pathlib
 import sys
+import typing as t
 from os.path import abspath, dirname, join
+
+if t.TYPE_CHECKING:
+    from sphinx.application import Sphinx
+
 
 sys.path.append(abspath(join(dirname(__file__), "_ext")))
 
@@ -144,3 +150,14 @@ intersphinx_mapping = {
         "https://docs.djangoproject.com/en/4.1/_objects/",
     ),
 }
+
+
+def remove_tabs_js(app: "Sphinx", exc: Exception) -> None:
+    # Fix for sphinx-inline-tabs#18
+    if app.builder.format == "html" and not exc:
+        tabs_js = pathlib.Path(app.builder.outdir) / "_static" / "tabs.js"
+        tabs_js.unlink()
+
+
+def setup(app: "Sphinx") -> None:
+    app.connect("build-finished", remove_tabs_js)
