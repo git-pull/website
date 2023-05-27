@@ -20,7 +20,7 @@ Repository = "https://github.com/git-pull/website"
 [tool.poetry.dependencies]
 python = "^3.10"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 ### Docs ###
 sphinx = "*"
 furo = "*"
@@ -32,12 +32,8 @@ sphinxext-rediraffe = "*"
 myst_parser = "*"
 docutils = "*"
 
-### Format ###
-black = "*"
-isort = "*"
-
 ### Lint ###
-flake8 = "*"
+ruff = "*"
 
 [tool.poetry.extras]
 docs = [
@@ -51,5 +47,4 @@ docs = [
   "myst_parser",
   "furo",
 ]
-format = ["black", "isort"]
-lint = ["flake8"]
+lint = ["ruff"]
