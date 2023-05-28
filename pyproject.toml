@@ -33,6 +33,7 @@ myst_parser = "*"
 docutils = "*"
 
 ### Lint ###
+black = "*"
 ruff = "*"
 
 [tool.poetry.extras]
@@ -47,4 +48,4 @@ docs = [
   "myst_parser",
   "furo",
 ]
-lint = ["ruff"]
+lint = ["black", "ruff"]
