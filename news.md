@@ -1,5 +1,15 @@
 # News
 
+- _May 2023_ - [cihai] is being revamped
+
+  After 5+ years of inactivity, the suite of packages is being dusted off.
+
+  [cihai] 0.20.0 adds [mypy] `--strict` compliant typings
+
+  In the future, cihai will have:
+  - SQLAlchemy updated to 1.4, then 2.0+.
+  - its API simplified - ensuring all usages will be typed and
+    have awesome completions.
 - _December 2022_ - I'm not giving up being successful
 
   In 2023:
