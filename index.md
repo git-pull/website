@@ -125,7 +125,7 @@ _Integrated Chinese_
   :height: 150
 ```
 
-[tmuxp](https://tmuxp.git-pull.com) ([中文](https://tmuxp.readthedocs.io/zh_CN/latest/))
+[tmuxp](https://tmuxp.git-pull.com) ([中文](https://tmuxp-zh.readthedocs.io/zh_CN/latest/))
 
 tmux session manager via JSON and YAML file
 
