@@ -4,25 +4,37 @@
 
   After 5+ years of inactivity, the suite of packages is being dusted off.
 
-  [cihai] updates:
+  {ref}`cihai <cihai:index>` updates:
+
   - May 25th, 2023 - 0.20.0: Adds [mypy] `--strict` compliant typings
   - June 3rd, 2023 - 0.21.0: Updates SQLAlchemy from v1.3 to [v2.0](https://docs.sqlalchemy.org/en/20/changelog/whatsnew_20.html)
 
+- {ref}`cihai-cli <cihai-cli:index>` updates:
+
+  - June 4th, 2023:
+    [0.17.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-17-0-2023-06-04):
+    [mypy] `--strict` compliant typings and updates for SQLAlchemy 2.0
+
   In the future, cihai will have:
+
   - ~~SQLAlchemy updated to 1.4, then 2.0+~~ Added in v0.21.0
   - its API simplified - ensuring all usages will be typed and
     have awesome completions.
+
 - _December 2022_ - I'm not giving up being successful
 
   In 2023:
+
   - Snappable, expressive configurations will enliven [tmuxp] and [vcspull]
 
     Dataclasses will resemble the structure of the:
 
     - [libtmux]: tmux session, and
     - [libvcs]: the file paths of the user's repository checkouts
+
   - My oldest library - [libtmux] - will be renewed with dataclasses, documentation, and
     improve tests
+
 - _September 2022_ - One more thing on doctest
 
   I wrote a {mod}`doctest` module that can parse [reStructuredText] and [markdown]:
