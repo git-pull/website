@@ -7,23 +7,23 @@
   {ref}`cihai <cihai:index>` updates:
 
   - May 25th, 2023 - [0.20.0](https://cihai.git-pull.com/history.html#cihai-0-20-0-2023-05-29): Adds [mypy] `--strict` compliant typings
-  - June 3rd, 2023 - [0.21.0](https://cihai.git-pull.com/history.html#cihai-0-21-0-2023-06-03): Updates SQLAlchemy from v1.3 to [v2.0](https://docs.sqlalchemy.org/en/20/changelog/whatsnew_20.html)
+  - June 3rd, 2023 - [0.21.0](https://cihai.git-pull.com/history.html#cihai-0-21-0-2023-06-03): Migrate from SQLAlchemy v1.3 to [SQLAlchemy v2.0](https://docs.sqlalchemy.org/en/20/changelog/whatsnew_20.html)
 
   {ref}`cihai-cli <cihai-cli:index>` updates:
 
   - June 4th, 2023:
     [0.17.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-17-0-2023-06-04):
-    [mypy] `--strict` compliant typings and updates for SQLAlchemy 2.0
+    mypy `--strict` compliant typings and migrate from SQLAlchemy 1.3 to SQLAlchemy 2.0
 
   {ref}`unihan-db <unihan-db:index>` updates:
 
   - June 10th, 2023:
     [0.9.0](https://unihan-db.git-pull.com/history.html#unihan-db-0-9-0-2023-06-10):
-    [mypy] `--strict` compliant typings and updates for SQLAlchemy 2.0
+    mypy `--strict` compliant typings and migrate from SQLAlchemy 1.3 to SQLAlchemy 2.0
 
-  In the future, cihai will have:
+  In the future, cihai projects will have:
 
-  - ~~SQLAlchemy updated to 1.4, then 2.0+~~ Added in v0.21.0
+  - ~~SQLAlchemy updated to 1.4, then 2.0+~~ Completed
   - its API simplified - ensuring all usages will be typed and
     have awesome completions.
 
