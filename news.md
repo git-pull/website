@@ -6,8 +6,8 @@
 
   {ref}`cihai <cihai:index>` updates:
 
-  - May 25th, 2023 - 0.20.0: Adds [mypy] `--strict` compliant typings
-  - June 3rd, 2023 - 0.21.0: Updates SQLAlchemy from v1.3 to [v2.0](https://docs.sqlalchemy.org/en/20/changelog/whatsnew_20.html)
+  - May 25th, 2023 - [0.20.0](https://cihai.git-pull.com/history.html#cihai-0-20-0-2023-05-29): Adds [mypy] `--strict` compliant typings
+  - June 3rd, 2023 - [0.21.0](https://cihai.git-pull.com/history.html#cihai-0-21-0-2023-06-03): Updates SQLAlchemy from v1.3 to [v2.0](https://docs.sqlalchemy.org/en/20/changelog/whatsnew_20.html)
 
   {ref}`cihai-cli <cihai-cli:index>` updates:
 
