@@ -15,17 +15,24 @@
     [0.17.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-17-0-2023-06-04):
     mypy `--strict` compliant typings and migrate from SQLAlchemy 1.3 to SQLAlchemy 2.0
 
+  {ref}`unihan-etl <unihan-etl:index>` updates:
+
+  - June 12th, 2023: [0.21.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-21-0-2023-06-12):
+    Move to {mod}`pathlib`, type callbacks via {class}`typing.Protocol`.
+
   {ref}`unihan-db <unihan-db:index>` updates:
 
-  - June 10th, 2023:
-    [0.9.0](https://unihan-db.git-pull.com/history.html#unihan-db-0-9-0-2023-06-10):
+  - June 10th, 2023: [0.9.0](https://unihan-db.git-pull.com/history.html#unihan-db-0-9-0-2023-06-10):
     mypy `--strict` compliant typings and migrate from SQLAlchemy 1.3 to SQLAlchemy 2.0
 
   In the future, cihai projects will have:
 
   - ~~SQLAlchemy updated to 1.4, then 2.0+~~ Completed
-  - its API simplified - ensuring all usages will be typed and
-    have awesome completions.
+  - Typings, for improved maintainability and completions
+  - Doctests for tested examples
+  - unihan-etl and cihai will have their own [pytest plugin]s for bootstrapping
+    a UNIHAN.zip and reusing it throughout the test session.
+  - In the medium to longterm: Simpler and stable APIs
 
 - _December 2022_ - I'm not giving up being successful
 
