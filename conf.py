@@ -30,6 +30,11 @@ myst_enable_extensions = [
     "attrs_inline",
 ]
 
+suppress_warnings = [
+    # https://myst-parser.readthedocs.io/en/latest/configuration.html#build-warnings
+    "myst.strikethrough",
+]
+
 html_title = "Tony Narlock"
 
 templates_path = ["_templates"]
