@@ -1,5 +1,11 @@
 # News
 
+- _June 2023_ - [social-embed] moved to [vite].
+
+  P.S. [cihai] updates ongoing (updated below)
+
+  [social-embed]: https://social-embed.git-pull.com
+  [vite]: https://vitejs.dev/
 - _May-June 2023_ - [cihai] is being revamped
 
   After 5+ years of inactivity, the suite of packages is being dusted off.
