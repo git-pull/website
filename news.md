@@ -25,6 +25,11 @@
 
   - June 12th, 2023: [0.21.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-21-0-2023-06-12):
     Move to {mod}`pathlib`, type callbacks via {class}`typing.Protocol`.
+  - June 17th, 2023: [0.22.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-22-0-2023-06-17):
+    - Add {mod}`doctest` support
+    - Configuration: Move options from {class}`dict` to typed {obj}`~dataclasses.dataclass` object.
+    - Docs: Split {ref}`API documentation <unihan-etl:api>` into multiple pages
+    - Move `unihan_etl.process` -> `unihan_etl.core`
 
   {ref}`unihan-db <unihan-db:index>` updates:
 
