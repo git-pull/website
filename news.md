@@ -1,11 +1,23 @@
 # News
 
+- _July 2023_ - Improved quality standards
+
+  Python projects using [ruff](https://github.com/astral-sh/ruff), a python linter / fixer written in
+  [Rust](https://www.rust-lang.org/) are now updating to more stringent code
+  standards. This further improves maintainability of projects.
+
+  - {ref}`unihan-etl <unihan-etl:index>`: [v0.25.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-25-0-2023-07-01) ([diff](https://github.com/cihai/unihan-etl/compare/v0.24.0...v0.25.0#files_bucket))
+  - {ref}`cihai <cihai:index>`: [v0.26.0](https://cihai.git-pull.com/history.html#cihai-0-26-0-2023-07-01) ([diff](https://github.com/cihai/cihai/compare/v0.25.0...v0.26.0#files_bucket))
+  - {ref}`cihai-cli <cihai-cli:index>`: [v0.21.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-21-0-2023-07-01) ([diff](https://github.com/cihai/cihai/compare/v0.20.0...v0.21.0#files_bucket))
+  - {ref}`unihan-db <unihan-db:index>`: [v0.11.0](https://unihan-db.git-pull.com/history.html#unihan-db-0-11-0-2023-07-01) ([diff](https://github.com/cihai/unihan-db/compare/v0.10.0...v0.11.0#files_bucket))
+
 - _June 2023_ - [social-embed] moved to [vite].
 
   P.S. [cihai] updates ongoing (updated below)
 
   [social-embed]: https://social-embed.git-pull.com
   [vite]: https://vitejs.dev/
+
 - _May-June 2023_ - [cihai] is being revamped
 
   After 5+ years of inactivity, the suite of packages is being dusted off.
