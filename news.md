@@ -1,5 +1,9 @@
 # News
 
+- _August 2023_ - [CV Website](https://cv.git-pull.com/) updated
+
+  - Dark mode
+  - Renewed design with CSS variables
 - _July 2023_ - Improved quality standards
 
   Python projects using [ruff](https://github.com/astral-sh/ruff), a python linter / fixer written in
