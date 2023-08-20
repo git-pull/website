@@ -1,12 +1,21 @@
 # News
 
+- _August 2023_ - Continued quality standard improvements
+
+  As a continuance of July 2023's [ruff] improvements, these additional projects
+  have beeen revitalized:
+
+  - {ref}`libtmux <libtmux:index>`: [v0.23.0](https://libtmux.git-pull.com/history.html#libtmux-0-23-0-2023-08-20) ([diff](https://github.com/tmux-python/libtmux/compare/v0.22.2...v0.23.0post0#files_bucket))
+  - {ref}`libvcs <libvcs:index>`: [v0.23.0](https://libvcs.git-pull.com/history.html#libvcs-0-23-0-2023-08-20) ([diff](https://github.com/vcs-python/libvcs/compare/v0.22.2...v0.23.0post0#files_bucket))
+
 - _August 2023_ - [CV Website](https://cv.git-pull.com/) updated
 
   - Dark mode
   - Renewed design with CSS variables
+
 - _July 2023_ - Improved quality standards
 
-  Python projects using [ruff](https://github.com/astral-sh/ruff), a python linter / fixer written in
+  Python projects using [ruff], a python linter / fixer written in
   [Rust](https://www.rust-lang.org/) are now updating to more stringent code
   standards. This further improves maintainability of projects.
 
@@ -14,6 +23,8 @@
   - {ref}`cihai <cihai:index>`: [v0.26.0](https://cihai.git-pull.com/history.html#cihai-0-26-0-2023-07-01) ([diff](https://github.com/cihai/cihai/compare/v0.25.0...v0.26.0#files_bucket))
   - {ref}`cihai-cli <cihai-cli:index>`: [v0.21.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-21-0-2023-07-01) ([diff](https://github.com/cihai/cihai/compare/v0.20.0...v0.21.0#files_bucket))
   - {ref}`unihan-db <unihan-db:index>`: [v0.11.0](https://unihan-db.git-pull.com/history.html#unihan-db-0-11-0-2023-07-01) ([diff](https://github.com/cihai/unihan-db/compare/v0.10.0...v0.11.0#files_bucket))
+
+  [ruff]: https://github.com/astrah-sh/ruff
 
 - _June 2023_ - [social-embed] moved to [vite].
 
