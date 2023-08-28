@@ -5,7 +5,7 @@
   As a continuance of July 2023's [ruff] improvements, these additional projects
   have beeen revitalized:
 
-  - {ref}`libtmux <libtmux:index>`: [v0.23.0](https://libtmux.git-pull.com/history.html#libtmux-0-23-0-2023-08-20) ([diff](https://github.com/tmux-python/libtmux/compare/v0.22.2...v0.23.0post0#files_bucket))
+  - {ref}`libtmux <libtmux:index>`: [v0.23.0](https://libtmux.git-pull.com/history.html#libtmux-0-23-0-2023-08-20) ([diff](https://github.com/tmux-python/libtmux/compare/v0.22.2...v0.23.0post2#files_bucket))
   - {ref}`libvcs <libvcs:index>`: [v0.23.0](https://libvcs.git-pull.com/history.html#libvcs-0-23-0-2023-08-20) ([diff](https://github.com/vcs-python/libvcs/compare/v0.22.2...v0.23.0post0#files_bucket))
 
 - _August 2023_ - [CV Website](https://cv.git-pull.com/) updated
