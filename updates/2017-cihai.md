@@ -46,7 +46,7 @@ CEDict is a creative commons licensed dictionary of chinese definitions in the e
 
 ## Sustainability
 
-cihai tools have been split and engineered to be orthogonal and reuseable as possible.
+cihai tools have been split and engineered to be orthogonal and reusable as possible.
 
 ### Break down of tools
 

@@ -90,7 +90,7 @@ html_extra_path = ["manifest.json"]
 # sphinxext.opengraph
 ogp_site_url = "https://www.git-pull.com"
 ogp_image = "_static/img/icons/icon-192x192.png"
-ogp_desscription_length = "Author of software utilities built for computer programmers"
+ogp_description_length = "Author of software utilities built for computer programmers"
 ogp_site_name = "Tony Narlock"
 
 # sphinx-copybutton
