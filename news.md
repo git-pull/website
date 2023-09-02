@@ -1,6 +1,10 @@
 # News
 
-- _August 2023_ - Continued quality standard improvements
+- _September 2023_ - More quality improvements
+
+  - {ref}`vcspull <vcspull:index>`: [v1.22.0](https://vcspull.git-pull.com/history.html#vcspull-v1-22-0-2023-09-02) ([diff](https://github.com/vcs-python/vcspull/compare/v1.21.0...v1.22.0#files_bucket))
+
+- _August 2023_ - Continued quality improvements
 
   As a continuance of July 2023's [ruff] improvements, these additional projects
   have beeen revitalized:
