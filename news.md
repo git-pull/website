@@ -2,6 +2,7 @@
 
 - _September 2023_ - More quality improvements
 
+  - {ref}`tmuxp <tmuxp:index>`: [v1.30.0](https://tmuxp.git-pull.com/history.html#tmuxp-1-30-0-2023-09-04) ([diff](https://github.com/tmux-python/tmuxp/compare/v1.29.1...v1.30.0#files_bucket))
   - {ref}`vcspull <vcspull:index>`: [v1.22.0](https://vcspull.git-pull.com/history.html#vcspull-v1-22-0-2023-09-02) ([diff](https://github.com/vcs-python/vcspull/compare/v1.21.0...v1.22.0#files_bucket))
 
 - _August 2023_ - Continued quality improvements
