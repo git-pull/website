@@ -27,6 +27,7 @@ jobs:
             - '**/*.rst'
             - '**/*.css'
             - '**/*.md'
+            - '**/*.html'
           python_files:
             - '*.py'
             - pyproject.toml
