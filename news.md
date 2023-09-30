@@ -2,6 +2,7 @@
 
 - _Late September 2023_ - More [mypy] `--strict` compliant typings
 
+  - {ref}`django-docutils <django-docutils:index>`: [v0.14.0](https://django-docutils.git-pull.com/history.html#django-docutils-0-14-0-2023-09-30) ([diff](https://github.com/tony/django-docutils/compare/v0.13.5...v0.14.0#files_bucket))
   - {ref}`tmuxp <tmuxp:index>`: [v1.31.0](https://tmuxp.git-pull.com/history.html#tmuxp-1-31-0-2023-09-23) ([diff](https://github.com/tmux-python/tmuxp/compare/v1.30.1...v1.31.0#files_bucket))
 
 - _Early September 2023_ - More quality improvements
