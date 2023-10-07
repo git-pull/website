@@ -105,40 +105,6 @@ rediraffe_branch = "master~1"
 
 htmlhelp_basename = "confuciangentlemansclubdoc"
 
-latex_elements = {}
-
-latex_documents = [
-    (
-        "index",
-        "confuciangentlemansclub.tex",
-        "confucian gentleman's",
-        "Tony Narlock",
-        "manual",
-    ),
-]
-
-man_pages = [
-    (
-        "index",
-        "confuciangentlemansclub",
-        "confucian gentleman's club",
-        ["Tony Narlock"],
-        1,
-    )
-]
-
-texinfo_documents = [
-    (
-        "index",
-        "confuciangentlemansclub",
-        "confucian gentleman's club",
-        "Tony Narlock",
-        "confuciangentlemansclub",
-        "Scribe.",
-        "Miscellaneous",
-    ),
-]
-
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
     "tmuxp": ("https://tmuxp.git-pull.com/", None),
