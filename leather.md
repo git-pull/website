@@ -10,7 +10,6 @@ Leather grows to you with time. It smells good and feels good to wear.
 
 Don't wear leather to be cool, wear it because you like it, and you will be cool without trying.
 
-
 ## Wrist bands
 
 by [Freddie Matara], williamzburg

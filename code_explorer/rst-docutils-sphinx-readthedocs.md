@@ -75,8 +75,7 @@ much of the core HTML, classes and etc. consistent.
 - [Sphinx] greatly builds upon docutils by added new default roles, directives (reST and docutils is
   extendable). See more there.
 
-[^id4]:
-    <https://sourceforge.net/p/docutils/code/7661/tree/trunk/docutils/docutils/writers/html4css1/__init__.py#l1556>
+[^id4]: <https://sourceforge.net/p/docutils/code/7661/tree/trunk/docutils/docutils/writers/html4css1/__init__.py#l1556>
 
 [writer]: https://repo.or.cz/w/docutils.git/tree/HEAD:/docutils/docutils/writer
 [override standard html output]: https://github.com/github/markup/pull/220/files
@@ -150,10 +149,8 @@ You are building a [theme for sphinx], keep in mind:
 Options for dynamic / customizable themes: Sphinx uses `.css_t` because you can use `{{ myoption }}`
 to let theme variables pass into it. _to be completed_
 
-[pyramid.css_t]:
-  https://bitbucket.org/birkenfeld/sphinx/src/e5e3a44d334a95fb2e83c1f485b8f57366c081e4/sphinx/themes/pyramid/static/pyramid.css_t?at=default
-[basic.css_t]:
-  https://bitbucket.org/birkenfeld/sphinx/src/e5e3a44d334a95fb2e83c1f485b8f57366c081e4/sphinx/themes/basic/static/basic.css_t?at=default
+[pyramid.css_t]: https://bitbucket.org/birkenfeld/sphinx/src/e5e3a44d334a95fb2e83c1f485b8f57366c081e4/sphinx/themes/pyramid/static/pyramid.css_t?at=default
+[basic.css_t]: https://bitbucket.org/birkenfeld/sphinx/src/e5e3a44d334a95fb2e83c1f485b8f57366c081e4/sphinx/themes/basic/static/basic.css_t?at=default
 [theme for sphinx]: https://sphinx-doc.org/theming.html
 [html4css1.css]: https://docutils.sourceforge.net/docutils/writers/html4css1/html4css1.css
 
@@ -296,14 +293,11 @@ docutils, and the burden of an open cog running python on their service in the l
 looks solid, knock one wood, but to someone in charge of security, adding a new language in this way
 is just more gray hairs.
 
-[/lib/github/markups.rb]:
-  https://github.com/github/markup/blob/425f4aa10e53461773a715b4e6681421cd415dfe/lib/github/markups.rb
-[/lib/github/markups.rb#l51]:
-  https://github.com/github/markup/blob/425f4aa10e53461773a715b4e6681421cd415dfe/lib/github/markups.rb#L51
+[/lib/github/markups.rb]: https://github.com/github/markup/blob/425f4aa10e53461773a715b4e6681421cd415dfe/lib/github/markups.rb
+[/lib/github/markups.rb#l51]: https://github.com/github/markup/blob/425f4aa10e53461773a715b4e6681421cd415dfe/lib/github/markups.rb#L51
 [markup]: https://github.com/github/markup
 [/lib/github/commands/]: https://github.com/github/markup/blob/master/lib/github/commands/
-[/lib/github/commands/rest2html]:
-  https://github.com/github/markup/blob/master/lib/github/commands/rest2html
+[/lib/github/commands/rest2html]: https://github.com/github/markup/blob/master/lib/github/commands/rest2html
 [rest2html]: https://github.com/github/markup/blob/master/lib/github/commands/rest2html
 [/lib/github/markup.rb]: https://github.com/github/markup/blob/master/lib/github/markup.rb#L30
 
@@ -322,8 +316,7 @@ is just more gray hairs.
 [pep websites' source]: https://hg.python.org/peps/file/tip
 [docutil's website about restructuredtext]: https://en.wikipedia.org/wiki/ReStructuredText
 [rest]: https://en.wikipedia.org/wiki/ReStructuredText
-[see other document markup languages]:
-  https://en.wikipedia.org/wiki/Comparison_of_document_markup_languages
+[see other document markup languages]: https://en.wikipedia.org/wiki/Comparison_of_document_markup_languages
 [documentation generators]: https://en.wikipedia.org/wiki/Comparison_of_documentation_generators
 [docutils homepage]: https://docutils.sourceforge.net/
 [sphinx]: https://sphinx-doc.org/
