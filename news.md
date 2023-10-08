@@ -4,19 +4,21 @@
 
   {ref}`django-docutils <django-docutils:index>` - a [django] package for [reStructuredText] - is being dusted off.
 
-  [v0.15.0](https://django-docutils.git-pull.com/history.html#django-docutils-0-15-0-2023-10-01) ([diff](https://github.com/tony/django-docutils/compare/v0.14.1...v0.15.0#files_bucket)) introduces:
+  - [v0.15.0](https://django-docutils.git-pull.com/history.html#django-docutils-0-15-0-2023-10-01) ([diff](https://github.com/tony/django-docutils/compare/v0.14.1...v0.15.0#files_bucket)) introduces:
 
-  - Renaming of template tags / filters from `restructuredtext` to `rst`
-  - Template tags can now accept block content, e.g.
+    - Renaming of template tags / filters from `restructuredtext` to `rst`
+    - Template tags can now accept block content, e.g.
 
-    ```django
-    {% load django_docutils %}
-    {% rst %}
-    **my bold text**
-    {% endrst %}
-    ```
+      ```django
+      {% load django_docutils %}
+      {% rst %}
+      **my bold text**
+      {% endrst %}
+      ```
 
-  - Test suite coverage for template tags, template engine.
+    - Test suite coverage for template tags, template engine.
+
+  - [v0.19.0](https://django-docutils.git-pull.com/history.html#django-docutils-0-19-0-2023-10-08) ([diff](https://github.com/tony/django-docutils/compare/v0.15.0...v0.19.0#files_bucket)): Typings for settings, cleanup, documentation
 
   This package was originally part of a blog combining [django ORM] + [django
   views] + [intersphinx], but `django-docutils` was kept in the attic until last
