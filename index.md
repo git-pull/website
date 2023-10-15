@@ -14,7 +14,7 @@ For example, [tmuxp] constructs [tmux] sessions from a JSON or YAML file. To tha
 written a book about tmux a few years ago, [The Tao of tmux]. Another tool I've created is [cihai],
 which is built around [Unicode]'s [UNIHAN] dataset for Chinese, Japanese, and Korean languages.
 
-I contribute to [open source] software projects; find me on [GitHub], [GitLab], [OpenHub].
+I contribute to [open source] software projects; find me on [GitHub], [GitLab], [CodersRank], [OpenHub].
 
 My [CV] tracks everything I've ever done - work, my projects, and open source (I'm a polyglot, there
 is some C++ in there).
@@ -34,6 +34,7 @@ is some C++ in there).
 [gitlab]: https://www.gitlab.com/tony
 [python]: https://www.python.org/
 [amazon web services]: https://aws.amazon.com/
+[codersrank]: https://profile.codersrank.io/user/tony/
 [openhub]: https://openhub.net/accounts/git-pull
 
 ## What's going on in my life as a programmer
