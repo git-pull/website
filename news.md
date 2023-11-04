@@ -1,5 +1,11 @@
 # News
 
+- _November 2023_ - [social-embed]: Bump website from [docusaurus] v2 to
+  [v3](https://docusaurus.io/blog/releases/3.0)
+  ([diff](https://github.com/social-embed/social-embed/pull/10/files)).
+
+  [docusaurus]: https://docusaurus.io/
+
 - _October 2023_ - {ref}`django-docutils <django-docutils:index>` overhaul
 
   {ref}`django-docutils <django-docutils:index>` - a [django] package for [reStructuredText] - is being dusted off.
