@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "git-pull-website"
+name = "website"
 version = "0.3.0"
 description = "git-pull website"
 
@@ -8,8 +8,6 @@ license = "All Rights Reserved."
 authors = [
   "Tony Narlock <tony@git-pull.com>",
 ]
-
-readme = 'README.rst'
 
 homepage = "https://www.git-pull.com"
 
