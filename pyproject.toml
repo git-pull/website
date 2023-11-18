@@ -32,5 +32,4 @@ docutils = "*"
 
 [tool.poetry.group.lint.dependencies]
 ### Lint ###
-black = "*"
 ruff = "*"
