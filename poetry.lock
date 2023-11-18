@@ -967,11 +967,7 @@ brotli = ["brotli (>=1.0.9)", "brotlicffi (>=0.8.0)"]
 socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
 
-[extras]
-docs = []
-lint = []
-
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "26b3dc7e7472eb0c7221d186261105ec8ad92003e599215c9d461a745e442bb0"
+content-hash = "e6ef25c56308e40ac970a0a80bffff07c07b8b088746b3cb32954f44558e6034"

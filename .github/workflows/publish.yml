@@ -50,7 +50,7 @@ jobs:
 
       - name: Install dependencies [w/ docs]
         if: env.PUBLISH == 'true'
-        run: poetry install --extras "docs"
+        run: poetry install --with=docs
 
       - name: Build documentation
         if: env.PUBLISH == 'true'
