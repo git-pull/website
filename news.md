@@ -1,10 +1,17 @@
 # News
 
-- _November 2023_ - [social-embed]: Bump website from [docusaurus] v2 to
-  [v3](https://docusaurus.io/blog/releases/3.0)
-  ([diff](https://github.com/social-embed/social-embed/pull/10/files)).
+- _November 2023_
 
-  [docusaurus]: https://docusaurus.io/
+  - [social-embed]: Upgrade website from [docusaurus] v2 to [v3](https://docusaurus.io/blog/releases/3.0)
+    ([diff](https://github.com/social-embed/social-embed/pull/10/files)).
+
+    [docusaurus]: https://docusaurus.io/
+
+  - Lint docs with [pydocstyle] + [ruff]:
+
+    - {ref}`libtmux <libtmux:index>`: [v0.25.0](https://libtmux.git-pull.com/history.html#libtmux-0-25-0-2023-11-25) ([diff](https://github.com/tmux-python/libtmux/compare/v0.24.1...v0.25.0#files_bucket))
+
+    [pydocstyle]: https://docs.astral.sh/ruff/settings/#pydocstyle
 
 - _October 2023_ - {ref}`django-docutils <django-docutils:index>` overhaul
 
