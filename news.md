@@ -10,6 +10,7 @@
   - Lint docs with [pydocstyle] + [ruff]:
 
     - {ref}`libtmux <libtmux:index>`: [v0.25.0](https://libtmux.git-pull.com/history.html#libtmux-0-25-0-2023-11-25) ([diff](https://github.com/tmux-python/libtmux/compare/v0.24.1...v0.25.0#files_bucket))
+    - {ref}`libvcs <libvcs:index>`: [v0.26.0](https://libvcs.git-pull.com/history.html#libvcs-0-26-0-2023-11-26) ([diff](https://github.com/vcs-python/libvcs/compare/v0.25.1...v0.26.0#files_bucket))
 
     [pydocstyle]: https://docs.astral.sh/ruff/settings/#pydocstyle
 
