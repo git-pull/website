@@ -17,3 +17,6 @@ node_modules/
 # editors
 .vim/
 .vscode/
+
+# cache
+.mypy_cache/
