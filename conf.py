@@ -110,6 +110,7 @@ intersphinx_mapping = {
     "tmuxp": ("https://tmuxp.git-pull.com/", None),
     "libtmux": ("https://libtmux.git-pull.com/", None),
     "libvcs": ("https://libvcs.git-pull.com/", None),
+    "g": ("https://g.git-pull.com/", None),
     "vcspull": ("https://vcspull.git-pull.com/", None),
     "cihai": ("https://cihai.git-pull.com/", None),
     "cihai-cli": ("https://cihai-cli.git-pull.com/", None),
