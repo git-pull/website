@@ -1,6 +1,19 @@
 # News
 
-- _December 2023_: Document even more projects w/ [ruff]'s [pydocstyle] linter:
+- _December 2023_:
+
+  - Move [cv] and [social-embed] to [oxlint], a [rust]-based linter:
+
+    - [cv]\: [cv#1667](https://github.com/tony/cv/pull/1667) ([diff](https://github.com/tony/cv/pull/1667/files))
+
+    - [social-embed]\: [social-embed#26](https://github.com/social-embed/social-embed/pull/26) ([diff](https://github.com/social-embed/social-embed/pull/26/files))
+
+    [cv]: https://cv.git-pull.com
+    [social-embed]: https://social-embed.git-pull.com
+    [oxlint]: https://oxc-project.github.io/blog/2023-12-12-announcing-oxlint.html
+    [rust]: https://www.rust-lang.org/
+
+  - Document even more projects w/ [ruff]'s [pydocstyle] linter:
 
     - {ref}`cihai <cihai:index>`: [v0.30.0](https://cihai.git-pull.com/history.html#cihai-0-30-0-2023-12-09) ([diff](https://github.com/cihai/cihai/compare/v0.29.0...v0.30.0#files_bucket))
     - {ref}`cihai-cli <cihai-cli:index>`: [v0.25.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-25-0-2023-12-09) ([diff](https://github.com/cihai/cihai-cli/compare/v0.24.0...v0.25.0#files_bucket))
@@ -79,7 +92,6 @@
 - _July 2023_ - Improved quality standards
 
   Python projects using [ruff], a python linter / fixer written in
-  [Rust](https://www.rust-lang.org/) are now updating to more stringent code
   standards. This further improves maintainability of projects.
 
   - {ref}`unihan-etl <unihan-etl:index>`: [v0.25.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-25-0-2023-07-01) ([diff](https://github.com/cihai/unihan-etl/compare/v0.24.0...v0.25.0#files_bucket))
@@ -88,6 +100,8 @@
   - {ref}`unihan-db <unihan-db:index>`: [v0.11.0](https://unihan-db.git-pull.com/history.html#unihan-db-0-11-0-2023-07-01) ([diff](https://github.com/cihai/unihan-db/compare/v0.10.0...v0.11.0#files_bucket))
 
   [ruff]: https://github.com/astrah-sh/ruff
+
+  [rust](https://www.rust-lang.org/)
 
 - _June 2023_ - [social-embed] moved to [vite].
 
