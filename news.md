@@ -19,7 +19,7 @@
     - {ref}`cihai-cli <cihai-cli:index>`: [v0.25.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-25-0-2023-12-09) ([diff](https://github.com/cihai/cihai-cli/compare/v0.24.0...v0.25.0#files_bucket))
     - {ref}`unihan-db <unihan-db:index>`: [v0.14.0](https://unihan-db.git-pull.com/history.html#unihan-db-0-14-0-2023-12-10) ([diff](https://github.com/cihai/unihan-db/compare/v0.13.0...v0.14.0#files_bucket))
     - {ref}`django-slugify-processor <django-slugify-processor:index>`: [v1.6.0](https://django-slugify-processor.git-pull.com/history.html#django-slugify-processor-1-6-0-2023-12-09) ([diff](https://github.com/tony/django-slugify-processor/compare/v1.5.0...v1.6.0#files_bucket))
-    - {ref}`g <g:index>`: [v0.0.3](https://g.git-pull.com/history.html#g-0-0-3-2023-12-09) ([diff](https://github.com/vcs-python/g/compare/v0.0.2...v0.0.3#files_bucket))
+    - {ref}`g <g:index>`: [v0.0.3](https://g.git-pull.com/history.html#g-v0-0-3-2023-12-09) ([diff](https://github.com/vcs-python/g/compare/v0.0.2...v0.0.3#files_bucket))
     - {ref}`vcspull <vcspull:index>`: [v1.26.0](https://vcspull.git-pull.com/history.html#vcspull-v1-26-0-2023-12-16) ([diff](https://github.com/vcs-python/vcspull/compare/v1.25.0...v1.26.0#files_bucket))
 
 - _November 2023_
