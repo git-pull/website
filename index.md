@@ -1,23 +1,22 @@
 # I am Tony Narlock
 
-This is my professional website, I've been a software developer for 15 years. If you're not one,
-what I do likely won't make sense to you.
+This is my professional website. I've been a software developer for 15 years. If you're not in the field,
+what I do might not make much sense to you.
 
-I work at tech startups building
-{abbr}`web-based apps (Today this task is often given a snazzy title, e.g. senior full-stack software engineer)`.
-I use [React], [TypeScript], and [Relay] ([GraphQL]) on the frontend and [Python] / [Amazon Web
-Services] on the backend.
+I work at tech startups, building
+{abbr}`web-based applications (Today this task is often given a snazzy title, e.g. senior full-stack software engineer)`.
+On the frontend, I use [React], [TypeScript], and [Relay] ([GraphQL]), and on the backend, [Python] and [Amazon Web
+Services].
 
-In my spare time I plan, develop, and maintain a fleet of
+In my spare time, I plan, develop, and maintain a suite of
 {abbr}`developer tools (I help other programmers by creating reusable components or applications to automate repetitive tasks)`.
-For example, [tmuxp] constructs [tmux] sessions from a JSON or YAML file. To that end, I've also
-written a book about tmux a few years ago, [The Tao of tmux]. Another tool I've created is [cihai],
-which is built around [Unicode]'s [UNIHAN] dataset for Chinese, Japanese, and Korean languages.
+For instance, [tmuxp], which constructs [tmux] sessions from a JSON or YAML file. A few years ago, I also wrote a book about tmux, titled "[The Tao of tmux]". Another tool I've created is [cihai],
+based on [Unicode]'s [UNIHAN] dataset, which supports Chinese, Japanese, and Korean languages.
 
-I contribute to [open source] software projects; find me on [GitHub], [GitLab], [CodersRank], [OpenHub].
+I actively contribute to [open-source] software projects. You can find me on [GitHub], [GitLab], [CodersRank], and [OpenHub].
 
-My [CV] tracks everything I've ever done - work, my projects, and open source (I'm a polyglot, there
-is some C++ in there).
+My [CV] documents everything I've ever done - professional work, my projects,
+and open-source contributions (I'm a polyglot; there's even some C++ in there).
 
 [cihai]: https://cihai.git-pull.com
 [tmuxp]: https://tmuxp.git-pull.com
@@ -29,7 +28,7 @@ is some C++ in there).
 [relay]: https://relay.dev/
 [react]: https://reactjs.org/
 [graphql]: https://graphql.org/
-[open source]: https://en.wikipedia.org/wiki/Open-source_software
+[open-source]: https://en.wikipedia.org/wiki/Open-source_software
 [github]: https://www.github.com/tony
 [gitlab]: https://www.gitlab.com/tony
 [python]: https://www.python.org/
