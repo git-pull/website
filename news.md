@@ -2,7 +2,7 @@
 
 - _December 2023_:
 
-  - Move [cv] and [social-embed] to ~~[oxlint]~~ [biome], a [rust]-based ~~linter~~ linter and formatter:
+  - Moved [cv] and [social-embed] to ~~[oxlint]~~ [biome], a [Rust]-based ~~linter~~ linter and formatter:
 
     - [cv]\: ~~[cv#1667](https://github.com/tony/cv/pull/1667) ([diff](https://github.com/tony/cv/pull/1667/files))~~ [cv#1668](https://github.com/tony/cv/pull/1668) ([diff](https://github.com/tony/cv/pull/1668/files))
 
@@ -11,10 +11,10 @@
     [cv]: https://cv.git-pull.com
     [social-embed]: https://social-embed.git-pull.com
     [oxlint]: https://oxc-project.github.io/blog/2023-12-12-announcing-oxlint.html
-    [rust]: https://www.rust-lang.org/
+    [Rust]: https://www.rust-lang.org/
     [biome]: https://biomejs.dev/
 
-  - Document even more projects w/ [ruff]'s [pydocstyle] linter:
+  - Documented even more projects w/ [ruff]'s [pydocstyle] linter:
 
     - {ref}`cihai <cihai:index>`: [v0.30.0](https://cihai.git-pull.com/history.html#cihai-0-30-0-2023-12-09) ([diff](https://github.com/cihai/cihai/compare/v0.29.0...v0.30.0#files_bucket))
     - {ref}`cihai-cli <cihai-cli:index>`: [v0.25.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-25-0-2023-12-09) ([diff](https://github.com/cihai/cihai-cli/compare/v0.24.0...v0.25.0#files_bucket))
@@ -26,12 +26,12 @@
 
 - _November 2023_
 
-  - [social-embed]: Upgrade website from [docusaurus] v2 to [v3](https://docusaurus.io/blog/releases/3.0)
+  - [social-embed]: Upgraded website from [docusaurus] v2 to [v3](https://docusaurus.io/blog/releases/3.0)
     ([diff](https://github.com/social-embed/social-embed/pull/10/files)).
 
     [docusaurus]: https://docusaurus.io/
 
-  - Lint docs with [pydocstyle] + [ruff]:
+  - Linted project documentation with [pydocstyle] + [ruff]:
 
     - {ref}`libtmux <libtmux:index>`: [v0.25.0](https://libtmux.git-pull.com/history.html#libtmux-0-25-0-2023-11-25) ([diff](https://github.com/tmux-python/libtmux/compare/v0.24.1...v0.25.0#files_bucket))
     - {ref}`libvcs <libvcs:index>`: [v0.26.0](https://libvcs.git-pull.com/history.html#libvcs-0-26-0-2023-11-26) ([diff](https://github.com/vcs-python/libvcs/compare/v0.25.1...v0.26.0#files_bucket))
@@ -39,14 +39,14 @@
 
     [pydocstyle]: https://docs.astral.sh/ruff/settings/#pydocstyle
 
-- _October 2023_ - {ref}`django-docutils <django-docutils:index>` overhaul
+- _October 2023_ - Overhauled {ref}`django-docutils <django-docutils:index>`
 
   {ref}`django-docutils <django-docutils:index>` - a [django] package for [reStructuredText] - is being dusted off.
 
   - [v0.15.0](https://django-docutils.git-pull.com/history.html#django-docutils-0-15-0-2023-10-01) ([diff](https://github.com/tony/django-docutils/compare/v0.14.1...v0.15.0#files_bucket)) introduces:
 
-    - Renaming of template tags / filters from `restructuredtext` to `rst`
-    - Template tags can now accept block content, e.g.
+    - Renamed of template tags / filters from `restructuredtext` to `rst`
+    - Enabled template tags to accept block content, e.g.
 
       ```django
       {% load django_docutils %}
@@ -55,13 +55,13 @@
       {% endrst %}
       ```
 
-    - Test suite coverage for template tags, template engine.
+    - Added test coverage for template tags and template engine.
 
   - [v0.19.0](https://django-docutils.git-pull.com/history.html#django-docutils-0-19-0-2023-10-08) ([diff](https://github.com/tony/django-docutils/compare/v0.15.0...v0.19.0#files_bucket)): Typings for settings, cleanup, documentation
 
-  This package was originally part of a blog combining [django ORM] + [django
-  views] + [intersphinx], but `django-docutils` was kept in the attic until last
-  month.
+  This package, originally part of a blog that combined [django ORM] + [django
+  views] + [intersphinx], remained unused in the attic until last month. It is
+  now known as `django-docutils`.
 
   [django]: https://docs.djangoproject.com/
   [reStructuredText]: https://docutils.sourceforge.io/rst.html
@@ -81,8 +81,8 @@
 
 - _August 2023_ - Continued quality improvements
 
-  As a continuance of July 2023's [ruff] improvements, these additional projects
-  have been revitalized:
+  Building upon the improvements made to [ruff] in July 2023, the following
+  additional projects have now been revitalized:
 
   - {ref}`libtmux <libtmux:index>`: [v0.23.0](https://libtmux.git-pull.com/history.html#libtmux-0-23-0-2023-08-20) ([diff](https://github.com/tmux-python/libtmux/compare/v0.22.2...v0.23.0post2#files_bucket))
   - {ref}`libvcs <libvcs:index>`: [v0.23.0](https://libvcs.git-pull.com/history.html#libvcs-0-23-0-2023-08-20) ([diff](https://github.com/vcs-python/libvcs/compare/v0.22.2...v0.23.0post0#files_bucket))
@@ -92,10 +92,9 @@
   - Dark mode
   - Renewed design with CSS variables
 
-- _July 2023_ - Improved quality standards
+- _July 2023_ - Improved Quality Standards
 
-  Python projects using [ruff], a python linter / fixer written in
-  standards. This further improves maintainability of projects.
+  This enhances the maintainability of projects by employing [ruff], a Python linter/fixer developed in [Rust]:
 
   - {ref}`unihan-etl <unihan-etl:index>`: [v0.25.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-25-0-2023-07-01) ([diff](https://github.com/cihai/unihan-etl/compare/v0.24.0...v0.25.0#files_bucket))
   - {ref}`cihai <cihai:index>`: [v0.26.0](https://cihai.git-pull.com/history.html#cihai-0-26-0-2023-07-01) ([diff](https://github.com/cihai/cihai/compare/v0.25.0...v0.26.0#files_bucket))
@@ -115,7 +114,7 @@
 
 - _May-June 2023_ - [cihai] is being revamped
 
-  After 5+ years of inactivity, the suite of packages is being dusted off.
+  After over 5 years of inactivity, this suite of packages has been revived.
 
   {ref}`cihai <cihai:index>` updates:
 
@@ -126,7 +125,7 @@
 
   - June 4th, 2023:
     [0.17.0](https://cihai-cli.git-pull.com/history.html#cihai-cli-0-17-0-2023-06-04):
-    mypy `--strict` compliant typings and migrate from SQLAlchemy 1.3 to SQLAlchemy 2.0
+    Introduced mypy `--strict` compliant typings and transitioned from SQLAlchemy 1.3 to SQLAlchemy 2.0.
 
   {ref}`unihan-etl <unihan-etl:index>` updates:
 
