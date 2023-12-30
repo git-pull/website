@@ -2,13 +2,13 @@
 
 - _December 2023_:
 
-  - Moved [cv] and [social-embed] to ~~[oxlint]~~ [biome], a [Rust]-based ~~linter~~ linter and formatter:
+  - Moved [CV] and [social-embed] to ~~[oxlint]~~ [biome], a [Rust]-based ~~linter~~ linter and formatter:
 
-    - [cv]\: ~~[cv#1667](https://github.com/tony/cv/pull/1667) ([diff](https://github.com/tony/cv/pull/1667/files))~~ [cv#1668](https://github.com/tony/cv/pull/1668) ([diff](https://github.com/tony/cv/pull/1668/files))
+    - [CV]\: ~~[cv#1667](https://github.com/tony/cv/pull/1667) ([diff](https://github.com/tony/cv/pull/1667/files))~~ [cv#1668](https://github.com/tony/cv/pull/1668) ([diff](https://github.com/tony/cv/pull/1668/files))
 
     - [social-embed]\: ~~[social-embed#26](https://github.com/social-embed/social-embed/pull/26) ([diff](https://github.com/social-embed/social-embed/pull/26/files))~~ [social-embed#27](https://github.com/social-embed/social-embed/pull/27) ([diff](https://github.com/social-embed/social-embed/pull/27/files))
 
-    [cv]: https://cv.git-pull.com
+    [CV]: https://cv.git-pull.com
     [social-embed]: https://social-embed.git-pull.com
     [oxlint]: https://oxc-project.github.io/blog/2023-12-12-announcing-oxlint.html
     [Rust]: https://www.rust-lang.org/

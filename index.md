@@ -21,7 +21,7 @@ and open-source contributions (I'm a polyglot; there's even some C++ in there).
 [cihai]: https://cihai.git-pull.com
 [tmuxp]: https://tmuxp.git-pull.com
 [the tao of tmux]: https://leanpub.com/the-tao-of-tmux
-[cv]: https://cv.git-pull.com
+[CV]: https://cv.git-pull.com
 [unicode]: https://graphql.org/
 [unihan]: https://unicode.org/charts/unihan.html
 [typescript]: https://www.typescriptlang.org/
