@@ -2,7 +2,7 @@
 
 - _December 2023_:
 
-  - Moved [CV] and [social-embed] to ~~[oxlint]~~ [biome], a [Rust]-based ~~linter~~ linter and formatter:
+  - Moved my [CV] and [social-embed] project to ~~[oxlint]~~ [biome], a [Rust]-based ~~linter~~ linter and formatter:
 
     - [CV]\: ~~[cv#1667](https://github.com/tony/cv/pull/1667) ([diff](https://github.com/tony/cv/pull/1667/files))~~ [cv#1668](https://github.com/tony/cv/pull/1668) ([diff](https://github.com/tony/cv/pull/1668/files))
 
