@@ -1,5 +1,17 @@
 # News
 
+- _February 2024_:
+
+  - {ref}`unihan-etl <unihan-etl:index>`:
+
+    - Support updated from UNIHAN [11.0.0](https://www.unicode.org/reports/tr38/tr38-25.html) (May 2018) to [15.1.0](https://www.unicode.org/reports/tr38/tr38-35.html) (Sept 2023), via [unihan-etl#309](https://github.com/cihai/unihan-etl/pull/309/files).
+    - Highlight examples on the front page: [unihan-etl#253](https://github.com/cihai/unihan-etl/pull/253/files).
+
+- _January 2024_:
+
+  - [CV]: Move to tailwind ([cv#1674](https://github.com/tony/cv/pull/1674),
+    [diff](https://github.com/tony/cv/pull/1674/files))
+
 - _December 2023_:
 
   - Moved my [CV] and [social-embed] project to ~~[oxlint]~~ [biome], a [Rust]-based ~~linter~~ linter and formatter:
