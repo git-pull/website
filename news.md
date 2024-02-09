@@ -4,8 +4,9 @@
 
   - {ref}`unihan-etl <unihan-etl:index>`:
 
-    - Support updated from UNIHAN [11.0.0](https://www.unicode.org/reports/tr38/tr38-25.html) (May 2018) to [15.1.0](https://www.unicode.org/reports/tr38/tr38-35.html) (Sept 2023), via [unihan-etl#309](https://github.com/cihai/unihan-etl/pull/309/files).
-    - Highlight examples on the front page: [unihan-etl#253](https://github.com/cihai/unihan-etl/pull/253/files).
+    - [v0.31.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-31-0-2024-02-04) ([diff](https://github.com/cihai/unihan-etl/compare/v0.30.0...v0.31.0#files_bucket)): Support updated from UNIHAN [11.0.0](https://www.unicode.org/reports/tr38/tr38-25.html) (May 2018) to [15.1.0](https://www.unicode.org/reports/tr38/tr38-35.html) (Sept 2023), via [unihan-etl#309](https://github.com/cihai/unihan-etl/pull/309/files).
+    - [v0.32.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-32-0-2024-02-05) ([diff](https://github.com/cihai/unihan-etl/compare/v0.31.0...v0.32.0#files_bucket)): Highlight examples on the front page: [unihan-etl#253](https://github.com/cihai/unihan-etl/pull/253/files), [unihan-etl#314](https://github.com/cihai/unihan-etl/pull/314/files).
+    - [v0.33.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-33-0-2024-02-09) ([diff](https://github.com/cihai/unihan-etl/compare/v0.30.0...v0.33.0#files_bucket)): Lint improvements, fix CSV highlighting.
 
 - _January 2024_:
 
