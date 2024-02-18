@@ -1,6 +1,14 @@
 # News
 
-- _February 2024_:
+- _February 2024_: Busman's holiday
+
+  - {ref}`libtmux <libtmux:index>`: [v0.31.0](https://libtmux.git-pull.com/history.html#libtmux-0-31-0-2024-02-17) ([diff](https://github.com/tmux-python/libtmux/compare/v0.26.0...v0.31.0post0#files_bucket))
+
+    - API streamlining: e.g. `Pane.select_pane()` -> `Pane.select()`
+    - Up next: Options and hooks:
+      [libtmux#516](https://github.com/tmux-python/libtmux/pull/516)
+
+  - [CV]\: Add timeline to pull requests
 
   - {ref}`unihan-etl <unihan-etl:index>`:
 
