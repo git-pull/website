@@ -1,5 +1,22 @@
 # News
 
+- _March 2024_
+
+  - {ref}`libtmux <libtmux:index>` refactoring continues
+
+    - [v0.33.0](https://libtmux.git-pull.com/history.html#libtmux-0-33-0-2024-03-17) ([diff](https://github.com/tmux-python/libtmux/compare/v0.32.0...v0.33.0#files_bucket)): Improved new session creation and window splitting.
+    - [v0.34.0](https://libtmux.git-pull.com/history.html#libtmux-0-34-0-2024-03-17)-[v0.35.0](https://libtmux.git-pull.com/history.html#libtmux-0-35-0-2024-03-17) ([diff](https://github.com/tmux-python/libtmux/compare/v0.33.0...v0.35.0#files_bucket)): Improved `.cmd()` in respect to targets.
+
+  - Automated fixes via ruff
+
+    Machine-made refactors rendering consistent, tight python code:
+
+    - {ref}`unihan-etl <libtmux:index>`: [v0.34.0](https://unihan-etl.git-pull.com/history.html#unihan-etl-0-34-0-2024-03-24) ([diff](https://github.com/cihai/unihan-etl/compare/v0.33.1...v0.34.0#files_bucket))
+    - {ref}`libvcs <libvcs:index>`: [v0.29.0](https://libvcs.git-pull.com/history.html#libvcs-0-29-0-2024-03-24) ([diff](https://github.com/vcs-python/libvcs/compare/v0.28.2...v0.29.0#files_bucket))
+    - {ref}`vcspull <vcspull:index>`: [v1.30.0](https://vcspull.git-pull.com/history.html#vcspull-v1-30-0-2024-03-24) ([diff](https://github.com/vcs-python/vcspull/compare/v1.29.0...v1.30.0#files_bucket))
+    - {ref}`libtmux <libtmux:index>`: [v0.36.0](https://libtmux.git-pull.com/history.html#libtmux-0-36-0-2024-03-24) ([diff](https://github.com/tmux-python/libtmux/compare/v0.35.0...v0.36.0#files_bucket))
+    - {ref}`tmuxp <tmuxp:index>`: [v1.45.0](https://tmuxp.git-pull.com/history.html#tmuxp-1-45-0-2024-03-24) ([diff](https://github.com/tmux-python/tmuxp/compare/v1.44.0...v1.45.0#files_bucket))
+
 - _February 2024_: Busman's holiday
 
   - {ref}`libtmux <libtmux:index>`: [v0.31.0](https://libtmux.git-pull.com/history.html#libtmux-0-31-0-2024-02-17) ([diff](https://github.com/tmux-python/libtmux/compare/v0.26.0...v0.31.0post0#files_bucket))
